@@ -20,6 +20,17 @@ const postsData = [
     },
     image: null,
     tags: ["korean", "study"]
+  },
+  {
+    id: 3,
+    date: "2026-03-23",
+    text: {
+      ru: "Идет разработка приложения с карточками для изучения корейских слов",
+      en: "Development of an application with cards for learning Korean words",
+      ko: "한국어 단어를 배울 수 있는 카드 앱이 개발 중이다."
+    },
+    image: "images/3.png",
+    tags: ["programming", "korean"]
   }
 ];
 
