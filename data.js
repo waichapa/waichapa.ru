@@ -31,6 +31,17 @@ const postsData = [
     },
     image: "images/3.png",
     tags: ["programming", "korean"]
+  },
+  {
+    id: 4,
+    date: "2026-04-02",
+    text: {
+      ru: "Досмотрел «Декстера». Норм, зашло🔪",
+      en: "Just finished Dexter. Pretty good, enjoyed it🔪",
+      ko: "덱스터 다 봤어. 괜찮았어, 취향 저격이야🔪"
+    },
+    image: "images/4.jpg",
+    tags: ["life"]
   }
 ];
 
