@@ -42,6 +42,17 @@ const postsData = [
     },
     image: "images/4.jpg",
     tags: ["life"]
+  },
+  {
+    id: 5,
+    date: "2026-04-15",
+    text: {
+      ru: "Работаю над одним очень интересным для меня проектом, связанным с серверами",
+      en: "I'm working on a project related to servers that I find very interesting",
+      ko: "서버와 관련된, 제게 매우 흥미로운 프로젝트를 진행 중입니다"
+    },
+    image: null,
+    tags: ["programming"]
   }
 ];
 
