@@ -254,8 +254,8 @@ body {
 
 .homonym-badge {
     position: absolute;
-    top: 12px;
-    left: 12px;
+    bottom: 12px;
+    right: 12px;
     font-size: 14px;
     opacity: 0.6;
     background: rgba(232,121,75,0.15);

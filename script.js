@@ -5,19 +5,19 @@ const STR = {
     ru: {
         searchPlaceholder: "Поиск слова или перевода…",
         resultCount: n => `${n} слов`,
-        statsText: (t, u) => `Всего значений: <b>${t}</b> · Уникальных слов: <b>${u}</b>`,
+        statsText: t => `Выучено слов: <b>${t}</b>`,
         noResults: "Ничего не найдено"
     },
     en: {
         searchPlaceholder: "Search a word or translation…",
         resultCount: n => `${n} words`,
-        statsText: (t, u) => `Total meanings: <b>${t}</b> · Unique words: <b>${u}</b>`,
+        statsText: t => `Words learned: <b>${t}</b>`,
         noResults: "No matches found"
     },
     ko: {
         searchPlaceholder: "단어나 번역을 검색하세요…",
         resultCount: n => `${n}개 단어`,
-        statsText: (t, u) => `전체 의미: <b>${t}</b>개 · 고유 단어: <b>${u}</b>개`,
+        statsText: t => `외운 단어: <b>${t}</b>개`,
         noResults: "검색 결과 없음"
     }
 };
@@ -30,12 +30,10 @@ function t() {
 
 function expandDictionary(dict) {
     const expanded = [];
-    const uniqueWords = new Set();
     
     dict.forEach(item => {
         const korean = item.Korean;
         const english = item.English;
-        uniqueWords.add(korean);
         
         if (english.includes(' / ')) {
             const meanings = english.split(' / ').map(s => s.trim());
@@ -55,13 +53,11 @@ function expandDictionary(dict) {
         }
     });
     
-    return { expanded, uniqueCount: uniqueWords.size };
+    return expanded;
 }
 
 function renderHeader() {
-    const totalMeanings = EXPANDED_DICTIONARY.length;
-    const uniqueWords = DICTIONARY.length;
-    document.getElementById("statsText").innerHTML = t().statsText(totalMeanings, uniqueWords);
+    document.getElementById("statsText").innerHTML = t().statsText(EXPANDED_DICTIONARY.length);
 }
 
 function renderGrid() {
@@ -126,8 +122,7 @@ async function init() {
         DICTIONARY = await res.json();
         DICTIONARY.forEach((w, i) => w.id = i);
         
-        const result = expandDictionary(DICTIONARY);
-        EXPANDED_DICTIONARY = result.expanded;
+        EXPANDED_DICTIONARY = expandDictionary(DICTIONARY);
         
         setLang("ru");
     } catch (err) {
