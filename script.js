@@ -1,24 +1,38 @@
 let DICTIONARY = [];
 let EXPANDED_DICTIONARY = [];
+let NEW_COUNT = 20;
+let showNewOnly = false;
 
 const STR = {
     ru: {
         searchPlaceholder: "Поиск слова или перевода…",
         resultCount: n => `${n} слов`,
-        statsText: t => `Выучено слов: <b>${t}</b>`,
-        noResults: "Ничего не найдено"
+        statsText: (t, n) => `Выучено слов: <b>${t}</b><span class="stat-sep">·</span>Новых: <b>${n}</b>`,
+        noResults: "Ничего не найдено",
+        noResultsNew: "Среди новых слов ничего не найдено",
+        newFilter: "Новые",
+        themeToggle: "Переключить тему",
+        newBadgeTitle: "Новое слово"
     },
     en: {
         searchPlaceholder: "Search a word or translation…",
         resultCount: n => `${n} words`,
-        statsText: t => `Words learned: <b>${t}</b>`,
-        noResults: "No matches found"
+        statsText: (t, n) => `Words learned: <b>${t}</b><span class="stat-sep">·</span>New: <b>${n}</b>`,
+        noResults: "No matches found",
+        noResultsNew: "No matches among the new words",
+        newFilter: "New",
+        themeToggle: "Toggle theme",
+        newBadgeTitle: "New word"
     },
     ko: {
         searchPlaceholder: "단어나 번역을 검색하세요…",
         resultCount: n => `${n}개 단어`,
-        statsText: t => `외운 단어: <b>${t}</b>개`,
-        noResults: "검색 결과 없음"
+        statsText: (t, n) => `외운 단어: <b>${t}</b>개<span class="stat-sep">·</span>새 단어: <b>${n}</b>개`,
+        noResults: "검색 결과 없음",
+        noResultsNew: "새 단어 중 검색 결과 없음",
+        newFilter: "새 단어",
+        themeToggle: "테마 전환",
+        newBadgeTitle: "새 단어"
     }
 };
 
@@ -30,66 +44,79 @@ function t() {
 
 function expandDictionary(dict) {
     const expanded = [];
-    
+
     dict.forEach(item => {
         const korean = item.Korean;
         const english = item.English;
-        
+
         if (english.includes(' / ')) {
             const meanings = english.split(' / ').map(s => s.trim());
             meanings.forEach(meaning => {
                 expanded.push({
                     Korean: korean,
                     English: meaning,
-                    isHomonym: true
+                    isHomonym: true,
+                    id: item.id,
+                    isNew: item.isNew
                 });
             });
         } else {
             expanded.push({
                 Korean: korean,
                 English: english,
-                isHomonym: false
+                isHomonym: false,
+                id: item.id,
+                isNew: item.isNew
             });
         }
     });
-    
+
     return expanded;
 }
 
 function renderHeader() {
-    document.getElementById("statsText").innerHTML = t().statsText(EXPANDED_DICTIONARY.length);
+    const newTotal = DICTIONARY.filter(w => w.isNew).length;
+    document.getElementById("statsText").innerHTML = t().statsText(EXPANDED_DICTIONARY.length, newTotal);
 }
 
 function renderGrid() {
     const query = (document.getElementById("searchInput").value || "").trim().toLowerCase();
     const grid = document.getElementById("dictGrid");
     grid.innerHTML = "";
-    
-    let filtered;
-    if (!query) {
-        filtered = EXPANDED_DICTIONARY;
-    } else {
-        filtered = EXPANDED_DICTIONARY.filter(w => {
-            return w.Korean.toLowerCase().includes(query) || 
+
+    let filtered = EXPANDED_DICTIONARY;
+
+    if (showNewOnly) {
+        filtered = filtered.filter(w => w.isNew);
+    }
+
+    if (query) {
+        filtered = filtered.filter(w => {
+            return w.Korean.toLowerCase().includes(query) ||
                    w.English.toLowerCase().includes(query);
         });
     }
-    
+
     document.getElementById("resultCount").textContent = t().resultCount(filtered.length);
-    
+
     if (filtered.length === 0) {
-        grid.innerHTML = `<div class="empty-state"><span class="big-kr">🔍</span>${t().noResults}</div>`;
+        const message = showNewOnly ? t().noResultsNew : t().noResults;
+        grid.innerHTML = `<div class="empty-state"><span class="big-kr">🔍</span>${message}</div>`;
         return;
     }
-    
+
     const frag = document.createDocumentFragment();
-    filtered.forEach(w => {
+    filtered.forEach((w, i) => {
         const card = document.createElement("div");
-        card.className = "word-card";
+        card.className = "word-card" + (w.isNew ? " is-new" : "");
+        card.style.animationDelay = `${Math.min(i, 24) * 18}ms`;
         const homonymBadge = w.isHomonym ? '<div class="homonym-badge">↻</div>' : '';
+        const sealClass = w.isNew ? "seal seal-new" : "seal";
+        const sealContent = w.isNew ? "新" : (currentLang === "ko" ? "印" : "✓");
+        const sealTitle = w.isNew ? ` title="${t().newBadgeTitle}"` : "";
         card.innerHTML = `
             ${homonymBadge}
-            <div class="seal">${currentLang === "ko" ? "印" : "✓"}</div>
+            <div class="${sealClass}"${sealTitle}>${sealContent}</div>
             <div class="word-kr">${w.Korean}</div>
             <div class="word-tr">${w.English}</div>
         `;
@@ -104,6 +131,8 @@ function setLang(lang) {
         b.classList.toggle("active", b.dataset.lang === lang);
     });
     document.getElementById("searchInput").placeholder = t().searchPlaceholder;
+    document.getElementById("newFilterLabel").textContent = t().newFilter;
+    document.getElementById("themeToggle").setAttribute("aria-label", t().themeToggle);
     renderHeader();
     renderGrid();
 }
@@ -115,15 +144,35 @@ document.getElementById("langSwitch").addEventListener("click", e => {
 
 document.getElementById("searchInput").addEventListener("input", renderGrid);
 
+document.getElementById("newFilter").addEventListener("click", () => {
+    showNewOnly = !showNewOnly;
+    document.getElementById("newFilter").classList.toggle("active", showNewOnly);
+    renderGrid();
+});
+
+document.getElementById("themeToggle").addEventListener("click", () => {
+    const root = document.documentElement;
+    const next = root.getAttribute("data-theme") === "light" ? "dark" : "light";
+    root.setAttribute("data-theme", next);
+    try {
+        localStorage.setItem("waichapa-theme", next);
+    } catch (e) {}
+});
+
 async function init() {
     try {
         const res = await fetch("dictionary.json");
         if (!res.ok) throw new Error("HTTP " + res.status);
         DICTIONARY = await res.json();
-        DICTIONARY.forEach((w, i) => w.id = i);
-        
+
+        const newCutoff = Math.max(0, DICTIONARY.length - NEW_COUNT);
+        DICTIONARY.forEach((w, i) => {
+            w.id = i;
+            w.isNew = i >= newCutoff;
+        });
+
         EXPANDED_DICTIONARY = expandDictionary(DICTIONARY);
-        
+
         setLang("ru");
     } catch (err) {
         document.getElementById("dictGrid").innerHTML = `
