@@ -21,8 +21,6 @@
     </script>
 </head>
 <body>
-    <div class="paper-grain" aria-hidden="true"></div>
-
     <div class="app">
         <div class="header">
             <div class="profile">
@@ -65,7 +63,9 @@
                 <input type="text" id="searchInput" placeholder="Поиск слова или перевода…">
             </div>
             <button class="new-filter" id="newFilter" type="button">
-                <span class="new-filter-seal">新</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2l2.1 6.5H21l-5.5 4 2.1 6.5-5.6-4-5.6 4 2.1-6.5L3 8.5h6.9z"/>
+                </svg>
                 <span id="newFilterLabel">Новые</span>
             </button>
             <div class="result-count" id="resultCount"></div>

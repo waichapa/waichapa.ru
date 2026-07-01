@@ -11,8 +11,8 @@ const STR = {
         noResults: "Ничего не найдено",
         noResultsNew: "Среди новых слов ничего не найдено",
         newFilter: "Новые",
-        themeToggle: "Переключить тему",
-        newBadgeTitle: "Новое слово"
+        newBadge: "новое",
+        themeToggle: "Переключить тему"
     },
     en: {
         searchPlaceholder: "Search a word or translation…",
@@ -21,8 +21,8 @@ const STR = {
         noResults: "No matches found",
         noResultsNew: "No matches among the new words",
         newFilter: "New",
-        themeToggle: "Toggle theme",
-        newBadgeTitle: "New word"
+        newBadge: "new",
+        themeToggle: "Toggle theme"
     },
     ko: {
         searchPlaceholder: "단어나 번역을 검색하세요…",
@@ -31,8 +31,8 @@ const STR = {
         noResults: "검색 결과 없음",
         noResultsNew: "새 단어 중 검색 결과 없음",
         newFilter: "새 단어",
-        themeToggle: "테마 전환",
-        newBadgeTitle: "새 단어"
+        newBadge: "신규",
+        themeToggle: "테마 전환"
     }
 };
 
@@ -109,14 +109,13 @@ function renderGrid() {
     filtered.forEach((w, i) => {
         const card = document.createElement("div");
         card.className = "word-card" + (w.isNew ? " is-new" : "");
-        card.style.animationDelay = `${Math.min(i, 24) * 18}ms`;
+        card.style.animationDelay = `${Math.min(i, 16) * 14}ms`;
         const homonymBadge = w.isHomonym ? '<div class="homonym-badge">↻</div>' : '';
-        const sealClass = w.isNew ? "seal seal-new" : "seal";
-        const sealContent = w.isNew ? "新" : (currentLang === "ko" ? "印" : "✓");
-        const sealTitle = w.isNew ? ` title="${t().newBadgeTitle}"` : "";
+        const newBadge = w.isNew ? `<div class="new-badge">${t().newBadge}</div>` : '';
         card.innerHTML = `
+            ${newBadge}
             ${homonymBadge}
-            <div class="${sealClass}"${sealTitle}>${sealContent}</div>
+            <div class="seal">${currentLang === "ko" ? "印" : "✓"}</div>
             <div class="word-kr">${w.Korean}</div>
             <div class="word-tr">${w.English}</div>
         `;
