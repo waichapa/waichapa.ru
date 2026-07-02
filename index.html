@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="ru" data-theme="dark">
+<html lang="en" data-theme="dark-green">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="dark light">
     <title>waichapa · 한국어 단어장</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script>
-        /* Apply saved / preferred theme before paint to avoid a flash */
         (function () {
             try {
                 var saved = localStorage.getItem("waichapa-theme");
-                var theme = saved || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+                var theme = saved || "dark-green";
                 document.documentElement.setAttribute("data-theme", theme);
             } catch (e) {}
         })();
@@ -33,25 +31,15 @@
 
             <div class="header-controls">
                 <div class="lang-switch" id="langSwitch">
-                    <button class="lang-btn" data-lang="ko"><span class="flag">🇰🇷</span><span>한국어</span></button>
-                    <button class="lang-btn active" data-lang="ru"><span class="flag">🇷🇺</span><span>Русский</span></button>
-                    <button class="lang-btn" data-lang="en"><span class="flag">🇬🇧</span><span>English</span></button>
+                    <button class="lang-btn active" data-lang="en"><span class="flag">🇬🇧</span><span>English</span></button>
+                    <button class="lang-btn" data-lang="ru"><span class="flag">🇷🇺</span><span>Русский</span></button>
                 </div>
 
-                <button class="theme-toggle" id="themeToggle" type="button" aria-label="Переключить тему">
-                    <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-                        <circle cx="12" cy="12" r="4.4"/>
-                        <line x1="12" y1="1.8" x2="12" y2="4.4"/>
-                        <line x1="12" y1="19.6" x2="12" y2="22.2"/>
-                        <line x1="4.5" y1="4.5" x2="6.3" y2="6.3"/>
-                        <line x1="17.7" y1="17.7" x2="19.5" y2="19.5"/>
-                        <line x1="1.8" y1="12" x2="4.4" y2="12"/>
-                        <line x1="19.6" y1="12" x2="22.2" y2="12"/>
-                        <line x1="4.5" y1="19.5" x2="6.3" y2="17.7"/>
-                        <line x1="17.7" y1="6.3" x2="19.5" y2="4.5"/>
-                    </svg>
-                    <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M20.6 15.2A8.6 8.6 0 0 1 9 3.6a.6.6 0 0 0-.8-.7A9.4 9.4 0 1 0 21.3 16a.6.6 0 0 0-.7-.8z"/>
+                <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch Theme">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        <path d="M2 12h20"/>
                     </svg>
                 </button>
             </div>
@@ -60,15 +48,19 @@
         <div class="tabs" id="tabs">
             <button class="tab-btn active" data-tab="dict">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-                <span id="tabDictLabel">Словарь</span>
+                <span id="tabDictLabel">Dictionary</span>
+            </button>
+            <button class="tab-btn" data-tab="grammar">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                <span id="tabGrammarLabel">Grammar</span>
             </button>
             <button class="tab-btn" data-tab="quiz">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.2a2.5 2.5 0 0 1 4.9.8c0 1.7-2.4 1.9-2.4 3.5"/><line x1="12" y1="17" x2="12" y2="17.1"/></svg>
-                <span id="tabQuizLabel">Квиз</span>
+                <span id="tabQuizLabel">Quiz</span>
             </button>
             <button class="tab-btn" data-tab="stats">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="21" x2="5" y2="11"/><line x1="12" y1="21" x2="12" y2="6"/><line x1="19" y1="21" x2="19" y2="14"/></svg>
-                <span id="tabStatsLabel">Статистика</span>
+                <span id="tabStatsLabel">Stats</span>
             </button>
         </div>
 
@@ -76,18 +68,28 @@
             <div class="search-row">
                 <div class="search-box">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
-                    <input type="text" id="searchInput" placeholder="Поиск слова или перевода…">
+                    <input type="text" id="searchInput" placeholder="Search a word or translation…">
                 </div>
                 <button class="new-filter" id="newFilter" type="button">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M12 2l2.1 6.5H21l-5.5 4 2.1 6.5-5.6-4-5.6 4 2.1-6.5L3 8.5h6.9z"/>
                     </svg>
-                    <span id="newFilterLabel">Новые</span>
+                    <span id="newFilterLabel">New</span>
                 </button>
                 <div class="result-count" id="resultCount"></div>
             </div>
-
             <div class="grid" id="dictGrid"></div>
+        </section>
+
+        <section class="tab-panel" id="panel-grammar">
+            <div class="search-row">
+                <div class="search-box">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
+                    <input type="text" id="grammarSearchInput" placeholder="Search grammar rules…">
+                </div>
+                <div class="result-count" id="grammarResultCount"></div>
+            </div>
+            <div class="grid" id="grammarGrid"></div>
         </section>
 
         <section class="tab-panel" id="panel-quiz">
@@ -107,7 +109,6 @@
             <div class="stats-grid" id="statsGrid"></div>
         </section>
     </div>
-
 
     <script src="script.js"></script>
 </body>

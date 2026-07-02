@@ -3806,5 +3806,25 @@
   {
     "Korean": "고맙다",
     "English": "thank"
+  },
+  {
+    "Korean": "뒤",
+    "English": "back"
+  },
+  {
+    "Korean": "위",
+    "English": "top/above"
+  },
+  {
+    "Korean": "옆",
+    "English": "side"
+  },
+  {
+    "Korean": "아래",
+    "English": "below/under"
+  },
+  {
+    "Korean": "밑",
+    "English": "bottom"
   }
 ]
