@@ -18,7 +18,7 @@ const STR = {
         grammarPlaceholder: "Search grammar rules…",
         resultCount: n => `${n} words`,
         grammarResultCount: n => `${n} rules`,
-        statsText: (t) => `Words learned: <b>${t}</b>`,
+        statsText: (t) => `Words learned: <b>${t}</b> <span class="level-badge">2 급</span>`,
         noResults: "No matches found",
         noResultsNew: "No matches among the new words",
         newFilter: "New",
@@ -54,7 +54,7 @@ const STR = {
         grammarPlaceholder: "Поиск грамматических правил…",
         resultCount: n => `${n} слов`,
         grammarResultCount: n => `${n} правил`,
-        statsText: (t) => `Выучено слов: <b>${t}</b>`,
+        statsText: (t) => `Выучено слов: <b>${t}</b> <span class="level-badge">2 급</span>`,
         noResults: "Ничего не найдено",
         noResultsNew: "Среди новых слов ничего не найдено",
         newFilter: "Новые",
@@ -180,10 +180,12 @@ function renderGrammar() {
 
     if (query) {
         filtered = GRAMMAR.filter(g => {
-            const desc = currentLang === "ru" ? g.DescriptionRU : g.DescriptionEN;
-            const ex = currentLang === "ru" ? g.ExampleRU : g.ExampleEN;
-            return g.Title.toLowerCase().includes(query) ||
-                   desc.toLowerCase().includes(query) ||
+            const title = currentLang === "ru" ? (g.ru_title || "") : (g.en_title || "");
+            const exp = currentLang === "ru" ? (g.ru_explanation || "") : (g.en_explanation || "");
+            const ex = currentLang === "ru" ? (g.ru_example || "") : (g.en_example || "");
+            
+            return title.toLowerCase().includes(query) ||
+                   exp.toLowerCase().includes(query) ||
                    ex.toLowerCase().includes(query);
         });
     }
@@ -199,12 +201,15 @@ function renderGrammar() {
     filtered.forEach(g => {
         const card = document.createElement("div");
         card.className = "word-card grammar-card";
-        const desc = currentLang === "ru" ? g.DescriptionRU : g.DescriptionEN;
-        const ex = currentLang === "ru" ? g.ExampleRU : g.ExampleEN;
+        
+        const title = currentLang === "ru" ? (g.ru_title || "—") : (g.en_title || "—");
+        const explanation = currentLang === "ru" ? (g.ru_explanation || "") : (g.en_explanation || "");
+        const example = currentLang === "ru" ? (g.ru_example || "") : (g.en_example || "");
+
         card.innerHTML = `
-            <div class="word-kr">${g.Title}</div>
-            <div class="word-tr" style="color: var(--text); font-weight: 600; margin-bottom: 8px;">${desc}</div>
-            <div style="font-size: 13px; color: var(--accent); font-style: italic;">${ex}</div>
+            <div class="word-kr">${title}</div>
+            <div class="word-tr" style="color: var(--text); font-weight: 600; margin-bottom: 8px; text-align: left;">${explanation}</div>
+            <div style="font-size: 13px; color: var(--accent); font-style: italic; text-align: left;">${example}</div>
         `;
         frag.appendChild(card);
     });

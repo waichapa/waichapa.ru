@@ -3,9 +3,9 @@
     "ru_title": "Глагол-связка 이다",
     "en_title": "Copula 이다",
     "ru_explanation": "Глагол-связка, соответствующий русскому 'быть, являться'. Присоединяется к существительному. В настоящем времени часто опускается в разговорной речи.",
-    "en_explanation": "Copula verb corresponding to 'to be'. Attaches to nouns. Often omitted in present tense colloquial speech.",
+    "en_explanation": "Copula verb meaning 'to be'. Attaches to nouns. Often omitted in present tense colloquial speech.",
     "ru_example": "저는 학생이에요. — Я студент.",
-    "en_example": "Jeoneun haksaeng-ieyo. — I am a student."
+    "en_example": "저는 학생이에요. — I am a student."
   },
   {
     "ru_title": "Обращение по фамилии/имени + 씨",
@@ -13,7 +13,7 @@
     "ru_explanation": "Вежливое обращение к человеку по имени или фамилии. Средний уровень вежливости, используется между коллегами, знакомыми.",
     "en_explanation": "Polite address suffix attached to a person's name or surname. Medium formality, used among colleagues and acquaintances.",
     "ru_example": "민수 씨, 안녕하세요? — Минсу, здравствуйте!",
-    "en_example": "Minsu ssi, annyeonghaseyo? — Minsu, hello!"
+    "en_example": "민수 씨, 안녕하세요? — Minsu, hello!"
   },
   {
     "ru_title": "Слияние гласных (все случаи)",
@@ -21,7 +21,7 @@
     "ru_explanation": "Правила стяжения гласных при соединении аффиксов: ㅏ+ㅏ→ㅏ, ㅗ+ㅏ→ㅘ, ㅜ+ㅓ→ㅝ, ㅣ+ㅓ→ㅕ, ㅡ+ㅓ→ㅓ и т.д. Часто происходит в разговорной речи.",
     "en_explanation": "Rules of vowel contraction when combining affixes: ㅏ+ㅏ→ㅏ, ㅗ+ㅏ→ㅘ, ㅜ+ㅓ→ㅝ, ㅣ+ㅓ→ㅕ, ㅡ+ㅓ→ㅓ, etc. Common in spoken Korean.",
     "ru_example": "가 + 아 → 가 (как в '가요'), 보 + 아 → 봐",
-    "en_example": "ga + a → ga (as in 'gayo'), bo + a → bwa"
+    "en_example": "가 + 아 → 가 (as in '가요'), 보 + 아 → 봐"
   },
   {
     "ru_title": "Именительный падеж 이/가",
@@ -29,7 +29,7 @@
     "ru_explanation": "Указывают на подлежащее предложения. 이 — после согласной, 가 — после гласной. Выделяют новую информацию или фокус предложения.",
     "en_explanation": "Mark the subject of the sentence. 이 after consonants, 가 after vowels. Emphasize new information or the focus of the sentence.",
     "ru_example": "날씨가 좋아요. — Погода хорошая.",
-    "en_example": "Nalssi-ga joayo. — The weather is good."
+    "en_example": "날씨가 좋아요. — The weather is good."
   },
   {
     "ru_title": "Тематический падеж 은/는",
@@ -37,7 +37,7 @@
     "ru_explanation": "Выделяют тему или уже известную информацию. 은 после согласной, 는 после гласной. Часто противопоставляют или создают контраст.",
     "en_explanation": "Mark the topic or already known information. 은 after consonants, 는 after vowels. Often used for contrast or comparison.",
     "ru_example": "저는 학생이에요. — Что касается меня, я студент.",
-    "en_example": "Jeo-neun haksaeng-ieyo. — As for me, I am a student."
+    "en_example": "저는 학생이에요. — As for me, I am a student."
   },
   {
     "ru_title": "Существительное + именительный падеж + 아니다",
@@ -45,7 +45,7 @@
     "ru_explanation": "Отрицательная форма связки 'не являться'. Используется с именительным падежом 이/가.",
     "en_explanation": "Negative form of the copula 'not to be'. Used with the nominative marker 이/가.",
     "ru_example": "저는 학생이 아니에요. — Я не студент.",
-    "en_example": "Jeoneun haksaeng-i anieyo. — I am not a student."
+    "en_example": "저는 학생이 아니에요. — I am not a student."
   },
   {
     "ru_title": "Дательный падеж 에",
@@ -53,7 +53,7 @@
     "ru_explanation": "Указывает на место (статическое), время или цель. Используется с глаголами состояния и движения к месту (без выхода).",
     "en_explanation": "Indicates static location, time, or destination. Used with stative verbs and movement toward a place (without exiting).",
     "ru_example": "학교에 가요. — Иду в школу. / 집에 있어요. — Есть/нахожусь дома.",
-    "en_example": "Hakgyo-e gayo. — I go to school. / Jip-e isseoyo. — I am at home."
+    "en_example": "학교에 가요. — I go to school. / 집에 있어요. — I am at home."
   },
   {
     "ru_title": "Дательно-местный падеж 에서",
@@ -61,7 +61,7 @@
     "ru_explanation": "Указывает на место действия (динамическое), откуда выходят или где происходит активное действие.",
     "en_explanation": "Indicates the location of an action (dynamic) or the place where someone/something leaves from or where an active action takes place.",
     "ru_example": "학교에서 공부해요. — Учусь в школе. / 서울에서 왔어요. — Приехал из Сеула.",
-    "en_example": "Hakgyo-eseo gongbuhaeyo. — I study at school. / Seoul-eseo wasseoyo. — I came from Seoul."
+    "en_example": "학교에서 공부해요. — I study at school. / 서울에서 왔어요. — I came from Seoul."
   },
   {
     "ru_title": "Винительный падеж 을/를",
@@ -69,7 +69,7 @@
     "ru_explanation": "Указывают на прямое дополнение (объект действия). 을 после согласной, 를 после гласной.",
     "en_explanation": "Mark the direct object of an action. 을 after consonants, 를 after vowels.",
     "ru_example": "사과를 먹어요. — Ем яблоко.",
-    "en_example": "Sagwa-reul meogeoyo. — I eat an apple."
+    "en_example": "사과를 먹어요. — I eat an apple."
   },
   {
     "ru_title": "Соединительный 하고",
@@ -77,7 +77,7 @@
     "ru_explanation": "Соединяет существительные в значении 'и' (с кем-то/с чем-то). Используется в разговорной речи, менее формально, чем 와/과.",
     "en_explanation": "Connects nouns meaning 'and' or 'with'. Used in colloquial speech, less formal than 와/과.",
     "ru_example": "친구하고 영화 봤어요. — Смотрел фильм с другом.",
-    "en_example": "Chingu-hago yeonghwa bwasseoyo. — I watched a movie with a friend."
+    "en_example": "친구하고 영화 봤어요. — I watched a movie with a friend."
   },
   {
     "ru_title": "Творительный падеж (는)으로/로",
@@ -85,7 +85,7 @@
     "ru_explanation": "Указывает на средство, инструмент, способ, направление или роль. 로 после гласной/ㄹ, 으로 после остальных согласных.",
     "en_explanation": "Indicates means, instrument, method, direction, or role. 로 after vowels/ㄹ, 으로 after other consonants.",
     "ru_example": "연필로 써요. — Пишу карандашом. / 오른쪽으로 가요. — Иду направо.",
-    "en_example": "Yeonpil-lo sseoyo. — I write with a pencil. / Oreunjjok-euro gayo. — I go to the right."
+    "en_example": "연필로 써요. — I write with a pencil. / 오른쪽으로 가요. — I go to the right."
   },
   {
     "ru_title": "Притяжательный падеж 의",
@@ -93,7 +93,7 @@
     "ru_explanation": "Выражает принадлежность ('чей-то'). В разговорной речи часто произносится как '에' и опускается.",
     "en_explanation": "Expresses possession ('whose'). In colloquial speech often pronounced as 'e' and sometimes omitted.",
     "ru_example": "제 친구의 책 — Книга моего друга.",
-    "en_example": "Je chingu-ui chaek — My friend's book."
+    "en_example": "제 친구의 책 — My friend's book."
   },
   {
     "ru_title": "Дательный адресата 에게, 한테, 께",
@@ -101,7 +101,7 @@
     "ru_explanation": "Указывают на получателя действия (кому). 에게 — книжный, 한테 — разговорный, 께 — почтительный (для старших).",
     "en_explanation": "Indicate the recipient of an action (to whom). 에게 — formal/literary, 한테 — colloquial, 께 — honorific (for elders).",
     "ru_example": "친구에게 선물을 줬어요. — Подарил подарок другу.",
-    "en_example": "Chingu-ege seonmul-eul jwosseoyo. — I gave a gift to my friend."
+    "en_example": "친구에게 선물을 줬어요. — I gave a gift to my friend."
   },
   {
     "ru_title": "Глаголы 있다/없다 (наличие/отсутствие)",
@@ -109,7 +109,7 @@
     "ru_explanation": "있다 — 'иметься, находиться, существовать'; 없다 — 'не иметься, отсутствовать'. Указывают на наличие/отсутствие предмета или лица в месте.",
     "en_explanation": "있다 — 'to exist, to have, to be located'; 없다 — 'not to exist, to not have'. Indicate presence/absence of an object or person in a place.",
     "ru_example": "책이 있어요. — Книга есть. / 돈이 없어요. — Денег нет.",
-    "en_example": "Chaek-i isseoyo. — There is a book. / Don-i eopseoyo. — There is no money."
+    "en_example": "책이 있어요. — There is a book. / 돈이 없어요. — There is no money."
   },
   {
     "ru_title": "Послелоги места (앞, 뒤, 위, 아래, 옆, 안, 밖)",
@@ -117,7 +117,7 @@
     "ru_explanation": "Существительные, используемые как послелоги для указания местоположения: перед, за, над, под, рядом, внутри, снаружи. Соединяются с существительным через 의 или без него.",
     "en_explanation": "Nouns used as postpositions to indicate location: in front, behind, above, below, beside, inside, outside. Connected to nouns with 의 or without.",
     "ru_example": "학교 앞에서 만나요. — Встречаемся перед школой.",
-    "en_example": "Hakgyo ap-eseo mannayo. — Let's meet in front of the school."
+    "en_example": "학교 앞에서 만나요. — Let's meet in front of the school."
   },
   {
     "ru_title": "Повелительное наклонение (으)세요",
@@ -125,31 +125,31 @@
     "ru_explanation": "Вежливая форма повелительного наклонения. 으세요 после согласной (кроме ㄹ), 세요 после гласной и ㄹ.",
     "en_explanation": "Polite imperative form. 으세요 after consonants (except ㄹ), 세요 after vowels and ㄹ.",
     "ru_example": "앉으세요. — Садитесь. / 가세요. — Идите.",
-    "en_example": "Anjeuseyo. — Please sit down. / Gaseyo. — Please go."
+    "en_example": "앉으세요. — Please sit down. / 가세요. — Please go."
   },
   {
     "ru_title": "Китайские числительные (일, 이, 삼...)",
-    "en_title": "Sino-Korean numerals (il, i, sam...)",
+    "en_title": "Sino-Korean numerals (일, 이, 삼...)",
     "ru_explanation": "Числительные китайского происхождения. Используются для дат, денег, телефонных номеров, минут, месяцев, счётных слов для больших чисел.",
     "en_explanation": "Numerals of Chinese origin. Used for dates, money, phone numbers, minutes, months, and counting words for large numbers.",
-    "ru_example": "3월 5일 — 5 марта (sam-wol o-il).",
-    "en_example": "3월 5일 — March 5 (sam-wol o-il)."
+    "ru_example": "3월 5일 — 5 марта (삼월 오일).",
+    "en_example": "3월 5일 — March 5 (삼월 오일)."
   },
   {
     "ru_title": "Корейские числительные (하나, 둘, 셋...)",
-    "en_title": "Native Korean numerals (hana, dul, set...)",
+    "en_title": "Native Korean numerals (하나, 둘, 셋...)",
     "ru_explanation": "Исконно корейские числительные. Используются для счёта предметов, возраста, часов (времени), со счётными словами.",
     "en_explanation": "Native Korean numerals. Used for counting objects, age, hours (time), and with counting words.",
-    "ru_example": "사과 세 개 — три яблока (se gae).",
-    "en_example": "Sagwa se gae — three apples."
+    "ru_example": "사과 세 개 — три яблока.",
+    "en_example": "사과 세 개 — three apples."
   },
   {
     "ru_title": "Особые формы числительных 1,2,3,4,20 перед существительными",
     "en_title": "Special numeral forms 1,2,3,4,20 before nouns",
     "ru_explanation": "При соединении с счётными словами корейские числительные 하나, 둘, 셋, 넷, 스물 меняют форму: 한, 두, 세, 네, 스무.",
-    "en_explanation": "When combined with counting words, native numerals hana, dul, set, net, seumul change to: han, du, se, ne, seumu.",
+    "en_explanation": "When combined with counting words, native numerals 하나, 둘, 셋, 넷, 스물 change to: 한, 두, 세, 네, 스무.",
     "ru_example": "한 개 (1), 두 개 (2), 세 개 (3), 네 개 (4), 스무 개 (20).",
-    "en_example": "Han gae (1), du gae (2), se gae (3), ne gae (4), seumu gae (20)."
+    "en_example": "한 개 (1), 두 개 (2), 세 개 (3), 네 개 (4), 스무 개 (20)."
   },
   {
     "ru_title": "Официально-почтительная речь 습니다/습니까?",
@@ -157,7 +157,7 @@
     "ru_explanation": "Высокий уровень вежливости (формальный книжный стиль). 습니다 — утверждение, 습니까? — вопрос. Используется в официальной обстановке, новостях, армии.",
     "en_explanation": "Highest formality level (formal written style). 습니다 — statement, 습니까? — question. Used in official settings, news, military.",
     "ru_example": "감사합니다. — Спасибо. / 어떻게 지내십니까? — Как поживаете?",
-    "en_example": "Gamsahamnida. — Thank you. / Eotteoke jinaesimnikka? — How are you?"
+    "en_example": "감사합니다. — Thank you. / 어떻게 지내십니까? — How are you?"
   },
   {
     "ru_title": "Счётные слова (개, 명, 번, etc.)",
@@ -165,7 +165,7 @@
     "ru_explanation": "Специальные служебные слова, используемые с числительными для счёта разных категорий предметов: 개 (штуки), 명 (люди), 번 (разы), 살 (возраст), 시간 (часы) и др.",
     "en_explanation": "Special particles used with numerals to count different categories: 개 (items), 명 (people), 번 (times), 살 (age), 시간 (hours), etc.",
     "ru_example": "사과 다섯 개 — 5 яблок. / 학생 두 명 — 2 ученика.",
-    "en_example": "Sagwa daseot gae — 5 apples. / Haksaeng du myeong — 2 students."
+    "en_example": "사과 다섯 개 — 5 apples. / 학생 두 명 — 2 students."
   },
   {
     "ru_title": "Связка числительного со счётным словом (комплексы)",
@@ -173,15 +173,15 @@
     "ru_explanation": "Правила соединения числительных и счётных слов: корейские числительные используются с корейскими счётными словами, китайские — с китайскими. Есть также особые сочетания.",
     "en_explanation": "Rules for combining numerals and counting words: native numerals go with native counting words, Sino-Korean with Sino-Korean. Some special combinations exist.",
     "ru_example": "한 개 (кор.), 일 개 (кит.) — оба означают 'одна штука', но первый — корейский вариант, второй — китайский.",
-    "en_example": "Han gae (native), il gae (Sino) — both mean 'one item', but first is native, second is Sino."
+    "en_example": "한 개 (native), 일 개 (Sino) — both mean 'one item', but first is native, second is Sino."
   },
   {
     "ru_title": "Прошедшее время (았/었/였어요)",
     "en_title": "Past tense (았/었/였어요)",
-    "ru_example": "먹었어요 — съел(а). / 했어요 — сделал(а). / 갔어요 — пошёл(а).",
-    "en_example": "Meogeosseoyo — ate. / Haesseoyo — did. / Gasseoyo — went.",
     "ru_explanation": "Прошедшее время образуется присоединением 았/었/였 к основе глагола: 았 после гласных ㅏ,ㅗ; 었 после остальных; 였 для 하다 (→ 했).",
-    "en_explanation": "Past tense formed by adding 았/었/였 to the verb stem: 았 after ㅏ,ㅗ; 었 after other vowels; 였 for 하다 (→ 했)."
+    "en_explanation": "Past tense formed by adding 았/었/였 to the verb stem: 았 after ㅏ,ㅗ; 었 after other vowels; 였 for 하다 (→ 했).",
+    "ru_example": "먹었어요 — съел(а). / 했어요 — сделал(а). / 갔어요 — пошёл(а).",
+    "en_example": "먹었어요 — ate. / 했어요 — did. / 갔어요 — went."
   },
   {
     "ru_title": "Соединительный союз 그리고",
@@ -189,7 +189,7 @@
     "ru_explanation": "Союз 'и' для соединения предложений или перечисления. Используется в начале нового предложения или между однородными членами.",
     "en_explanation": "Conjunction 'and' for connecting sentences or listing items. Used at the beginning of a new sentence or between equal members.",
     "ru_example": "사과를 샀어요. 그리고 바나나도 샀어요. — Купил яблоки. И бананы тоже купил.",
-    "en_example": "Sagwa-reul sasseoyo. Geurigo banana-do sasseoyo. — I bought apples. And I also bought bananas."
+    "en_example": "사과를 샀어요. 그리고 바나나도 샀어요. — I bought apples. And I also bought bananas."
   },
   {
     "ru_title": "Отрицание 안",
@@ -197,7 +197,7 @@
     "ru_explanation": "Отрицательная частица, ставится перед глаголом или прилагательным. Означает 'не'.",
     "en_explanation": "Negative particle placed before a verb or adjective. Means 'not'.",
     "ru_example": "안 가요. — Не иду. / 안 먹어요. — Не ем.",
-    "en_example": "An gayo. — I don't go. / An meogeoyo. — I don't eat."
+    "en_example": "안 가요. — I don't go. / 안 먹어요. — I don't eat."
   },
   {
     "ru_title": "Предположительный вопрос (으)ㄹ까요?",
@@ -205,7 +205,7 @@
     "ru_explanation": "Выражает предположение, вопрос о намерении или предложение совместного действия ('может быть, ...?', 'давай ...?').",
     "en_explanation": "Expresses supposition, question about intention, or suggestion for joint action ('maybe?', 'shall we?').",
     "ru_example": "비가 올까요? — Может, дождь пойдёт? / 뭐 할까요? — Что будем делать?",
-    "en_example": "Biga olkkayo? — Will it rain? / Mwo halkkayo? — What shall we do?"
+    "en_example": "비가 올까요? — Will it rain? / 뭐 할까요? — What shall we do?"
   },
   {
     "ru_title": "Множественное число 들",
@@ -213,7 +213,7 @@
     "ru_explanation": "Показатель множественности для существительных. Используется не всегда, если число ясно из контекста.",
     "en_explanation": "Plural marker for nouns. Not always used if number is clear from context.",
     "ru_example": "학생들 — студенты. / 사람들 — люди.",
-    "en_example": "Haksaeng-deul — students. / Saram-deul — people."
+    "en_example": "학생들 — students. / 사람들 — people."
   },
   {
     "ru_title": "Будущее время (으)ㄹ 거예요",
@@ -221,7 +221,7 @@
     "ru_explanation": "Выражает будущее время, намерение или предположение. ㄹ 거예요 после гласной, 을 거예요 после согласной.",
     "en_explanation": "Expresses future tense, intention, or supposition. ㄹ 거예요 after vowels, 을 거예요 after consonants.",
     "ru_example": "내일 갈 거예요. — Завтра пойду. / 뭐 할 거예요? — Что будешь делать?",
-    "en_example": "Naeil gal geoyeyo. — I will go tomorrow. / Mwo hal geoyeyo? — What will you do?"
+    "en_example": "내일 갈 거예요. — I will go tomorrow. / 뭐 할 거예요? — What will you do?"
   },
   {
     "ru_title": "Деепричастие одновременности (으)면서",
@@ -229,7 +229,7 @@
     "ru_explanation": "Показывает, что два действия происходят одновременно ('делая что-то, ...'). 면서 после гласной, 으면서 после согласной.",
     "en_explanation": "Shows that two actions happen simultaneously ('while doing something...'). 면서 after vowels, 으면서 after consonants.",
     "ru_example": "음악을 들으면서 공부해요. — Учусь, слушая музыку.",
-    "en_example": "Eumak-eul deureumyeonseo gongbuhaeyo. — I study while listening to music."
+    "en_example": "음악을 들으면서 공부해요. — I study while listening to music."
   },
   {
     "ru_title": "Соединительное деепричастие 고",
@@ -237,7 +237,7 @@
     "ru_explanation": "Соединяет два действия или состояния в значении 'и' (сделал и сделал), также используется для перечисления.",
     "en_explanation": "Connects two actions or states meaning 'and' (did and did), also used for listing.",
     "ru_example": "밥을 먹고 학교에 갔어요. — Поел и пошёл в школу.",
-    "en_example": "Bap-eul meokgo hakgyo-e gasseoyo. — I ate and went to school."
+    "en_example": "밥을 먹고 학교에 갔어요. — I ate and went to school."
   },
   {
     "ru_title": "Соединительный союз 그런데",
@@ -245,7 +245,7 @@
     "ru_explanation": "Союз 'но, однако, а' (смягчённое противопоставление). Также используется для смены темы.",
     "en_explanation": "Conjunction 'but, however, and yet' (soft contrast). Also used to change the topic.",
     "ru_example": "날씨가 좋아요. 그런데 비가 올 거예요. — Погода хорошая, но, может, дождь пойдёт.",
-    "en_example": "Nalssi-ga joayo. Geureonde bi-ga ol geoyeyo. — The weather is nice, but it might rain."
+    "en_example": "날씨가 좋아요. 그런데 비가 올 거예요. — The weather is nice, but it might rain."
   },
   {
     "ru_title": "Отрицания 못, 안 (지 않다, 지 못하다)",
@@ -253,7 +253,7 @@
     "ru_explanation": "안 — общее отрицание 'не', 못 — отрицание возможности/способности 'не мочь'. 지 않다/지 못하다 — более книжные формы.",
     "en_explanation": "안 — general negation 'not', 못 — negation of ability 'cannot'. 지 않다/지 못하다 — more formal/literary forms.",
     "ru_example": "못 가요 — Не могу идти. / 가지 않아요 — Не иду (отказ).",
-    "en_example": "Mot gayo — I can't go. / Gaji anayo — I don't go (refusal)."
+    "en_example": "못 가요 — I can't go. / 가지 않아요 — I don't go (refusal)."
   },
   {
     "ru_title": "Причинно-следственная связь 아서/어서",
@@ -261,7 +261,7 @@
     "ru_explanation": "Показывает причину или основание для действия ('потому что', 'так что'). При этом причина предшествует следствию.",
     "en_explanation": "Shows cause or reason for an action ('because', 'so'). The cause precedes the result.",
     "ru_example": "피곤해서 일찍 잤어요. — Устал, поэтому лёг спать рано.",
-    "en_example": "Pigonhaeseo iljjik jasseoyo. — I was tired, so I went to bed early."
+    "en_example": "피곤해서 일찍 잤어요. — I was tired, so I went to bed early."
   },
   {
     "ru_title": "Предложение действия (으)ㄹ 래요",
@@ -269,7 +269,7 @@
     "ru_explanation": "Выражает намерение или предложение совместного действия ('хочу сделать', 'давай сделаем'). Используется в разговорной речи.",
     "en_explanation": "Expresses intention or suggestion for joint action ('I want to do', 'let's do'). Used in colloquial speech.",
     "ru_example": "커피 마실래요? — Хочешь кофе? / 영화 볼래요. — Я хочу посмотреть кино.",
-    "en_example": "Keopi masillae? — Do you want coffee? / Yeonghwa bollae. — I want to watch a movie."
+    "en_example": "커피 마실래요? — Do you want coffee? / 영화 볼래요. — I want to watch a movie."
   },
   {
     "ru_title": "Вопросительные местоимения 무슨, 어떤, 어느",
@@ -277,7 +277,7 @@
     "ru_explanation": "무슨 — 'какой' (о типе/классе), 어떤 — 'какой' (о характеристике), 어느 — 'который' (выбор из нескольких).",
     "en_explanation": "무슨 — 'what kind of' (type/class), 어떤 — 'what kind of' (characteristic), 어느 — 'which' (choice among several).",
     "ru_example": "무슨 음식 좋아해요? — Какую еду любишь? / 어느 책이에요? — Которая книга?",
-    "en_example": "Museun eumsik joahaeyo? — What kind of food do you like? / Eoneu chaeg-ieyo? — Which book is it?"
+    "en_example": "무슨 음식 좋아해요? — What kind of food do you like? / 어느 책이에요? — Which book is it?"
   },
   {
     "ru_title": "Глагол 걸리다",
@@ -285,7 +285,7 @@
     "ru_explanation": "Многозначный глагол: 1) занимать время; 2) заболеть; 3) попасться, быть пойманным; 4) зависнуть (о технике).",
     "en_explanation": "Polysemous verb: 1) to take time; 2) to catch an illness; 3) to get caught; 4) to freeze/hang (of device).",
     "ru_example": "시간이 얼마나 걸려요? — Сколько времени занимает? / 감기에 걸렸어요. — Простудился.",
-    "en_example": "Sigani eolmana geollyeoyo? — How long does it take? / Gamgi-e geollyeosseoyo. — I caught a cold."
+    "en_example": "시간이 얼마나 걸려요? — How long does it take? / 감기에 걸렸어요. — I caught a cold."
   },
   {
     "ru_title": "Пространственные пределы 에서/까지",
@@ -293,7 +293,7 @@
     "ru_explanation": "에서 — 'от' (начальная точка), 까지 — 'до' (конечная точка). Используются для обозначения промежутка места или времени.",
     "en_explanation": "에서 — 'from' (starting point), 까지 — 'to' (ending point). Used to indicate spatial or temporal range.",
     "ru_example": "집에서 학교까지 — от дома до школы.",
-    "en_example": "Jib-eseo hakgyo-kkaji — from home to school."
+    "en_example": "집에서 학교까지 — from home to school."
   },
   {
     "ru_title": "Предшествование действия 아서/어서 (временное)",
@@ -301,7 +301,7 @@
     "ru_explanation": "Указывает, что одно действие предшествует другому, причём первое является условием или естественным фоном для второго ('сделав А, делаю Б').",
     "en_explanation": "Indicates that one action precedes another, with the first being a condition or natural background for the second ('after doing A, I do B').",
     "ru_example": "일어나서 세수해요. — Просыпаюсь и (потом) умываюсь.",
-    "en_example": "Ireonaseo sesuhaeyo. — I wake up and (then) wash my face."
+    "en_example": "일어나서 세수해요. — I wake up and (then) wash my face."
   },
   {
     "ru_title": "Категория направления действия 아/어 주다",
@@ -309,7 +309,7 @@
     "ru_explanation": "Показывает, что действие совершается для кого-то (в пользу другого). 주다 — 'дать', в этом значении — 'сделать для кого-то'.",
     "en_explanation": "Shows that the action is done for someone's benefit ('do for someone'). 주다 — 'give', here meaning 'do for someone's sake'.",
     "ru_example": "편지를 써 줬어요. — Написал письмо (для кого-то).",
-    "en_example": "Pyeonji-reul sseo jwosseoyo. — I wrote a letter (for someone)."
+    "en_example": "편지를 써 줬어요. — I wrote a letter (for someone)."
   },
   {
     "ru_title": "Подтверждение 지요 (죠)",
@@ -317,7 +317,7 @@
     "ru_explanation": "Частица для подтверждения информации, ожидания согласия ('ведь', 'не так ли?'). В разговоре часто сокращается до 죠.",
     "en_explanation": "Particle for confirmation, seeking agreement ('isn't it?', 'right?'). Often shortened to 죠 in speech.",
     "ru_example": "날씨가 좋지요? — Погода хорошая, правда?",
-    "en_example": "Nalssi-ga jojjiyo? — The weather is nice, isn't it?"
+    "en_example": "날씨가 좋지요? — The weather is nice, isn't it?"
   },
   {
     "ru_title": "Ограничительная частица 만",
@@ -325,7 +325,7 @@
     "ru_explanation": "Означает 'только, лишь'. Указывает на исключительность.",
     "en_explanation": "Means 'only, just'. Indicates exclusivity.",
     "ru_example": "물만 마셔요. — Пью только воду.",
-    "en_example": "Mul-man masyeoyo. — I drink only water."
+    "en_example": "물만 마셔요. — I drink only water."
   },
   {
     "ru_title": "Противопоставительный союз 지만",
@@ -333,7 +333,7 @@
     "ru_explanation": "Союз 'но, однако' для соединения предложений с противопоставлением. Более формальный, чем 그런데.",
     "en_explanation": "Conjunction 'but, however' for contrasting clauses. More formal than 그런데.",
     "ru_example": "배고프지만 참을게요. — Голоден, но потерплю.",
-    "en_example": "Bae-gopeujiman chameulgeyo. — I'm hungry, but I'll bear it."
+    "en_example": "배고프지만 참을게요. — I'm hungry, but I'll bear it."
   },
   {
     "ru_title": "Целевое деепричастие 게 (цель)",
@@ -341,7 +341,7 @@
     "ru_explanation": "Превращает прилагательное в наречие для описания цели или результата ('так, чтобы', 'для того чтобы').",
     "en_explanation": "Turns an adjective into an adverb to express purpose or result ('so that', 'in order to').",
     "ru_example": "재미있게 읽었어요. — Прочитал с интересом (так, чтобы было интересно).",
-    "en_example": "Jaemiitge ilgeosseoyo. — I read it in an interesting way."
+    "en_example": "재미있게 읽었어요. — I read it in an interesting way."
   },
   {
     "ru_title": "Конструкция намерения (으)려고 하다",
@@ -349,7 +349,7 @@
     "ru_explanation": "Выражает намерение или цель ('собираться сделать', 'для того чтобы'). 으려고 после согласной, 려고 после гласной.",
     "en_explanation": "Expresses intention or purpose ('plan to do', 'in order to'). 으려고 after consonants, 려고 after vowels.",
     "ru_example": "한국어를 배우려고 해요. — Собираюсь учить корейский.",
-    "en_example": "Hangukeo-reul baeuryeogo haeyo. — I plan to learn Korean."
+    "en_example": "한국어를 배우려고 해요. — I plan to learn Korean."
   },
   {
     "ru_title": "Определительная форма прилагательных (으)ㄴ",
@@ -357,7 +357,7 @@
     "ru_explanation": "Превращает прилагательное в определение к существительному в настоящем времени ('красивый' → 'красивая девушка'). ㄴ после гласной, 은 после согласной.",
     "en_explanation": "Turns an adjective into a modifier for a noun in the present tense ('beautiful' → 'beautiful girl'). ㄴ after vowels, 은 after consonants.",
     "ru_example": "예쁜 여자 — красивая женщина. / 작은 고양이 — маленькая кошка.",
-    "en_example": "Yeppeun yeoja — beautiful woman. / Jakeun goyangi — small cat."
+    "en_example": "예쁜 여자 — beautiful woman. / 작은 고양이 — small cat."
   },
   {
     "ru_title": "Длительное действие 고 있다",
@@ -365,7 +365,7 @@
     "ru_explanation": "Выражает действие, происходящее в данный момент ('делает сейчас'). Аналог английского Present Continuous.",
     "en_explanation": "Expresses an action happening right now ('is doing'). Equivalent to English Present Continuous.",
     "ru_example": "지금 공부하고 있어요. — Сейчас учусь.",
-    "en_example": "Jigeum gongbuhago isseoyo. — I am studying now."
+    "en_example": "지금 공부하고 있어요. — I am studying now."
   },
   {
     "ru_title": "Причастный оборот 는 (определение действия)",
@@ -373,7 +373,7 @@
     "ru_explanation": "Превращает глагол в определение к существительному (настоящее время): 'читающий студент', 'книга, которую читают'.",
     "en_explanation": "Turns a verb into a modifier for a noun (present tense): 'reading student', 'the book (that is being read)'.",
     "ru_example": "공부하는 학생 — учащийся студент. / 제가 읽는 책 — книга, которую я читаю.",
-    "en_example": "Gongbuhaneun haksaeng — the student who is studying. / Jega ingneun chaek — the book I am reading."
+    "en_example": "공부하는 학생 — the student who is studying. / 제가 읽는 책 — the book I am reading."
   },
   {
     "ru_title": "Вежливые глаголы (계시다, 드시다, etc.)",
@@ -381,7 +381,7 @@
     "ru_explanation": "Специальные почтительные формы: 계시다 (от 있다 — 'находиться'), 드시다 (от 먹다 — 'есть'), 주무시다 (от 자다 — 'спать'), etc.",
     "en_explanation": "Special honorific forms: 계시다 (from 있다 — 'to be'), 드시다 (from 먹다 — 'to eat'), 주무시다 (from 자다 — 'to sleep'), etc.",
     "ru_example": "할머니께서 계세요. — Бабушка здесь (почтит.). / 진지 드세요. — Кушайте (почтит.).",
-    "en_example": "Halmeoni-kkeseo gyeseyo. — Grandmother is here (hon.). / Jinji deuseyo. — Please eat (hon.)."
+    "en_example": "할머니께서 계세요. — Grandmother is here (hon.). / 진지 드세요. — Please eat (hon.)."
   },
   {
     "ru_title": "Почтительный суффикс (으)시",
@@ -389,7 +389,7 @@
     "ru_explanation": "Добавляется к глаголу или прилагательному для выражения уважения к субъекту (тому, о ком говорят).",
     "en_explanation": "Added to verbs or adjectives to show respect toward the subject (the person being talked about).",
     "ru_example": "선생님이 오셨어요. — Учитель пришёл (почтит.).",
-    "en_example": "Seonsaengnim-i osyeosseoyo. — The teacher came (hon.)."
+    "en_example": "선생님이 오셨어요. — The teacher came (hon.)."
   },
   {
     "ru_title": "Пробное действие 아/어 보다",
@@ -397,7 +397,7 @@
     "ru_explanation": "Выражает попытку сделать что-то или опыт ('попробовать сделать').",
     "en_explanation": "Expresses an attempt to do something or experience ('try doing').",
     "ru_example": "한 번 해 봐요. — Попробуй один раз. / 먹어 봤어요. — Попробовал (на вкус).",
-    "en_example": "Han beon hae bwayo. — Try it once. / Meogeo bwasseoyo. — I tried it (tasted)."
+    "en_example": "한 번 해 봐요. — Try it once. / 먹어 봤어요. — I tried it (tasted)."
   },
   {
     "ru_title": "Желание 고 싶다",
@@ -405,7 +405,7 @@
     "ru_explanation": "Выражает желание субъекта ('хочу сделать'). В 3-м лице используется 고 싶어 하다.",
     "en_explanation": "Expresses the subject's desire ('want to do'). In 3rd person, use 고 싶어 하다.",
     "ru_example": "가고 싶어요. — Хочу пойти.",
-    "en_example": "Gago sipeoyo. — I want to go."
+    "en_example": "가고 싶어요. — I want to go."
   },
   {
     "ru_title": "Возможность/невозможность (으)ㄹ 수 있다/없다",
@@ -413,7 +413,7 @@
     "ru_explanation": "Выражает возможность ('могу') или невозможность ('не могу') сделать что-то.",
     "en_explanation": "Expresses ability ('can') or inability ('cannot') to do something.",
     "ru_example": "갈 수 있어요. — Могу пойти. / 못 가요. — Не могу пойти.",
-    "en_example": "Gal su isseoyo. — I can go. / Mot gayo. — I can't go."
+    "en_example": "갈 수 있어요. — I can go. / 못 가요. — I can't go."
   },
   {
     "ru_title": "Запрещение 지 말다",
@@ -421,7 +421,7 @@
     "ru_explanation": "Выражает запрет ('не делай'). Используется в повелительных и предложительных формах.",
     "en_explanation": "Expresses prohibition ('don't do'). Used in imperative and suggestive forms.",
     "ru_example": "가지 마세요. — Не ходите. / 먹지 마세요. — Не ешьте.",
-    "en_example": "Gaji maseyo. — Don't go. / Meokji maseyo. — Don't eat."
+    "en_example": "가지 마세요. — Don't go. / 먹지 마세요. — Don't eat."
   },
   {
     "ru_title": "Временная последовательность (으)ㄴ 후에/뒤에/다음에",
@@ -429,15 +429,15 @@
     "ru_explanation": "Указывает, что действие происходит после другого действия ('после того как').",
     "en_explanation": "Indicates that an action happens after another action ('after doing').",
     "ru_example": "밥을 먹은 후에 공부해요. — После еды учусь.",
-    "en_example": "Bap-eul meogeun hu-e gongbuhaeyo. — I study after eating."
+    "en_example": "밥을 먹은 후에 공부해요. — I study after eating."
   },
   {
     "ru_title": "Необходимость 어야/아야 해요",
     "en_title": "Necessity 어야/아야 해요",
-    "ru_explanation": "Выражает долженствование ('нужно', 'должен'). А야 после гласных ㅏ,ㅗ; 어야 после остальных.",
+    "ru_explanation": "Выражает долженствование ('нужно', 'должен'). 아야 после гласных ㅏ,ㅗ; 어야 после остальных.",
     "en_explanation": "Expresses necessity ('have to', 'should'). 아야 after vowels ㅏ,ㅗ; 어야 after others.",
     "ru_example": "가야 해요. — Нужно идти. / 먹어야 해요. — Нужно поесть.",
-    "en_example": "Gaya haeyo. — I have to go. / Meogeoya haeyo. — I have to eat."
+    "en_example": "가야 해요. — I have to go. / 먹어야 해요. — I have to eat."
   },
   {
     "ru_title": "Обещание/намерение (으)ㄹ 게요",
@@ -445,7 +445,7 @@
     "ru_explanation": "Выражает обещание или намерение говорящего, часто в ответ на просьбу ('я сделаю').",
     "en_explanation": "Expresses the speaker's promise or intention, often in response to a request ('I will do').",
     "ru_example": "제가 할게요. — Я сделаю. / 기다릴게요. — Я подожду.",
-    "en_example": "Jega halgeyo. — I'll do it. / Gidarilgeyo. — I'll wait."
+    "en_example": "제가 할게요. — I'll do it. / 기다릴게요. — I'll wait."
   },
   {
     "ru_title": "Сравнительная степень 보다",
@@ -453,7 +453,7 @@
     "ru_explanation": "Используется для сравнения: A가 B보다 ... ('A более..., чем B').",
     "en_explanation": "Used for comparison: A가 B보다 ... ('A is more... than B').",
     "ru_example": "사과가 바나나보다 더 커요. — Яблоко больше, чем банан.",
-    "en_example": "Sagwa-ga banana-boda deo keoyo. — Apples are bigger than bananas."
+    "en_example": "사과가 바나나보다 더 커요. — Apples are bigger than bananas."
   },
   {
     "ru_title": "Время действия (으)ㄹ 때",
@@ -461,7 +461,7 @@
     "ru_explanation": "Указывает на время, когда происходит действие ('когда делаю').",
     "en_explanation": "Indicates the time when an action occurs ('when I do').",
     "ru_example": "학교에 갈 때 만나요. — Встретимся, когда пойду в школу.",
-    "en_example": "Hakgyo-e gal ttae mannayo. — Let's meet when I go to school."
+    "en_example": "학교에 갈 때 만나요. — Let's meet when I go to school."
   },
   {
     "ru_title": "Цель движения (으)러 가다/오다",
@@ -469,7 +469,7 @@
     "ru_explanation": "Выражает цель движения ('идти, чтобы сделать'). 으러 после согласной, 러 после гласной.",
     "en_explanation": "Expresses the purpose of movement ('go/come to do'). 으러 after consonants, 러 after vowels.",
     "ru_example": "공부하러 도서관에 가요. — Иду в библиотеку учиться.",
-    "en_example": "Gongbuhareo doseogwan-e gayo. — I go to the library to study."
+    "en_example": "공부하러 도서관에 가요. — I go to the library to study."
   },
   {
     "ru_title": "Условное наклонение (으)면",
@@ -477,7 +477,7 @@
     "ru_explanation": "Выражает условие ('если'). 면 после гласной, 으면 после согласной.",
     "en_explanation": "Expresses condition ('if'). 면 after vowels, 으면 after consonants.",
     "ru_example": "비가 오면 집에 있어요. — Если пойдёт дождь, останусь дома.",
-    "en_example": "Biga omyeon jip-e isseoyo. — If it rains, I'll stay home."
+    "en_example": "비가 오면 집에 있어요. — If it rains, I'll stay home."
   },
   {
     "ru_title": "Альтернатива 거나",
@@ -485,7 +485,7 @@
     "ru_explanation": "Соединяет два варианта в значении 'или' ('делаю А или Б').",
     "en_explanation": "Connects two options meaning 'or' ('do A or B').",
     "ru_example": "영화를 보거나 책을 읽어요. — Смотрю кино или читаю книгу.",
-    "en_example": "Yeonghwa-reul bogeona chaek-eul ilgeoyo. — I watch a movie or read a book."
+    "en_example": "영화를 보거나 책을 읽어요. — I watch a movie or read a book."
   },
   {
     "ru_title": "Описательное окончание 는데",
@@ -493,7 +493,7 @@
     "ru_explanation": "Указывает на фон, причину, противопоставление или контраст ('а', 'но', 'так как'). Очень универсальная частица.",
     "en_explanation": "Indicates background, reason, contrast, or opposition ('and', 'but', 'since'). A very versatile particle.",
     "ru_example": "날씨가 추운데 집에 있어요. — Погода холодная, так что я дома.",
-    "en_example": "Nalssi-ga chuunde jip-e isseoyo. — The weather is cold, so I'm at home."
+    "en_example": "날씨가 추운데 집에 있어요. — The weather is cold, so I'm at home."
   },
   {
     "ru_title": "Причинный оборот 기 때문에",
@@ -501,7 +501,7 @@
     "ru_explanation": "Выражает причину ('потому что'). Более формальный и книжный вариант.",
     "en_explanation": "Expresses reason ('because'). More formal and literary variant.",
     "ru_example": "비가 오기 때문에 가지 않아요. — Не иду, потому что идёт дождь.",
-    "en_example": "Biga ogi ttaemune gaji anayo. — I'm not going because it's raining."
+    "en_example": "비가 오기 때문에 가지 않아요. — I'm not going because it's raining."
   },
   {
     "ru_title": "Временное предшествование 기 전에",
@@ -509,7 +509,7 @@
     "ru_explanation": "Указывает, что действие происходит перед другим ('перед тем как').",
     "en_explanation": "Indicates that an action happens before another ('before doing').",
     "ru_example": "자기 전에 이를 닦아요. — Чищу зубы перед сном.",
-    "en_example": "Jagi jeon-e i-reul dakkayo. — I brush my teeth before sleeping."
+    "en_example": "자기 전에 이를 닦아요. — I brush my teeth before sleeping."
   },
   {
     "ru_title": "Длительность 동안",
@@ -517,7 +517,7 @@
     "ru_explanation": "Указывает на период времени, в течение которого происходит действие ('в течение').",
     "en_explanation": "Indicates the period of time during which an action occurs ('for, during').",
     "ru_example": "방학 동안 여행할 거예요. — Буду путешествовать во время каникул.",
-    "en_example": "Banghak dong-an yeohaeng-hal geoyeyo. — I will travel during the vacation."
+    "en_example": "방학 동안 여행할 거예요. — I will travel during the vacation."
   },
   {
     "ru_title": "Выражение надежды (으)면 좋겠다",
@@ -525,7 +525,7 @@
     "ru_explanation": "Выражает пожелание или надежду ('хорошо бы, если', 'надеюсь, что').",
     "en_explanation": "Expresses a wish or hope ('I wish', 'I hope that').",
     "ru_example": "내일 비가 안 오면 좋겠어요. — Хорошо бы, завтра дождь не пошёл.",
-    "en_example": "Naeil biga an omyeon jokesseoyo. — I hope it doesn't rain tomorrow."
+    "en_example": "내일 비가 안 오면 좋겠어요. — I hope it doesn't rain tomorrow."
   },
   {
     "ru_title": "Опыт (으)ㄴ 적이 있다/없다",
@@ -533,7 +533,7 @@
     "ru_explanation": "Выражает наличие или отсутствие опыта ('когда-либо делал / никогда не делал').",
     "en_explanation": "Expresses whether someone has or hasn't had an experience ('have ever done / have never done').",
     "ru_example": "한국에 가 본 적이 있어요. — Был в Корее (имею опыт).",
-    "en_example": "Hanguk-e ga bon jeog-i isseoyo. — I have been to Korea (have experience)."
+    "en_example": "한국에 가 본 적이 있어요. — I have been to Korea (have experience)."
   },
   {
     "ru_title": "Знание/незнание (으)ㄹ 줄 알다/모르다",
@@ -541,7 +541,7 @@
     "ru_explanation": "Выражает умение или знание, как что-то делать, а также предположение ('знаю, как', 'не знаю, как', 'думал, что').",
     "en_explanation": "Expresses ability or knowledge of how to do something, also supposition ('know how', 'don't know how', 'thought that').",
     "ru_example": "수영할 줄 알아요. — Умею плавать. / 그럴 줄 몰랐어요. — Не знал, что так будет.",
-    "en_example": "Suyeong-hal jul arayo. — I can swim. / Geureol jul mollasseoyo. — I didn't know it would be like that."
+    "en_example": "수영할 줄 알아요. — I can swim. / 그럴 줄 몰랐어요. — I didn't know it would be like that."
   },
   {
     "ru_title": "Разрешение 어/아도 되다",
@@ -549,7 +549,7 @@
     "ru_explanation": "Выражает разрешение ('можно, разрешается').",
     "en_explanation": "Expresses permission ('may, it's allowed').",
     "ru_example": "들어가도 돼요? — Можно войти? / 해도 돼요. — Можно сделать.",
-    "en_example": "Deureogado dwaeyo? — May I come in? / Haedo dwaeyo. — You may do it."
+    "en_example": "들어가도 돼요? — May I come in? / 해도 돼요. — You may do it."
   },
   {
     "ru_title": "Запрет 으면 안 되다",
@@ -557,7 +557,7 @@
     "ru_explanation": "Выражает запрет ('нельзя, не разрешается').",
     "en_explanation": "Expresses prohibition ('must not, not allowed').",
     "ru_example": "여기에서 사진을 찍으면 안 돼요. — Здесь нельзя фотографировать.",
-    "en_example": "Yeogi-eseo sajin-eul jjigeumyeon an dwaeyo. — You cannot take photos here."
+    "en_example": "여기에서 사진을 찍으면 안 돼요. — You cannot take photos here."
   },
   {
     "ru_title": "Пассив/изменение состояния 아/어지다",
@@ -565,7 +565,7 @@
     "ru_explanation": "Образует пассивный залог или указывает на изменение состояния ('становиться каким-либо').",
     "en_explanation": "Forms passive voice or indicates a change of state ('become something').",
     "ru_example": "날씨가 추워졌어요. — Погода стала холодной. / 결정됐어요. — Было решено.",
-    "en_example": "Nalssi-ga chuwojyeosseoyo. — The weather became cold. / Gyeoljeong-dwaesseoyo. — It was decided."
+    "en_example": "날씨가 추워졌어요. — The weather became cold. / 결정됐어요. — It was decided."
   },
   {
     "ru_title": "Каузатив/изменение состояния 게 되다",
@@ -573,7 +573,7 @@
     "ru_explanation": "Выражает, что что-то произошло в итоге, часто не по воле субъекта ('в конце концов, оказалось, что').",
     "en_explanation": "Expresses that something happened as a result, often not by the subject's will ('eventually, turned out that').",
     "ru_example": "한국에 가게 됐어요. — Так получилось, что я поехал в Корею.",
-    "en_example": "Hanguk-e gage dwaesseoyo. — It turned out that I went to Korea."
+    "en_example": "한국에 가게 됐어요. — It turned out that I went to Korea."
   },
   {
     "ru_title": "Частица 도 (тоже/также)",
@@ -581,7 +581,7 @@
     "ru_explanation": "Означает 'тоже, также'. Может заменять падежные частицы.",
     "en_explanation": "Means 'also, too'. Can replace case particles.",
     "ru_example": "저도 학생이에요. — Я тоже студент.",
-    "en_example": "Jeo-do haksaeng-ieyo. — I am a student too."
+    "en_example": "저도 학생이에요. — I am a student too."
   },
   {
     "ru_title": "Предположение (으)ㄹ 것 같다",
@@ -589,7 +589,7 @@
     "ru_explanation": "Выражает предположение или догадку ('кажется, что', 'похоже, что').",
     "en_explanation": "Expresses supposition or guess ('it seems that', 'it looks like').",
     "ru_example": "비가 올 것 같아요. — Кажется, дождь пойдёт.",
-    "en_example": "Biga ol geot gatayo. — It looks like it's going to rain."
+    "en_example": "비가 올 것 같아요. — It looks like it's going to rain."
   },
   {
     "ru_title": "Будущее предположительное 겠",
@@ -597,7 +597,7 @@
     "ru_explanation": "Выражает предположение, намерение или обещание в формальном стиле. Часто используется в рекламе, прогнозах, обещаниях.",
     "en_explanation": "Expresses supposition, intention, or promise in formal style. Often used in advertisements, forecasts, promises.",
     "ru_example": "내일 날씨가 좋겠어요. — Завтра погода, наверное, будет хорошей. / 알겠어요. — Понял (обещаю).",
-    "en_example": "Naeil nalssi-ga jokesseoyo. — The weather will probably be nice tomorrow. / Algesseoyo. — I understand (I promise)."
+    "en_example": "내일 날씨가 좋겠어요. — The weather will probably be nice tomorrow. / 알겠어요. — I understand (I promise)."
   },
   {
     "ru_title": "Частица 마다 (каждый)",
@@ -605,7 +605,7 @@
     "ru_explanation": "Указывает на регулярность или повторяемость ('каждый', 'через каждый').",
     "en_explanation": "Indicates regularity or repetition ('every', 'each').",
     "ru_example": "주말마다 운동해요. — Каждые выходные занимаюсь спортом.",
-    "en_example": "Jumal-mada undonghaeyo. — I exercise every weekend."
+    "en_example": "주말마다 운동해요. — I exercise every weekend."
   },
   {
     "ru_title": "Исходная точка 한테서/에게서",
@@ -613,7 +613,7 @@
     "ru_explanation": "Указывает на источник или отправителя ('от кого-то'). 한테서 — разговорный, 에게서 — книжный.",
     "en_explanation": "Indicates the source or sender ('from someone'). 한테서 — colloquial, 에게서 — formal.",
     "ru_example": "친구한테서 선물을 받았어요. — Получил подарок от друга.",
-    "en_example": "Chingu-hanteseo seonmul-eul badasseoyo. — I received a gift from my friend."
+    "en_example": "친구한테서 선물을 받았어요. — I received a gift from my friend."
   },
   {
     "ru_title": "Благодаря 덕분에",
@@ -621,7 +621,7 @@
     "ru_explanation": "Выражает причину с положительным оттенком ('благодаря кому-то/чему-то').",
     "en_explanation": "Expresses a reason with positive nuance ('thanks to someone/something').",
     "ru_example": "선생님 덕분에 합격했어요. — Сдал благодаря учителю.",
-    "en_example": "Seonsaengnim deokbune hapgyeokhaesseoyo. — I passed thanks to the teacher."
+    "en_example": "선생님 덕분에 합격했어요. — I passed thanks to the teacher."
   },
   {
     "ru_title": "С течением времени (으)ㄴ 지 되다",
@@ -629,7 +629,7 @@
     "ru_explanation": "Указывает, сколько времени прошло с момента действия ('прошло уже ... с тех пор, как').",
     "en_explanation": "Indicates how much time has passed since an action ('it's been ... since').",
     "ru_example": "한국에 온 지 3년 됐어요. — Прошло 3 года с тех пор, как я приехал в Корею.",
-    "en_example": "Hanguk-e on ji samnyeon dwaesseoyo. — It's been 3 years since I came to Korea."
+    "en_example": "한국에 온 지 3년 됐어요. — It's been 3 years since I came to Korea."
   },
   {
     "ru_title": "Начало действия 기 시작하다",
@@ -637,7 +637,7 @@
     "ru_explanation": "Выражает начало действия ('начать делать').",
     "en_explanation": "Expresses the start of an action ('start to do').",
     "ru_example": "비가 오기 시작했어요. — Начал идти дождь.",
-    "en_example": "Biga ogi sijakhaesseoyo. — It started to rain."
+    "en_example": "비가 오기 시작했어요. — It started to rain."
   },
   {
     "ru_title": "По пути 는 길에",
@@ -645,7 +645,7 @@
     "ru_explanation": "Указывает на действие, совершаемое по пути куда-то ('по пути, когда шёл').",
     "en_explanation": "Indicates an action done on the way somewhere ('on the way, while going').",
     "ru_example": "학교에 가는 길에 친구를 만났어요. — По пути в школу встретил друга.",
-    "en_example": "Hakgyo-e ganeun gir-e chingu-reul mannasseoyo. — I met a friend on the way to school."
+    "en_example": "학교에 가는 길에 친구를 만났어요. — I met a friend on the way to school."
   },
   {
     "ru_title": "Условие для цели 으려면",
@@ -653,7 +653,7 @@
     "ru_explanation": "Сокращение от (으)려고 하면. Выражает условие для достижения цели ('если хочешь сделать, то...').",
     "en_explanation": "Short form of (으)려고 하면. Expresses a condition for achieving a goal ('if you want to do, then...').",
     "ru_example": "한국어를 잘하려면 매일 공부해야 해요. — Чтобы хорошо знать корейский, нужно учиться каждый день.",
-    "en_example": "Hangukeo-reul jal-haryeomyeon maeil gongbuhaeya haeyo. — If you want to speak Korean well, you need to study every day."
+    "en_example": "한국어를 잘하려면 매일 공부해야 해요. — If you want to speak Korean well, you need to study every day."
   },
   {
     "ru_title": "Уступительное 아/어도 (даже если)",
@@ -661,7 +661,7 @@
     "ru_explanation": "Выражает уступку ('даже если', 'хотя').",
     "en_explanation": "Expresses concession ('even if', 'although').",
     "ru_example": "비가 와도 갈 거예요. — Даже если будет дождь, пойду.",
-    "en_example": "Biga wado gal geoyeyo. — Even if it rains, I will go."
+    "en_example": "비가 와도 갈 거예요. — Even if it rains, I will go."
   },
   {
     "ru_title": "Выбор (이)나",
@@ -669,7 +669,7 @@
     "ru_explanation": "Выражает выбор или предложение альтернативы ('или', 'что-то вроде'), также может означать 'около' с числительными.",
     "en_explanation": "Expresses choice or alternative ('or', 'something like'), also can mean 'about' with numerals.",
     "ru_example": "커피나 주스 — кофе или сок. / 5개나 — целых 5 штук (неожиданно много).",
-    "en_example": "Keopi-na juseu — coffee or juice. / 5gae-na — as many as 5 (unexpectedly many)."
+    "en_example": "커피나 주스 — coffee or juice. / 5개나 — as many as 5 (unexpectedly many)."
   },
   {
     "ru_title": "Легко/сложно 기 쉽다/어렵다",
@@ -677,7 +677,7 @@
     "ru_explanation": "Выражает, что действие легко или трудно выполнить ('легко сделать', 'трудно сделать').",
     "en_explanation": "Expresses that an action is easy or difficult to do ('easy to do', 'hard to do').",
     "ru_example": "이 문제는 풀기 쉬워요. — Эту задачу легко решить.",
-    "en_example": "I munje-neun pulgi swiwoyo. — This problem is easy to solve."
+    "en_example": "이 문제는 풀기 쉬워요. — This problem is easy to solve."
   },
   {
     "ru_title": "Ограничение 밖에 + отрицание",
@@ -685,7 +685,7 @@
     "ru_explanation": "Означает 'только, не более чем' в сочетании с отрицанием ('кроме ... не').",
     "en_explanation": "Means 'only, no more than' combined with negation ('nothing but').",
     "ru_example": "10분밖에 없어요. — Есть только 10 минут (не больше).",
-    "en_example": "Sipbun-bakke eopseoyo. — There are only 10 minutes (no more)."
+    "en_example": "10분밖에 없어요. — There are only 10 minutes (no more)."
   },
   {
     "ru_title": "Приблизительность 쯤",
@@ -693,7 +693,7 @@
     "ru_explanation": "Означает 'около, примерно' с числительными или временными выражениями.",
     "en_explanation": "Means 'about, approximately' with numerals or time expressions.",
     "ru_example": "3시쯤 만나요. — Встретимся около 3 часов.",
-    "en_example": "Sesi-jjeum mannayo. — Let's meet at about 3 o'clock."
+    "en_example": "3시쯤 만나요. — Let's meet at about 3 o'clock."
   },
   {
     "ru_title": "Сравнение/подобие 처럼/같이",
@@ -701,7 +701,7 @@
     "ru_explanation": "Выражают сравнение или подобие ('как, подобно'). 처럼 более универсально, 같이 часто сочетается с 와/과.",
     "en_explanation": "Express comparison or similarity ('like, as'). 처럼 is more universal, 같이 often combines with 와/과.",
     "ru_example": "엄마처럼 요리해요. — Готовлю как мама. / 친구 같이 — как друг.",
-    "en_example": "Eomma-cheoreom yorihaeyo. — I cook like my mom. / Chingu gachi — like a friend."
+    "en_example": "엄마처럼 요리해요. — I cook like my mom. / 친구 같이 — like a friend."
   },
   {
     "ru_title": "Причинный (이)니까",
@@ -709,7 +709,7 @@
     "ru_explanation": "Выражает причину с оттенком объяснения или аргументации ('потому что', 'так как'). Более разговорный, чем 기 때문에.",
     "en_explanation": "Expresses reason with a nuance of explanation or argument ('because', 'since'). More colloquial than 기 때문에.",
     "ru_example": "피곤하니까 일찍 잘게요. — Так как устал, лягу спать пораньше.",
-    "en_example": "Pigonhanikka iljjik jalkkeyo. — Since I'm tired, I'll go to bed early."
+    "en_example": "피곤하니까 일찍 잘게요. — Since I'm tired, I'll go to bed early."
   },
   {
     "ru_title": "Прерывание/смена действия 다가",
@@ -717,7 +717,7 @@
     "ru_explanation": "Показывает, что одно действие прервалось и началось другое ('делал А, но потом начал Б').",
     "en_explanation": "Shows that one action was interrupted and another began ('was doing A, then started B').",
     "ru_example": "공부하다가 잠이 들었어요. — Учился и заснул (прервал учёбу сном).",
-    "en_example": "Gongbuhada-ga jam-i deureosseoyo. — I was studying and fell asleep (interrupted studying)."
+    "en_example": "공부하다가 잠이 들었어요. — I was studying and fell asleep (interrupted studying)."
   },
   {
     "ru_title": "Желание в 3-м лице 고 싶어 하다",
@@ -725,7 +725,7 @@
     "ru_explanation": "Используется для выражения желания третьего лица ('он/она хочет сделать').",
     "en_explanation": "Used to express desire in the third person ('he/she wants to do').",
     "ru_example": "민수가 가고 싶어 해요. — Минсу хочет пойти.",
-    "en_example": "Minsu-ga gago sipeo haeyo. — Minsu wants to go."
+    "en_example": "민수가 가고 싶어 해요. — Minsu wants to go."
   },
   {
     "ru_title": "Решение/договорённость 기로 하다",
@@ -733,7 +733,7 @@
     "ru_explanation": "Выражает принятое решение или договорённость ('решили сделать').",
     "en_explanation": "Expresses a decision or arrangement ('decided to do').",
     "ru_example": "내일 만나기로 했어요. — Договорились встретиться завтра.",
-    "en_example": "Naeil mannagi-ro haesseoyo. — We decided to meet tomorrow."
+    "en_example": "내일 만나기로 했어요. — We decided to meet tomorrow."
   },
   {
     "ru_title": "Выглядит как 아/어 보이다",
@@ -741,7 +741,7 @@
     "ru_explanation": "Выражает, что что-то выглядит определённым образом ('кажется, выглядит').",
     "en_explanation": "Expresses that something looks a certain way ('seems, looks like').",
     "ru_example": "맛있어 보여요. — Выглядит вкусно.",
-    "en_example": "Masisseo boyeoyo. — It looks delicious."
+    "en_example": "맛있어 보여요. — It looks delicious."
   },
   {
     "ru_title": "Восклицание 군요! / 네요!",
@@ -749,6 +749,6 @@
     "ru_explanation": "Выражают удивление или подтверждение услышанного. 군요 — когда замечаешь что-то новое, 네요 — когда соглашаешься или подтверждаешь.",
     "en_explanation": "Express surprise or confirmation of what was heard. 군요 — when noticing something new, 네요 — when agreeing or confirming.",
     "ru_example": "날씨가 좋군요! — Погода хороша! (заметил). / 그렇네요! — Действительно! (согласился).",
-    "en_example": "Nalssi-ga jokunyo! — The weather is nice! (noticed). / Geureoneyo! — Indeed! (agreed)."
+    "en_example": "날씨가 좋군요! — The weather is nice! (noticed). / 그렇네요! — Indeed! (agreed)."
   }
 ]
