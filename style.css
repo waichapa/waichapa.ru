@@ -149,6 +149,37 @@ button {
     gap: 1rem;
 }
 
+.page-switch {
+    display: flex;
+    background: var(--bg-card);
+    border-radius: 20px;
+    padding: 0.3rem;
+    border: 1px solid var(--border-hair);
+}
+
+.page-link {
+    text-decoration: none;
+    background: transparent;
+    color: var(--text-soft);
+    padding: 0.5rem 1rem;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s;
+}
+
+.page-link:hover:not(.active) {
+    color: var(--text);
+}
+
+.page-link.active {
+    background: var(--accent-tint);
+    color: var(--accent);
+}
+
 .lang-switch {
     display: flex;
     background: var(--bg-card);
@@ -729,4 +760,225 @@ button {
     width: 40px;
     text-align: right;
     color: var(--text-soft);
+}
+/* ============================
+   Minji bot page
+   ============================ */
+
+.brand-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.minji-hero {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 3rem 1rem 4rem;
+}
+
+.minji-seal {
+    width: 128px;
+    height: 128px;
+    margin: 0 auto 2rem;
+    filter: drop-shadow(0 10px 24px var(--seal-glow));
+}
+
+.minji-eyebrow {
+    font-size: 0.85rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-soft);
+    margin-bottom: 0.75rem;
+}
+
+.minji-title {
+    font-family: 'Gowun Batang', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.minji-subtitle {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 1.25rem;
+}
+
+.minji-lede {
+    font-size: 1.05rem;
+    color: var(--text-soft);
+    line-height: 1.75;
+    margin-bottom: 2.5rem;
+}
+
+.minji-cta-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.85rem;
+}
+
+.minji-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    background: var(--seal);
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.05rem;
+    padding: 1rem 2.25rem;
+    border-radius: 100px;
+    text-decoration: none;
+    box-shadow: var(--shadow-soft);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.minji-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lift);
+}
+
+.minji-cta-sub {
+    font-size: 0.9rem;
+    color: var(--text-soft);
+    font-weight: 600;
+}
+
+.minji-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+}
+
+.minji-section-title {
+    font-family: 'Gowun Batang', serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+}
+
+.minji-section-sub {
+    text-align: center;
+    color: var(--text-soft);
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.minji-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.minji-feature-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-hair);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: var(--shadow-soft);
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.minji-feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lift);
+    border-color: var(--border-hair-strong);
+}
+
+.minji-feature-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: var(--accent-tint);
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+}
+
+.minji-feature-title {
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: var(--text);
+}
+
+.minji-feature-desc {
+    font-size: 0.95rem;
+    color: var(--text-soft);
+    line-height: 1.65;
+}
+
+.minji-feature-cmd {
+    display: inline-block;
+    margin-top: 0.85rem;
+    font-family: 'Gowun Batang', serif;
+    font-size: 0.85rem;
+    background: var(--bg-card-deep);
+    color: var(--bronze);
+    padding: 0.3rem 0.7rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-hair);
+}
+
+.minji-why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.minji-why-card {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    background: var(--bg-card-deep);
+    border-radius: 20px;
+    border: 1px dashed var(--border-hair-strong);
+}
+
+.minji-why-title {
+    font-weight: 800;
+    color: var(--bronze);
+    margin-bottom: 0.5rem;
+}
+
+.minji-why-desc {
+    font-size: 0.95rem;
+    color: var(--text-soft);
+    line-height: 1.65;
+}
+
+.minji-footer-cta {
+    text-align: center;
+    max-width: 620px;
+    margin: 2rem auto 3rem;
+    padding: 3rem 2rem;
+    background: var(--bg-card);
+    border-radius: 24px;
+    border: 1px solid var(--border-hair);
+    box-shadow: var(--shadow-lift);
+}
+
+.minji-footer-cta h2 {
+    font-family: 'Gowun Batang', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 1.75rem;
+}
+
+@media (max-width: 600px) {
+    .minji-title { font-size: 2.75rem; }
+    .minji-subtitle { font-size: 1.1rem; }
+    .minji-section-title { font-size: 1.5rem; }
 }

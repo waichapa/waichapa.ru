@@ -442,6 +442,7 @@ function renderDonut(pct) {
 
 function setLang(lang) {
     currentLang = lang;
+    try { localStorage.setItem("waichapa-lang", lang); } catch (e) {}
     document.querySelectorAll(".lang-btn").forEach(b => {
         b.classList.toggle("active", b.dataset.lang === lang);
     });
@@ -520,7 +521,9 @@ async function init() {
             console.error("Failed to load grammar.json", gErr);
         }
 
-        setLang("en");
+        let savedLang = "en";
+        try { savedLang = localStorage.getItem("waichapa-lang") || "en"; } catch (e) {}
+        setLang(savedLang);
     } catch (err) {
         document.getElementById("dictGrid").innerHTML = `
             <div class="empty-state">
