@@ -21,100 +21,43 @@
 </head>
 <body>
     <div class="app">
-        <div class="header">
-            <div class="profile">
-                <img class="avatar" id="avatar" src="image.png" alt="waichapa">
-                <div class="profile-info">
-                    <div class="profile-name">waichapa</div>
-                    <div class="profile-stats" id="statsText"></div>
-                </div>
+        <div class="header landing-header">
+            <div class="lang-switch" id="langSwitch">
+                <button class="lang-btn active" data-lang="en"><span class="flag">🇬🇧</span><span>English</span></button>
+                <button class="lang-btn" data-lang="ru"><span class="flag">🇷🇺</span><span>Русский</span></button>
             </div>
-            <div class="header-controls">
-                <div class="page-switch">
-                    <a class="page-link active" href="index.html"><span>📖</span><span>Blog</span></a>
-                    <a class="page-link" href="minji.html"><span>🌸</span><span>Minji</span></a>
-                </div>
 
-                <div class="lang-switch" id="langSwitch">
-                    <button class="lang-btn active" data-lang="en"><span class="flag">🇬🇧</span><span>English</span></button>
-                    <button class="lang-btn" data-lang="ru"><span class="flag">🇷🇺</span><span>Русский</span></button>
-                </div>
-
-                <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch Theme">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-                        <path d="M2 12h20"/>
-                    </svg>
-                </button>
-            </div>
-        </div>
-
-        <div class="tabs" id="tabs">
-            <button class="tab-btn active" data-tab="dict">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-                <span id="tabDictLabel">Dictionary</span>
-            </button>
-            <button class="tab-btn" data-tab="grammar">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                <span id="tabGrammarLabel">Grammar</span>
-            </button>
-            <button class="tab-btn" data-tab="quiz">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.2a2.5 2.5 0 0 1 4.9.8c0 1.7-2.4 1.9-2.4 3.5"/><line x1="12" y1="17" x2="12" y2="17.1"/></svg>
-                <span id="tabQuizLabel">Quiz</span>
-            </button>
-            <button class="tab-btn" data-tab="stats">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="21" x2="5" y2="11"/><line x1="12" y1="21" x2="12" y2="6"/><line x1="19" y1="21" x2="19" y2="14"/></svg>
-                <span id="tabStatsLabel">Stats</span>
+            <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch Theme">
+                <span class="theme-swatch"></span>
+                <span id="themeLabel">Dark Green</span>
             </button>
         </div>
 
-        <section class="tab-panel active" id="panel-dict">
-            <div class="search-row">
-                <div class="search-box">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
-                    <input type="text" id="searchInput" placeholder="Search a word or translation…">
-                </div>
-                <button class="new-filter" id="newFilter" type="button">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 2l2.1 6.5H21l-5.5 4 2.1 6.5-5.6-4-5.6 4 2.1-6.5L3 8.5h6.9z"/>
-                    </svg>
-                    <span id="newFilterLabel">New</span>
-                </button>
-                <div class="result-count" id="resultCount"></div>
-            </div>
-            <div class="grid" id="dictGrid"></div>
-        </section>
+        <div class="landing-hero">
+            <div class="landing-eyebrow" id="heroEyebrow">Learn Korean</div>
+            <h1 class="landing-title">waichapa</h1>
+            <p class="landing-tagline" id="heroTagline">A dictionary, grammar notes and quizzes for learning Korean — plus an AI tutor you can bring into your own Discord server.</p>
+        </div>
 
-        <section class="tab-panel" id="panel-grammar">
-            <div class="search-row">
-                <div class="search-box">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
-                    <input type="text" id="grammarSearchInput" placeholder="Search grammar rules…">
-                </div>
-                <div class="result-count" id="grammarResultCount"></div>
-            </div>
-            <div class="grid" id="grammarGrid"></div>
-        </section>
+        <div class="landing-grid">
+            <a class="landing-card landing-card-blog" href="blog.html">
+                <img class="landing-card-avatar" src="image.png" alt="waichapa blog">
+                <div class="landing-card-eyebrow" id="cardBlogEyebrow">Language Blog</div>
+                <div class="landing-card-title" id="cardBlogTitle">Dictionary &amp; Grammar</div>
+                <div class="landing-card-desc" id="cardBlogDesc">Browse the word list, search grammar rules, take a quiz and track your stats.</div>
+                <div class="landing-card-cta" id="cardBlogCta">Open the blog →</div>
+            </a>
 
-        <section class="tab-panel" id="panel-quiz">
-            <div class="quiz-wrap">
-                <div class="quiz-score" id="quizScore"></div>
-                <div class="quiz-card" id="quizCard">
-                    <div class="quiz-prompt-label" id="quizPromptLabel"></div>
-                    <div class="quiz-prompt" id="quizPrompt"></div>
-                    <div class="quiz-options" id="quizOptions"></div>
-                    <div class="quiz-feedback" id="quizFeedback"></div>
-                    <button class="quiz-next" id="quizNext" type="button"></button>
-                </div>
-            </div>
-        </section>
-
-        <section class="tab-panel" id="panel-stats">
-            <div class="stats-grid" id="statsGrid"></div>
-        </section>
+            <a class="landing-card landing-card-minji" href="minji.html">
+                <img class="landing-card-avatar" src="minji-avatar.png" alt="Minji">
+                <div class="landing-card-eyebrow" id="cardMinjiEyebrow">Discord Bot</div>
+                <div class="landing-card-title">Minji</div>
+                <div class="landing-card-desc" id="cardMinjiDesc">An AI Korean tutor for your Discord server — lessons, vocab quizzes, TOPIK exams and live chat.</div>
+                <div class="landing-card-cta" id="cardMinjiCta">Meet Minji →</div>
+            </a>
+        </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="landing.js"></script>
 </body>
 </html>

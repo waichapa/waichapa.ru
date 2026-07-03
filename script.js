@@ -12,6 +12,30 @@ let quizAnswered = false;
 
 const THEMES = ["dark-green", "dark-indigo", "pastel-lavender", "pastel-peach"];
 
+const THEME_NAMES = {
+    en: {
+        "dark-green": "Dark Green",
+        "dark-indigo": "Dark Indigo",
+        "pastel-lavender": "Lavender",
+        "pastel-peach": "Peach"
+    },
+    ru: {
+        "dark-green": "Тёмно-зелёная",
+        "dark-indigo": "Тёмно-синяя",
+        "pastel-lavender": "Лаванда",
+        "pastel-peach": "Персиковая"
+    }
+};
+
+function currentTheme() {
+    return document.documentElement.getAttribute("data-theme") || "dark-green";
+}
+
+function updateThemeLabel() {
+    const label = document.getElementById("themeLabel");
+    if (label) label.textContent = (THEME_NAMES[currentLang] || THEME_NAMES.en)[currentTheme()];
+}
+
 const STR = {
     en: {
         searchPlaceholder: "Search a word or translation…",
@@ -455,6 +479,7 @@ function setLang(lang) {
     document.getElementById("tabQuizLabel").textContent = t().tabQuiz;
     document.getElementById("tabStatsLabel").textContent = t().tabStats;
     document.getElementById("quizNext").textContent = t().quizNext;
+    updateThemeLabel();
     renderHeader();
     renderGrid();
     renderQuizScore();
@@ -496,6 +521,7 @@ document.getElementById("themeToggle").addEventListener("click", () => {
     try {
         localStorage.setItem("waichapa-theme", nextTheme);
     } catch (e) {}
+    updateThemeLabel();
 });
 
 async function init() {
