@@ -95,6 +95,23 @@ button, input {
     border: none;
 }
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
 button {
     cursor: pointer;
 }
@@ -1121,4 +1138,248 @@ button {
 @media (max-width: 600px) {
     .landing-title { font-size: 2.4rem; }
     .landing-header { justify-content: center; flex-wrap: wrap; }
+}
+
+/* ============================
+   Footer (contacts)
+   ============================ */
+
+.site-footer {
+    max-width: 1000px;
+    margin: 4rem auto 0;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-hair);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+
+.footer-copy {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-soft);
+}
+
+.footer-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.5rem;
+}
+
+.footer-contact-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-soft);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.footer-contact-link:hover {
+    color: var(--accent);
+}
+
+.footer-contact-static {
+    cursor: default;
+}
+
+/* ============================
+   Minji secondary (repo) button
+   ============================ */
+
+.minji-cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.minji-cta-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: transparent;
+    color: var(--text);
+    font-weight: 800;
+    font-size: 1.05rem;
+    padding: 1rem 2.25rem;
+    border-radius: 100px;
+    border: 2px solid var(--border-hair-strong);
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.minji-cta-secondary:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    transform: translateY(-2px);
+}
+
+/* ============================
+   Mobile refinements
+   ============================ */
+
+@media (max-width: 720px) {
+    .app {
+        padding: 1.25rem 1.1rem 2.5rem;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .header-controls {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+    }
+
+    .profile, .brand-link {
+        justify-content: center;
+    }
+
+    .landing-header {
+        justify-content: center;
+    }
+
+    .tabs {
+        margin-bottom: 1.75rem;
+        padding-bottom: 0.75rem;
+        justify-content: flex-start;
+    }
+
+    .tab-btn {
+        padding: 0.65rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .search-row {
+        margin-bottom: 1.5rem;
+    }
+
+    .search-box, .new-filter {
+        padding: 0.85rem 1.1rem;
+    }
+
+    .result-count {
+        margin-left: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 1rem;
+    }
+
+    .word-card {
+        padding: 1.5rem 1rem;
+        border-radius: 16px;
+    }
+
+    .word-kr {
+        font-size: 1.9rem;
+    }
+
+    #panel-grammar .grid {
+        gap: 1rem;
+    }
+
+    .grammar-card {
+        padding: 1.5rem;
+    }
+
+    .quiz-card {
+        padding: 2rem 1.25rem;
+        border-radius: 18px;
+    }
+
+    .quiz-prompt {
+        font-size: 2.75rem;
+        margin-bottom: 2rem;
+    }
+
+    .quiz-prompt.is-latin {
+        font-size: 1.8rem;
+    }
+
+    .donut-wrap {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .stat-value {
+        font-size: 2.4rem;
+    }
+
+    .minji-hero {
+        padding: 1.5rem 0.25rem 3rem;
+    }
+
+    .minji-seal {
+        width: 104px;
+        height: 104px;
+    }
+
+    .minji-title {
+        font-size: 2.4rem;
+    }
+
+    .minji-cta, .minji-cta-secondary {
+        width: 100%;
+        justify-content: center;
+        padding: 0.9rem 1.5rem;
+    }
+
+    .minji-cta-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .minji-footer-cta {
+        padding: 2.25rem 1.5rem;
+    }
+
+    .landing-card {
+        padding: 2.25rem 1.5rem;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.25rem;
+    }
+
+    .footer-contacts {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .lang-btn .lang-label {
+        display: none;
+    }
+
+    .lang-btn {
+        padding: 0.5rem 0.65rem;
+    }
+
+    .theme-toggle {
+        padding: 0.5rem;
+    }
+
+    .theme-toggle #themeLabel {
+        display: none;
+    }
+
+    .page-link span:last-child {
+        font-size: 0.85rem;
+    }
 }

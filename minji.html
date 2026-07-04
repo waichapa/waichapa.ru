@@ -39,8 +39,8 @@
                 </div>
 
                 <div class="lang-switch" id="langSwitch">
-                    <button class="lang-btn active" data-lang="en"><span class="flag">🇬🇧</span><span>English</span></button>
-                    <button class="lang-btn" data-lang="ru"><span class="flag">🇷🇺</span><span>Русский</span></button>
+                    <button class="lang-btn active" data-lang="en"><span class="flag">🇬🇧</span><span class="lang-label">English</span></button>
+                    <button class="lang-btn" data-lang="ru"><span class="flag">🇷🇺</span><span class="lang-label">Русский</span></button>
                 </div>
 
                 <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch Theme">
@@ -59,10 +59,16 @@
             <div class="minji-subtitle" id="heroSubtitle">Your personal AI Korean tutor, right inside Discord</div>
             <p class="minji-lede" id="heroLede">Minji turns your server into a Korean-language hub — AI-generated lessons, a vocabulary that quizzes itself, TOPIK-style exams and an in-character chat partner, all wrapped in a light RPG progress system.</p>
             <div class="minji-cta-row">
-                <a class="minji-cta" id="addBotBtn" href="https://discord.com/oauth2/authorize?client_id=1519065491769921596&scope=bot%20applications.commands&permissions=0" target="_blank" rel="noopener">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
-                    <span id="ctaLabel">Add Minji to Discord</span>
-                </a>
+                <div class="minji-cta-buttons">
+                    <a class="minji-cta" id="addBotBtn" href="https://discord.com/oauth2/authorize?client_id=1519065491769921596&scope=bot%20applications.commands&permissions=0" target="_blank" rel="noopener">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+                        <span id="ctaLabel">Add Minji to Discord</span>
+                    </a>
+                    <a class="minji-cta-secondary" href="https://github.com/waichapa/minji" target="_blank" rel="noopener">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
+                        <span id="viewSourceLabel">View source</span>
+                    </a>
+                </div>
                 <div class="minji-cta-sub" id="ctaSub">Free to add · No configuration needed</div>
             </div>
         </section>
@@ -126,11 +132,35 @@
 
         <section class="minji-footer-cta">
             <h2 id="footerTitle">Bring Korean into your server</h2>
-            <a class="minji-cta" id="footerAddBotBtn" href="https://discord.com/oauth2/authorize?client_id=1519065491769921596&scope=bot%20applications.commands&permissions=0" target="_blank" rel="noopener">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
-                <span id="footerCtaLabel">Add Minji to Discord</span>
-            </a>
+            <div class="minji-cta-buttons">
+                <a class="minji-cta" id="footerAddBotBtn" href="https://discord.com/oauth2/authorize?client_id=1519065491769921596&scope=bot%20applications.commands&permissions=0" target="_blank" rel="noopener">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+                    <span id="footerCtaLabel">Add Minji to Discord</span>
+                </a>
+                <a class="minji-cta-secondary" href="https://github.com/waichapa/minji" target="_blank" rel="noopener">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
+                    <span id="footerViewSourceLabel">View source</span>
+                </a>
+            </div>
         </section>
+
+        <footer class="site-footer">
+            <div class="footer-copy">© 2026 waichapa</div>
+            <div class="footer-contacts">
+                <a class="footer-contact-link" href="https://github.com/waichapa" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
+                    <span>GitHub</span>
+                </a>
+                <a class="footer-contact-link" href="mailto:waichapaofficial@gmail.com">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+                    <span>waichapaofficial@gmail.com</span>
+                </a>
+                <span class="footer-contact-link footer-contact-static">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+                    <span>Discord: waichapa</span>
+                </span>
+            </div>
+        </footer>
     </div>
 
     <script src="minji.js"></script>
