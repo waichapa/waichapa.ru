@@ -3902,5 +3902,253 @@
   {
     "Korean": "구하다",
     "English": "save/rescue"
+  },
+  {
+    "Korean": "공부",
+    "English": "studying"
+  },
+  {
+    "Korean": "감사",
+    "English": "thanks / gratitude"
+  },
+  {
+    "Korean": "건강",
+    "English": "health"
+  },
+  {
+    "Korean": "계산",
+    "English": "calculation / bill"
+  },
+  {
+    "Korean": "관광",
+    "English": "sightseeing / tourism"
+  },
+  {
+    "Korean": "구경",
+    "English": "watching / looking around"
+  },
+  {
+    "Korean": "세수",
+    "English": "washing one's face"
+  },
+  {
+    "Korean": "시작",
+    "English": "beginning / start"
+  },
+  {
+    "Korean": "이야기",
+    "English": "story / talk"
+  },
+  {
+    "Korean": "전화",
+    "English": "telephone / phone call"
+  },
+  {
+    "Korean": "준비",
+    "English": "preparation"
+  },
+  {
+    "Korean": "취직",
+    "English": "getting a job"
+  },
+  {
+    "Korean": "친절",
+    "English": "kindness"
+  },
+  {
+    "Korean": "필요",
+    "English": "necessity / need"
+  },
+  {
+    "Korean": "행복",
+    "English": "happiness"
+  },
+  {
+    "Korean": "말",
+    "English": "word / speech / language"
+  },
+  {
+    "Korean": "유학",
+    "English": "studying abroad"
+  },
+  {
+    "Korean": "낚시",
+    "English": "fishing"
+  },
+  {
+    "Korean": "생각하다",
+    "English": "to think"
+  },
+  {
+    "Korean": "계획하다",
+    "English": "to plan"
+  },
+  {
+    "Korean": "경험하다",
+    "English": "to experience"
+  },
+  {
+    "Korean": "공연하다",
+    "English": "to perform"
+  },
+  {
+    "Korean": "결혼",
+    "English": "marriage"
+  },
+  {
+    "Korean": "결혼하다",
+    "English": "to marry"
+  },
+  {
+    "Korean": "도착",
+    "English": "arrival"
+  },
+  {
+    "Korean": "도착하다",
+    "English": "to arrive"
+  },
+  {
+    "Korean": "출발",
+    "English": "departure"
+  },
+  {
+    "Korean": "출발하다",
+    "English": "to depart"
+  },
+  {
+    "Korean": "이해",
+    "English": "understanding"
+  },
+  {
+    "Korean": "이해하다",
+    "English": "to understand"
+  },
+  {
+    "Korean": "사용",
+    "English": "use"
+  },
+  {
+    "Korean": "사용하다",
+    "English": "to use"
+  },
+  {
+    "Korean": "노력",
+    "English": "effort"
+  },
+  {
+    "Korean": "노력하다",
+    "English": "to make an effort"
+  },
+  {
+    "Korean": "성공",
+    "English": "success"
+  },
+  {
+    "Korean": "성공하다",
+    "English": "to succeed"
+  },
+  {
+    "Korean": "실패",
+    "English": "failure"
+  },
+  {
+    "Korean": "실패하다",
+    "English": "to fail"
+  },
+  {
+    "Korean": "졸업",
+    "English": "graduation"
+  },
+  {
+    "Korean": "졸업하다",
+    "English": "to graduate"
+  },
+  {
+    "Korean": "입학",
+    "English": "school enrollment"
+  },
+  {
+    "Korean": "입학하다",
+    "English": "to enroll (in school)"
+  },
+  {
+    "Korean": "대답",
+    "English": "answer"
+  },
+  {
+    "Korean": "대답하다",
+    "English": "to answer"
+  },
+  {
+    "Korean": "질문",
+    "English": "question"
+  },
+  {
+    "Korean": "문제",
+    "English": "problem / question (exam)"
+  },
+  {
+    "Korean": "물",
+    "English": "water"
+  },
+  {
+    "Korean": "불",
+    "English": "fire"
+  },
+  {
+    "Korean": "싫다",
+    "English": "to dislike / to not like"
+  },
+  {
+    "Korean": "싫어하다",
+    "English": "to hate / to dislike"
+  },
+  {
+    "Korean": "느리다",
+    "English": "slow"
+  },
+  {
+    "Korean": "배고프다",
+    "English": "hungry"
+  },
+  {
+    "Korean": "배부르다",
+    "English": "full (stomach)"
+  },
+  {
+    "Korean": "목마르다",
+    "English": "thirsty"
+  },
+  {
+    "Korean": "졸리다",
+    "English": "sleepy"
+  },
+  {
+    "Korean": "살",
+    "English": "counter for age (years old)"
+  },
+  {
+    "Korean": "마리",
+    "English": "counter for animals"
+  },
+  {
+    "Korean": "권",
+    "English": "counter for books"
+  },
+  {
+    "Korean": "벌",
+    "English": "counter for clothes/suits"
+  },
+  {
+    "Korean": "켤레",
+    "English": "counter for pairs (shoes, socks)"
+  },
+  {
+    "Korean": "장",
+    "English": "counter for flat objects (paper, tickets)"
+  },
+  {
+    "Korean": "대",
+    "English": "counter for machines/vehicles"
   }
 ]
