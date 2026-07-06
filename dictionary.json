@@ -880,10 +880,6 @@
     "English": "to be sick"
   },
   {
-    "Korean": "그거",
-    "English": "that (thing)"
-  },
-  {
     "Korean": "고향",
     "English": "hometown"
   },
@@ -2888,26 +2884,6 @@
     "English": "to walk / to collect"
   },
   {
-    "Korean": "국어",
-    "English": "Korean (language)"
-  },
-  {
-    "Korean": "그것",
-    "English": "that (thing) more formal"
-  },
-  {
-    "Korean": "그날",
-    "English": "that day"
-  },
-  {
-    "Korean": "그들",
-    "English": "they / them"
-  },
-  {
-    "Korean": "그때",
-    "English": "that time / then"
-  }
-  {
     "Korean": "간단히",
     "English": "simply"
   },
@@ -4181,11 +4157,11 @@
   },
   {
     "Korean": "국수",
-    "English": "noodles (or state affairs, depending on context)"
+    "English": "noodles"
   },
   {
     "Korean": "국어",
-    "English": "Korean (language) / national language"
+    "English": "Korean (language)"
   },
   {
     "Korean": "규칙",
@@ -4196,7 +4172,23 @@
     "English": "tangerine / mandarin orange"
   },
   {
-    "Korean": "국수",
-    "English": "noodles"
+    "Korean": "그거",
+    "English": "that (thing)"
+  },
+  {
+    "Korean": "그것",
+    "English": "that (thing) - more formal"
+  },
+  {
+    "Korean": "그날",
+    "English": "that day"
+  },
+  {
+    "Korean": "그들",
+    "English": "they / them"
+  },
+  {
+    "Korean": "그때",
+    "English": "that time / then"
   }
 ]
