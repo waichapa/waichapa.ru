@@ -1,4 +1,3 @@
-
 let DICTIONARY = [];
 let EXPANDED_DICTIONARY = [];
 let GRAMMAR = [];
