@@ -524,24 +524,11 @@ document.getElementById("themeToggle").addEventListener("click", () => {
     updateThemeLabel();
 });
 
-async function loadJSON(path) {
-    const response = await fetch(path);
-    if (!response.ok) {
-        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-    }
-    return response.json();
-}
-
 async function init() {
     try {
-        document.getElementById("dictGrid").innerHTML = `
-            <div class="empty-state">
-                <span class="big-kr">⏳</span>
-                Loading dictionary...
-            </div>
-        `;
-
-        DICTIONARY = await loadJSON('data/dictionary.json');
+        const res = await fetch("dictionary.json");
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        DICTIONARY = await res.json();
 
         const newCutoff = Math.max(0, DICTIONARY.length - 20);
         DICTIONARY.forEach((w, i) => {
@@ -552,27 +539,22 @@ async function init() {
         EXPANDED_DICTIONARY = expandDictionary(DICTIONARY);
 
         try {
-            GRAMMAR = await loadJSON('data/grammar.json');
+            const resGrammar = await fetch("grammar.json");
+            if (resGrammar.ok) {
+                GRAMMAR = await resGrammar.json();
+            }
         } catch (gErr) {
-            console.warn("Grammar data not loaded:", gErr);
-            GRAMMAR = [];
+            console.error("Failed to load grammar.json", gErr);
         }
 
         let savedLang = "en";
         try { savedLang = localStorage.getItem("waichapa-lang") || "en"; } catch (e) {}
         setLang(savedLang);
-
     } catch (err) {
-        console.error("Init error:", err);
         document.getElementById("dictGrid").innerHTML = `
             <div class="empty-state">
                 <span class="big-kr">⚠️</span>
-                Failed to load data.<br>
-                <small style="color: var(--text-soft); display: block; margin-top: 8px;">
-                    Error: ${err.message}<br>
-                    Make sure the files exist in the <strong>data/</strong> folder.<br>
-                    Path: data/dictionary.json and data/grammar.json
-                </small>
+                Failed to load data. Ensure you use VS Code Live Server or GitHub Pages.
             </div>
         `;
         document.getElementById("statsText").textContent = "—";
@@ -580,4 +562,4 @@ async function init() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', init);
+init();
