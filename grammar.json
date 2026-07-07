@@ -80,6 +80,22 @@
     "en_example": "친구하고 영화 봤어요. — I watched a movie with a friend. / 사과하고 바나나를 샀어요. — I bought apples and bananas."
   },
   {
+    "ru_title": "Соединительный союз 와/과",
+    "en_title": "Connective particle 와/과",
+    "ru_explanation": "Соединяет существительные в значении 'и' (с кем-то/с чем-то) или 'и' для перечисления объектов. 과 — после согласной, 와 — после гласной. Используется в письменной и формальной речи, более формальный вариант, чем 하고 и (이)랑. Может означать как соединение объектов ('A и B'), так и совместность действия ('с A'). В разговорной речи часто заменяется на 하고 или (이)랑. Также используется в книжных и официальных текстах, новостях, документах. В вопросительной форме может использоваться для уточнения совместности.",
+    "en_explanation": "Connects nouns meaning 'and' or 'with'. 과 after consonants, 와 after vowels. Used in written and formal speech, more formal than 하고 and (이)랑. Can mean both connection of objects ('A and B') and accompaniment ('with A'). In colloquial speech, often replaced by 하고 or (이)랑. Also used in literary and official texts, news, documents. In interrogative form can be used to clarify accompaniment.",
+    "ru_example": "사과와 바나나를 샀어요. — Купил яблоки и бананы. / 친구와 영화를 봤어요. — Смотрел фильм с другом. / 교수님과 상담했어요. — Проконсультировался с профессором. / 한국과 일본은 가까워요. — Корея и Япония близки.",
+    "en_example": "사과와 바나나를 샀어요. — I bought apples and bananas. / 친구와 영화를 봤어요. — I watched a movie with a friend. / 교수님과 상담했어요. — I consulted with the professor. / 한국과 일본은 가까워요. — Korea and Japan are close."
+  },
+  {
+    "ru_title": "Соединительный союз (이)랑",
+    "en_title": "Connective particle (이)랑",
+    "ru_explanation": "Соединяет существительные в значении 'и' (с кем-то/с чем-то) или 'и' для перечисления объектов. 이랑 — после согласной, 랑 — после гласной. Используется в разговорной и неформальной речи, самый разговорный вариант среди 와/과, 하고, (이)랑. Может означать как соединение объектов ('A и B'), так и совместность действия ('с A'). Часто используется в повседневном общении между друзьями, знакомыми, в неформальных ситуациях. В формальной речи не используется. В вопросительной форме часто используется для предложений ('сходим с ...?').",
+    "en_explanation": "Connects nouns meaning 'and' or 'with'. 이랑 after consonants, 랑 after vowels. Used in colloquial and informal speech, the most colloquial among 와/과, 하고, (이)랑. Can mean both connection of objects ('A and B') and accompaniment ('with A'). Often used in everyday communication between friends, acquaintances, in informal situations. Not used in formal speech. In interrogative form, often used for suggestions ('shall we go with ...?').",
+    "ru_example": "친구랑 영화 봤어요. — Смотрел фильм с другом. / 사과랑 바나나를 샀어요. — Купил яблоки и бананы. / 누구랑 갈 거예요? — С кем пойдёшь? / 커피랑 케이크를 주문했어요. — Заказал кофе и торт.",
+    "en_example": "친구랑 영화 봤어요. — I watched a movie with a friend. / 사과랑 바나나를 샀어요. — I bought apples and bananas. / 누구랑 갈 거예요? — Who will you go with? / 커피랑 케이크를 주문했어요. — I ordered coffee and cake."
+  },
+  {
     "ru_title": "Творительный падеж (는)으로/로",
     "en_title": "Instrumental particle (는)으로/로",
     "ru_explanation": "Указывает на средство, инструмент, способ, направление или роль. 로 после гласной или согласной ㄹ, 으로 после остальных согласных. Также используется для обозначения направления движения и выбора профессии/роли. В разговорной речи 로 часто используется даже там, где по правилам должен быть 으로 (особенно в быстрой речи).",
