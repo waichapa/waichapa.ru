@@ -1,7 +1,7 @@
 let DICTIONARY = [];
 let EXPANDED_DICTIONARY = [];
 let GRAMMAR = [];
-let showNewOnly = false;
+let recentLimit = null;
 let currentTab = "dict";
 
 let quizPool = [];
@@ -10,20 +10,28 @@ let quizCorrectCount = 0;
 let quizWrongCount = 0;
 let quizAnswered = false;
 
-const THEMES = ["dark-green", "dark-indigo", "pastel-lavender", "pastel-peach"];
+const THEMES = ["dark-green", "dark-indigo", "dark-plum", "dark-ocean", "pastel-lavender", "pastel-peach", "pastel-mint", "pastel-rose"];
 
 const THEME_NAMES = {
     en: {
         "dark-green": "Dark Green",
         "dark-indigo": "Dark Indigo",
+        "dark-plum": "Dark Plum",
+        "dark-ocean": "Dark Ocean",
         "pastel-lavender": "Lavender",
-        "pastel-peach": "Peach"
+        "pastel-peach": "Peach",
+        "pastel-mint": "Mint",
+        "pastel-rose": "Rose"
     },
     ru: {
         "dark-green": "Тёмно-зелёная",
         "dark-indigo": "Тёмно-синяя",
+        "dark-plum": "Тёмно-сливовая",
+        "dark-ocean": "Тёмный океан",
         "pastel-lavender": "Лаванда",
-        "pastel-peach": "Персиковая"
+        "pastel-peach": "Персиковая",
+        "pastel-mint": "Мятная",
+        "pastel-rose": "Розовая"
     }
 };
 
@@ -42,10 +50,12 @@ const STR = {
         grammarPlaceholder: "Search grammar rules…",
         resultCount: n => `${n} words`,
         grammarResultCount: n => `${n} rules`,
-        statsText: (t) => `Words learned: <b>${t}</b> <span class="level-badge">2 급</span>`,
+        statsText: (words, grammar) => `Words learned: <b>${words}</b> <span class="stat-sep">·</span> Grammar: <b>${grammar}</b> <span class="level-badge">2 급</span>`,
         noResults: "No matches found",
-        noResultsNew: "No matches among the new words",
-        newFilter: "New",
+        recentAll: "All words",
+        recentLast10: "Last 10",
+        recentLast30: "Last 30",
+        recentLast50: "Last 50",
         newBadge: "new",
         themeToggle: "Switch Theme",
         tabDict: "Dictionary",
@@ -78,10 +88,12 @@ const STR = {
         grammarPlaceholder: "Поиск грамматических правил…",
         resultCount: n => `${n} слов`,
         grammarResultCount: n => `${n} правил`,
-        statsText: (t) => `Выучено слов: <b>${t}</b> <span class="level-badge">2 급</span>`,
+        statsText: (words, grammar) => `Выучено слов: <b>${words}</b> <span class="stat-sep">·</span> Грамматик: <b>${grammar}</b> <span class="level-badge">2 급</span>`,
         noResults: "Ничего не найдено",
-        noResultsNew: "Среди новых слов ничего не найдено",
-        newFilter: "Новые",
+        recentAll: "Все слова",
+        recentLast10: "Последние 10",
+        recentLast30: "Последние 30",
+        recentLast50: "Последние 50",
         newBadge: "новое",
         themeToggle: "Переключить тему",
         tabDict: "Словарь",
@@ -148,7 +160,7 @@ function expandDictionary(dict) {
 }
 
 function renderHeader() {
-    document.getElementById("statsText").innerHTML = t().statsText(EXPANDED_DICTIONARY.length);
+    document.getElementById("statsText").innerHTML = t().statsText(EXPANDED_DICTIONARY.length, GRAMMAR.length);
 }
 
 function renderGrid() {
@@ -158,8 +170,9 @@ function renderGrid() {
 
     let filtered = EXPANDED_DICTIONARY;
 
-    if (showNewOnly) {
-        filtered = filtered.filter(w => w.isNew);
+    if (recentLimit) {
+        const cutoff = Math.max(0, DICTIONARY.length - recentLimit);
+        filtered = filtered.filter(w => w.id >= cutoff);
     }
 
     if (query) {
@@ -172,8 +185,7 @@ function renderGrid() {
     document.getElementById("resultCount").textContent = t().resultCount(filtered.length);
 
     if (filtered.length === 0) {
-        const message = showNewOnly ? t().noResultsNew : t().noResults;
-        grid.innerHTML = `<div class="empty-state"><span class="big-kr">🔍</span>${message}</div>`;
+        grid.innerHTML = `<div class="empty-state"><span class="big-kr">🔍</span>${t().noResults}</div>`;
         return;
     }
 
@@ -472,7 +484,10 @@ function setLang(lang) {
     });
     document.getElementById("searchInput").placeholder = t().searchPlaceholder;
     document.getElementById("grammarSearchInput").placeholder = t().grammarPlaceholder;
-    document.getElementById("newFilterLabel").textContent = t().newFilter;
+    document.getElementById("recentAllOpt").textContent = t().recentAll;
+    document.getElementById("recentLast10Opt").textContent = t().recentLast10;
+    document.getElementById("recentLast30Opt").textContent = t().recentLast30;
+    document.getElementById("recentLast50Opt").textContent = t().recentLast50;
     document.getElementById("themeToggle").setAttribute("aria-label", t().themeToggle);
     document.getElementById("tabDictLabel").textContent = t().tabDict;
     document.getElementById("tabGrammarLabel").textContent = t().tabGrammar;
@@ -503,9 +518,9 @@ document.getElementById("langSwitch").addEventListener("click", e => {
 document.getElementById("searchInput").addEventListener("input", renderGrid);
 document.getElementById("grammarSearchInput").addEventListener("input", renderGrammar);
 
-document.getElementById("newFilter").addEventListener("click", () => {
-    showNewOnly = !showNewOnly;
-    document.getElementById("newFilter").classList.toggle("active", showNewOnly);
+document.getElementById("recentFilter").addEventListener("change", (e) => {
+    const val = e.target.value;
+    recentLimit = val === "all" ? null : parseInt(val, 10);
     renderGrid();
 });
 

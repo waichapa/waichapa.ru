@@ -1,17 +1,25 @@
-const THEMES = ["dark-green", "dark-indigo", "pastel-lavender", "pastel-peach"];
+const THEMES = ["dark-green", "dark-indigo", "dark-plum", "dark-ocean", "pastel-lavender", "pastel-peach", "pastel-mint", "pastel-rose"];
 
 const THEME_NAMES = {
     en: {
         "dark-green": "Dark Green",
         "dark-indigo": "Dark Indigo",
+        "dark-plum": "Dark Plum",
+        "dark-ocean": "Dark Ocean",
         "pastel-lavender": "Lavender",
-        "pastel-peach": "Peach"
+        "pastel-peach": "Peach",
+        "pastel-mint": "Mint",
+        "pastel-rose": "Rose"
     },
     ru: {
         "dark-green": "Тёмно-зелёная",
         "dark-indigo": "Тёмно-синяя",
+        "dark-plum": "Тёмно-сливовая",
+        "dark-ocean": "Тёмный океан",
         "pastel-lavender": "Лаванда",
-        "pastel-peach": "Персиковая"
+        "pastel-peach": "Персиковая",
+        "pastel-mint": "Мятная",
+        "pastel-rose": "Розовая"
     }
 };
 
