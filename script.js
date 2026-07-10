@@ -5,12 +5,13 @@ let recentLimit = null;
 let currentTab = "dict";
 
 let quizPool = [];
+let quizRecentLimit = null;
 let quizCurrent = null;
 let quizCorrectCount = 0;
 let quizWrongCount = 0;
 let quizAnswered = false;
 
-const THEMES = ["dark-green", "dark-indigo", "dark-plum", "dark-ocean", "pastel-lavender", "pastel-peach", "pastel-mint", "pastel-rose"];
+const THEMES = ["dark-green", "dark-indigo", "dark-plum", "dark-ocean", "pastel-lavender", "pastel-peach", "pastel-mint", "pastel-rose", "sakura", "hacker"];
 
 const THEME_NAMES = {
     en: {
@@ -21,7 +22,9 @@ const THEME_NAMES = {
         "pastel-lavender": "Lavender",
         "pastel-peach": "Peach",
         "pastel-mint": "Mint",
-        "pastel-rose": "Rose"
+        "pastel-rose": "Rose",
+        "sakura": "Sakura",
+        "hacker": "Hacker"
     },
     ru: {
         "dark-green": "Тёмно-зелёная",
@@ -31,7 +34,9 @@ const THEME_NAMES = {
         "pastel-lavender": "Лаванда",
         "pastel-peach": "Персиковая",
         "pastel-mint": "Мятная",
-        "pastel-rose": "Розовая"
+        "pastel-rose": "Розовая",
+        "sakura": "Сакура",
+        "hacker": "Хакер"
     }
 };
 
@@ -286,8 +291,17 @@ function pickRandom(arr, count, exclude) {
     return picked;
 }
 
+function getQuizPool() {
+    if (!quizRecentLimit) return EXPANDED_DICTIONARY;
+    const cutoff = Math.max(0, DICTIONARY.length - quizRecentLimit);
+    const pool = EXPANDED_DICTIONARY.filter(w => w.id >= cutoff);
+    return pool.length ? pool : EXPANDED_DICTIONARY;
+}
+
 function nextQuizQuestion() {
     if (!EXPANDED_DICTIONARY.length) return;
+
+    quizPool = getQuizPool();
 
     quizAnswered = false;
     document.getElementById("quizFeedback").textContent = "";
@@ -295,8 +309,9 @@ function nextQuizQuestion() {
     document.getElementById("quizNext").classList.remove("visible");
 
     const direction = Math.random() < 0.5 ? "kr-to-en" : "en-to-kr";
-    const answer = EXPANDED_DICTIONARY[Math.floor(Math.random() * EXPANDED_DICTIONARY.length)];
-    const distractors = pickRandom(EXPANDED_DICTIONARY, 3, answer);
+    const answer = quizPool[Math.floor(Math.random() * quizPool.length)];
+    const distractorSource = quizPool.length >= 4 ? quizPool : EXPANDED_DICTIONARY;
+    const distractors = pickRandom(distractorSource, 3, answer);
     const options = [answer, ...distractors].sort(() => Math.random() - 0.5);
 
     quizCurrent = { direction, answer, options };
@@ -354,6 +369,15 @@ function renderQuizScore() {
 }
 
 document.getElementById("quizNext").addEventListener("click", nextQuizQuestion);
+
+document.getElementById("quizRecentFilter").addEventListener("change", (e) => {
+    const val = e.target.value;
+    quizRecentLimit = val === "all" ? null : parseInt(val, 10);
+    quizCorrectCount = 0;
+    quizWrongCount = 0;
+    renderQuizScore();
+    nextQuizQuestion();
+});
 
 function renderStats() {
     const wrap = document.getElementById("statsGrid");
@@ -488,6 +512,10 @@ function setLang(lang) {
     document.getElementById("recentLast10Opt").textContent = t().recentLast10;
     document.getElementById("recentLast30Opt").textContent = t().recentLast30;
     document.getElementById("recentLast50Opt").textContent = t().recentLast50;
+    document.getElementById("quizRecentAllOpt").textContent = t().recentAll;
+    document.getElementById("quizRecentLast10Opt").textContent = t().recentLast10;
+    document.getElementById("quizRecentLast30Opt").textContent = t().recentLast30;
+    document.getElementById("quizRecentLast50Opt").textContent = t().recentLast50;
     document.getElementById("themeToggle").setAttribute("aria-label", t().themeToggle);
     document.getElementById("tabDictLabel").textContent = t().tabDict;
     document.getElementById("tabGrammarLabel").textContent = t().tabGrammar;

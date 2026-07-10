@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark-green">
+<!-- build: v4 -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="stylesheet" href="style.css?v=4">
     <script>
         (function () {
             try {
@@ -99,6 +100,17 @@
 
         <section class="tab-panel" id="panel-quiz">
             <div class="quiz-wrap">
+                <div class="quiz-mode-row">
+                    <div class="recent-filter-wrap">
+                        <select class="recent-filter" id="quizRecentFilter">
+                            <option value="all" id="quizRecentAllOpt">All words</option>
+                            <option value="10" id="quizRecentLast10Opt">Last 10</option>
+                            <option value="30" id="quizRecentLast30Opt">Last 30</option>
+                            <option value="50" id="quizRecentLast50Opt">Last 50</option>
+                        </select>
+                        <svg class="recent-filter-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </div>
+                </div>
                 <div class="quiz-score" id="quizScore"></div>
                 <div class="quiz-card" id="quizCard">
                     <div class="quiz-prompt-label" id="quizPromptLabel"></div>
@@ -133,6 +145,6 @@
         </footer>
     </div>
 
-    <script src="script.js?v=3"></script>
+    <script src="script.js?v=4"></script>
 </body>
 </html>
