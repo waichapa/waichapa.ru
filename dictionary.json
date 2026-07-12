@@ -1,4320 +1,5397 @@
 [
   {
     "Korean": "일하다",
-    "English": "to work"
+    "English": "to work",
+    "Russian": "работать"
   },
   {
     "Korean": "자다",
-    "English": "to sleep"
+    "English": "to sleep",
+    "Russian": "спать"
   },
   {
     "Korean": "이야기하다",
-    "English": "have a conversation"
+    "English": "have a conversation",
+    "Russian": "разговаривать, беседовать"
   },
   {
     "Korean": "공부하다",
-    "English": "to study"
+    "English": "to study",
+    "Russian": "учиться, заниматься"
   },
   {
     "Korean": "전화하다",
-    "English": "to call"
+    "English": "to call",
+    "Russian": "звонить"
   },
   {
     "Korean": "운동하다",
-    "English": "to work out"
+    "English": "to work out",
+    "Russian": "заниматься спортом, тренироваться"
   },
   {
     "Korean": "하다",
-    "English": "to do"
+    "English": "to do",
+    "Russian": "делать"
   },
   {
     "Korean": "가다",
-    "English": "to go"
+    "English": "to go",
+    "Russian": "идти, ехать"
   },
   {
     "Korean": "먹다",
-    "English": "to eat"
+    "English": "to eat",
+    "Russian": "есть, кушать"
   },
   {
     "Korean": "기다리다",
-    "English": "to wait"
+    "English": "to wait",
+    "Russian": "ждать"
   },
   {
     "Korean": "보내다",
-    "English": "to send"
+    "English": "to send",
+    "Russian": "посылать, отправлять"
   },
   {
     "Korean": "덥다",
-    "English": "hot"
+    "English": "hot",
+    "Russian": "жаркий"
   },
   {
     "Korean": "돕다",
-    "English": "to help"
+    "English": "to help",
+    "Russian": "помогать"
   },
   {
     "Korean": "좁다",
-    "English": "narrow"
+    "English": "narrow",
+    "Russian": "узкий"
   },
   {
     "Korean": "듣다",
-    "English": "to listen"
+    "English": "to listen",
+    "Russian": "слушать, слышать"
   },
   {
     "Korean": "짓다",
-    "English": "to build"
+    "English": "to build",
+    "Russian": "строить, возводить"
   },
   {
     "Korean": "쓰다",
-    "English": "to write / to be bitter / to use"
+    "English": "to write / to be bitter / to use",
+    "Russian": "писать / горький / использовать, носить (на голове)"
   },
   {
     "Korean": "씻다",
-    "English": "to wash"
+    "English": "to wash",
+    "Russian": "мыть, умываться"
   },
   {
     "Korean": "기쁘다",
-    "English": "to be glad"
+    "English": "to be glad",
+    "Russian": "быть радостным"
   },
   {
     "Korean": "예쁘다",
-    "English": "pretty"
+    "English": "pretty",
+    "Russian": "красивый, милый"
   },
   {
     "Korean": "나쁘다",
-    "English": "bad"
+    "English": "bad",
+    "Russian": "плохой"
   },
   {
     "Korean": "달",
-    "English": "moon / month"
+    "English": "moon / month",
+    "Russian": "луна / месяц"
   },
   {
     "Korean": "흐르다",
-    "English": "to flow"
+    "English": "to flow",
+    "Russian": "течь, протекать"
   },
   {
     "Korean": "지금",
-    "English": "now"
+    "English": "now",
+    "Russian": "сейчас"
   },
   {
     "Korean": "뭐",
-    "English": "what"
+    "English": "what",
+    "Russian": "что (неформально)"
   },
   {
     "Korean": "무엇",
-    "English": "what (formal)"
+    "English": "what (formal)",
+    "Russian": "что (формально)"
   },
   {
     "Korean": "오늘",
-    "English": "today"
+    "English": "today",
+    "Russian": "сегодня"
   },
   {
     "Korean": "누가",
-    "English": "who"
+    "English": "who",
+    "Russian": "кто"
   },
   {
     "Korean": "만나서 반가워요",
-    "English": "nice to meet you"
+    "English": "nice to meet you",
+    "Russian": "рад(а) познакомиться (вежливо)"
   },
   {
     "Korean": "코",
-    "English": "nose"
+    "English": "nose",
+    "Russian": "нос"
   },
   {
     "Korean": "모자",
-    "English": "hat"
+    "English": "hat",
+    "Russian": "шляпа, шапка"
   },
   {
     "Korean": "구두",
-    "English": "shoes"
+    "English": "shoes",
+    "Russian": "туфли (кожаные)"
   },
   {
     "Korean": "바지",
-    "English": "pants"
+    "English": "pants",
+    "Russian": "брюки"
   },
   {
     "Korean": "포도",
-    "English": "grape"
+    "English": "grape",
+    "Russian": "виноград"
   },
   {
     "Korean": "배",
-    "English": "pear / ship / stomach"
+    "English": "pear / ship / stomach",
+    "Russian": "груша / корабль / желудок"
   },
   {
     "Korean": "배개",
-    "English": "pillow"
+    "English": "pillow",
+    "Russian": "подушка"
   },
   {
     "Korean": "수박",
-    "English": "watermelon"
+    "English": "watermelon",
+    "Russian": "арбуз"
   },
   {
     "Korean": "눈",
-    "English": "eye / snow"
+    "English": "eye / snow",
+    "Russian": "глаз / снег"
   },
   {
     "Korean": "밤",
-    "English": "night / chestnut"
+    "English": "night / chestnut",
+    "Russian": "ночь / каштан"
   },
   {
     "Korean": "집",
-    "English": "home"
+    "English": "home",
+    "Russian": "дом"
   },
   {
     "Korean": "한국",
-    "English": "Korea"
+    "English": "Korea",
+    "Russian": "Корея"
   },
   {
     "Korean": "일본",
-    "English": "Japan"
+    "English": "Japan",
+    "Russian": "Япония"
   },
   {
     "Korean": "중국",
-    "English": "China"
+    "English": "China",
+    "Russian": "Китай"
   },
   {
     "Korean": "베트남",
-    "English": "Vietnam"
+    "English": "Vietnam",
+    "Russian": "Вьетнам"
   },
   {
     "Korean": "몽골",
-    "English": "Mongolia"
+    "English": "Mongolia",
+    "Russian": "Монголия"
   },
   {
     "Korean": "태국",
-    "English": "Thailand"
+    "English": "Thailand",
+    "Russian": "Таиланд"
   },
   {
     "Korean": "빵",
-    "English": "bread"
+    "English": "bread",
+    "Russian": "хлеб"
   },
   {
     "Korean": "학생",
-    "English": "student"
+    "English": "student",
+    "Russian": "студент, ученик"
   },
   {
     "Korean": "의사",
-    "English": "doctor"
+    "English": "doctor",
+    "Russian": "врач"
   },
   {
     "Korean": "선생님",
-    "English": "teacher"
+    "English": "teacher",
+    "Russian": "учитель (вежливо)"
   },
   {
     "Korean": "경찰",
-    "English": "police"
+    "English": "police",
+    "Russian": "полиция"
   },
   {
     "Korean": "회사원",
-    "English": "office worker"
+    "English": "office worker",
+    "Russian": "офисный работник"
   },
   {
     "Korean": "공무원",
-    "English": "civil servant"
+    "English": "civil servant",
+    "Russian": "государственный служащий"
   },
   {
     "Korean": "학교",
-    "English": "school"
+    "English": "school",
+    "Russian": "школа"
   },
   {
     "Korean": "저녁",
-    "English": "evening"
+    "English": "evening",
+    "Russian": "вечер"
   },
   {
     "Korean": "있다",
-    "English": "to exist"
+    "English": "to exist",
+    "Russian": "быть, находиться, иметься"
   },
   {
     "Korean": "없다",
-    "English": "to not exist"
+    "English": "to not exist",
+    "Russian": "не быть, отсутствовать"
   },
   {
     "Korean": "어디",
-    "English": "where"
+    "English": "where",
+    "Russian": "где"
   },
   {
     "Korean": "책상",
-    "English": "desk"
+    "English": "desk",
+    "Russian": "письменный стол"
   },
   {
     "Korean": "의자",
-    "English": "chair"
+    "English": "chair",
+    "Russian": "стул"
   },
   {
     "Korean": "펜",
-    "English": "pen"
+    "English": "pen",
+    "Russian": "ручка"
   },
   {
     "Korean": "가방",
-    "English": "bag"
+    "English": "bag",
+    "Russian": "сумка, рюкзак"
   },
   {
     "Korean": "어",
-    "English": "uh"
+    "English": "uh",
+    "Russian": "э-э"
   },
   {
     "Korean": "이분",
-    "English": "this person (polite)"
+    "English": "this person (polite)",
+    "Russian": "этот человек (вежливо)"
   },
   {
     "Korean": "그분",
-    "English": "that person (polite)"
+    "English": "that person (polite)",
+    "Russian": "тот человек (вежливо)"
   },
   {
     "Korean": "저분",
-    "English": "that person over there (polite)"
+    "English": "that person over there (polite)",
+    "Russian": "вон тот человек (вежливо)"
   },
   {
     "Korean": "이",
-    "English": "this / tooth"
+    "English": "this / tooth",
+    "Russian": "этот / зуб"
   },
   {
     "Korean": "저",
-    "English": "that (over there)"
+    "English": "that (over there)",
+    "Russian": "тот (вон там)"
   },
   {
     "Korean": "그",
-    "English": "that / he"
+    "English": "that / he",
+    "Russian": "тот / он"
   },
   {
     "Korean": "쥐",
-    "English": "mouse / rat"
+    "English": "mouse / rat",
+    "Russian": "мышь / крыса"
   },
   {
     "Korean": "아버지",
-    "English": "father"
+    "English": "father",
+    "Russian": "отец"
   },
   {
     "Korean": "어머니",
-    "English": "mother"
+    "English": "mother",
+    "Russian": "мать"
   },
   {
     "Korean": "아들",
-    "English": "son"
+    "English": "son",
+    "Russian": "сын"
   },
   {
     "Korean": "기숙사",
-    "English": "dormitory"
+    "English": "dormitory",
+    "Russian": "общежитие"
   },
   {
     "Korean": "침대",
-    "English": "bed"
+    "English": "bed",
+    "Russian": "кровать"
   },
   {
     "Korean": "텔레비전",
-    "English": "television"
+    "English": "television",
+    "Russian": "телевизор"
   },
   {
     "Korean": "잡지",
-    "English": "magazine"
+    "English": "magazine",
+    "Russian": "журнал"
   },
   {
     "Korean": "책",
-    "English": "book"
+    "English": "book",
+    "Russian": "книга"
   },
   {
     "Korean": "방",
-    "English": "room"
+    "English": "room",
+    "Russian": "комната"
   },
   {
     "Korean": "알람시계",
-    "English": "alarm clock"
+    "English": "alarm clock",
+    "Russian": "будильник"
   },
   {
     "Korean": "컴퓨터",
-    "English": "computer"
+    "English": "computer",
+    "Russian": "компьютер"
   },
   {
     "Korean": "티셔츠",
-    "English": "t-shirt"
+    "English": "t-shirt",
+    "Russian": "футболка"
   },
   {
     "Korean": "교실",
-    "English": "classroom"
+    "English": "classroom",
+    "Russian": "класс (комната)"
   },
   {
     "Korean": "사과",
-    "English": "apple"
+    "English": "apple",
+    "Russian": "яблоко"
   },
   {
     "Korean": "우유",
-    "English": "milk"
+    "English": "milk",
+    "Russian": "молоко"
   },
   {
     "Korean": "오렌지",
-    "English": "orange"
+    "English": "orange",
+    "Russian": "апельсин"
   },
   {
     "Korean": "주스",
-    "English": "juice"
+    "English": "juice",
+    "Russian": "сок"
   },
   {
     "Korean": "마시다",
-    "English": "to drink"
+    "English": "to drink",
+    "Russian": "пить"
   },
   {
     "Korean": "사다",
-    "English": "to buy"
+    "English": "to buy",
+    "Russian": "покупать"
   },
   {
     "Korean": "좋아하다",
-    "English": "to like"
+    "English": "to like",
+    "Russian": "нравиться, любить"
   },
   {
     "Korean": "자주",
-    "English": "often"
+    "English": "often",
+    "Russian": "часто"
   },
   {
     "Korean": "만나다",
-    "English": "to meet"
+    "English": "to meet",
+    "Russian": "встречать(ся)"
   },
   {
     "Korean": "아이스크림",
-    "English": "ice cream"
+    "English": "ice cream",
+    "Russian": "мороженое"
   },
   {
     "Korean": "보다",
-    "English": "to see"
+    "English": "to see",
+    "Russian": "видеть, смотреть"
   },
   {
     "Korean": "읽다",
-    "English": "to read"
+    "English": "to read",
+    "Russian": "читать"
   },
   {
     "Korean": "시장",
-    "English": "market"
+    "English": "market",
+    "Russian": "рынок"
   },
   {
     "Korean": "배우다",
-    "English": "to learn"
+    "English": "to learn",
+    "Russian": "учиться, изучать"
   },
   {
     "Korean": "주다",
-    "English": "to give"
+    "English": "to give",
+    "Russian": "давать"
   },
   {
     "Korean": "얼마",
-    "English": "how much"
+    "English": "how much",
+    "Russian": "сколько (стоит)"
   },
   {
     "Korean": "원",
-    "English": "won (currency)"
+    "English": "won (currency)",
+    "Russian": "вона (валюта)"
   },
   {
     "Korean": "드리다",
-    "English": "to give (polite)"
+    "English": "to give (polite)",
+    "Russian": "давать (вежливо)"
   },
   {
     "Korean": "여자",
-    "English": "woman"
+    "English": "woman",
+    "Russian": "женщина"
   },
   {
     "Korean": "남자",
-    "English": "man"
+    "English": "man",
+    "Russian": "мужчина"
   },
   {
     "Korean": "슈퍼마켓",
-    "English": "supermarket"
+    "English": "supermarket",
+    "Russian": "супермаркет"
   },
   {
     "Korean": "싸다",
-    "English": "cheap"
+    "English": "cheap",
+    "Russian": "дешёвый"
   },
   {
     "Korean": "시",
-    "English": "o'clock"
+    "English": "o'clock",
+    "Russian": "час"
   },
   {
     "Korean": "킬로",
-    "English": "kilo"
+    "English": "kilo",
+    "Russian": "кило"
   },
   {
     "Korean": "그램",
-    "English": "gram"
+    "English": "gram",
+    "Russian": "грамм"
   },
   {
     "Korean": "미터",
-    "English": "meter"
+    "English": "meter",
+    "Russian": "метр"
   },
   {
     "Korean": "킬로미터",
-    "English": "kilometer"
+    "English": "kilometer",
+    "Russian": "километр"
   },
   {
     "Korean": "리터",
-    "English": "liter"
+    "English": "liter",
+    "Russian": "литр"
   },
   {
     "Korean": "페이지",
-    "English": "page"
+    "English": "page",
+    "Russian": "страница"
   },
   {
     "Korean": "찾다",
-    "English": "to look for"
+    "English": "to look for",
+    "Russian": "искать"
   },
   {
     "Korean": "오다",
-    "English": "to come"
+    "English": "to come",
+    "Russian": "приходить"
   },
   {
     "Korean": "여기",
-    "English": "here"
+    "English": "here",
+    "Russian": "здесь"
   },
   {
     "Korean": "양파",
-    "English": "onion"
+    "English": "onion",
+    "Russian": "лук"
   },
   {
     "Korean": "토마토",
-    "English": "tomato"
+    "English": "tomato",
+    "Russian": "помидор"
   },
   {
     "Korean": "계란",
-    "English": "egg"
+    "English": "egg",
+    "Russian": "яйцо"
   },
   {
     "Korean": "당근",
-    "English": "carrot"
+    "English": "carrot",
+    "Russian": "морковь"
   },
   {
     "Korean": "친구",
-    "English": "friend"
+    "English": "friend",
+    "Russian": "друг"
   },
   {
     "Korean": "바나나",
-    "English": "banana"
+    "English": "banana",
+    "Russian": "банан"
   },
   {
     "Korean": "운동",
-    "English": "exercise"
+    "English": "exercise",
+    "Russian": "упражнение, спорт"
   },
   {
     "Korean": "부르다",
-    "English": "to call / to sing"
+    "English": "to call / to sing",
+    "Russian": "звать / петь"
   },
   {
     "Korean": "노래",
-    "English": "song"
+    "English": "song",
+    "Russian": "песня"
   },
   {
     "Korean": "병",
-    "English": "bottle / illness"
+    "English": "bottle / illness",
+    "Russian": "бутылка / болезнь"
   },
   {
     "Korean": "모두",
-    "English": "everyone"
+    "English": "everyone",
+    "Russian": "все"
   },
   {
     "Korean": "몇",
-    "English": "how many"
+    "English": "how many",
+    "Russian": "сколько"
   },
   {
     "Korean": "가게",
-    "English": "store"
+    "English": "store",
+    "Russian": "магазин"
   },
   {
     "Korean": "얼마나",
-    "English": "how much (to what extent)"
+    "English": "how much (to what extent)",
+    "Russian": "насколько"
   },
   {
     "Korean": "똑똑하다",
-    "English": "to be smart"
+    "English": "to be smart",
+    "Russian": "быть умным"
   },
   {
     "Korean": "지난",
-    "English": "last"
+    "English": "last",
+    "Russian": "прошлый"
   },
   {
     "Korean": "주말",
-    "English": "weekend"
+    "English": "weekend",
+    "Russian": "выходные"
   },
   {
     "Korean": "영화",
-    "English": "movie"
+    "English": "movie",
+    "Russian": "фильм"
   },
   {
     "Korean": "숙제",
-    "English": "homework"
+    "English": "homework",
+    "Russian": "домашнее задание"
   },
   {
     "Korean": "점심",
-    "English": "lunch"
+    "English": "lunch",
+    "Russian": "обед"
   },
   {
     "Korean": "불고기",
-    "English": "bulgogi (Korean BBQ beef)"
+    "English": "bulgogi (Korean BBQ beef)",
+    "Russian": "пулькоги (корейское барбекю)"
   },
   {
     "Korean": "만들다",
-    "English": "to make"
+    "English": "to make",
+    "Russian": "делать, создавать"
   },
   {
     "Korean": "어제",
-    "English": "yesterday"
+    "English": "yesterday",
+    "Russian": "вчера"
   },
   {
     "Korean": "우리",
-    "English": "we"
+    "English": "we",
+    "Russian": "мы"
   },
   {
     "Korean": "같이",
-    "English": "together"
+    "English": "together",
+    "Russian": "вместе"
   },
   {
     "Korean": "밥",
-    "English": "rice"
+    "English": "rice",
+    "Russian": "рис (приготовленный)"
   },
   {
     "Korean": "커피",
-    "English": "coffee"
+    "English": "coffee",
+    "Russian": "кофе"
   },
   {
     "Korean": "영화관",
-    "English": "movie theater"
+    "English": "movie theater",
+    "Russian": "кинотеатр"
   },
   {
     "Korean": "백화점",
-    "English": "department store"
+    "English": "department store",
+    "Russian": "универмаг"
   },
   {
     "Korean": "도서관",
-    "English": "library"
+    "English": "library",
+    "Russian": "библиотека"
   },
   {
     "Korean": "카페",
-    "English": "cafe"
+    "English": "cafe",
+    "Russian": "кафе"
   },
   {
     "Korean": "병원",
-    "English": "hospital"
+    "English": "hospital",
+    "Russian": "больница"
   },
   {
     "Korean": "공원",
-    "English": "park"
+    "English": "park",
+    "Russian": "парк"
   },
   {
     "Korean": "식당",
-    "English": "restaurant"
+    "English": "restaurant",
+    "Russian": "ресторан"
   },
   {
     "Korean": "회사",
-    "English": "company"
+    "English": "company",
+    "Russian": "компания"
   },
   {
     "Korean": "그리고",
-    "English": "and"
+    "English": "and",
+    "Russian": "и"
   },
   {
     "Korean": "음식",
-    "English": "food"
+    "English": "food",
+    "Russian": "еда"
   },
   {
     "Korean": "음악",
-    "English": "music"
+    "English": "music",
+    "Russian": "музыка"
   },
   {
     "Korean": "계절",
-    "English": "season"
+    "English": "season",
+    "Russian": "сезон"
   },
   {
     "Korean": "날씨",
-    "English": "weather"
+    "English": "weather",
+    "Russian": "погода"
   },
   {
     "Korean": "봄",
-    "English": "spring"
+    "English": "spring",
+    "Russian": "весна"
   },
   {
     "Korean": "이름",
-    "English": "name"
+    "English": "name",
+    "Russian": "имя"
   },
   {
     "Korean": "여름",
-    "English": "summer"
+    "English": "summer",
+    "Russian": "лето"
   },
   {
     "Korean": "가을",
-    "English": "autumn"
+    "English": "autumn",
+    "Russian": "осень"
   },
   {
     "Korean": "겨울",
-    "English": "winter"
+    "English": "winter",
+    "Russian": "зима"
   },
   {
     "Korean": "서점",
-    "English": "bookstore"
+    "English": "bookstore",
+    "Russian": "книжный магазин"
   },
   {
     "Korean": "좋다",
-    "English": "to be good"
+    "English": "to be good",
+    "Russian": "быть хорошим"
   },
   {
     "Korean": "비",
-    "English": "rain"
+    "English": "rain",
+    "Russian": "дождь"
   },
   {
     "Korean": "따뜻하다",
-    "English": "to be warm"
+    "English": "to be warm",
+    "Russian": "быть тёплым"
   },
   {
     "Korean": "춥다",
-    "English": "to be cold"
+    "English": "to be cold",
+    "Russian": "быть холодным (о погоде)"
   },
   {
     "Korean": "시원하다",
-    "English": "to be cool"
+    "English": "to be cool",
+    "Russian": "быть прохладным"
   },
   {
     "Korean": "바쁘다",
-    "English": "to be busy"
+    "English": "to be busy",
+    "Russian": "быть занятым"
   },
   {
     "Korean": "살다",
-    "English": "to live"
+    "English": "to live",
+    "Russian": "жить"
   },
   {
     "Korean": "내일",
-    "English": "tomorrow"
+    "English": "tomorrow",
+    "Russian": "завтра"
   },
   {
     "Korean": "어떻다",
-    "English": "how is it"
+    "English": "how is it",
+    "Russian": "как дела?, какой?"
   },
   {
     "Korean": "쉬다",
-    "English": "to rest"
+    "English": "to rest",
+    "Russian": "отдыхать"
   },
   {
     "Korean": "쉽다",
-    "English": "to be easy"
+    "English": "to be easy",
+    "Russian": "быть лёгким"
   },
   {
     "Korean": "보낸 사람",
-    "English": "sender"
+    "English": "sender",
+    "Russian": "отправитель"
   },
   {
     "Korean": "언제",
-    "English": "when"
+    "English": "when",
+    "Russian": "когда"
   },
   {
     "Korean": "요즘",
-    "English": "these days"
+    "English": "these days",
+    "Russian": "в последнее время"
   },
   {
     "Korean": "아주",
-    "English": "very"
+    "English": "very",
+    "Russian": "очень"
   },
   {
     "Korean": "시간",
-    "English": "time"
+    "English": "time",
+    "Russian": "время"
   },
   {
     "Korean": "날짜",
-    "English": "date"
+    "English": "date",
+    "Russian": "дата"
   },
   {
     "Korean": "요일",
-    "English": "day of the week"
+    "English": "day of the week",
+    "Russian": "день недели"
   },
   {
     "Korean": "월",
-    "English": "month"
+    "English": "month",
+    "Russian": "месяц"
   },
   {
     "Korean": "일",
-    "English": "day"
+    "English": "day",
+    "Russian": "день"
   },
   {
     "Korean": "년",
-    "English": "year"
+    "English": "year",
+    "Russian": "год"
   },
   {
     "Korean": "생일",
-    "English": "birthday"
+    "English": "birthday",
+    "Russian": "день рождения"
   },
   {
     "Korean": "수업",
-    "English": "class"
+    "English": "class",
+    "Russian": "занятие, урок"
   },
   {
     "Korean": "주",
-    "English": "week"
+    "English": "week",
+    "Russian": "неделя"
   },
   {
     "Korean": "아침",
-    "English": "morning"
+    "English": "morning",
+    "Russian": "утро"
   },
   {
     "Korean": "오전",
-    "English": "AM"
+    "English": "AM",
+    "Russian": "до полудня"
   },
   {
     "Korean": "오후",
-    "English": "PM"
+    "English": "PM",
+    "Russian": "после полудня"
   },
   {
     "Korean": "분",
-    "English": "minute"
+    "English": "minute",
+    "Russian": "минута"
   },
   {
     "Korean": "초",
-    "English": "second"
+    "English": "second",
+    "Russian": "секунда"
   },
   {
     "Korean": "회의",
-    "English": "meeting"
+    "English": "meeting",
+    "Russian": "совещание"
   },
   {
     "Korean": "괜찮다",
-    "English": "to be okay"
+    "English": "to be okay",
+    "Russian": "быть нормальным, быть в порядке"
   },
   {
     "Korean": "약속",
-    "English": "appointment"
+    "English": "appointment",
+    "Russian": "договорённость, встреча"
   },
   {
     "Korean": "약속을 하다",
-    "English": "to make an appointment"
+    "English": "to make an appointment",
+    "Russian": "договариваться о встрече"
   },
   {
     "Korean": "일이 있다",
-    "English": "to have something to do"
+    "English": "to have something to do",
+    "Russian": "быть занятым, иметь дела"
   },
   {
     "Korean": "월요일",
-    "English": "Monday"
+    "English": "Monday",
+    "Russian": "понедельник"
   },
   {
     "Korean": "화요일",
-    "English": "Tuesday"
+    "English": "Tuesday",
+    "Russian": "вторник"
   },
   {
     "Korean": "수요일",
-    "English": "Wednesday"
+    "English": "Wednesday",
+    "Russian": "среда"
   },
   {
     "Korean": "목요일",
-    "English": "Thursday"
+    "English": "Thursday",
+    "Russian": "четверг"
   },
   {
     "Korean": "금요일",
-    "English": "Friday"
+    "English": "Friday",
+    "Russian": "пятница"
   },
   {
     "Korean": "토요일",
-    "English": "Saturday"
+    "English": "Saturday",
+    "Russian": "суббота"
   },
   {
     "Korean": "일요일",
-    "English": "Sunday"
+    "English": "Sunday",
+    "Russian": "воскресенье"
   },
   {
     "Korean": "김치찌개",
-    "English": "kimchi stew"
+    "English": "kimchi stew",
+    "Russian": "кимчи-чиге (тушёное кимчи)"
   },
   {
     "Korean": "정말",
-    "English": "really"
+    "English": "really",
+    "Russian": "правда, действительно"
   },
   {
     "Korean": "그러면",
-    "English": "then"
+    "English": "then",
+    "Russian": "тогда"
   },
   {
     "Korean": "차",
-    "English": "tea / car"
+    "English": "tea / car",
+    "Russian": "чай / машина"
   },
   {
     "Korean": "층",
-    "English": "floor"
+    "English": "floor",
+    "Russian": "этаж"
   },
   {
     "Korean": "시내",
-    "English": "downtown"
+    "English": "downtown",
+    "Russian": "центр города"
   },
   {
     "Korean": "빠르다",
-    "English": "to be fast"
+    "English": "to be fast",
+    "Russian": "быть быстрым"
   },
   {
     "Korean": "반",
-    "English": "half / class"
+    "English": "half / class",
+    "Russian": "половина / группа, класс"
   },
   {
     "Korean": "노래방",
-    "English": "karaoke room"
+    "English": "karaoke room",
+    "Russian": "норе-банг (караоке-комната)"
   },
   {
     "Korean": "미안하다",
-    "English": "to be sorry"
+    "English": "to be sorry",
+    "Russian": "извиняться"
   },
   {
     "Korean": "박물관",
-    "English": "museum"
+    "English": "museum",
+    "Russian": "музей"
   },
   {
     "Korean": "수영장",
-    "English": "swimming pool"
+    "English": "swimming pool",
+    "Russian": "бассейн"
   },
   {
     "Korean": "미술관",
-    "English": "art museum"
+    "English": "art museum",
+    "Russian": "художественный музей"
   },
   {
     "Korean": "산",
-    "English": "mountain"
+    "English": "mountain",
+    "Russian": "гора"
   },
   {
     "Korean": "바다",
-    "English": "sea"
+    "English": "sea",
+    "Russian": "море"
   },
   {
     "Korean": "그래서",
-    "English": "so"
+    "English": "so",
+    "Russian": "поэтому"
   },
   {
     "Korean": "많다",
-    "English": "to be many"
+    "English": "to be many",
+    "Russian": "быть многим, много"
   },
   {
     "Korean": "아프다",
-    "English": "to be sick"
+    "English": "to be sick",
+    "Russian": "болеть"
   },
   {
     "Korean": "고향",
-    "English": "hometown"
+    "English": "hometown",
+    "Russian": "родной город"
   },
   {
     "Korean": "다니다",
-    "English": "to attend"
+    "English": "to attend",
+    "Russian": "посещать, ходить (куда-либо)"
   },
   {
     "Korean": "학당",
-    "English": "academy"
+    "English": "academy",
+    "Russian": "академия"
   },
   {
     "Korean": "여행",
-    "English": "travel"
+    "English": "travel",
+    "Russian": "путешествие"
   },
   {
     "Korean": "사진",
-    "English": "photo"
+    "English": "photo",
+    "Russian": "фотография"
   },
   {
     "Korean": "구경하다",
-    "English": "to look around"
+    "English": "to look around",
+    "Russian": "осматривать, любоваться"
   },
   {
     "Korean": "축구",
-    "English": "soccer"
+    "English": "soccer",
+    "Russian": "футбол"
   },
   {
     "Korean": "수영",
-    "English": "swimming"
+    "English": "swimming",
+    "Russian": "плавание"
   },
   {
     "Korean": "왜",
-    "English": "why"
+    "English": "why",
+    "Russian": "почему"
   },
   {
     "Korean": "그림",
-    "English": "picture"
+    "English": "picture",
+    "Russian": "картина, рисунок"
   },
   {
     "Korean": "어렵다",
-    "English": "to be difficult"
+    "English": "to be difficult",
+    "Russian": "быть трудным"
   },
   {
     "Korean": "힘들다",
-    "English": "to be hard"
+    "English": "to be hard",
+    "Russian": "быть тяжёлым, трудным"
   },
   {
     "Korean": "꿈",
-    "English": "dream"
+    "English": "dream",
+    "Russian": "мечта, сон"
   },
   {
     "Korean": "시작하다",
-    "English": "to start"
+    "English": "to start",
+    "Russian": "начинать"
   },
   {
     "Korean": "이유",
-    "English": "reason"
+    "English": "reason",
+    "Russian": "причина"
   },
   {
     "Korean": "말하다",
-    "English": "to speak"
+    "English": "to speak",
+    "Russian": "говорить"
   },
   {
     "Korean": "말하기",
-    "English": "speaking"
+    "English": "speaking",
+    "Russian": "говорение"
   },
   {
     "Korean": "휴가",
-    "English": "vacation"
+    "English": "vacation",
+    "Russian": "отпуск"
   },
   {
     "Korean": "방학",
-    "English": "school vacation"
+    "English": "school vacation",
+    "Russian": "каникулы"
   },
   {
     "Korean": "취직하다",
-    "English": "to get a job"
+    "English": "to get a job",
+    "Russian": "устраиваться на работу"
   },
   {
     "Korean": "유학을 하다",
-    "English": "to study abroad"
+    "English": "to study abroad",
+    "Russian": "учиться за границей"
   },
   {
     "Korean": "대학교",
-    "English": "university"
+    "English": "university",
+    "Russian": "университет"
   },
   {
     "Korean": "아르바이트",
-    "English": "part-time job"
+    "English": "part-time job",
+    "Russian": "подработка"
   },
   {
     "Korean": "번",
-    "English": "counter for times"
+    "English": "counter for times",
+    "Russian": "счётное слово для раз"
   },
   {
     "Korean": "그래요?",
-    "English": "Is that so?"
+    "English": "Is that so?",
+    "Russian": "Правда? Неужели?"
   },
   {
     "Korean": "내년",
-    "English": "next year"
+    "English": "next year",
+    "Russian": "следующий год"
   },
   {
     "Korean": "아파트",
-    "English": "apartment"
+    "English": "apartment",
+    "Russian": "квартира"
   },
   {
     "Korean": "요리",
-    "English": "cooking"
+    "English": "cooking",
+    "Russian": "готовка, кулинария"
   },
   {
     "Korean": "요리하다",
-    "English": "to cook"
+    "English": "to cook",
+    "Russian": "готовить (еду)"
   },
   {
     "Korean": "열심히",
-    "English": "diligently"
+    "English": "diligently",
+    "Russian": "усердно, старательно"
   },
   {
     "Korean": "영어",
-    "English": "English"
+    "English": "English",
+    "Russian": "английский язык"
   },
   {
     "Korean": "국적",
-    "English": "nationality"
+    "English": "nationality",
+    "Russian": "национальность"
   },
   {
     "Korean": "안녕히 계세요",
-    "English": "Goodbye (to someone staying)"
+    "English": "Goodbye (to someone staying)",
+    "Russian": "До свидания (тому, кто остаётся)"
   },
   {
     "Korean": "안녕히 가세요",
-    "English": "Goodbye (to someone leaving)"
+    "English": "Goodbye (to someone leaving)",
+    "Russian": "До свидания (тому, кто уходит)"
   },
   {
     "Korean": "독일",
-    "English": "Germany"
+    "English": "Germany",
+    "Russian": "Германия"
   },
   {
     "Korean": "기자",
-    "English": "journalist"
+    "English": "journalist",
+    "Russian": "журналист"
   },
   {
     "Korean": "어느",
-    "English": "which"
+    "English": "which",
+    "Russian": "который, какой"
   },
   {
     "Korean": "직업",
-    "English": "job"
+    "English": "job",
+    "Russian": "профессия, работа"
   },
   {
     "Korean": "요리사",
-    "English": "cook"
+    "English": "cook",
+    "Russian": "повар"
   },
   {
     "Korean": "가수",
-    "English": "singer"
+    "English": "singer",
+    "Russian": "певец"
   },
   {
     "Korean": "프랑스",
-    "English": "France"
+    "English": "France",
+    "Russian": "Франция"
   },
   {
     "Korean": "군인",
-    "English": "soldier"
+    "English": "soldier",
+    "Russian": "военнослужащий"
   },
   {
     "Korean": "여러분",
-    "English": "everyone (polite)"
+    "English": "everyone (polite)",
+    "Russian": "все (вежливо)"
   },
   {
     "Korean": "호주",
-    "English": "Australia"
+    "English": "Australia",
+    "Russian": "Австралия"
   },
   {
     "Korean": "영국",
-    "English": "UK"
+    "English": "UK",
+    "Russian": "Великобритания"
   },
   {
     "Korean": "나라",
-    "English": "country"
+    "English": "country",
+    "Russian": "страна"
   },
   {
     "Korean": "미국",
-    "English": "USA"
+    "English": "USA",
+    "Russian": "США"
   },
   {
     "Korean": "러시아",
-    "English": "Russia"
+    "English": "Russia",
+    "Russian": "Россия"
   },
   {
     "Korean": "주부",
-    "English": "housewife"
+    "English": "housewife",
+    "Russian": "домохозяйка"
   },
   {
     "Korean": "명함",
-    "English": "business card"
+    "English": "business card",
+    "Russian": "визитная карточка"
   },
   {
     "Korean": "신문",
-    "English": "newspaper"
+    "English": "newspaper",
+    "Russian": "газета"
   },
   {
     "Korean": "필통",
-    "English": "pencil case"
+    "English": "pencil case",
+    "Russian": "пенал"
   },
   {
     "Korean": "공책",
-    "English": "notebook"
+    "English": "notebook",
+    "Russian": "тетрадь"
   },
   {
     "Korean": "연필",
-    "English": "pencil"
+    "English": "pencil",
+    "Russian": "карандаш"
   },
   {
     "Korean": "지우개",
-    "English": "eraser"
+    "English": "eraser",
+    "Russian": "ластик"
   },
   {
     "Korean": "사전",
-    "English": "dictionary"
+    "English": "dictionary",
+    "Russian": "словарь"
   },
   {
     "Korean": "안경",
-    "English": "glasses"
+    "English": "glasses",
+    "Russian": "очки"
   },
   {
     "Korean": "휴대폰",
-    "English": "mobile phone"
+    "English": "mobile phone",
+    "Russian": "мобильный телефон"
   },
   {
     "Korean": "남자친구",
-    "English": "boyfriend"
+    "English": "boyfriend",
+    "Russian": "парень (возлюбленный)"
   },
   {
     "Korean": "여자친구",
-    "English": "girlfriend"
+    "English": "girlfriend",
+    "Russian": "девушка (возлюбленная)"
   },
   {
     "Korean": "동전",
-    "English": "coin"
+    "English": "coin",
+    "Russian": "монета"
   },
   {
     "Korean": "창문",
-    "English": "window"
+    "English": "window",
+    "Russian": "окно"
   },
   {
     "Korean": "지도",
-    "English": "map"
+    "English": "map",
+    "Russian": "карта"
   },
   {
     "Korean": "지갑",
-    "English": "wallet"
+    "English": "wallet",
+    "Russian": "кошелёк"
   },
   {
     "Korean": "좀",
-    "English": "a little"
+    "English": "a little",
+    "Russian": "немного, чуть-чуть"
   },
   {
     "Korean": "조금",
-    "English": "a little bit"
+    "English": "a little bit",
+    "Russian": "немножко"
   },
   {
     "Korean": "교통카드",
-    "English": "transportation card"
+    "English": "transportation card",
+    "Russian": "транспортная карта"
   },
   {
     "Korean": "딸기",
-    "English": "strawberry"
+    "English": "strawberry",
+    "Russian": "клубника"
   },
   {
     "Korean": "제",
-    "English": "my (polite)"
+    "English": "my (polite)",
+    "Russian": "мой (вежливо)"
   },
   {
     "Korean": "냉장고",
-    "English": "refrigerator"
+    "English": "refrigerator",
+    "Russian": "холодильник"
   },
   {
     "Korean": "극장",
-    "English": "theater"
+    "English": "theater",
+    "Russian": "театр"
   },
   {
     "Korean": "알바",
-    "English": "part-time job"
+    "English": "part-time job",
+    "Russian": "подработка (разговорное)"
   },
   {
     "Korean": "고기",
-    "English": "meat"
+    "English": "meat",
+    "Russian": "мясо"
   },
   {
     "Korean": "드라마",
-    "English": "drama"
+    "English": "drama",
+    "Russian": "драма, сериал"
   },
   {
     "Korean": "가르치다",
-    "English": "to teach"
+    "English": "to teach",
+    "Russian": "учить, обучать"
   },
   {
     "Korean": "치다",
-    "English": "to hit / to play (an instrument)"
+    "English": "to hit / to play (an instrument)",
+    "Russian": "ударять / играть (на инструменте)"
   },
   {
     "Korean": "공항",
-    "English": "airport"
+    "English": "airport",
+    "Russian": "аэропорт"
   },
   {
     "Korean": "우체국",
-    "English": "post office"
+    "English": "post office",
+    "Russian": "почта"
   },
   {
     "Korean": "은행",
-    "English": "bank"
+    "English": "bank",
+    "Russian": "банк"
   },
   {
     "Korean": "약국",
-    "English": "pharmacy"
+    "English": "pharmacy",
+    "Russian": "аптека"
   },
   {
     "Korean": "미용실",
-    "English": "hair salon"
+    "English": "hair salon",
+    "Russian": "парикмахерская"
   },
   {
     "Korean": "옆",
-    "English": "next to"
+    "English": "next to",
+    "Russian": "рядом"
   },
   {
     "Korean": "찻집",
-    "English": "tea house"
+    "English": "tea house",
+    "Russian": "чайная"
   },
   {
     "Korean": "매일",
-    "English": "every day"
+    "English": "every day",
+    "Russian": "каждый день"
   },
   {
     "Korean": "사랑하다",
-    "English": "to love"
+    "English": "to love",
+    "Russian": "любить"
   },
   {
     "Korean": "무슨",
-    "English": "what (kind of)"
+    "English": "what (kind of)",
+    "Russian": "какой (вид, сорт)"
   },
   {
     "Korean": "선물",
-    "English": "gift"
+    "English": "gift",
+    "Russian": "подарок"
   },
   {
     "Korean": "세수하다",
-    "English": "to wash one's face"
+    "English": "to wash one's face",
+    "Russian": "умываться"
   },
   {
     "Korean": "이를 닦다",
-    "English": "to brush one's teeth"
+    "English": "to brush one's teeth",
+    "Russian": "чистить зубы"
   },
   {
     "Korean": "산책하다",
-    "English": "to take a walk"
+    "English": "to take a walk",
+    "Russian": "гулять"
   },
   {
     "Korean": "사진을 찍다",
-    "English": "to take a photo"
+    "English": "to take a photo",
+    "Russian": "фотографировать"
   },
   {
     "Korean": "혼자",
-    "English": "alone"
+    "English": "alone",
+    "Russian": "один, одна"
   },
   {
     "Korean": "끝나다",
-    "English": "to end"
+    "English": "to end",
+    "Russian": "заканчиваться"
   },
   {
     "Korean": "스케줄",
-    "English": "schedule"
+    "English": "schedule",
+    "Russian": "расписание, график"
   },
   {
     "Korean": "떡국",
-    "English": "tteokguk (rice cake soup)"
+    "English": "tteokguk (rice cake soup)",
+    "Russian": "тток-гук (суп с рисовыми лепёшками)"
   },
   {
     "Korean": "추석",
-    "English": "Chuseok"
+    "English": "Chuseok",
+    "Russian": "Чхусок (корейский праздник урожая)"
   },
   {
     "Korean": "특히",
-    "English": "especially"
+    "English": "especially",
+    "Russian": "особенно"
   },
   {
     "Korean": "가족",
-    "English": "family"
+    "English": "family",
+    "Russian": "семья"
   },
   {
     "Korean": "형",
-    "English": "older brother (male)"
+    "English": "older brother (male)",
+    "Russian": "старший брат (для мужчины)"
   },
   {
     "Korean": "오빠",
-    "English": "older brother (female)"
+    "English": "older brother (female)",
+    "Russian": "старший брат (для женщины)"
   },
   {
     "Korean": "누나",
-    "English": "older sister (male)"
+    "English": "older sister (male)",
+    "Russian": "старшая сестра (для мужчины)"
   },
   {
     "Korean": "언니",
-    "English": "older sister (female)"
+    "English": "older sister (female)",
+    "Russian": "старшая сестра (для женщины)"
   },
   {
     "Korean": "남동생",
-    "English": "younger brother"
+    "English": "younger brother",
+    "Russian": "младший брат"
   },
   {
     "Korean": "여동생",
-    "English": "younger sister"
+    "English": "younger sister",
+    "Russian": "младшая сестра"
   },
   {
     "Korean": "할머니",
-    "English": "grandmother"
+    "English": "grandmother",
+    "Russian": "бабушка"
   },
   {
     "Korean": "할아버지",
-    "English": "grandfather"
+    "English": "grandfather",
+    "Russian": "дедушка"
   },
   {
     "Korean": "사촌",
-    "English": "cousin"
+    "English": "cousin",
+    "Russian": "двоюродный брат/сестра"
   },
   {
     "Korean": "이모",
-    "English": "aunt (mother's side)"
+    "English": "aunt (mother's side)",
+    "Russian": "тётя (со стороны матери)"
   },
   {
     "Korean": "부모님",
-    "English": "parents"
+    "English": "parents",
+    "Russian": "родители"
   },
   {
     "Korean": "생선",
-    "English": "fish (food)"
+    "English": "fish (food)",
+    "Russian": "рыба (как еда)"
   },
   {
     "Korean": "물고기",
-    "English": "fish (living)"
+    "English": "fish (living)",
+    "Russian": "рыба (живая)"
   },
   {
     "Korean": "과일",
-    "English": "fruit"
+    "English": "fruit",
+    "Russian": "фрукты"
   },
   {
     "Korean": "한식",
-    "English": "Korean food"
+    "English": "Korean food",
+    "Russian": "корейская кухня"
   },
   {
     "Korean": "저기",
-    "English": "over there"
+    "English": "over there",
+    "Russian": "вон там"
   },
   {
     "Korean": "지내다",
-    "English": "to get along"
+    "English": "to get along",
+    "Russian": "жить, проводить время, ладить"
   },
   {
     "Korean": "여행하다",
-    "English": "to travel"
+    "English": "to travel",
+    "Russian": "путешествовать"
   },
   {
     "Korean": "재미있다",
-    "English": "to be fun"
+    "English": "to be fun",
+    "Russian": "быть интересным, весёлым"
   },
   {
     "Korean": "재미없다",
-    "English": "to be boring"
+    "English": "to be boring",
+    "Russian": "быть скучным, неинтересным"
   },
   {
     "Korean": "피곤하다",
-    "English": "to be tired"
+    "English": "to be tired",
+    "Russian": "устать"
   },
   {
     "Korean": "받다",
-    "English": "to receive"
+    "English": "to receive",
+    "Russian": "получать"
   },
   {
     "Korean": "늦다",
-    "English": "to be late"
+    "English": "to be late",
+    "Russian": "опаздывать"
   },
   {
     "Korean": "다시",
-    "English": "again"
+    "English": "again",
+    "Russian": "снова"
   },
   {
     "Korean": "배드민턴",
-    "English": "badminton"
+    "English": "badminton",
+    "Russian": "бадминтон"
   },
   {
     "Korean": "자전거",
-    "English": "bicycle"
+    "English": "bicycle",
+    "Russian": "велосипед"
   },
   {
     "Korean": "타다",
-    "English": "to ride"
+    "English": "to ride",
+    "Russian": "ехать (на транспорте), кататься"
   },
   {
     "Korean": "낚시를 하다",
-    "English": "to go fishing"
+    "English": "to go fishing",
+    "Russian": "рыбачить"
   },
   {
     "Korean": "피아노를 치다",
-    "English": "to play the piano"
+    "English": "to play the piano",
+    "Russian": "играть на пианино"
   },
   {
     "Korean": "가끔",
-    "English": "sometimes"
+    "English": "sometimes",
+    "Russian": "иногда"
   },
   {
     "Korean": "거의",
-    "English": "almost"
+    "English": "almost",
+    "Russian": "почти"
   },
   {
     "Korean": "모임",
-    "English": "gathering"
+    "English": "gathering",
+    "Russian": "собрание, встреча"
   },
   {
     "Korean": "사랑",
-    "English": "love"
+    "English": "love",
+    "Russian": "любовь"
   },
   {
     "Korean": "비빔밥",
-    "English": "bibimbap"
+    "English": "bibimbap",
+    "Russian": "пибимпап (рис с овощами и яйцом)"
   },
   {
     "Korean": "냉면",
-    "English": "naengmyeon (cold noodles)"
+    "English": "naengmyeon (cold noodles)",
+    "Russian": "нэнмён (холодная лапша)"
   },
   {
     "Korean": "김밥",
-    "English": "gimbap (Korean rice rolls)"
+    "English": "gimbap (Korean rice rolls)",
+    "Russian": "кимпап (корейские рисовые роллы)"
   },
   {
     "Korean": "라면",
-    "English": "ramen"
+    "English": "ramen",
+    "Russian": "рамён (корейский суп с лапшой)"
   },
   {
     "Korean": "맛있다",
-    "English": "to be delicious"
+    "English": "to be delicious",
+    "Russian": "быть вкусным"
   },
   {
     "Korean": "맛없다",
-    "English": "to be tasteless"
+    "English": "to be tasteless",
+    "Russian": "быть безвкусным"
   },
   {
     "Korean": "달다",
-    "English": "to be sweet"
+    "English": "to be sweet",
+    "Russian": "быть сладким"
   },
   {
     "Korean": "맵다",
-    "English": "to be spicy"
+    "English": "to be spicy",
+    "Russian": "быть острым"
   },
   {
     "Korean": "짜다",
-    "English": "to be salty"
+    "English": "to be salty",
+    "Russian": "быть солёным"
   },
   {
     "Korean": "시다",
-    "English": "to be sour / to have gone sour (food)"
+    "English": "to be sour / to have gone sour (food)",
+    "Russian": "быть кислым (о еде)"
   },
   {
     "Korean": "팔다",
-    "English": "to sell"
+    "English": "to sell",
+    "Russian": "продавать"
   },
   {
     "Korean": "교통",
-    "English": "transportation"
+    "English": "transportation",
+    "Russian": "транспорт"
   },
   {
     "Korean": "버스",
-    "English": "bus"
+    "English": "bus",
+    "Russian": "автобус"
   },
   {
     "Korean": "기차",
-    "English": "train"
+    "English": "train",
+    "Russian": "поезд"
   },
   {
     "Korean": "택시",
-    "English": "taxi"
+    "English": "taxi",
+    "Russian": "такси"
   },
   {
     "Korean": "비행기",
-    "English": "airplane"
+    "English": "airplane",
+    "Russian": "самолёт"
   },
   {
     "Korean": "지하철",
-    "English": "subway"
+    "English": "subway",
+    "Russian": "метро"
   },
   {
     "Korean": "하루",
-    "English": "one day"
+    "English": "one day",
+    "Russian": "один день"
   },
   {
     "Korean": "수단",
-    "English": "means"
+    "English": "means",
+    "Russian": "средство, способ"
   },
   {
     "Korean": "갈아타다",
-    "English": "to transfer"
+    "English": "to transfer",
+    "Russian": "делать пересадку"
   },
   {
     "Korean": "역",
-    "English": "station"
+    "English": "station",
+    "Russian": "станция"
   },
   {
     "Korean": "일어나다",
-    "English": "to get up / to happen"
+    "English": "to get up / to happen",
+    "Russian": "вставать / случаться"
   },
   {
     "Korean": "늦게",
-    "English": "late"
+    "English": "late",
+    "Russian": "поздно"
   },
   {
     "Korean": "보통",
-    "English": "usually"
+    "English": "usually",
+    "Russian": "обычно"
   },
   {
     "Korean": "출구",
-    "English": "exit"
+    "English": "exit",
+    "Russian": "выход"
   },
   {
     "Korean": "입구",
-    "English": "entrance"
+    "English": "entrance",
+    "Russian": "вход"
   },
   {
     "Korean": "근처",
-    "English": "nearby"
+    "English": "nearby",
+    "Russian": "поблизости"
   },
   {
     "Korean": "도시",
-    "English": "city"
+    "English": "city",
+    "Russian": "город"
   },
   {
     "Korean": "오른쪽",
-    "English": "right side"
+    "English": "right side",
+    "Russian": "правая сторона"
   },
   {
     "Korean": "똑바로",
-    "English": "straight ahead"
+    "English": "straight ahead",
+    "Russian": "прямо"
   },
   {
     "Korean": "왼쪽",
-    "English": "left side"
+    "English": "left side",
+    "Russian": "левая сторона"
   },
   {
     "Korean": "저쪽",
-    "English": "over there"
+    "English": "over there",
+    "Russian": "вон там"
   },
   {
     "Korean": "사무실",
-    "English": "office"
+    "English": "office",
+    "Russian": "офис"
   },
   {
     "Korean": "엘리베이터",
-    "English": "elevator"
+    "English": "elevator",
+    "Russian": "лифт"
   },
   {
     "Korean": "쪽",
-    "English": "direction"
+    "English": "direction",
+    "Russian": "сторона, направление"
   },
   {
     "Korean": "계단",
-    "English": "stairs"
+    "English": "stairs",
+    "Russian": "лестница"
   },
   {
     "Korean": "화장실",
-    "English": "bathroom"
+    "English": "bathroom",
+    "Russian": "туалет, ванная"
   },
   {
     "Korean": "나가다",
-    "English": "to go out"
+    "English": "to go out",
+    "Russian": "выходить"
   },
   {
     "Korean": "건너다",
-    "English": "to cross"
+    "English": "to cross",
+    "Russian": "пересекать, переходить"
   },
   {
     "Korean": "들어가다",
-    "English": "to go in"
+    "English": "to go in",
+    "Russian": "входить"
   },
   {
     "Korean": "지나다",
-    "English": "to pass"
+    "English": "to pass",
+    "Russian": "проходить мимо"
   },
   {
     "Korean": "길",
-    "English": "street"
+    "English": "street",
+    "Russian": "улица, дорога"
   },
   {
     "Korean": "쯤",
-    "English": "about"
+    "English": "about",
+    "Russian": "около, примерно"
   },
   {
     "Korean": "가깝다",
-    "English": "to be close"
+    "English": "to be close",
+    "Russian": "быть близким"
   },
   {
     "Korean": "바꾸다",
-    "English": "to change"
+    "English": "to change",
+    "Russian": "менять"
   },
   {
     "Korean": "침실",
-    "English": "bedroom"
+    "English": "bedroom",
+    "Russian": "спальня"
   },
   {
     "Korean": "주방",
-    "English": "kitchen"
+    "English": "kitchen",
+    "Russian": "кухня"
   },
   {
     "Korean": "거실",
-    "English": "living room"
+    "English": "living room",
+    "Russian": "гостиная"
   },
   {
     "Korean": "탁자",
-    "English": "table"
+    "English": "table",
+    "Russian": "стол"
   },
   {
     "Korean": "문",
-    "English": "door"
+    "English": "door",
+    "Russian": "дверь"
   },
   {
     "Korean": "춤",
-    "English": "dance"
+    "English": "dance",
+    "Russian": "танец"
   },
   {
     "Korean": "춤추다",
-    "English": "to dance"
+    "English": "to dance",
+    "Russian": "танцевать"
   },
   {
     "Korean": "마을",
-    "English": "village"
+    "English": "village",
+    "Russian": "деревня"
   },
   {
     "Korean": "크다",
-    "English": "to be big"
+    "English": "to be big",
+    "Russian": "быть большим"
   },
   {
     "Korean": "작다",
-    "English": "to be small"
+    "English": "to be small",
+    "Russian": "быть маленьким"
   },
   {
     "Korean": "멋있다",
-    "English": "to be cool"
+    "English": "to be cool",
+    "Russian": "быть крутым, классным"
   },
   {
     "Korean": "램프",
-    "English": "lamp"
+    "English": "lamp",
+    "Russian": "лампа"
   },
   {
     "Korean": "벽지",
-    "English": "wallpaper"
+    "English": "wallpaper",
+    "Russian": "обои"
   },
   {
     "Korean": "에어컨",
-    "English": "air conditioner"
+    "English": "air conditioner",
+    "Russian": "кондиционер"
   },
   {
     "Korean": "헤드폰",
-    "English": "headphones"
+    "English": "headphones",
+    "Russian": "наушники"
   },
   {
     "Korean": "소파",
-    "English": "sofa"
+    "English": "sofa",
+    "Russian": "диван"
   },
   {
     "Korean": "전자레인지",
-    "English": "microwave"
+    "English": "microwave",
+    "Russian": "микроволновка"
   },
   {
     "Korean": "수도꼭지",
-    "English": "faucet"
+    "English": "faucet",
+    "Russian": "кран"
   },
   {
     "Korean": "머그컵",
-    "English": "mug"
+    "English": "mug",
+    "Russian": "кружка"
   },
   {
     "Korean": "걸레",
-    "English": "rag"
+    "English": "rag",
+    "Russian": "тряпка"
   },
   {
     "Korean": "오븐",
-    "English": "oven"
+    "English": "oven",
+    "Russian": "духовка"
   },
   {
     "Korean": "옷장",
-    "English": "wardrobe"
+    "English": "wardrobe",
+    "Russian": "шкаф для одежды"
   },
   {
     "Korean": "라우터",
-    "English": "router"
+    "English": "router",
+    "Russian": "роутер"
   },
   {
     "Korean": "세탁기",
-    "English": "washing machine"
+    "English": "washing machine",
+    "Russian": "стиральная машина"
   },
   {
     "Korean": "자켓",
-    "English": "jacket"
+    "English": "jacket",
+    "Russian": "пиджак, куртка"
   },
   {
     "Korean": "신발",
-    "English": "shoes"
+    "English": "shoes",
+    "Russian": "обувь"
   },
   {
     "Korean": "망사",
-    "English": "mesh fabric"
+    "English": "mesh fabric",
+    "Russian": "сетчатая ткань"
   },
   {
     "Korean": "색",
-    "English": "color"
+    "English": "color",
+    "Russian": "цвет"
   },
   {
     "Korean": "빨간색",
-    "English": "red"
+    "English": "red",
+    "Russian": "красный"
   },
   {
     "Korean": "파란색",
-    "English": "blue"
+    "English": "blue",
+    "Russian": "синий"
   },
   {
     "Korean": "노란색",
-    "English": "yellow"
+    "English": "yellow",
+    "Russian": "жёлтый"
   },
   {
     "Korean": "초록색",
-    "English": "green"
+    "English": "green",
+    "Russian": "зелёный"
   },
   {
     "Korean": "검은색",
-    "English": "black"
+    "English": "black",
+    "Russian": "чёрный"
   },
   {
     "Korean": "흰색",
-    "English": "white"
+    "English": "white",
+    "Russian": "белый"
   },
   {
     "Korean": "보라색",
-    "English": "purple"
+    "English": "purple",
+    "Russian": "фиолетовый"
   },
   {
     "Korean": "분홍색",
-    "English": "pink"
+    "English": "pink",
+    "Russian": "розовый"
   },
   {
     "Korean": "주황색",
-    "English": "orange"
+    "English": "orange",
+    "Russian": "оранжевый"
   },
   {
     "Korean": "갈색",
-    "English": "brown"
+    "English": "brown",
+    "Russian": "коричневый"
   },
   {
     "Korean": "회색",
-    "English": "gray"
+    "English": "gray",
+    "Russian": "серый"
   },
   {
     "Korean": "채소",
-    "English": "vegetables"
+    "English": "vegetables",
+    "Russian": "овощи"
   },
   {
     "Korean": "마트",
-    "English": "supermarket"
+    "English": "supermarket",
+    "Russian": "супермаркет"
   },
   {
     "Korean": "야구",
-    "English": "baseball"
+    "English": "baseball",
+    "Russian": "бейсбол"
   },
   {
     "Korean": "치마",
-    "English": "skirt"
+    "English": "skirt",
+    "Russian": "юбка"
   },
   {
     "Korean": "조용하다",
-    "English": "to be quiet"
+    "English": "to be quiet",
+    "Russian": "быть тихим"
   },
   {
     "Korean": "아까",
-    "English": "earlier"
+    "English": "earlier",
+    "Russian": "только что, недавно"
   },
   {
     "Korean": "자르다",
-    "English": "to cut"
+    "English": "to cut",
+    "Russian": "резать"
   },
   {
     "Korean": "휴일",
-    "English": "day off"
+    "English": "day off",
+    "Russian": "выходной день"
   },
   {
     "Korean": "입다",
-    "English": "to wear (clothes)"
+    "English": "to wear (clothes)",
+    "Russian": "носить (одежду)"
   },
   {
     "Korean": "처음",
-    "English": "first"
+    "English": "first",
+    "Russian": "впервые"
   },
   {
     "Korean": "제일",
-    "English": "most"
+    "English": "most",
+    "Russian": "самый"
   },
   {
     "Korean": "항상",
-    "English": "always"
+    "English": "always",
+    "Russian": "всегда"
   },
   {
     "Korean": "부엌",
-    "English": "kitchen"
+    "English": "kitchen",
+    "Russian": "кухня"
   },
   {
     "Korean": "깨끗하다",
-    "English": "to be clean"
+    "English": "to be clean",
+    "Russian": "быть чистым"
   },
   {
     "Korean": "싶다",
-    "English": "to want"
+    "English": "to want",
+    "Russian": "хотеть (вспомогательный глагол)"
   },
   {
     "Korean": "놀다",
-    "English": "to play"
+    "English": "to play",
+    "Russian": "играть, веселиться"
   },
   {
     "Korean": "일찍",
-    "English": "early"
+    "English": "early",
+    "Russian": "рано"
   },
   {
     "Korean": "나오다",
-    "English": "to come out"
+    "English": "to come out",
+    "Russian": "выходить"
   },
   {
     "Korean": "방법",
-    "English": "method"
+    "English": "method",
+    "Russian": "способ, метод"
   },
   {
     "Korean": "빵집",
-    "English": "bakery"
+    "English": "bakery",
+    "Russian": "пекарня"
   },
   {
     "Korean": "바닷가",
-    "English": "beach"
+    "English": "beach",
+    "Russian": "пляж, побережье"
   },
   {
     "Korean": "너무",
-    "English": "too"
+    "English": "too",
+    "Russian": "слишком"
   },
   {
     "Korean": "필요하다",
-    "English": "to need"
+    "English": "to need",
+    "Russian": "нуждаться"
   },
   {
     "Korean": "더",
-    "English": "more"
+    "English": "more",
+    "Russian": "больше, ещё"
   },
   {
     "Korean": "유치원",
-    "English": "kindergarten"
+    "English": "kindergarten",
+    "Russian": "детский сад"
   },
   {
     "Korean": "아이",
-    "English": "child"
+    "English": "child",
+    "Russian": "ребёнок"
   },
   {
     "Korean": "또",
-    "English": "again"
+    "English": "again",
+    "Russian": "опять, ещё"
   },
   {
     "Korean": "귀엽다",
-    "English": "to be cute"
+    "English": "to be cute",
+    "Russian": "быть милым"
   },
   {
     "Korean": "하지만",
-    "English": "but"
+    "English": "but",
+    "Russian": "но"
   },
   {
     "Korean": "비싸다",
-    "English": "to be expensive"
+    "English": "to be expensive",
+    "Russian": "быть дорогим"
   },
   {
     "Korean": "짧다",
-    "English": "to be short"
+    "English": "to be short",
+    "Russian": "быть коротким"
   },
   {
     "Korean": "건강하다",
-    "English": "to be healthy"
+    "English": "to be healthy",
+    "Russian": "быть здоровым"
   },
   {
     "Korean": "사람",
-    "English": "person"
+    "English": "person",
+    "Russian": "человек"
   },
   {
     "Korean": "넓다",
-    "English": "to be wide"
+    "English": "to be wide",
+    "Russian": "быть широким"
   },
   {
     "Korean": "친절하다",
-    "English": "to be kind"
+    "English": "to be kind",
+    "Russian": "быть добрым, любезным"
   },
   {
     "Korean": "가지다",
-    "English": "to have / to take / to carry / to contain / to mean (as in 'have in mind') / to possess"
+    "English": "to have / to take / to carry / to contain / to mean (as in 'have in mind') / to possess",
+    "Russian": "иметь, брать, нести, содержать, иметь в виду, обладать"
   },
   {
     "Korean": "놓다",
-    "English": "to put"
+    "English": "to put",
+    "Russian": "класть"
   },
   {
     "Korean": "닦다",
-    "English": "to wipe"
+    "English": "to wipe",
+    "Russian": "вытирать"
   },
   {
     "Korean": "나다",
-    "English": "to come out"
+    "English": "to come out",
+    "Russian": "появляться, выходить"
   },
   {
     "Korean": "오래",
-    "English": "for a long time"
+    "English": "for a long time",
+    "Russian": "долго"
   },
   {
     "Korean": "아마",
-    "English": "perhaps"
+    "English": "perhaps",
+    "Russian": "возможно"
   },
   {
     "Korean": "아직",
-    "English": "still"
+    "English": "still",
+    "Russian": "ещё, пока"
   },
   {
     "Korean": "먼저",
-    "English": "first"
+    "English": "first",
+    "Russian": "сначала, первым"
   },
   {
     "Korean": "별로",
-    "English": "not really"
+    "English": "not really",
+    "Russian": "не очень, не особенно"
   },
   {
     "Korean": "빨리",
-    "English": "quickly"
+    "English": "quickly",
+    "Russian": "быстро"
   },
   {
     "Korean": "가장",
-    "English": "most"
+    "English": "most",
+    "Russian": "самый"
   },
   {
     "Korean": "다르다",
-    "English": "to be different"
+    "English": "to be different",
+    "Russian": "быть разным, отличаться"
   },
   {
     "Korean": "이메일",
-    "English": "email"
+    "English": "email",
+    "Russian": "электронная почта"
   },
   {
     "Korean": "외모",
-    "English": "appearance"
+    "English": "appearance",
+    "Russian": "внешность"
   },
   {
     "Korean": "날씬하다",
-    "English": "to be slim"
+    "English": "to be slim",
+    "Russian": "быть стройным"
   },
   {
     "Korean": "키",
-    "English": "height"
+    "English": "height",
+    "Russian": "рост"
   },
   {
     "Korean": "뚱뚱하다",
-    "English": "to be fat"
+    "English": "to be fat",
+    "Russian": "быть толстым"
   },
   {
     "Korean": "머리",
-    "English": "head / hair"
+    "English": "head / hair",
+    "Russian": "голова / волосы"
   },
   {
     "Korean": "길다",
-    "English": "to be long"
+    "English": "to be long",
+    "Russian": "быть длинным"
   },
   {
     "Korean": "마르다",
-    "English": "to be thin / to dry"
+    "English": "to be thin / to dry",
+    "Russian": "быть худым / сохнуть"
   },
   {
     "Korean": "맑다",
-    "English": "to be clear / to be transparent (water) / to be clear (sky) / to be clear/pure (sound)"
+    "English": "to be clear / to be transparent (water) / to be clear (sky) / to be clear/pure (sound)",
+    "Russian": "быть ясным, прозрачным (о воде, небе, звуке)"
   },
   {
     "Korean": "세다",
-    "English": "to be strong / to count / to be strict / to be strong (tea/coffee)"
+    "English": "to be strong / to count / to be strict / to be strong (tea/coffee)",
+    "Russian": "быть сильным / считать / быть строгим / быть крепким (о чае/кофе)"
   },
   {
     "Korean": "바람",
-    "English": "wind"
+    "English": "wind",
+    "Russian": "ветер"
   },
   {
     "Korean": "아름답다",
-    "English": "to be beautiful"
+    "English": "to be beautiful",
+    "Russian": "быть красивым"
   },
   {
     "Korean": "보이다",
-    "English": "to be seen"
+    "English": "to be seen",
+    "Russian": "виднеться, быть видимым"
   },
   {
     "Korean": "신다",
-    "English": "to wear (shoes)"
+    "English": "to wear (shoes)",
+    "Russian": "носить (обувь)"
   },
   {
     "Korean": "운동화",
-    "English": "sneakers"
+    "English": "sneakers",
+    "Russian": "кроссовки"
   },
   {
     "Korean": "목도리",
-    "English": "scarf"
+    "English": "scarf",
+    "Russian": "шарф"
   },
   {
     "Korean": "잇다",
-    "English": "to connect"
+    "English": "to connect",
+    "Russian": "соединять"
   },
   {
     "Korean": "눕다",
-    "English": "to lie down"
+    "English": "to lie down",
+    "Russian": "лечь"
   },
   {
     "Korean": "굽다",
-    "English": "to bake / to be curved"
+    "English": "to bake / to be curved",
+    "Russian": "печь / быть изогнутым"
   },
   {
     "Korean": "몸",
-    "English": "body"
+    "English": "body",
+    "Russian": "тело"
   },
   {
     "Korean": "얼굴",
-    "English": "face"
+    "English": "face",
+    "Russian": "лицо"
   },
   {
     "Korean": "귀",
-    "English": "ear"
+    "English": "ear",
+    "Russian": "ухо"
   },
   {
     "Korean": "입",
-    "English": "mouth"
+    "English": "mouth",
+    "Russian": "рот"
   },
   {
     "Korean": "어깨",
-    "English": "shoulder"
+    "English": "shoulder",
+    "Russian": "плечо"
   },
   {
     "Korean": "가슴",
-    "English": "chest"
+    "English": "chest",
+    "Russian": "грудь"
   },
   {
     "Korean": "등",
-    "English": "back"
+    "English": "back",
+    "Russian": "спина"
   },
   {
     "Korean": "손가락",
-    "English": "finger"
+    "English": "finger",
+    "Russian": "палец (руки)"
   },
   {
     "Korean": "다리",
-    "English": "leg / bridge"
+    "English": "leg / bridge",
+    "Russian": "нога / мост"
   },
   {
     "Korean": "마음",
-    "English": "heart"
+    "English": "heart",
+    "Russian": "сердце, душа"
   },
   {
     "Korean": "손",
-    "English": "hand"
+    "English": "hand",
+    "Russian": "рука (кисть)"
   },
   {
     "Korean": "팔",
-    "English": "arm"
+    "English": "arm",
+    "Russian": "рука (от плеча до кисти)"
   },
   {
     "Korean": "치마바지",
-    "English": "skort"
+    "English": "skort",
+    "Russian": "шорты-юбка"
   },
   {
     "Korean": "호텔",
-    "English": "hotel"
+    "English": "hotel",
+    "Russian": "отель"
   },
   {
     "Korean": "여학생",
-    "English": "female student"
+    "English": "female student",
+    "Russian": "ученица"
   },
   {
     "Korean": "남학생",
-    "English": "male student"
+    "English": "male student",
+    "Russian": "ученик"
   },
   {
     "Korean": "아내",
-    "English": "wife"
+    "English": "wife",
+    "Russian": "жена"
   },
   {
     "Korean": "함께",
-    "English": "together"
+    "English": "together",
+    "Russian": "вместе"
   },
   {
     "Korean": "산책",
-    "English": "walk"
+    "English": "walk",
+    "Russian": "прогулка"
   },
   {
     "Korean": "공기",
-    "English": "air"
+    "English": "air",
+    "Russian": "воздух"
   },
   {
     "Korean": "강",
-    "English": "river"
+    "English": "river",
+    "Russian": "река"
   },
   {
     "Korean": "섬",
-    "English": "island"
+    "English": "island",
+    "Russian": "остров"
   },
   {
     "Korean": "놀이공원",
-    "English": "amusement park"
+    "English": "amusement park",
+    "Russian": "парк развлечений"
   },
   {
     "Korean": "곳",
-    "English": "place"
+    "English": "place",
+    "Russian": "место"
   },
   {
     "Korean": "것",
-    "English": "thing"
+    "English": "thing",
+    "Russian": "вещь"
   },
   {
     "Korean": "발",
-    "English": "foot"
+    "English": "foot",
+    "Russian": "нога (ступня)"
   },
   {
     "Korean": "허리",
-    "English": "waist"
+    "English": "waist",
+    "Russian": "талия, поясница"
   },
   {
     "Korean": "밖",
-    "English": "outside"
+    "English": "outside",
+    "Russian": "снаружи"
   },
   {
     "Korean": "열",
-    "English": "fever / ten"
+    "English": "fever / ten",
+    "Russian": "жар / десять"
   },
   {
     "Korean": "다치다",
-    "English": "to get hurt"
+    "English": "to get hurt",
+    "Russian": "пораниться, получить травму"
   },
   {
     "Korean": "약",
-    "English": "medicine"
+    "English": "medicine",
+    "Russian": "лекарство"
   },
   {
     "Korean": "카펫",
-    "English": "carpet"
+    "English": "carpet",
+    "Russian": "ковёр"
   },
   {
     "Korean": "노트북",
-    "English": "laptop"
+    "English": "laptop",
+    "Russian": "ноутбук"
   },
   {
     "Korean": "케이크",
-    "English": "cake"
+    "English": "cake",
+    "Russian": "торт"
   },
   {
     "Korean": "꽃",
-    "English": "flower"
+    "English": "flower",
+    "Russian": "цветок"
   },
   {
     "Korean": "음료수",
-    "English": "beverage"
+    "English": "beverage",
+    "Russian": "напиток"
   },
   {
     "Korean": "카메라",
-    "English": "camera"
+    "English": "camera",
+    "Russian": "камера"
   },
   {
     "Korean": "초대",
-    "English": "invitation"
+    "English": "invitation",
+    "Russian": "приглашение"
   },
   {
     "Korean": "준비하다",
-    "English": "to prepare"
+    "English": "to prepare",
+    "Russian": "готовить, приготовлять"
   },
   {
     "Korean": "초대하다",
-    "English": "to invite"
+    "English": "to invite",
+    "Russian": "приглашать"
   },
   {
     "Korean": "모이다",
-    "English": "to gather"
+    "English": "to gather",
+    "Russian": "собираться"
   },
   {
     "Korean": "과자",
-    "English": "snacks"
+    "English": "snacks",
+    "Russian": "закуски, печенье"
   },
   {
     "Korean": "생각",
-    "English": "thought"
+    "English": "thought",
+    "Russian": "мысль"
   },
   {
     "Korean": "적다",
-    "English": "to write down / to be few"
+    "English": "to write down / to be few",
+    "Russian": "записывать / быть малым, немногим"
   },
   {
     "Korean": "남쪽",
-    "English": "south"
+    "English": "south",
+    "Russian": "юг"
   },
   {
     "Korean": "축제",
-    "English": "festival"
+    "English": "festival",
+    "Russian": "фестиваль"
   },
   {
     "Korean": "행복하다",
-    "English": "to be happy"
+    "English": "to be happy",
+    "Russian": "быть счастливым"
   },
   {
     "Korean": "화",
-    "English": "anger / fire"
+    "English": "anger / fire",
+    "Russian": "гнев / огонь"
   },
   {
     "Korean": "기분",
-    "English": "mood"
+    "English": "mood",
+    "Russian": "настроение"
   },
   {
     "Korean": "무역",
-    "English": "trade"
+    "English": "trade",
+    "Russian": "торговля"
   },
   {
     "Korean": "번역가",
-    "English": "translator (written)"
+    "English": "translator (written)",
+    "Russian": "переводчик (письменный)"
   },
   {
     "Korean": "통역사",
-    "English": "interpreter (spoken)"
+    "English": "interpreter (spoken)",
+    "Russian": "переводчик (устный)"
   },
   {
     "Korean": "이루다",
-    "English": "to achieve"
+    "English": "to achieve",
+    "Russian": "достигать, осуществлять"
   },
   {
     "Korean": "충분하다",
-    "English": "to be enough"
+    "English": "to be enough",
+    "Russian": "быть достаточным"
   },
   {
     "Korean": "낙엽",
-    "English": "fallen leaves"
+    "English": "fallen leaves",
+    "Russian": "опавшие листья"
   },
   {
     "Korean": "떨어지다",
-    "English": "to fall"
+    "English": "to fall",
+    "Russian": "падать"
   },
   {
     "Korean": "급하다",
-    "English": "to be urgent"
+    "English": "to be urgent",
+    "Russian": "быть срочным"
   },
   {
     "Korean": "부자",
-    "English": "rich person"
+    "English": "rich person",
+    "Russian": "богатый человек"
   },
   {
     "Korean": "양복",
-    "English": "suit"
+    "English": "suit",
+    "Russian": "костюм"
   },
   {
     "Korean": "중급",
-    "English": "intermediate level"
+    "English": "intermediate level",
+    "Russian": "средний уровень"
   },
   {
     "Korean": "가사",
-    "English": "lyrics / household chores"
+    "English": "lyrics / household chores",
+    "Russian": "текст песни / домашние дела"
   },
   {
     "Korean": "앉다",
-    "English": "to sit"
+    "English": "to sit",
+    "Russian": "садиться"
   },
   {
     "Korean": "초급",
-    "English": "beginner level"
+    "English": "beginner level",
+    "Russian": "начальный уровень"
   },
   {
     "Korean": "고급",
-    "English": "high quality"
+    "English": "high quality",
+    "Russian": "высокое качество"
   },
   {
     "Korean": "국제",
-    "English": "international"
+    "English": "international",
+    "Russian": "международный"
   },
   {
     "Korean": "국립",
-    "English": "national (government-run)"
+    "English": "national (government-run)",
+    "Russian": "государственный"
   },
   {
     "Korean": "시민",
-    "English": "citizen"
+    "English": "citizen",
+    "Russian": "гражданин"
   },
   {
     "Korean": "시민권",
-    "English": "citizenship"
+    "English": "citizenship",
+    "Russian": "гражданство"
   },
   {
     "Korean": "국외",
-    "English": "overseas"
+    "English": "overseas",
+    "Russian": "зарубежье"
   },
   {
     "Korean": "수도",
-    "English": "capital city"
+    "English": "capital city",
+    "Russian": "столица"
   },
   {
     "Korean": "수도권",
-    "English": "metropolitan area"
+    "English": "metropolitan area",
+    "Russian": "столичный регион"
   },
   {
     "Korean": "지반",
-    "English": "ground"
+    "English": "ground",
+    "Russian": "грунт, основа"
   },
   {
     "Korean": "국내",
-    "English": "domestic"
+    "English": "domestic",
+    "Russian": "внутренний"
   },
   {
     "Korean": "시골",
-    "English": "countryside"
+    "English": "countryside",
+    "Russian": "сельская местность"
   },
   {
     "Korean": "친척",
-    "English": "relatives"
+    "English": "relatives",
+    "Russian": "родственники"
   },
   {
     "Korean": "딸",
-    "English": "daughter"
+    "English": "daughter",
+    "Russian": "дочь"
   },
   {
     "Korean": "이모부",
-    "English": "uncle (husband of mother's sister)"
+    "English": "uncle (husband of mother's sister)",
+    "Russian": "дядя (муж тёти по матери)"
   },
   {
     "Korean": "고모",
-    "English": "aunt (father's sister)"
+    "English": "aunt (father's sister)",
+    "Russian": "тётя (по отцу)"
   },
   {
     "Korean": "약혼식",
-    "English": "engagement ceremony"
+    "English": "engagement ceremony",
+    "Russian": "церемония помолвки"
   },
   {
     "Korean": "조카",
-    "English": "nephew/niece"
+    "English": "nephew/niece",
+    "Russian": "племянник, племянница"
   },
   {
     "Korean": "결혼식",
-    "English": "wedding ceremony"
+    "English": "wedding ceremony",
+    "Russian": "свадебная церемония"
   },
   {
     "Korean": "신랑",
-    "English": "groom"
+    "English": "groom",
+    "Russian": "жених"
   },
   {
     "Korean": "신부",
-    "English": "bride"
+    "English": "bride",
+    "Russian": "невеста"
   },
   {
     "Korean": "신랑신부",
-    "English": "bride and groom"
+    "English": "bride and groom",
+    "Russian": "жених и невеста"
   },
   {
     "Korean": "남편",
-    "English": "husband"
+    "English": "husband",
+    "Russian": "муж"
   },
   {
     "Korean": "관계",
-    "English": "relationship"
+    "English": "relationship",
+    "Russian": "отношение, связь"
   },
   {
     "Korean": "아줌마",
-    "English": "middle-aged woman"
+    "English": "middle-aged woman",
+    "Russian": "женщина средних лет (разг.)"
   },
   {
     "Korean": "아저씨",
-    "English": "middle-aged man"
+    "English": "middle-aged man",
+    "Russian": "мужчина средних лет (разг.)"
   },
   {
     "Korean": "아가씨",
-    "English": "young lady"
+    "English": "young lady",
+    "Russian": "молодая девушка"
   },
   {
     "Korean": "인간",
-    "English": "human being"
+    "English": "human being",
+    "Russian": "человек"
   },
   {
     "Korean": "개인",
-    "English": "individual"
+    "English": "individual",
+    "Russian": "частное лицо, индивидуальный"
   },
   {
     "Korean": "아기",
-    "English": "baby"
+    "English": "baby",
+    "Russian": "младенец"
   },
   {
     "Korean": "어린이",
-    "English": "child"
+    "English": "child",
+    "Russian": "ребёнок"
   },
   {
     "Korean": "어른",
-    "English": "adult"
+    "English": "adult",
+    "Russian": "взрослый"
   },
   {
     "Korean": "성",
-    "English": "castle / gender / last name"
+    "English": "castle / gender / last name",
+    "Russian": "замок / пол / фамилия"
   },
   {
     "Korean": "손님",
-    "English": "guest"
+    "English": "guest",
+    "Russian": "гость"
   },
   {
     "Korean": "맞은편",
-    "English": "opposite side"
+    "English": "opposite side",
+    "Russian": "противоположная сторона"
   },
   {
     "Korean": "대부분",
-    "English": "most"
+    "English": "most",
+    "Russian": "большинство"
   },
   {
     "Korean": "자신",
-    "English": "oneself"
+    "English": "oneself",
+    "Russian": "сам, себя"
   },
   {
     "Korean": "연세",
-    "English": "age (honorific)"
+    "English": "age (honorific)",
+    "Russian": "возраст (вежливо)"
   },
   {
     "Korean": "느낌",
-    "English": "feeling"
+    "English": "feeling",
+    "Russian": "чувство, ощущение"
   },
   {
     "Korean": "기쁨",
-    "English": "joy"
+    "English": "joy",
+    "Russian": "радость"
   },
   {
     "Korean": "슬픔",
-    "English": "sadness"
+    "English": "sadness",
+    "Russian": "печаль"
   },
   {
     "Korean": "증오",
-    "English": "hatred"
+    "English": "hatred",
+    "Russian": "ненависть"
   },
   {
     "Korean": "느끼다",
-    "English": "to feel"
+    "English": "to feel",
+    "Russian": "чувствовать"
   },
   {
     "Korean": "시각",
-    "English": "sight"
+    "English": "sight",
+    "Russian": "зрение"
   },
   {
     "Korean": "청각",
-    "English": "hearing"
+    "English": "hearing",
+    "Russian": "слух"
   },
   {
     "Korean": "미각",
-    "English": "taste"
+    "English": "taste",
+    "Russian": "вкус (ощущение)"
   },
   {
     "Korean": "후각",
-    "English": "smell"
+    "English": "smell",
+    "Russian": "обоняние"
   },
   {
     "Korean": "촉각",
-    "English": "touch"
+    "English": "touch",
+    "Russian": "осязание"
   },
   {
     "Korean": "성격",
-    "English": "personality"
+    "English": "personality",
+    "Russian": "характер"
   },
   {
     "Korean": "힘",
-    "English": "strength"
+    "English": "strength",
+    "Russian": "сила"
   },
   {
     "Korean": "자유",
-    "English": "freedom"
+    "English": "freedom",
+    "Russian": "свобода"
   },
   {
     "Korean": "거짓말",
-    "English": "lie"
+    "English": "lie",
+    "Russian": "ложь"
   },
   {
     "Korean": "참말",
-    "English": "truth"
+    "English": "truth",
+    "Russian": "правда"
   },
   {
     "Korean": "직장",
-    "English": "workplace"
+    "English": "workplace",
+    "Russian": "место работы"
   },
   {
     "Korean": "직장인",
-    "English": "office worker"
+    "English": "office worker",
+    "Russian": "работник офиса"
   },
   {
     "Korean": "프리랜서",
-    "English": "freelancer"
+    "English": "freelancer",
+    "Russian": "фрилансер"
   },
   {
     "Korean": "간호사",
-    "English": "nurse"
+    "English": "nurse",
+    "Russian": "медсестра"
   },
   {
     "Korean": "약사",
-    "English": "pharmacist"
+    "English": "pharmacist",
+    "Russian": "фармацевт"
   },
   {
     "Korean": "교수",
-    "English": "professor"
+    "English": "professor",
+    "Russian": "профессор"
   },
   {
     "Korean": "항공사",
-    "English": "airline (company)"
+    "English": "airline (company)",
+    "Russian": "авиакомпания"
   },
   {
     "Korean": "조종사",
-    "English": "pilot"
+    "English": "pilot",
+    "Russian": "пилот"
   },
   {
     "Korean": "승무원",
-    "English": "flight attendant"
+    "English": "flight attendant",
+    "Russian": "бортпроводник"
   },
   {
     "Korean": "군대",
-    "English": "military"
+    "English": "military",
+    "Russian": "армия"
   },
   {
     "Korean": "경찰관",
-    "English": "police officer"
+    "English": "police officer",
+    "Russian": "полицейский"
   },
   {
     "Korean": "법원",
-    "English": "court"
+    "English": "court",
+    "Russian": "суд"
   },
   {
     "Korean": "판사",
-    "English": "judge"
+    "English": "judge",
+    "Russian": "судья"
   },
   {
     "Korean": "검사",
-    "English": "prosecutor"
+    "English": "prosecutor",
+    "Russian": "прокурор"
   },
   {
     "Korean": "변호사",
-    "English": "lawyer"
+    "English": "lawyer",
+    "Russian": "юрист, адвокат"
   },
   {
     "Korean": "앵커",
-    "English": "anchor"
+    "English": "anchor",
+    "Russian": "ведущий новостей"
   },
   {
     "Korean": "진행자",
-    "English": "host"
+    "English": "host",
+    "Russian": "ведущий (программы)"
   },
   {
     "Korean": "신문사",
-    "English": "newspaper company"
+    "English": "newspaper company",
+    "Russian": "издательство газеты"
   },
   {
     "Korean": "언론인",
-    "English": "journalist"
+    "English": "journalist",
+    "Russian": "журналист (СМИ)"
   },
   {
     "Korean": "사업가",
-    "English": "businessperson"
+    "English": "businessperson",
+    "Russian": "бизнесмен"
   },
   {
     "Korean": "작가",
-    "English": "writer"
+    "English": "writer",
+    "Russian": "писатель"
   },
   {
     "Korean": "방송국",
-    "English": "broadcasting station"
+    "English": "broadcasting station",
+    "Russian": "теле- или радиостанция"
   },
   {
     "Korean": "아나운서",
-    "English": "announcer"
+    "English": "announcer",
+    "Russian": "диктор, ведущий"
   },
   {
     "Korean": "소설가",
-    "English": "novelist"
+    "English": "novelist",
+    "Russian": "романист"
   },
   {
     "Korean": "시인",
-    "English": "poet"
+    "English": "poet",
+    "Russian": "поэт"
   },
   {
     "Korean": "화가",
-    "English": "painter"
+    "English": "painter",
+    "Russian": "художник"
   },
   {
     "Korean": "배우",
-    "English": "actor"
+    "English": "actor",
+    "Russian": "актёр"
   },
   {
     "Korean": "음악가",
-    "English": "musician"
+    "English": "musician",
+    "Russian": "музыкант"
   },
   {
     "Korean": "선수",
-    "English": "athlete"
+    "English": "athlete",
+    "Russian": "спортсмен"
   },
   {
     "Korean": "기사",
-    "English": "article / driver / technician"
+    "English": "article / driver / technician",
+    "Russian": "статья / водитель / техник"
   },
   {
     "Korean": "부동산 중개인",
-    "English": "real estate agent"
+    "English": "real estate agent",
+    "Russian": "агент по недвижимости"
   },
   {
     "Korean": "능력",
-    "English": "ability"
+    "English": "ability",
+    "Russian": "способность"
   },
   {
     "Korean": "실력",
-    "English": "skill"
+    "English": "skill",
+    "Russian": "навык, мастерство"
   },
   {
     "Korean": "재능",
-    "English": "talent"
+    "English": "talent",
+    "Russian": "талант"
   },
   {
     "Korean": "점원",
-    "English": "shop clerk"
+    "English": "shop clerk",
+    "Russian": "продавец"
   },
   {
     "Korean": "주인",
-    "English": "owner"
+    "English": "owner",
+    "Russian": "владелец"
   },
   {
     "Korean": "사장",
-    "English": "boss"
+    "English": "boss",
+    "Russian": "начальник, директор"
   },
   {
     "Korean": "부장",
-    "English": "department head"
+    "English": "department head",
+    "Russian": "начальник отдела"
   },
   {
     "Korean": "과장",
-    "English": "section chief"
+    "English": "section chief",
+    "Russian": "руководитель секции"
   },
   {
     "Korean": "비서",
-    "English": "secretary"
+    "English": "secretary",
+    "Russian": "секретарь"
   },
   {
     "Korean": "종업원",
-    "English": "employee"
+    "English": "employee",
+    "Russian": "сотрудник"
   },
   {
     "Korean": "부서",
-    "English": "department"
+    "English": "department",
+    "Russian": "отдел"
   },
   {
     "Korean": "영업부",
-    "English": "sales department"
+    "English": "sales department",
+    "Russian": "отдел продаж"
   },
   {
     "Korean": "재무부",
-    "English": "finance department"
+    "English": "finance department",
+    "Russian": "финансовый отдел"
   },
   {
     "Korean": "홍보부",
-    "English": "public relations department"
+    "English": "public relations department",
+    "Russian": "отдел по связям с общественностью"
   },
   {
     "Korean": "광고",
-    "English": "advertisement"
+    "English": "advertisement",
+    "Russian": "реклама"
   },
   {
     "Korean": "서류",
-    "English": "documents"
+    "English": "documents",
+    "Russian": "документы"
   },
   {
     "Korean": "자료",
-    "English": "data"
+    "English": "data",
+    "Russian": "данные, материалы"
   },
   {
     "Korean": "월급",
-    "English": "salary"
+    "English": "salary",
+    "Russian": "зарплата"
   },
   {
     "Korean": "출근",
-    "English": "going to work"
+    "English": "going to work",
+    "Russian": "выход на работу"
   },
   {
     "Korean": "퇴근",
-    "English": "leaving work"
+    "English": "leaving work",
+    "Russian": "уход с работы"
   },
   {
     "Korean": "출장",
-    "English": "business trip"
+    "English": "business trip",
+    "Russian": "командировка"
   },
   {
     "Korean": "경험",
-    "English": "experience"
+    "English": "experience",
+    "Russian": "опыт"
   },
   {
     "Korean": "근무시간",
-    "English": "working hours"
+    "English": "working hours",
+    "Russian": "рабочие часы"
   },
   {
     "Korean": "감기",
-    "English": "cold (illness)"
+    "English": "cold (illness)",
+    "Russian": "простуда"
   },
   {
     "Korean": "증세",
-    "English": "symptoms"
+    "English": "symptoms",
+    "Russian": "симптомы"
   },
   {
     "Korean": "기침",
-    "English": "cough"
+    "English": "cough",
+    "Russian": "кашель"
   },
   {
     "Korean": "재채기",
-    "English": "sneeze"
+    "English": "sneeze",
+    "Russian": "чихание"
   },
   {
     "Korean": "콧물",
-    "English": "runny nose"
+    "English": "runny nose",
+    "Russian": "насморк"
   },
   {
     "Korean": "몸살",
-    "English": "body ache"
+    "English": "body ache",
+    "Russian": "ломота в теле"
   },
   {
     "Korean": "배탈",
-    "English": "stomach ache"
+    "English": "stomach ache",
+    "Russian": "расстройство желудка"
   },
   {
     "Korean": "상처",
-    "English": "wound"
+    "English": "wound",
+    "Russian": "рана"
   },
   {
     "Korean": "코피",
-    "English": "nosebleed"
+    "English": "nosebleed",
+    "Russian": "кровь из носа"
   },
   {
     "Korean": "내과",
-    "English": "internal medicine"
+    "English": "internal medicine",
+    "Russian": "терапия"
   },
   {
     "Korean": "외과",
-    "English": "surgery (department)"
+    "English": "surgery (department)",
+    "Russian": "хирургия"
   },
   {
     "Korean": "치과",
-    "English": "dentistry"
+    "English": "dentistry",
+    "Russian": "стоматология"
   },
   {
     "Korean": "환자",
-    "English": "patient"
+    "English": "patient",
+    "Russian": "пациент"
   },
   {
     "Korean": "수술",
-    "English": "surgery"
+    "English": "surgery",
+    "Russian": "операция"
   },
   {
     "Korean": "치료",
-    "English": "treatment"
+    "English": "treatment",
+    "Russian": "лечение"
   },
   {
     "Korean": "처방전",
-    "English": "prescription"
+    "English": "prescription",
+    "Russian": "рецепт (на лекарства)"
   },
   {
     "Korean": "주사",
-    "English": "injection"
+    "English": "injection",
+    "Russian": "инъекция"
   },
   {
     "Korean": "소화제",
-    "English": "digestive medicine"
+    "English": "digestive medicine",
+    "Russian": "лекарство для пищеварения"
   },
   {
     "Korean": "진통제",
-    "English": "painkiller"
+    "English": "painkiller",
+    "Russian": "обезболивающее"
   },
   {
     "Korean": "해열제",
-    "English": "fever reducer"
+    "English": "fever reducer",
+    "Russian": "жаропонижающее"
   },
   {
     "Korean": "술",
-    "English": "alcohol"
+    "English": "alcohol",
+    "Russian": "алкоголь"
   },
   {
     "Korean": "담배",
-    "English": "cigarette"
+    "English": "cigarette",
+    "Russian": "сигарета"
   },
   {
     "Korean": "헬스장",
-    "English": "gym"
+    "English": "gym",
+    "Russian": "тренажёрный зал"
   },
   {
     "Korean": "습관",
-    "English": "habit"
+    "English": "habit",
+    "Russian": "привычка"
   },
   {
     "Korean": "몸무게",
-    "English": "weight"
+    "English": "weight",
+    "Russian": "вес"
   },
   {
     "Korean": "무릎",
-    "English": "knee"
+    "English": "knee",
+    "Russian": "колено"
   },
   {
     "Korean": "설날",
-    "English": "Lunar New Year"
+    "English": "Lunar New Year",
+    "Russian": "Соллаль (корейский Новый год)"
   },
   {
     "Korean": "세배",
-    "English": "New Year's bow (to elders)"
+    "English": "New Year's bow (to elders)",
+    "Russian": "себэ (новогодний поклон старшим)"
   },
   {
     "Korean": "명절",
-    "English": "holiday"
+    "English": "holiday",
+    "Russian": "праздник"
   },
   {
     "Korean": "공휴일",
-    "English": "public holiday"
+    "English": "public holiday",
+    "Russian": "государственный праздник"
   },
   {
     "Korean": "잔치",
-    "English": "feast"
+    "English": "feast",
+    "Russian": "пир, празднество"
   },
   {
     "Korean": "과거",
-    "English": "past"
+    "English": "past",
+    "Russian": "прошлое"
   },
   {
     "Korean": "현재",
-    "English": "present"
+    "English": "present",
+    "Russian": "настоящее"
   },
   {
     "Korean": "미래",
-    "English": "future"
+    "English": "future",
+    "Russian": "будущее"
   },
   {
     "Korean": "장마",
-    "English": "rainy season"
+    "English": "rainy season",
+    "Russian": "сезон дождей"
   },
   {
     "Korean": "그제",
-    "English": "the day before yesterday"
+    "English": "the day before yesterday",
+    "Russian": "позавчера"
   },
   {
     "Korean": "주중",
-    "English": "weekdays"
+    "English": "weekdays",
+    "Russian": "будни"
   },
   {
     "Korean": "모레",
-    "English": "the day after tomorrow"
+    "English": "the day after tomorrow",
+    "Russian": "послезавтра"
   },
   {
     "Korean": "이틀",
-    "English": "two days"
+    "English": "two days",
+    "Russian": "два дня"
   },
   {
     "Korean": "사흘",
-    "English": "three days"
+    "English": "three days",
+    "Russian": "три дня"
   },
   {
     "Korean": "나흘",
-    "English": "four days"
+    "English": "four days",
+    "Russian": "четыре дня"
   },
   {
     "Korean": "낮",
-    "English": "daytime"
+    "English": "daytime",
+    "Russian": "день, дневное время"
   },
   {
     "Korean": "새벽",
-    "English": "dawn"
+    "English": "dawn",
+    "Russian": "рассвет"
   },
   {
     "Korean": "가리키다",
-    "English": "to point"
+    "English": "to point",
+    "Russian": "показывать, указывать"
   },
   {
     "Korean": "갖다",
-    "English": "to have (short form)"
+    "English": "to have (short form)",
+    "Russian": "иметь (краткая форма)"
   },
   {
     "Korean": "달력",
-    "English": "calendar"
+    "English": "calendar",
+    "Russian": "календарь"
   },
   {
     "Korean": "도로",
-    "English": "road"
+    "English": "road",
+    "Russian": "дорога, автотрасса"
   },
   {
     "Korean": "인도",
-    "English": "sidewalk / India"
+    "English": "sidewalk / India",
+    "Russian": "тротуар / Индия"
   },
   {
     "Korean": "차도",
-    "English": "roadway"
+    "English": "roadway",
+    "Russian": "проезжая часть"
   },
   {
     "Korean": "감다",
-    "English": "to close (eyes) / to wind / to wrap / to coil / to curl (hair)"
+    "English": "to close (eyes) / to wind / to wrap / to coil / to curl (hair)",
+    "Russian": "закрывать (глаза) / наматывать / обёртывать"
   },
   {
     "Korean": "걷다",
-    "English": "to walk / to collect"
+    "English": "to walk / to collect",
+    "Russian": "идти пешком / собирать"
   },
   {
     "Korean": "간단히",
-    "English": "simply"
+    "English": "simply",
+    "Russian": "просто"
   },
   {
     "Korean": "갑자기",
-    "English": "suddenly"
+    "English": "suddenly",
+    "Russian": "вдруг"
   },
   {
     "Korean": "곧",
-    "English": "soon"
+    "English": "soon",
+    "Russian": "скоро"
   },
   {
     "Korean": "금방",
-    "English": "right away"
+    "English": "right away",
+    "Russian": "сейчас, сразу"
   },
   {
     "Korean": "로타리",
-    "English": "roundabout"
+    "English": "roundabout",
+    "Russian": "кольцевая развязка"
   },
   {
     "Korean": "횡단보도",
-    "English": "crosswalk"
+    "English": "crosswalk",
+    "Russian": "пешеходный переход"
   },
   {
     "Korean": "건널목",
-    "English": "crossing"
+    "English": "crossing",
+    "Russian": "переезд, переход"
   },
   {
     "Korean": "건너편",
-    "English": "opposite side"
+    "English": "opposite side",
+    "Russian": "противоположная сторона"
   },
   {
     "Korean": "지하도",
-    "English": "underground passage"
+    "English": "underground passage",
+    "Russian": "подземный переход"
   },
   {
     "Korean": "신호등",
-    "English": "traffic light"
+    "English": "traffic light",
+    "Russian": "светофор"
   },
   {
     "Korean": "길목",
-    "English": "intersection"
+    "English": "intersection",
+    "Russian": "перекрёсток"
   },
   {
     "Korean": "육교",
-    "English": "overpass"
+    "English": "overpass",
+    "Russian": "надземный переход"
   },
   {
     "Korean": "북미",
-    "English": "North America"
+    "English": "North America",
+    "Russian": "Северная Америка"
   },
   {
     "Korean": "남미",
-    "English": "South America"
+    "English": "South America",
+    "Russian": "Южная Америка"
   },
   {
     "Korean": "동양",
-    "English": "East"
+    "English": "East",
+    "Russian": "Восток"
   },
   {
     "Korean": "서양",
-    "English": "West"
+    "English": "West",
+    "Russian": "Запад"
   },
   {
     "Korean": "북극",
-    "English": "North Pole"
+    "English": "North Pole",
+    "Russian": "Северный полюс"
   },
   {
     "Korean": "남극",
-    "English": "South Pole"
+    "English": "South Pole",
+    "Russian": "Южный полюс"
   },
   {
     "Korean": "자연",
-    "English": "nature"
+    "English": "nature",
+    "Russian": "природа"
   },
   {
     "Korean": "해안",
-    "English": "coast"
+    "English": "coast",
+    "Russian": "побережье"
   },
   {
     "Korean": "돌",
-    "English": "stone"
+    "English": "stone",
+    "Russian": "камень"
   },
   {
     "Korean": "바위",
-    "English": "rock"
+    "English": "rock",
+    "Russian": "скала"
   },
   {
     "Korean": "햇빛",
-    "English": "sunlight"
+    "English": "sunlight",
+    "Russian": "солнечный свет"
   },
   {
     "Korean": "별",
-    "English": "star"
+    "English": "star",
+    "Russian": "звезда"
   },
   {
     "Korean": "얼음",
-    "English": "ice"
+    "English": "ice",
+    "Russian": "лёд"
   },
   {
     "Korean": "전철",
-    "English": "subway"
+    "English": "subway",
+    "Russian": "электричка, метро"
   },
   {
     "Korean": "고속열차",
-    "English": "high-speed train"
+    "English": "high-speed train",
+    "Russian": "скоростной поезд"
   },
   {
     "Korean": "자동차",
-    "English": "car"
+    "English": "car",
+    "Russian": "автомобиль"
   },
   {
     "Korean": "응급",
-    "English": "emergency"
+    "English": "emergency",
+    "Russian": "скорая помощь, экстренная ситуация"
   },
   {
     "Korean": "문구점",
-    "English": "stationery store"
+    "English": "stationery store",
+    "Russian": "магазин канцтоваров"
   },
   {
     "Korean": "꽃집",
-    "English": "flower shop"
+    "English": "flower shop",
+    "Russian": "цветочный магазин"
   },
   {
     "Korean": "상품",
-    "English": "product"
+    "English": "product",
+    "Russian": "товар, продукт"
   },
   {
     "Korean": "봉지",
-    "English": "bag"
+    "English": "bag",
+    "Russian": "пакет"
   },
   {
     "Korean": "봉투",
-    "English": "envelope"
+    "English": "envelope",
+    "Russian": "конверт"
   },
   {
     "Korean": "상자",
-    "English": "box"
+    "English": "box",
+    "Russian": "коробка"
   },
   {
     "Korean": "품질",
-    "English": "quality"
+    "English": "quality",
+    "Russian": "качество"
   },
   {
     "Korean": "포장",
-    "English": "packaging"
+    "English": "packaging",
+    "Russian": "упаковка"
   },
   {
     "Korean": "할인",
-    "English": "discount"
+    "English": "discount",
+    "Russian": "скидка"
   },
   {
     "Korean": "공짜",
-    "English": "free"
+    "English": "free",
+    "Russian": "бесплатно"
   },
   {
     "Korean": "피팅룸",
-    "English": "fitting room"
+    "English": "fitting room",
+    "Russian": "примерочная"
   },
   {
     "Korean": "유행",
-    "English": "trend"
+    "English": "trend",
+    "Russian": "тенденция, мода"
   },
   {
     "Korean": "종류",
-    "English": "type"
+    "English": "type",
+    "Russian": "вид, тип"
   },
   {
     "Korean": "개인주택",
-    "English": "private house"
+    "English": "private house",
+    "Russian": "частный дом"
   },
   {
     "Korean": "원룸",
-    "English": "studio apartment"
+    "English": "studio apartment",
+    "Russian": "студия"
   },
   {
     "Korean": "오피스텔",
-    "English": "officetel"
+    "English": "officetel",
+    "Russian": "офис-отель"
   },
   {
     "Korean": "셋집",
-    "English": "rented house"
+    "English": "rented house",
+    "Russian": "арендованный дом"
   },
   {
     "Korean": "하숙집",
-    "English": "boarding house"
+    "English": "boarding house",
+    "Russian": "пансион"
   },
   {
     "Korean": "주차장",
-    "English": "parking lot"
+    "English": "parking lot",
+    "Russian": "стоянка"
   },
   {
     "Korean": "주소",
-    "English": "address"
+    "English": "address",
+    "Russian": "адрес"
   },
   {
     "Korean": "동네",
-    "English": "neighborhood"
+    "English": "neighborhood",
+    "Russian": "район, окрестности"
   },
   {
     "Korean": "빌딩",
-    "English": "building"
+    "English": "building",
+    "Russian": "здание"
   },
   {
     "Korean": "공간",
-    "English": "space"
+    "English": "space",
+    "Russian": "пространство"
   },
   {
     "Korean": "현관",
-    "English": "entrance"
+    "English": "entrance",
+    "Russian": "вход, прихожая"
   },
   {
     "Korean": "마루",
-    "English": "wooden floor"
+    "English": "wooden floor",
+    "Russian": "деревянный пол"
   },
   {
     "Korean": "욕실",
-    "English": "bathroom"
+    "English": "bathroom",
+    "Russian": "ванная комната"
   },
   {
     "Korean": "욕조",
-    "English": "bathtub"
+    "English": "bathtub",
+    "Russian": "ванна"
   },
   {
     "Korean": "샤워실",
-    "English": "shower room"
+    "English": "shower room",
+    "Russian": "душевая"
   },
   {
     "Korean": "세면대",
-    "English": "sink"
+    "English": "sink",
+    "Russian": "раковина"
   },
   {
     "Korean": "싱크대",
-    "English": "kitchen sink"
+    "English": "kitchen sink",
+    "Russian": "кухонная раковина"
   },
   {
     "Korean": "조리대",
-    "English": "kitchen counter"
+    "English": "kitchen counter",
+    "Russian": "кухонная столешница"
   },
   {
     "Korean": "벽",
-    "English": "wall"
+    "English": "wall",
+    "Russian": "стена"
   },
   {
     "Korean": "천장",
-    "English": "ceiling"
+    "English": "ceiling",
+    "Russian": "потолок"
   },
   {
     "Korean": "바닥",
-    "English": "floor"
+    "English": "floor",
+    "Russian": "пол"
   },
   {
     "Korean": "현금",
-    "English": "cash"
+    "English": "cash",
+    "Russian": "наличные"
   },
   {
     "Korean": "지폐",
-    "English": "bill (money)"
+    "English": "bill (money)",
+    "Russian": "банкнота"
   },
   {
     "Korean": "신용카드",
-    "English": "credit card"
+    "English": "credit card",
+    "Russian": "кредитная карта"
   },
   {
     "Korean": "체크카드",
-    "English": "debit card"
+    "English": "debit card",
+    "Russian": "дебетовая карта"
   },
   {
     "Korean": "계좌",
-    "English": "bank account"
+    "English": "bank account",
+    "Russian": "банковский счёт"
   },
   {
     "Korean": "결제",
-    "English": "payment"
+    "English": "payment",
+    "Russian": "оплата"
   },
   {
     "Korean": "나",
-    "English": "I (informal)"
+    "English": "I (informal)",
+    "Russian": "я (неформально)"
   },
   {
     "Korean": "너",
-    "English": "you (informal)"
+    "English": "you (informal)",
+    "Russian": "ты (неформально)"
   },
   {
     "Korean": "당신",
-    "English": "you (formal)"
+    "English": "you (formal)",
+    "Russian": "вы (формально)"
   },
   {
     "Korean": "자기",
-    "English": "oneself"
+    "English": "oneself",
+    "Russian": "себя, свой"
   },
   {
     "Korean": "샴푸",
-    "English": "shampoo"
+    "English": "shampoo",
+    "Russian": "шампунь"
   },
   {
     "Korean": "김치",
-    "English": "kimchi"
+    "English": "kimchi",
+    "Russian": "кимчи"
   },
   {
     "Korean": "면",
-    "English": "noodles"
+    "English": "noodles",
+    "Russian": "лапша"
   },
   {
     "Korean": "국",
-    "English": "soup (general)"
+    "English": "soup (general)",
+    "Russian": "суп"
   },
   {
     "Korean": "소주",
-    "English": "soju"
+    "English": "soju",
+    "Russian": "соджу (корейская водка)"
   },
   {
     "Korean": "와인",
-    "English": "wine"
+    "English": "wine",
+    "Russian": "вино"
   },
   {
     "Korean": "맥주",
-    "English": "beer"
+    "English": "beer",
+    "Russian": "пиво"
   },
   {
     "Korean": "시험",
-    "English": "exam"
+    "English": "exam",
+    "Russian": "экзамен"
   },
   {
     "Korean": "스페인",
-    "English": "Spain"
+    "English": "Spain",
+    "Russian": "Испания"
   },
   {
     "Korean": "이탈리아",
-    "English": "Italy"
+    "English": "Italy",
+    "Russian": "Италия"
   },
   {
     "Korean": "그리스",
-    "English": "Greece"
+    "English": "Greece",
+    "Russian": "Греция"
   },
   {
     "Korean": "터키",
-    "English": "Turkey"
+    "English": "Turkey",
+    "Russian": "Турция"
   },
   {
     "Korean": "필리핀",
-    "English": "Philippines"
+    "English": "Philippines",
+    "Russian": "Филиппины"
   },
   {
     "Korean": "싱가포르",
-    "English": "Singapore"
+    "English": "Singapore",
+    "Russian": "Сингапур"
   },
   {
     "Korean": "말레이시아",
-    "English": "Malaysia"
+    "English": "Malaysia",
+    "Russian": "Малайзия"
   },
   {
     "Korean": "캐나다",
-    "English": "Canada"
+    "English": "Canada",
+    "Russian": "Канада"
   },
   {
     "Korean": "멕시코",
-    "English": "Mexico"
+    "English": "Mexico",
+    "Russian": "Мексика"
   },
   {
     "Korean": "브라질",
-    "English": "Brazil"
+    "English": "Brazil",
+    "Russian": "Бразилия"
   },
   {
     "Korean": "뛰다",
-    "English": "to run"
+    "English": "to run",
+    "Russian": "бежать, прыгать"
   },
   {
     "Korean": "열다",
-    "English": "to open"
+    "English": "to open",
+    "Russian": "открывать"
   },
   {
     "Korean": "알다",
-    "English": "to know / to understand / to recognize / to be aware of / to be familiar with"
+    "English": "to know / to understand / to recognize / to be aware of / to be familiar with",
+    "Russian": "знать, понимать, узнавать, быть знакомым"
   },
   {
     "Korean": "모르다",
-    "English": "to not know"
+    "English": "to not know",
+    "Russian": "не знать"
   },
   {
     "Korean": "네",
-    "English": "yes"
+    "English": "yes",
+    "Russian": "да"
   },
   {
     "Korean": "아니요",
-    "English": "no (polite)"
+    "English": "no (polite)",
+    "Russian": "нет (вежливо)"
   },
   {
     "Korean": "아니",
-    "English": "no (informal)"
+    "English": "no (informal)",
+    "Russian": "нет (неформально)"
   },
   {
     "Korean": "응",
-    "English": "yeah (informal)"
+    "English": "yeah (informal)",
+    "Russian": "ага (неформально)"
   },
   {
     "Korean": "하나",
-    "English": "one"
+    "English": "one",
+    "Russian": "один"
   },
   {
     "Korean": "둘",
-    "English": "two"
+    "English": "two",
+    "Russian": "два"
   },
   {
     "Korean": "셋",
-    "English": "three"
+    "English": "three",
+    "Russian": "три"
   },
   {
     "Korean": "넷",
-    "English": "four"
+    "English": "four",
+    "Russian": "четыре"
   },
   {
     "Korean": "다섯",
-    "English": "five"
+    "English": "five",
+    "Russian": "пять"
   },
   {
     "Korean": "여섯",
-    "English": "six"
+    "English": "six",
+    "Russian": "шесть"
   },
   {
     "Korean": "일곱",
-    "English": "seven"
+    "English": "seven",
+    "Russian": "семь"
   },
   {
     "Korean": "여덟",
-    "English": "eight"
+    "English": "eight",
+    "Russian": "восемь"
   },
   {
     "Korean": "아홉",
-    "English": "nine"
+    "English": "nine",
+    "Russian": "девять"
   },
   {
     "Korean": "스물",
-    "English": "twenty"
+    "English": "twenty",
+    "Russian": "двадцать"
   },
   {
     "Korean": "서른",
-    "English": "thirty"
+    "English": "thirty",
+    "Russian": "тридцать"
   },
   {
     "Korean": "마흔",
-    "English": "forty"
+    "English": "forty",
+    "Russian": "сорок"
   },
   {
     "Korean": "쉰",
-    "English": "fifty"
+    "English": "fifty",
+    "Russian": "пятьдесят"
   },
   {
     "Korean": "예순",
-    "English": "sixty"
+    "English": "sixty",
+    "Russian": "шестьдесят"
   },
   {
     "Korean": "일흔",
-    "English": "seventy"
+    "English": "seventy",
+    "Russian": "семьдесят"
   },
   {
     "Korean": "여든",
-    "English": "eighty"
+    "English": "eighty",
+    "Russian": "восемьдесят"
   },
   {
     "Korean": "아흔",
-    "English": "ninety"
+    "English": "ninety",
+    "Russian": "девяносто"
   },
   {
     "Korean": "영",
-    "English": "zero"
+    "English": "zero",
+    "Russian": "ноль"
   },
   {
     "Korean": "삼",
-    "English": "three"
+    "English": "three",
+    "Russian": "три"
   },
   {
     "Korean": "사",
-    "English": "four"
+    "English": "four",
+    "Russian": "четыре"
   },
   {
     "Korean": "오",
-    "English": "five"
+    "English": "five",
+    "Russian": "пять"
   },
   {
     "Korean": "육",
-    "English": "six"
+    "English": "six",
+    "Russian": "шесть"
   },
   {
     "Korean": "칠",
-    "English": "seven"
+    "English": "seven",
+    "Russian": "семь"
   },
   {
     "Korean": "구",
-    "English": "nine"
+    "English": "nine",
+    "Russian": "девять"
   },
   {
     "Korean": "십",
-    "English": "ten"
+    "English": "ten",
+    "Russian": "десять"
   },
   {
     "Korean": "십오",
-    "English": "fifteen"
+    "English": "fifteen",
+    "Russian": "пятнадцать"
   },
   {
     "Korean": "이십",
-    "English": "twenty"
+    "English": "twenty",
+    "Russian": "двадцать"
   },
   {
     "Korean": "삼십",
-    "English": "thirty"
+    "English": "thirty",
+    "Russian": "тридцать"
   },
   {
     "Korean": "사십",
-    "English": "forty"
+    "English": "forty",
+    "Russian": "сорок"
   },
   {
     "Korean": "오십",
-    "English": "fifty"
+    "English": "fifty",
+    "Russian": "пятьдесят"
   },
   {
     "Korean": "육십",
-    "English": "sixty"
+    "English": "sixty",
+    "Russian": "шестьдесят"
   },
   {
     "Korean": "칠십",
-    "English": "seventy"
+    "English": "seventy",
+    "Russian": "семьдесят"
   },
   {
     "Korean": "팔십",
-    "English": "eighty"
+    "English": "eighty",
+    "Russian": "восемьдесят"
   },
   {
     "Korean": "구십",
-    "English": "ninety"
+    "English": "ninety",
+    "Russian": "девяносто"
   },
   {
     "Korean": "백",
-    "English": "one hundred"
+    "English": "one hundred",
+    "Russian": "сто"
   },
   {
     "Korean": "천",
-    "English": "one thousand"
+    "English": "one thousand",
+    "Russian": "тысяча"
   },
   {
     "Korean": "만",
-    "English": "ten thousand"
+    "English": "ten thousand",
+    "Russian": "десять тысяч"
   },
   {
     "Korean": "아시아",
-    "English": "Asia"
+    "English": "Asia",
+    "Russian": "Азия"
   },
   {
     "Korean": "유럽",
-    "English": "Europe"
+    "English": "Europe",
+    "Russian": "Европа"
   },
   {
     "Korean": "아프리카",
-    "English": "Africa"
+    "English": "Africa",
+    "Russian": "Африка"
   },
   {
     "Korean": "잔",
-    "English": "glass"
+    "English": "glass",
+    "Russian": "стакан, рюмка"
   },
   {
     "Korean": "명",
-    "English": "counter for people"
+    "English": "counter for people",
+    "Russian": "счётное слово для людей"
   },
   {
     "Korean": "개",
-    "English": "counter for things (general)"
+    "English": "counter for things (general)",
+    "Russian": "счётное слово для вещей"
   },
   {
     "Korean": "매우",
-    "English": "very"
+    "English": "very",
+    "Russian": "очень"
   },
   {
     "Korean": "잘",
-    "English": "well"
+    "English": "well",
+    "Russian": "хорошо"
   },
   {
     "Korean": "천천히",
-    "English": "slowly"
+    "English": "slowly",
+    "Russian": "медленно"
   },
   {
     "Korean": "슬퍼하다",
-    "English": "to be sad"
+    "English": "to be sad",
+    "Russian": "грустить"
   },
   {
     "Korean": "낫다",
-    "English": "to recover"
+    "English": "to recover",
+    "Russian": "выздоравливать, поправляться"
   },
   {
     "Korean": "재료",
-    "English": "ingredients"
+    "English": "ingredients",
+    "Russian": "ингредиенты"
   },
   {
     "Korean": "소",
-    "English": "cow"
+    "English": "cow",
+    "Russian": "корова"
   },
   {
     "Korean": "고양이",
-    "English": "cat"
+    "English": "cat",
+    "Russian": "кошка"
   },
   {
     "Korean": "뒤",
-    "English": "behind"
+    "English": "behind",
+    "Russian": "сзади, позади"
   },
   {
     "Korean": "앞",
-    "English": "front"
+    "English": "front",
+    "Russian": "перед, спереди"
   },
   {
     "Korean": "위",
-    "English": "above"
+    "English": "above",
+    "Russian": "над, выше"
   },
   {
     "Korean": "아래",
-    "English": "below"
+    "English": "below",
+    "Russian": "под, ниже"
   },
   {
     "Korean": "안",
-    "English": "inside"
+    "English": "inside",
+    "Russian": "внутри"
   },
   {
     "Korean": "가격",
-    "English": "price"
+    "English": "price",
+    "Russian": "цена"
   },
   {
     "Korean": "게임",
-    "English": "game"
+    "English": "game",
+    "Russian": "игра"
   },
   {
     "Korean": "일월",
-    "English": "January"
+    "English": "January",
+    "Russian": "январь"
   },
   {
     "Korean": "이월",
-    "English": "February"
+    "English": "February",
+    "Russian": "февраль"
   },
   {
     "Korean": "삼월",
-    "English": "March"
+    "English": "March",
+    "Russian": "март"
   },
   {
     "Korean": "사월",
-    "English": "April"
+    "English": "April",
+    "Russian": "апрель"
   },
   {
     "Korean": "오월",
-    "English": "May"
+    "English": "May",
+    "Russian": "май"
   },
   {
     "Korean": "유월",
-    "English": "June"
+    "English": "June",
+    "Russian": "июнь"
   },
   {
     "Korean": "칠월",
-    "English": "July"
+    "English": "July",
+    "Russian": "июль"
   },
   {
     "Korean": "팔월",
-    "English": "August"
+    "English": "August",
+    "Russian": "август"
   },
   {
     "Korean": "구월",
-    "English": "September"
+    "English": "September",
+    "Russian": "сентябрь"
   },
   {
     "Korean": "시월",
-    "English": "October"
+    "English": "October",
+    "Russian": "октябрь"
   },
   {
     "Korean": "십일월",
-    "English": "November"
+    "English": "November",
+    "Russian": "ноябрь"
   },
   {
     "Korean": "십이월",
-    "English": "December"
+    "English": "December",
+    "Russian": "декабрь"
   },
   {
     "Korean": "가구",
-    "English": "furniture"
+    "English": "furniture",
+    "Russian": "мебель"
   },
   {
     "Korean": "돈",
-    "English": "money"
+    "English": "money",
+    "Russian": "деньги"
   },
   {
     "Korean": "감사하다",
-    "English": "thanks"
+    "English": "thanks",
+    "Russian": "благодарить"
   },
   {
     "Korean": "안녕하세요",
-    "English": "Hello"
+    "English": "Hello",
+    "Russian": "Здравствуйте"
   },
   {
     "Korean": "그냥",
-    "English": "just"
+    "English": "just",
+    "Russian": "просто"
   },
   {
     "Korean": "몇 살이에요",
-    "English": "how old are u?"
+    "English": "how old are u?",
+    "Russian": "сколько вам лет?"
   },
   {
     "Korean": "잘 지냈어요?",
-    "English": "how have you been?"
+    "English": "how have you been?",
+    "Russian": "как вы поживаете?"
   },
   {
     "Korean": "카드",
-    "English": "card"
+    "English": "card",
+    "Russian": "карта"
   },
   {
     "Korean": "커피숍",
-    "English": "coffee shop"
+    "English": "coffee shop",
+    "Russian": "кофейня"
   },
   {
     "Korean": "컵",
-    "English": "cup"
+    "English": "cup",
+    "Russian": "чашка"
   },
   {
     "Korean": "팀",
-    "English": "team"
+    "English": "team",
+    "Russian": "команда"
   },
   {
     "Korean": "테니스",
-    "English": "tennis"
+    "English": "tennis",
+    "Russian": "теннис"
   },
   {
     "Korean": "가볍다",
-    "English": "light"
+    "English": "light",
+    "Russian": "лёгкий"
   },
   {
     "Korean": "가요",
-    "English": "song"
+    "English": "song",
+    "Russian": "песня"
   },
   {
     "Korean": "가운데",
-    "English": "middle"
+    "English": "middle",
+    "Russian": "середина"
   },
   {
     "Korean": "가위",
-    "English": "scissors"
+    "English": "scissors",
+    "Russian": "ножницы"
   },
   {
     "Korean": "가져가다",
-    "English": "take"
+    "English": "take",
+    "Russian": "забирать, брать с собой (туда)"
   },
   {
     "Korean": "가져오다",
-    "English": "bring"
+    "English": "bring",
+    "Russian": "приносить, брать с собой (сюда)"
   },
   {
     "Korean": "가지",
-    "English": "branch"
+    "English": "branch",
+    "Russian": "ветка"
   },
   {
     "Korean": "간",
-    "English": "while"
+    "English": "while",
+    "Russian": "в течение, пока"
   },
   {
     "Korean": "간단하다",
-    "English": "simple"
+    "English": "simple",
+    "Russian": "простой"
   },
   {
     "Korean": "간단히",
-    "English": "simply"
+    "English": "simply",
+    "Russian": "просто"
   },
   {
     "Korean": "간식",
-    "English": "snack"
+    "English": "snack",
+    "Russian": "закуска"
   },
   {
     "Korean": "간장",
-    "English": "soy sauce"
+    "English": "soy sauce",
+    "Russian": "соевый соус"
   },
   {
     "Korean": "갈비",
-    "English": "ribs"
+    "English": "ribs",
+    "Russian": "рёбрышки"
   },
   {
     "Korean": "갈비탕",
-    "English": "rib soup"
+    "English": "rib soup",
+    "Russian": "суп с рёбрышками"
   },
   {
     "Korean": "감",
-    "English": "persimmon"
+    "English": "persimmon",
+    "Russian": "хурма"
   },
   {
     "Korean": "감동",
-    "English": "emotion"
+    "English": "emotion",
+    "Russian": "волнение, эмоция"
   },
   {
     "Korean": "감동하다",
-    "English": "be moved"
+    "English": "be moved",
+    "Russian": "быть тронутым"
   },
   {
     "Korean": "감자",
-    "English": "potato"
+    "English": "potato",
+    "Russian": "картофель"
   },
   {
     "Korean": "감자탕",
-    "English": "potato stew"
+    "English": "potato stew",
+    "Russian": "рагу из картофеля"
   },
   {
     "Korean": "강아지",
-    "English": "puppy"
+    "English": "puppy",
+    "Russian": "щенок"
   },
   {
     "Korean": "강좌",
-    "English": "course"
+    "English": "course",
+    "Russian": "курс (обучения)"
   },
   {
     "Korean": "각",
-    "English": "each"
+    "English": "each",
+    "Russian": "каждый"
   },
   {
     "Korean": "같다",
-    "English": "same"
+    "English": "same",
+    "Russian": "одинаковый"
   },
   {
     "Korean": "거리",
-    "English": "street"
+    "English": "street",
+    "Russian": "улица"
   },
   {
     "Korean": "거울",
-    "English": "mirror"
+    "English": "mirror",
+    "Russian": "зеркало"
   },
   {
     "Korean": "걱정",
-    "English": "worry"
+    "English": "worry",
+    "Russian": "беспокойство"
   },
   {
     "Korean": "걱정하다",
-    "English": "worry"
+    "English": "worry",
+    "Russian": "беспокоиться"
   },
   {
     "Korean": "건물",
-    "English": "building"
+    "English": "building",
+    "Russian": "здание"
   },
   {
     "Korean": "건배",
-    "English": "cheers"
+    "English": "cheers",
+    "Russian": "за здоровье"
   },
   {
     "Korean": "걸다",
-    "English": "hang"
+    "English": "hang",
+    "Russian": "вешать"
   },
   {
     "Korean": "걸어오다",
-    "English": "walk over"
+    "English": "walk over",
+    "Russian": "подходить пешком (сюда)"
   },
   {
     "Korean": "걸어가다",
-    "English": "walk over"
+    "English": "walk over",
+    "Russian": "идти пешком (туда)"
   },
   {
     "Korean": "나타나다",
-    "English": "to appear / to come out / to grow (teeth) / to happen (event) / to be (smell/sound) / to occur"
+    "English": "to appear / to come out / to grow (teeth) / to happen (event) / to be (smell/sound) / to occur",
+    "Russian": "появляться, выходить, прорезываться (зубы), случаться, быть (о запахе/звуке), происходить"
   },
   {
     "Korean": "계시다",
-    "English": "be (honorific)"
+    "English": "be (honorific)",
+    "Russian": "быть (вежливо)"
   },
   {
     "Korean": "드시다",
-    "English": "eat/drink (honorific)"
+    "English": "eat/drink (honorific)",
+    "Russian": "есть/пить (вежливо)"
   },
   {
     "Korean": "죽다",
-    "English": "die"
+    "English": "die",
+    "Russian": "умереть"
   },
   {
     "Korean": "잠을 자다",
-    "English": "sleep"
+    "English": "sleep",
+    "Russian": "спать"
   },
   {
     "Korean": "결과",
-    "English": "result"
+    "English": "result",
+    "Russian": "результат"
   },
   {
     "Korean": "결정",
-    "English": "decision"
+    "English": "decision",
+    "Russian": "решение"
   },
   {
     "Korean": "결정하다",
-    "English": "decide"
+    "English": "decide",
+    "Russian": "решать"
   },
   {
     "Korean": "경기",
-    "English": "game/match"
+    "English": "game/match",
+    "Russian": "матч"
   },
   {
     "Korean": "경기장",
-    "English": "stadium"
+    "English": "stadium",
+    "Russian": "стадион"
   },
   {
     "Korean": "경복궁",
-    "English": "Gyeongbokgung"
+    "English": "Gyeongbokgung",
+    "Russian": "Кёнбоккун (дворец)"
   },
   {
     "Korean": "경주",
-    "English": "Gyeongju City"
+    "English": "Gyeongju City",
+    "Russian": "Кёнджу (город)"
   },
   {
     "Korean": "계산하다",
-    "English": "calculate"
+    "English": "calculate",
+    "Russian": "вычислять, считать"
   },
   {
     "Korean": "계속",
-    "English": "continue"
+    "English": "continue",
+    "Russian": "продолжать"
   },
   {
     "Korean": "계획",
-    "English": "plan"
+    "English": "plan",
+    "Russian": "план"
   },
   {
     "Korean": "고등학교",
-    "English": "high school"
+    "English": "high school",
+    "Russian": "старшая школа"
   },
   {
     "Korean": "고르다",
-    "English": "choose"
+    "English": "choose",
+    "Russian": "выбирать"
   },
   {
     "Korean": "고맙다",
-    "English": "thank"
+    "English": "thank",
+    "Russian": "благодарить"
   },
   {
     "Korean": "뒤",
-    "English": "back"
+    "English": "back",
+    "Russian": "зад, сзади"
   },
   {
     "Korean": "위",
-    "English": "top/above"
+    "English": "top/above",
+    "Russian": "верх, над"
   },
   {
     "Korean": "옆",
-    "English": "side"
+    "English": "side",
+    "Russian": "сторона, рядом"
   },
   {
     "Korean": "아래",
-    "English": "below/under"
+    "English": "below/under",
+    "Russian": "низ, под"
   },
   {
     "Korean": "밑",
-    "English": "bottom"
+    "English": "bottom",
+    "Russian": "нижняя часть"
   },
   {
     "Korean": "고장",
-    "English": "breakdown/fault"
+    "English": "breakdown/fault",
+    "Russian": "поломка"
   },
   {
     "Korean": "고추",
-    "English": "chili pepper"
+    "English": "chili pepper",
+    "Russian": "перец чили"
   },
   {
     "Korean": "고추장",
-    "English": "Kochujang, red pepper paste"
+    "English": "Kochujang, red pepper paste",
+    "Russian": "кочуджан (острая перечная паста)"
   },
   {
     "Korean": "고치다",
-    "English": "fix/repair"
+    "English": "fix/repair",
+    "Russian": "ремонтировать"
   },
   {
     "Korean": "고프다",
-    "English": "hungry"
+    "English": "hungry",
+    "Russian": "голодный"
   },
   {
     "Korean": "골목",
-    "English": "alley"
+    "English": "alley",
+    "Russian": "переулок"
   },
   {
     "Korean": "골프",
-    "English": "golf"
+    "English": "golf",
+    "Russian": "гольф"
   },
   {
     "Korean": "곱다",
-    "English": "pretty/beautiful"
+    "English": "pretty/beautiful",
+    "Russian": "красивый, изящный"
   },
   {
     "Korean": "공",
-    "English": "ball"
+    "English": "ball",
+    "Russian": "мяч"
   },
   {
     "Korean": "공무원",
-    "English": "public official"
+    "English": "public official",
+    "Russian": "госслужащий"
   },
   {
     "Korean": "공연",
-    "English": "performance"
+    "English": "performance",
+    "Russian": "выступление"
   },
   {
     "Korean": "공중전화",
-    "English": "public phone"
+    "English": "public phone",
+    "Russian": "таксофон"
   },
   {
     "Korean": "과",
-    "English": "division"
+    "English": "division",
+    "Russian": "отдел"
   },
   {
     "Korean": "과학",
-    "English": "science"
+    "English": "science",
+    "Russian": "наука"
   },
   {
     "Korean": "관광하다",
-    "English": "sightsee"
+    "English": "sightsee",
+    "Russian": "осматривать достопримечательности"
   },
   {
     "Korean": "교과서",
-    "English": "textbook"
+    "English": "textbook",
+    "Russian": "учебник"
   },
   {
     "Korean": "교체",
-    "English": "replacement"
+    "English": "replacement",
+    "Russian": "замена"
   },
   {
     "Korean": "교회",
-    "English": "church"
+    "English": "church",
+    "Russian": "церковь"
   },
   {
     "Korean": "구하다",
-    "English": "save/rescue"
+    "English": "save/rescue",
+    "Russian": "спасать"
   },
   {
     "Korean": "공부",
-    "English": "studying"
+    "English": "studying",
+    "Russian": "учеба, занятия"
   },
   {
     "Korean": "감사",
-    "English": "thanks / gratitude"
+    "English": "thanks / gratitude",
+    "Russian": "благодарность"
   },
   {
     "Korean": "건강",
-    "English": "health"
+    "English": "health",
+    "Russian": "здоровье"
   },
   {
     "Korean": "계산",
-    "English": "calculation / bill"
+    "English": "calculation / bill",
+    "Russian": "расчёт, счёт"
   },
   {
     "Korean": "관광",
-    "English": "sightseeing / tourism"
+    "English": "sightseeing / tourism",
+    "Russian": "туризм"
   },
   {
     "Korean": "구경",
-    "English": "watching / looking around"
+    "English": "watching / looking around",
+    "Russian": "осмотр"
   },
   {
     "Korean": "세수",
-    "English": "washing one's face"
+    "English": "washing one's face",
+    "Russian": "умывание"
   },
   {
     "Korean": "시작",
-    "English": "beginning / start"
+    "English": "beginning / start",
+    "Russian": "начало"
   },
   {
     "Korean": "이야기",
-    "English": "story / talk"
+    "English": "story / talk",
+    "Russian": "рассказ"
   },
   {
     "Korean": "전화",
-    "English": "telephone / phone call"
+    "English": "telephone / phone call",
+    "Russian": "телефон"
   },
   {
     "Korean": "준비",
-    "English": "preparation"
+    "English": "preparation",
+    "Russian": "подготовка"
   },
   {
     "Korean": "취직",
-    "English": "getting a job"
+    "English": "getting a job",
+    "Russian": "трудоустройство"
   },
   {
     "Korean": "친절",
-    "English": "kindness"
+    "English": "kindness",
+    "Russian": "доброта"
   },
   {
     "Korean": "필요",
-    "English": "necessity / need"
+    "English": "necessity / need",
+    "Russian": "необходимость, нужда"
   },
   {
     "Korean": "행복",
-    "English": "happiness"
+    "English": "happiness",
+    "Russian": "счастье"
   },
   {
     "Korean": "말",
-    "English": "word / speech / language"
+    "English": "word / speech / language",
+    "Russian": "слово, речь, язык"
   },
   {
     "Korean": "유학",
-    "English": "studying abroad"
+    "English": "studying abroad",
+    "Russian": "учёба за границей"
   },
   {
     "Korean": "낚시",
-    "English": "fishing"
+    "English": "fishing",
+    "Russian": "рыбалка"
   },
   {
     "Korean": "생각하다",
-    "English": "to think"
+    "English": "to think",
+    "Russian": "думать"
   },
   {
     "Korean": "계획하다",
-    "English": "to plan"
+    "English": "to plan",
+    "Russian": "планировать"
   },
   {
     "Korean": "경험하다",
-    "English": "to experience"
+    "English": "to experience",
+    "Russian": "испытывать, переживать"
   },
   {
     "Korean": "공연하다",
-    "English": "to perform"
+    "English": "to perform",
+    "Russian": "выступать"
   },
   {
     "Korean": "결혼",
-    "English": "marriage"
+    "English": "marriage",
+    "Russian": "брак"
   },
   {
     "Korean": "결혼하다",
-    "English": "to marry"
+    "English": "to marry",
+    "Russian": "жениться, выходить замуж"
   },
   {
     "Korean": "도착",
-    "English": "arrival"
+    "English": "arrival",
+    "Russian": "прибытие"
   },
   {
     "Korean": "도착하다",
-    "English": "to arrive"
+    "English": "to arrive",
+    "Russian": "прибывать"
   },
   {
     "Korean": "출발",
-    "English": "departure"
+    "English": "departure",
+    "Russian": "отправление"
   },
   {
     "Korean": "출발하다",
-    "English": "to depart"
+    "English": "to depart",
+    "Russian": "отправляться"
   },
   {
     "Korean": "이해",
-    "English": "understanding"
+    "English": "understanding",
+    "Russian": "понимание"
   },
   {
     "Korean": "이해하다",
-    "English": "to understand"
+    "English": "to understand",
+    "Russian": "понимать"
   },
   {
     "Korean": "사용",
-    "English": "use"
+    "English": "use",
+    "Russian": "использование"
   },
   {
     "Korean": "사용하다",
-    "English": "to use"
+    "English": "to use",
+    "Russian": "использовать"
   },
   {
     "Korean": "노력",
-    "English": "effort"
+    "English": "effort",
+    "Russian": "усилие"
   },
   {
     "Korean": "노력하다",
-    "English": "to make an effort"
+    "English": "to make an effort",
+    "Russian": "стараться"
   },
   {
     "Korean": "성공",
-    "English": "success"
+    "English": "success",
+    "Russian": "успех"
   },
   {
     "Korean": "성공하다",
-    "English": "to succeed"
+    "English": "to succeed",
+    "Russian": "преуспевать"
   },
   {
     "Korean": "실패",
-    "English": "failure"
+    "English": "failure",
+    "Russian": "неудача"
   },
   {
     "Korean": "실패하다",
-    "English": "to fail"
+    "English": "to fail",
+    "Russian": "терпеть неудачу"
   },
   {
     "Korean": "졸업",
-    "English": "graduation"
+    "English": "graduation",
+    "Russian": "выпуск"
   },
   {
     "Korean": "졸업하다",
-    "English": "to graduate"
+    "English": "to graduate",
+    "Russian": "выпускаться"
   },
   {
     "Korean": "입학",
-    "English": "school enrollment"
+    "English": "school enrollment",
+    "Russian": "поступление"
   },
   {
     "Korean": "입학하다",
-    "English": "to enroll (in school)"
+    "English": "to enroll (in school)",
+    "Russian": "поступать"
   },
   {
     "Korean": "대답",
-    "English": "answer"
+    "English": "answer",
+    "Russian": "ответ"
   },
   {
     "Korean": "대답하다",
-    "English": "to answer"
+    "English": "to answer",
+    "Russian": "отвечать"
   },
   {
     "Korean": "질문",
-    "English": "question"
+    "English": "question",
+    "Russian": "вопрос"
   },
   {
     "Korean": "문제",
-    "English": "problem / question (exam)"
+    "English": "problem / question (exam)",
+    "Russian": "проблема, вопрос"
   },
   {
     "Korean": "물",
-    "English": "water"
+    "English": "water",
+    "Russian": "вода"
   },
   {
     "Korean": "불",
-    "English": "fire"
+    "English": "fire",
+    "Russian": "огонь"
   },
   {
     "Korean": "싫다",
-    "English": "to dislike / to not like"
+    "English": "to dislike / to not like",
+    "Russian": "не нравиться"
   },
   {
     "Korean": "싫어하다",
-    "English": "to hate / to dislike"
+    "English": "to hate / to dislike",
+    "Russian": "ненавидеть, не любить"
   },
   {
     "Korean": "느리다",
-    "English": "slow"
+    "English": "slow",
+    "Russian": "медленный"
   },
   {
     "Korean": "배고프다",
-    "English": "hungry"
+    "English": "hungry",
+    "Russian": "голодный"
   },
   {
     "Korean": "배부르다",
-    "English": "full (stomach)"
+    "English": "full (stomach)",
+    "Russian": "сытый"
   },
   {
     "Korean": "목마르다",
-    "English": "thirsty"
+    "English": "thirsty",
+    "Russian": "хотеть пить"
   },
   {
     "Korean": "졸리다",
-    "English": "sleepy"
+    "English": "sleepy",
+    "Russian": "хотеть спать"
   },
   {
     "Korean": "살",
-    "English": "counter for age (years old)"
+    "English": "counter for age (years old)",
+    "Russian": "счётное слово для возраста (лет)"
   },
   {
     "Korean": "마리",
-    "English": "counter for animals"
+    "English": "counter for animals",
+    "Russian": "счётное слово для животных"
   },
   {
     "Korean": "권",
-    "English": "counter for books"
+    "English": "counter for books",
+    "Russian": "счётное слово для книг"
   },
   {
     "Korean": "벌",
-    "English": "counter for clothes/suits"
+    "English": "counter for clothes/suits",
+    "Russian": "счётное слово для одежды"
   },
   {
     "Korean": "켤레",
-    "English": "counter for pairs (shoes, socks)"
+    "English": "counter for pairs (shoes, socks)",
+    "Russian": "счётное слово для пар"
   },
   {
     "Korean": "장",
-    "English": "counter for flat objects (paper, tickets)"
+    "English": "counter for flat objects (paper, tickets)",
+    "Russian": "счётное слово для плоских предметов"
   },
   {
     "Korean": "대",
-    "English": "counter for machines/vehicles"
+    "English": "counter for machines/vehicles",
+    "Russian": "счётное слово для машин/техники"
   },
   {
     "Korean": "관심",
-    "English": "interest"
+    "English": "interest",
+    "Russian": "интерес"
   },
   {
     "Korean": "국수",
-    "English": "noodles"
+    "English": "noodles",
+    "Russian": "лапша"
   },
   {
     "Korean": "국어",
-    "English": "Korean (language)"
+    "English": "Korean (language)",
+    "Russian": "корейский язык"
   },
   {
     "Korean": "규칙",
-    "English": "rule / regulation"
+    "English": "rule / regulation",
+    "Russian": "правило"
   },
   {
     "Korean": "귤",
-    "English": "tangerine / mandarin orange"
+    "English": "tangerine / mandarin orange",
+    "Russian": "мандарин"
   },
   {
     "Korean": "그거",
-    "English": "that (thing)"
+    "English": "that (thing)",
+    "Russian": "то (вещь)"
   },
   {
     "Korean": "그것",
-    "English": "that (thing) - more formal"
+    "English": "that (thing) - more formal",
+    "Russian": "то (вещь) - более формально"
   },
   {
     "Korean": "그날",
-    "English": "that day"
+    "English": "that day",
+    "Russian": "тот день"
   },
   {
     "Korean": "그들",
-    "English": "they / them"
+    "English": "they / them",
+    "Russian": "они"
   },
   {
     "Korean": "그때",
-    "English": "that time / then"
+    "English": "that time / then",
+    "Russian": "тогда"
   },
   {
     "Korean": "그러나",
-    "English": "but / however"
+    "English": "but / however",
+    "Russian": "но, однако"
   },
   {
     "Korean": "그러니까",
-    "English": "so / therefore / that's why"
+    "English": "so / therefore / that's why",
+    "Russian": "поэтому"
   },
   {
     "Korean": "그런",
-    "English": "such / that kind of"
+    "English": "such / that kind of",
+    "Russian": "такой"
   },
   {
     "Korean": "그런데",
-    "English": "by the way / however / and then"
+    "English": "by the way / however / and then",
+    "Russian": "кстати, однако"
   },
   {
     "Korean": "그렇구나",
-    "English": "I see / oh, really"
+    "English": "I see / oh, really",
+    "Russian": "понятно"
   },
   {
     "Korean": "그렇다",
-    "English": "to be so / to be that way / yes (as an adjective)"
+    "English": "to be so / to be that way / yes (as an adjective)",
+    "Russian": "быть таким, да"
   },
   {
     "Korean": "그렇지만",
-    "English": "but / however / nevertheless"
+    "English": "but / however / nevertheless",
+    "Russian": "но, тем не менее"
   },
   {
     "Korean": "그릇",
-    "English": "bowl / dish / container"
+    "English": "bowl / dish / container",
+    "Russian": "миска, посуда"
   },
   {
     "Korean": "그리다",
-    "English": "to draw / to paint / to picture"
+    "English": "to draw / to paint / to picture",
+    "Russian": "рисовать"
   },
   {
     "Korean": "그만",
-    "English": "that's enough / stop / only that"
+    "English": "that's enough / stop / only that",
+    "Russian": "хватит, достаточно"
   },
   {
     "Korean": "그중",
-    "English": "among them / one of them"
+    "English": "among them / one of them",
+    "Russian": "среди них"
   },
   {
     "Korean": "그저께",
-    "English": "the day before yesterday"
+    "English": "the day before yesterday",
+    "Russian": "позавчера"
   },
   {
     "Korean": "그쪽",
-    "English": "that way / that side / you (polite)"
+    "English": "that way / that side / you (polite)",
+    "Russian": "туда, вы (вежливо)"
   },
   {
     "Korean": "그치다",
-    "English": "to stop / to cease / to be right (as in 그치죠?)"
+    "English": "to stop / to cease / to be right (as in 그치죠?)",
+    "Russian": "прекращаться"
   },
   {
     "Korean": "글",
-    "English": "writing / text / letter / character"
+    "English": "writing / text / letter / character",
+    "Russian": "текст, буква"
   },
   {
     "Korean": "글쎄요",
-    "English": "well, I'm not sure / let me see"
+    "English": "well, I'm not sure / let me see",
+    "Russian": "ну, не знаю"
   },
   {
     "Korean": "금주",
-    "English": "this week / abstinence from alcohol"
+    "English": "this week / abstinence from alcohol",
+    "Russian": "на этой неделе / воздержание от алкоголя"
   },
   {
     "Korean": "급",
-    "English": "class / grade / level / urgent"
+    "English": "class / grade / level / urgent",
+    "Russian": "уровень, срочный"
   },
   {
     "Korean": "기간",
-    "English": "period / term / duration"
+    "English": "period / term / duration",
+    "Russian": "период"
   },
   {
     "Korean": "기르다",
-    "English": "to raise / to grow / to foster / to train"
+    "English": "to raise / to grow / to foster / to train",
+    "Russian": "растить, воспитывать"
   },
   {
     "Korean": "기름",
-    "English": "oil / grease / fuel"
+    "English": "oil / grease / fuel",
+    "Russian": "масло, топливо"
   },
-  [
   {
     "Korean": "환경",
-    "English": "environment"
+    "English": "environment",
+    "Russian": "окружающая среда"
   },
   {
     "Korean": "쓰레기",
-    "English": "trash / garbage"
+    "English": "trash / garbage",
+    "Russian": "мусор"
   },
   {
     "Korean": "오염",
-    "English": "pollution"
+    "English": "pollution",
+    "Russian": "загрязнение"
   },
   {
     "Korean": "동물",
-    "English": "animal"
+    "English": "animal",
+    "Russian": "животное"
   },
   {
     "Korean": "돼지",
-    "English": "pig"
+    "English": "pig",
+    "Russian": "свинья"
   },
   {
     "Korean": "호랑이",
-    "English": "tiger"
+    "English": "tiger",
+    "Russian": "тигр"
   },
   {
     "Korean": "시자",
-    "English": "lion"
+    "English": "lion",
+    "Russian": "лев"
   },
   {
     "Korean": "양",
-    "English": "sheep"
+    "English": "sheep",
+    "Russian": "овца"
   },
   {
     "Korean": "오리",
-    "English": "duck"
+    "English": "duck",
+    "Russian": "утка"
   },
   {
     "Korean": "닭",
-    "English": "chicken"
+    "English": "chicken",
+    "Russian": "курица"
   }
-]
 ]
