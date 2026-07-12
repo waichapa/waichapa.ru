@@ -4274,5 +4274,47 @@
   {
     "Korean": "기름",
     "English": "oil / grease / fuel"
+  },
+  [
+  {
+    "Korean": "환경",
+    "English": "environment"
+  },
+  {
+    "Korean": "쓰레기",
+    "English": "trash / garbage"
+  },
+  {
+    "Korean": "오염",
+    "English": "pollution"
+  },
+  {
+    "Korean": "동물",
+    "English": "animal"
+  },
+  {
+    "Korean": "돼지",
+    "English": "pig"
+  },
+  {
+    "Korean": "호랑이",
+    "English": "tiger"
+  },
+  {
+    "Korean": "시자",
+    "English": "lion"
+  },
+  {
+    "Korean": "양",
+    "English": "sheep"
+  },
+  {
+    "Korean": "오리",
+    "English": "duck"
+  },
+  {
+    "Korean": "닭",
+    "English": "chicken"
   }
+]
 ]
