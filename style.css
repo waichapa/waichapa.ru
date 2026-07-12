@@ -131,25 +131,6 @@ html[data-theme="pastel-mint"] {
     color-scheme: light;
 }
 
-html[data-theme="pastel-rose"] {
-    --bg: #FBF2F3;
-    --bg-card: #FFFFFF;
-    --bg-card-deep: #F5E2E4;
-    --accent: #B85072;
-    --accent-soft: #96395A;
-    --accent-tint: rgba(184, 80, 114, 0.08);
-    --bronze: #B4863E;
-    --seal: #A93F3F;
-    --seal-glow: rgba(169, 63, 63, 0.18);
-    --text: #33222A;
-    --text-soft: #7A5C66;
-    --border-hair: rgba(184, 80, 114, 0.15);
-    --border-hair-strong: rgba(184, 80, 114, 0.3);
-    --shadow-soft: 0 10px 24px rgba(51, 34, 42, 0.05);
-    --shadow-lift: 0 18px 36px rgba(51, 34, 42, 0.08);
-    color-scheme: light;
-}
-
 html[data-theme="sakura"] {
     --bg: #FFF7F6;
     --bg-card: #FFFFFF;

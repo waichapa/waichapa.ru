@@ -11,7 +11,7 @@ let quizCorrectCount = 0;
 let quizWrongCount = 0;
 let quizAnswered = false;
 
-const THEMES = ["dark-green", "dark-indigo", "dark-plum", "dark-ocean", "pastel-lavender", "pastel-peach", "pastel-mint", "pastel-rose", "sakura", "hacker"];
+const THEMES = ["dark-green", "dark-indigo", "dark-plum", "dark-ocean", "pastel-lavender", "pastel-peach", "pastel-mint", "sakura", "hacker"];
 
 const THEME_NAMES = {
     en: {
@@ -22,7 +22,6 @@ const THEME_NAMES = {
         "pastel-lavender": "Lavender",
         "pastel-peach": "Peach",
         "pastel-mint": "Mint",
-        "pastel-rose": "Rose",
         "sakura": "Sakura",
         "hacker": "Hacker"
     },
@@ -34,7 +33,6 @@ const THEME_NAMES = {
         "pastel-lavender": "Лаванда",
         "pastel-peach": "Персиковая",
         "pastel-mint": "Мятная",
-        "pastel-rose": "Розовая",
         "sakura": "Сакура",
         "hacker": "Хакер"
     }
@@ -139,13 +137,18 @@ function expandDictionary(dict) {
     dict.forEach(item => {
         const korean = item.Korean;
         const english = item.English;
+        const russianRaw = item.Russian || item.russian || english;
 
         if (english.includes(' / ')) {
-            const meanings = english.split(' / ').map(s => s.trim());
-            meanings.forEach(meaning => {
+            const meaningsEn = english.split(' / ').map(s => s.trim());
+            const meaningsRu = russianRaw.includes(' / ')
+                ? russianRaw.split(' / ').map(s => s.trim())
+                : meaningsEn.map(() => russianRaw);
+            meaningsEn.forEach((meaning, idx) => {
                 expanded.push({
                     Korean: korean,
                     English: meaning,
+                    Russian: meaningsRu[idx] || meaning,
                     isHomonym: true,
                     id: item.id,
                     isNew: item.isNew
@@ -155,6 +158,7 @@ function expandDictionary(dict) {
             expanded.push({
                 Korean: korean,
                 English: english,
+                Russian: russianRaw,
                 isHomonym: false,
                 id: item.id,
                 isNew: item.isNew
@@ -162,6 +166,10 @@ function expandDictionary(dict) {
         }
     });
     return expanded;
+}
+
+function wordTranslation(w) {
+    return currentLang === "ru" ? (w.Russian || w.English) : w.English;
 }
 
 function renderHeader() {
@@ -183,7 +191,8 @@ function renderGrid() {
     if (query) {
         filtered = filtered.filter(w => {
             return w.Korean.toLowerCase().includes(query) ||
-                   w.English.toLowerCase().includes(query);
+                   w.English.toLowerCase().includes(query) ||
+                   (w.Russian && w.Russian.toLowerCase().includes(query));
         });
     }
 
@@ -205,7 +214,7 @@ function renderGrid() {
             ${homonymBadge}
             <div class="seal">✓</div>
             <div class="word-kr">${w.Korean}</div>
-            <div class="word-tr">${w.English}</div>
+            <div class="word-tr">${wordTranslation(w)}</div>
         `;
         frag.appendChild(card);
     });
@@ -319,7 +328,7 @@ function nextQuizQuestion() {
     const promptLabel = document.getElementById("quizPromptLabel");
     const prompt = document.getElementById("quizPrompt");
     promptLabel.textContent = direction === "kr-to-en" ? t().quizPromptKr : t().quizPromptEn;
-    prompt.textContent = direction === "kr-to-en" ? answer.Korean : answer.English;
+    prompt.textContent = direction === "kr-to-en" ? answer.Korean : wordTranslation(answer);
     prompt.classList.toggle("is-latin", direction === "en-to-kr");
 
     const optionsWrap = document.getElementById("quizOptions");
@@ -328,7 +337,7 @@ function nextQuizQuestion() {
         const btn = document.createElement("button");
         const showKorean = direction === "en-to-kr";
         btn.className = "quiz-option" + (showKorean ? " kr-option" : "");
-        btn.textContent = showKorean ? opt.Korean : opt.English;
+        btn.textContent = showKorean ? opt.Korean : wordTranslation(opt);
         btn.addEventListener("click", () => answerQuiz(opt, btn));
         optionsWrap.appendChild(btn);
     });
@@ -344,7 +353,7 @@ function answerQuiz(chosen, btnEl) {
 
     document.querySelectorAll(".quiz-option").forEach(b => {
         b.disabled = true;
-        const label = showKorean ? quizCurrent.answer.Korean : quizCurrent.answer.English;
+        const label = showKorean ? quizCurrent.answer.Korean : wordTranslation(quizCurrent.answer);
         if (b.textContent === label) b.classList.add("correct");
     });
 
@@ -355,7 +364,7 @@ function answerQuiz(chosen, btnEl) {
     } else {
         quizWrongCount++;
         btnEl.classList.add("incorrect");
-        const answerText = showKorean ? quizCurrent.answer.Korean : quizCurrent.answer.English;
+        const answerText = showKorean ? quizCurrent.answer.Korean : wordTranslation(quizCurrent.answer);
         feedback.textContent = t().quizIncorrectPrefix + answerText;
         feedback.classList.add("incorrect");
     }
@@ -529,6 +538,14 @@ function setLang(lang) {
     if (quizCurrent) {
         const promptLabel = document.getElementById("quizPromptLabel");
         promptLabel.textContent = quizCurrent.direction === "kr-to-en" ? t().quizPromptKr : t().quizPromptEn;
+        if (!quizAnswered) {
+            const showKorean = quizCurrent.direction === "en-to-kr";
+            document.getElementById("quizPrompt").textContent = showKorean ? quizCurrent.answer.Korean : wordTranslation(quizCurrent.answer);
+            document.querySelectorAll(".quiz-option").forEach((btn, idx) => {
+                const opt = quizCurrent.options[idx];
+                if (opt) btn.textContent = showKorean ? opt.Korean : wordTranslation(opt);
+            });
+        }
     }
     if (currentTab === "stats") {
         renderStats();

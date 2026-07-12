@@ -1,4 +1,4 @@
-const THEMES = ["dark-green", "dark-indigo", "dark-plum", "dark-ocean", "pastel-lavender", "pastel-peach", "pastel-mint", "pastel-rose", "sakura", "hacker"];
+const THEMES = ["dark-green", "dark-indigo", "dark-plum", "dark-ocean", "pastel-lavender", "pastel-peach", "pastel-mint", "sakura", "hacker"];
 
 const THEME_NAMES = {
     en: {
@@ -9,7 +9,6 @@ const THEME_NAMES = {
         "pastel-lavender": "Lavender",
         "pastel-peach": "Peach",
         "pastel-mint": "Mint",
-        "pastel-rose": "Rose",
         "sakura": "Sakura",
         "hacker": "Hacker"
     },
@@ -21,7 +20,6 @@ const THEME_NAMES = {
         "pastel-lavender": "Лаванда",
         "pastel-peach": "Персиковая",
         "pastel-mint": "Мятная",
-        "pastel-rose": "Розовая",
         "sakura": "Сакура",
         "hacker": "Хакер"
     }
