@@ -1,82 +1,123 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark-green">
-<!-- build: v5 -->
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>waichapa · 한국어 단어장</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <title>S1mplex - Главная</title>
+    <link rel="icon" type="image/x-icon" href="images/fav.ico">
+    <link rel="stylesheet" href="style.css?v=6">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=5">
-    <script>
-        (function () {
-            try {
-                var saved = localStorage.getItem("waichapa-theme");
-                var theme = saved || "dark-green";
-                document.documentElement.setAttribute("data-theme", theme);
-            } catch (e) {}
-        })();
-    </script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="app">
-        <div class="header landing-header">
-            <div class="lang-switch" id="langSwitch">
-                <button class="lang-btn active" data-lang="en"><span class="flag">🇺🇸</span><span class="lang-label">English</span></button>
-                <button class="lang-btn" data-lang="ru"><span class="flag">🇷🇺</span><span class="lang-label">Русский</span></button>
+    <div id="loading-screen">
+        <div class="loader-content">
+            <div class="terminal-loader">
+                <span class="prompt">></span> <span id="typed-text"></span><span class="cursor">_</span>
             </div>
-
-            <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch Theme">
-                <span class="theme-swatch"></span>
-                <span id="themeLabel">Dark Green</span>
-            </button>
+            <div class="progress-bar-container">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="loading-percentage">0%</div>
         </div>
+    </div>
 
-        <div class="landing-hero">
-            <div class="landing-eyebrow" id="heroEyebrow">Learn Korean</div>
-            <h1 class="landing-title">waichapa</h1>
-            <p class="landing-tagline" id="heroTagline">A dictionary, grammar notes and quizzes for learning Korean — plus an AI tutor you can bring into your own Discord server.</p>
-        </div>
+    <div id="main-content" style="display: none;">
+        <nav class="navbar animate-fade-in">
+            <div class="nav-brand">S1mplex</div>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">Обо мне</a>
+                <a href="#skills" class="nav-link">Навыки</a>
+                <a href="#projects" class="nav-link">Проекты</a>
+                <a href="blog.html" class="nav-link">Блог</a>
+            </div>
+        </nav>
 
-        <div class="landing-grid">
-            <a class="landing-card landing-card-blog" href="blog.html">
-                <img class="landing-card-avatar" src="image.png" alt="waichapa blog">
-                <div class="landing-card-eyebrow" id="cardBlogEyebrow">Language Blog</div>
-                <div class="landing-card-title" id="cardBlogTitle">Dictionary &amp; Grammar</div>
-                <div class="landing-card-desc" id="cardBlogDesc">Browse the word list, search grammar rules, take a quiz and track your stats.</div>
-                <div class="landing-card-cta" id="cardBlogCta">Open the blog →</div>
-            </a>
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title animate-pop-in">Привет, я <span class="highlight">S1mplex</span></h1>
+                <p class="hero-subtitle animate-slide-up">Junior Fullstack-разработчик & Создатель контента</p>
+                <div class="hero-buttons animate-fade-in">
+                    <a href="#projects" class="btn btn-primary">Мои работы</a>
+                    <a href="blog.html" class="btn btn-secondary">Читать блог</a>
+                </div>
+            </div>
+        </header>
 
-            <a class="landing-card landing-card-minji" href="minji.html">
-                <img class="landing-card-avatar" src="minji-avatar.png" alt="Minji">
-                <div class="landing-card-eyebrow" id="cardMinjiEyebrow">Discord Bot</div>
-                <div class="landing-card-title">Minji</div>
-                <div class="landing-card-desc" id="cardMinjiDesc">An AI Korean tutor for your Discord server — lessons, vocab quizzes, TOPIK exams and live chat.</div>
-                <div class="landing-card-cta" id="cardMinjiCta">Meet Minji →</div>
-            </a>
-        </div>
+        <main class="container">
+            <section id="about" class="section card">
+                <h2 class="section-title">Обо мне</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Я начинающий fullstack-разработчик, увлеченный созданием чистых, эффективных и современных веб-приложений. Мне нравится превращать сложные задачи в простые и красивые интерфейсы.</p>
+                        <p>Помимо программирования, я веду свой блог, где делюсь опытом, процессом обучения и мыслями о технологиях.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">1+</span>
+                            <span class="stat-label">Год опыта</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">10+</span>
+                            <span class="stat-label">Проектов</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-        <footer class="site-footer">
-            <div class="footer-copy">© 2026 waichapa</div>
-            <div class="footer-contacts">
-                <a class="footer-contact-link" href="https://github.com/waichapa" target="_blank" rel="noopener">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
-                    <span>GitHub</span>
-                </a>
-                <a class="footer-contact-link" href="mailto:waichapaofficial@gmail.com">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
-                    <span>waichapaofficial@gmail.com</span>
-                </a>
-                <span class="footer-contact-link footer-contact-static">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-                    <span>Discord: waichapa</span>
-                </span>
+            <section id="skills" class="section card">
+                <h2 class="section-title">Навыки</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <ul class="skill-list">
+                            <li>HTML5 / CSS3 / JS</li>
+                            <li>Респонсивный дизайн</li>
+                            <li>Анимации & Интерфейсы</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend & Инструменты</h3>
+                        <ul class="skill-list">
+                            <li>Node.js / Express</li>
+                            <li>Git / GitHub</li>
+                            <li>Базы данных (SQL/NoSQL)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section card">
+                <h2 class="section-title">Проекты</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Minji Bot</h3>
+                            <p>Многофункциональный Discord бот для вашего сервера.</p>
+                            <a href="minji.html" class="project-link">Подробнее →</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Этот сайт</h3>
+                            <p>Моё личное портфолио и блог, написанные с нуля.</p>
+                            <a href="https://github.com/S1mplex-Coder" target="_blank" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 S1mplex. Все права защищены.</p>
+            <div class="social-links">
+                <a href="https://github.com/S1mplex-Coder" target="_blank">GitHub</a>
+                <a href="https://t.me/s1mplex_inc" target="_blank">Telegram</a>
             </div>
         </footer>
     </div>
 
-    <script src="landing.js?v=5"></script>
+    <script src="landing.js?v=6"></script>
 </body>
 </html>

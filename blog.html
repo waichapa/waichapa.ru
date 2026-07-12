@@ -1,150 +1,60 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark-green">
-<!-- build: v5 -->
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>waichapa · 한국어 단어장</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <title>S1mplex - Блог</title>
+    <link rel="icon" type="image/x-icon" href="images/fav.ico">
+    <link rel="stylesheet" href="style.css?v=6">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=5">
-    <script>
-        (function () {
-            try {
-                var saved = localStorage.getItem("waichapa-theme");
-                var theme = saved || "dark-green";
-                document.documentElement.setAttribute("data-theme", theme);
-            } catch (e) {}
-        })();
-    </script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="app">
-        <div class="header">
-            <a class="profile brand-link" href="index.html">
-                <img class="avatar" id="avatar" src="image.png" alt="waichapa">
-                <div class="profile-info">
-                    <div class="profile-name">waichapa</div>
-                    <div class="profile-stats" id="statsText"></div>
-                </div>
-            </a>
-            <div class="header-controls">
-                <div class="page-switch">
-                    <a class="page-link active" href="blog.html"><span>📖</span><span>Blog</span></a>
-                    <a class="page-link" href="minji.html"><span>🌸</span><span>Minji</span></a>
-                </div>
-
-                <div class="lang-switch" id="langSwitch">
-                    <button class="lang-btn active" data-lang="en"><span class="flag">🇺🇸</span><span class="lang-label">English</span></button>
-                    <button class="lang-btn" data-lang="ru"><span class="flag">🇷🇺</span><span class="lang-label">Русский</span></button>
-                </div>
-
-                <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch Theme">
-                    <span class="theme-swatch"></span>
-                    <span id="themeLabel">Dark Green</span>
-                </button>
-            </div>
+    <nav class="navbar animate-fade-in">
+        <div class="nav-brand">S1mplex Блог</div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="index.html#about" class="nav-link">Обо мне</a>
+            <a href="index.html#projects" class="nav-link">Проекты</a>
         </div>
+    </nav>
 
-        <div class="tabs" id="tabs">
-            <button class="tab-btn active" data-tab="dict">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-                <span id="tabDictLabel">Dictionary</span>
-            </button>
-            <button class="tab-btn" data-tab="grammar">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                <span id="tabGrammarLabel">Grammar</span>
-            </button>
-            <button class="tab-btn" data-tab="quiz">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.2a2.5 2.5 0 0 1 4.9.8c0 1.7-2.4 1.9-2.4 3.5"/><line x1="12" y1="17" x2="12" y2="17.1"/></svg>
-                <span id="tabQuizLabel">Quiz</span>
-            </button>
-            <button class="tab-btn" data-tab="stats">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="21" x2="5" y2="11"/><line x1="12" y1="21" x2="12" y2="6"/><line x1="19" y1="21" x2="19" y2="14"/></svg>
-                <span id="tabStatsLabel">Stats</span>
-            </button>
+    <main class="container blog-container">
+        <header class="blog-header animate-pop-in">
+            <h1>Мои мысли и статьи</h1>
+            <p>Заметки о разработке, технологиях и жизни</p>
+        </header>
+
+        <div class="blog-grid animate-slide-up">
+            <article class="blog-card card">
+                <div class="blog-card-content">
+                    <span class="post-date">10 Октября 2025</span>
+                    <h2>Начало пути в веб-разработке</h2>
+                    <p class="post-excerpt">Моя история о том, как я решил стать fullstack-разработчиком, с какими трудностями столкнулся в самом начале и какие инструменты выбрал для изучения.</p>
+                    <a href="#" class="read-more-btn">Читать далее →</a>
+                </div>
+            </article>
+
+            <article class="blog-card card">
+                <div class="blog-card-content">
+                    <span class="post-date">28 Сентября 2025</span>
+                    <h2>Почему я создал Minji Bot?</h2>
+                    <p class="post-excerpt">Разбор идеи и процесса создания Discord бота. Зачем он нужен, какие технологии использовались и планы по его развитию.</p>
+                    <a href="minji.html" class="read-more-btn">Подробнее о боте →</a>
+                </div>
+            </article>
         </div>
+    </main>
 
-        <section class="tab-panel active" id="panel-dict">
-            <div class="search-row">
-                <div class="search-box">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
-                    <input type="text" id="searchInput" placeholder="Search a word or translation…">
-                </div>
-                <div class="recent-filter-wrap">
-                    <select class="recent-filter" id="recentFilter">
-                        <option value="all" id="recentAllOpt">All words</option>
-                        <option value="10" id="recentLast10Opt">Last 10</option>
-                        <option value="30" id="recentLast30Opt">Last 30</option>
-                        <option value="50" id="recentLast50Opt">Last 50</option>
-                    </select>
-                    <svg class="recent-filter-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-                </div>
-                <div class="result-count" id="resultCount"></div>
-            </div>
-            <div class="grid" id="dictGrid"></div>
-        </section>
+    <footer class="footer">
+        <p>&copy; 2025 S1mplex. Все права защищены.</p>
+        <div class="social-links">
+            <a href="https://github.com/S1mplex-Coder" target="_blank">GitHub</a>
+            <a href="https://t.me/s1mplex_inc" target="_blank">Telegram</a>
+        </div>
+    </footer>
 
-        <section class="tab-panel" id="panel-grammar">
-            <div class="search-row">
-                <div class="search-box">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
-                    <input type="text" id="grammarSearchInput" placeholder="Search grammar rules…">
-                </div>
-                <div class="result-count" id="grammarResultCount"></div>
-            </div>
-            <div class="grid" id="grammarGrid"></div>
-        </section>
-
-        <section class="tab-panel" id="panel-quiz">
-            <div class="quiz-wrap">
-                <div class="quiz-mode-row">
-                    <div class="recent-filter-wrap">
-                        <select class="recent-filter" id="quizRecentFilter">
-                            <option value="all" id="quizRecentAllOpt">All words</option>
-                            <option value="10" id="quizRecentLast10Opt">Last 10</option>
-                            <option value="30" id="quizRecentLast30Opt">Last 30</option>
-                            <option value="50" id="quizRecentLast50Opt">Last 50</option>
-                        </select>
-                        <svg class="recent-filter-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-                    </div>
-                </div>
-                <div class="quiz-score" id="quizScore"></div>
-                <div class="quiz-card" id="quizCard">
-                    <div class="quiz-prompt-label" id="quizPromptLabel"></div>
-                    <div class="quiz-prompt" id="quizPrompt"></div>
-                    <div class="quiz-options" id="quizOptions"></div>
-                    <div class="quiz-feedback" id="quizFeedback"></div>
-                    <button class="quiz-next" id="quizNext" type="button"></button>
-                </div>
-            </div>
-        </section>
-
-        <section class="tab-panel" id="panel-stats">
-            <div class="stats-grid" id="statsGrid"></div>
-        </section>
-
-        <footer class="site-footer">
-            <div class="footer-copy">© 2026 waichapa</div>
-            <div class="footer-contacts">
-                <a class="footer-contact-link" href="https://github.com/waichapa" target="_blank" rel="noopener">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
-                    <span>GitHub</span>
-                </a>
-                <a class="footer-contact-link" href="mailto:waichapaofficial@gmail.com">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
-                    <span>waichapaofficial@gmail.com</span>
-                </a>
-                <span class="footer-contact-link footer-contact-static">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-                    <span>Discord: waichapa</span>
-                </span>
-            </div>
-        </footer>
-    </div>
-
-    <script src="script.js?v=5"></script>
+    <script src="script.js?v=6"></script>
 </body>
 </html>
