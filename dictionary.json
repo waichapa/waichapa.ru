@@ -5393,5 +5393,50 @@
     "Korean": "닭",
     "English": "chicken",
     "Russian": "курица"
+  },
+  {
+    "Korean": "새우",
+    "English": "shrimp / prawn",
+    "Russian": "креветка"
+  },
+  {
+    "Korean": "오징어",
+    "English": "squid",
+    "Russian": "кальмар"
+  },
+  {
+    "Korean": "식물",
+    "English": "plant",
+    "Russian": "растение"
+  },
+  {
+    "Korean": "풀",
+    "English": "grass",
+    "Russian": "трава"
+  },
+  {
+    "Korean": "장미",
+    "English": "rose",
+    "Russian": "роза"
+  },
+  {
+    "Korean": "국화",
+    "English": "chrysanthemum",
+    "Russian": "хризантема"
+  },
+  {
+    "Korean": "벚꽃",
+    "English": "cherry blossom",
+    "Russian": "цветок сакуры"
+  },
+  {
+    "Korean": "무궁화",
+    "English": "rose of Sharon (national flower of Korea)",
+    "Russian": "мугунхва (национальный цветок Кореи)"
+  },
+  {
+    "Korean": "화초",
+    "English": "ornamental plant / houseplant / flower",
+    "Russian": "декоративное растение, цветок"
   }
 ]
