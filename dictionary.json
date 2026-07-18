@@ -5488,5 +5488,40 @@
     "Korean": "접시",
     "English": "plate",
     "Russian": "тарелка"
+  },
+  {
+    "Korean": "원화",
+    "English": "Korean won (currency)",
+    "Russian": "корейская вона"
+  },
+  {
+    "Korean": "외화",
+    "English": "foreign currency",
+    "Russian": "иностранная валюта"
+  },
+  {
+    "Korean": "루블화",
+    "English": "Russian ruble",
+    "Russian": "российский рубль"
+  },
+  {
+    "Korean": "미화",
+    "English": "US dollar",
+    "Russian": "доллар США"
+  },
+  {
+    "Korean": "유로화",
+    "English": "euro",
+    "Russian": "евро"
+  },
+  {
+    "Korean": "위안화",
+    "English": "Chinese yuan",
+    "Russian": "китайский юань"
+  },
+  {
+    "Korean": "엔화",
+    "English": "Japanese yen",
+    "Russian": "японская иена"
   }
 ]
