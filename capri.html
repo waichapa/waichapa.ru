@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark-green">
+<!-- build: v5 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capri · waichapa</title>
+    <meta name="description" content="Capri is an Avalonia desktop app that converts Windows cursor packs into Xcursor format and installs them as your active cursor theme on Pop!_OS / COSMIC and other Linux desktops.">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=5">
+    <script>
+        (function () {
+            try {
+                var saved = localStorage.getItem("waichapa-theme");
+                var theme = saved || "dark-green";
+                document.documentElement.setAttribute("data-theme", theme);
+            } catch (e) {}
+        })();
+    </script>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <a class="profile brand-link" href="index.html">
+                <div class="minji-seal" style="width:56px;height:56px;margin:0;filter:none;background:var(--bg-card-deep);border-radius:16px;display:flex;align-items:center;justify-content:center;color:var(--accent);">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v6h6"/><path d="M4 10a8 8 0 1 1 2.34 6.66"/></svg>
+                </div>
+                <div class="profile-info">
+                    <div class="profile-name">waichapa</div>
+                    <div class="profile-stats" id="brandSub">Capri · Cursor installer</div>
+                </div>
+            </a>
+            <div class="header-controls">
+                <div class="page-switch">
+                    <a class="page-link" href="blog.html"><span>📖</span><span id="navBlog">Blog</span></a>
+                    <a class="page-link active" href="projects.html"><span>🧩</span><span id="navProjects">Projects</span></a>
+                </div>
+
+                <div class="lang-switch" id="langSwitch">
+                    <button class="lang-btn active" data-lang="en"><span class="flag">🇺🇸</span><span class="lang-label">English</span></button>
+                    <button class="lang-btn" data-lang="ru"><span class="flag">🇷🇺</span><span class="lang-label">Русский</span></button>
+                </div>
+
+                <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch Theme">
+                    <span class="theme-swatch"></span>
+                    <span id="themeLabel">Dark Green</span>
+                </button>
+            </div>
+        </div>
+
+        <section class="minji-hero">
+            <div class="minji-seal" style="background:var(--bg-card-deep);border-radius:30px;display:flex;align-items:center;justify-content:center;color:var(--accent);box-shadow:var(--shadow-lift);">
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v6h6"/><path d="M4 10a8 8 0 1 1 2.34 6.66"/></svg>
+            </div>
+            <div class="minji-eyebrow" id="heroEyebrow">Linux Desktop App</div>
+            <h1 class="minji-title">Capri</h1>
+            <div class="minji-subtitle" id="heroSubtitle">Bring your favorite Windows cursor themes to Linux</div>
+            <p class="minji-lede" id="heroLede">Capri is a small Avalonia app that converts Windows cursor packs (.cur / .ani) into the Xcursor format and installs them as your active cursor theme on Pop!_OS / COSMIC — no terminal required.</p>
+            <div class="minji-cta-row">
+                <div class="minji-cta-buttons">
+                    <a class="minji-cta" id="downloadBtn" href="https://github.com/waichapa/Capri/releases/latest" target="_blank" rel="noopener">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        <span id="ctaLabel">Download latest release</span>
+                    </a>
+                    <a class="minji-cta-secondary" href="https://github.com/waichapa/Capri" target="_blank" rel="noopener">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
+                        <span id="viewSourceLabel">View source</span>
+                    </a>
+                </div>
+                <div class="minji-cta-sub" id="ctaSub">Free & open source · MIT licensed</div>
+            </div>
+        </section>
+
+        <section class="minji-section">
+            <div class="minji-section-title" id="featuresTitle">What Capri does</div>
+            <div class="minji-section-sub" id="featuresSub">Six things that make cursor installs painless</div>
+            <div class="minji-feature-grid">
+                <div class="minji-feature-card">
+                    <div class="minji-feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h18v18H3z"/><path d="m9 12 2 2 4-4"/></svg></div>
+                    <div class="minji-feature-title" id="f1Title">One-click install</div>
+                    <div class="minji-feature-desc" id="f1Desc">Point Capri at a folder of .cur / .ani files and apply them as your system cursor theme instantly.</div>
+                </div>
+                <div class="minji-feature-card">
+                    <div class="minji-feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 2v10l7 4"/></svg></div>
+                    <div class="minji-feature-title" id="f2Title">Auto mode</div>
+                    <div class="minji-feature-desc" id="f2Desc">Capri automatically matches files to the right cursor role — pointer, wait, text, resize and more — using smart name heuristics.</div>
+                </div>
+                <div class="minji-feature-card">
+                    <div class="minji-feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+                    <div class="minji-feature-title" id="f3Title">Manual mode</div>
+                    <div class="minji-feature-desc" id="f3Desc">Don't trust the guesswork? Assign each cursor role to a specific file yourself from a simple dropdown list.</div>
+                </div>
+                <div class="minji-feature-card">
+                    <div class="minji-feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg></div>
+                    <div class="minji-feature-title" id="f4Title">Reset to system</div>
+                    <div class="minji-feature-desc" id="f4Desc">Restore your previous cursors at any time — Capri backs up every file it replaces before touching it.</div>
+                </div>
+                <div class="minji-feature-card">
+                    <div class="minji-feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 6.5l4 4L7 21H3v-4z"/><path d="M17.5 2.5a2.12 2.12 0 0 1 3 3l-1.5 1.5-3-3z"/></svg></div>
+                    <div class="minji-feature-title" id="f5Title">Full alias coverage</div>
+                    <div class="minji-feature-desc" id="f5Desc">Capri automatically creates the symlinks apps expect, so cursors look correct across GTK, Qt and Electron apps.</div>
+                </div>
+                <div class="minji-feature-card">
+                    <div class="minji-feature-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 8 4.5v9L12 20l-8-4.5v-9z"/><path d="M12 22V12"/><path d="m4 6.5 8 5.5 8-5.5"/></svg></div>
+                    <div class="minji-feature-title" id="f6Title">Lightweight & native</div>
+                    <div class="minji-feature-desc" id="f6Desc">Built with Avalonia, Capri fits right into the COSMIC desktop and feels at home there.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="minji-section">
+            <div class="minji-section-title" id="whyTitle">Why people install Capri</div>
+            <div class="minji-why-grid">
+                <div class="minji-why-card">
+                    <div class="minji-why-title" id="w1Title">No terminal required</div>
+                    <div class="minji-why-desc" id="w1Desc">Browse a folder, pick a mode, click apply — the whole workflow lives in the app window.</div>
+                </div>
+                <div class="minji-why-card">
+                    <div class="minji-why-title" id="w2Title">Nothing lost</div>
+                    <div class="minji-why-desc" id="w2Desc">Every file Capri replaces is backed up first, and Reset to System can undo the whole change.</div>
+                </div>
+                <div class="minji-why-card">
+                    <div class="minji-why-title" id="w3Title">Works beyond COSMIC</div>
+                    <div class="minji-why-desc" id="w3Desc">Any Xcursor-based desktop works — GNOME, KDE and others, not just Pop!_OS.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="minji-footer-cta">
+            <h2 id="footerTitle">Get your cursors looking right</h2>
+            <div class="minji-cta-buttons">
+                <a class="minji-cta" id="footerDownloadBtn" href="https://github.com/waichapa/Capri/releases/latest" target="_blank" rel="noopener">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    <span id="footerCtaLabel">Download latest release</span>
+                </a>
+                <a class="minji-cta-secondary" href="https://github.com/waichapa/Capri" target="_blank" rel="noopener">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
+                    <span id="footerViewSourceLabel">View source</span>
+                </a>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="footer-copy">© 2026 waichapa</div>
+            <div class="footer-contacts">
+                <a class="footer-contact-link" href="https://github.com/waichapa" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
+                    <span>GitHub</span>
+                </a>
+                <a class="footer-contact-link" href="mailto:waichapaofficial@gmail.com">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+                    <span>waichapaofficial@gmail.com</span>
+                </a>
+                <span class="footer-contact-link footer-contact-static">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    <span>Discord: waichapa</span>
+                </span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="capri.js?v=5"></script>
+</body>
+</html>

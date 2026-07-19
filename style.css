@@ -1219,6 +1219,14 @@ button {
     margin-bottom: 0.25rem;
 }
 
+.landing-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-card-deep);
+    color: var(--accent);
+}
+
 .landing-card-eyebrow {
     font-size: 0.8rem;
     font-weight: 800;

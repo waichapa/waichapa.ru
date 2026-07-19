@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark-green">
+<!-- build: v5 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects · waichapa</title>
+    <meta name="description" content="Other projects by waichapa — Minji, an AI Korean tutor for Discord, and Capri, a cursor theme installer for Linux.">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=5">
+    <script>
+        (function () {
+            try {
+                var saved = localStorage.getItem("waichapa-theme");
+                var theme = saved || "dark-green";
+                document.documentElement.setAttribute("data-theme", theme);
+            } catch (e) {}
+        })();
+    </script>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <a class="profile brand-link" href="index.html">
+                <img class="avatar" id="avatar" src="image.png" alt="waichapa">
+                <div class="profile-info">
+                    <div class="profile-name">waichapa</div>
+                    <div class="profile-stats" id="brandSub">Projects</div>
+                </div>
+            </a>
+            <div class="header-controls">
+                <div class="page-switch">
+                    <a class="page-link" href="blog.html"><span>📖</span><span id="navBlog">Blog</span></a>
+                    <a class="page-link active" href="projects.html"><span>🧩</span><span id="navProjects">Projects</span></a>
+                </div>
+
+                <div class="lang-switch" id="langSwitch">
+                    <button class="lang-btn active" data-lang="en"><span class="flag">🇺🇸</span><span class="lang-label">English</span></button>
+                    <button class="lang-btn" data-lang="ru"><span class="flag">🇷🇺</span><span class="lang-label">Русский</span></button>
+                </div>
+
+                <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch Theme">
+                    <span class="theme-swatch"></span>
+                    <span id="themeLabel">Dark Green</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="landing-hero">
+            <div class="landing-eyebrow" id="heroEyebrow">More from waichapa</div>
+            <h1 class="landing-title" id="heroTitle">Projects</h1>
+            <p class="landing-tagline" id="heroTagline">A Discord AI tutor and a Linux cursor installer — plus whatever comes next.</p>
+        </div>
+
+        <div class="landing-grid">
+            <a class="landing-card landing-card-minji" href="minji.html">
+                <img class="landing-card-avatar" src="minji-avatar.png" alt="Minji">
+                <div class="landing-card-eyebrow" id="cardMinjiEyebrow">Discord Bot</div>
+                <div class="landing-card-title">Minji</div>
+                <div class="landing-card-desc" id="cardMinjiDesc">An AI Korean tutor for your Discord server — lessons, vocab quizzes, TOPIK exams and live chat.</div>
+                <div class="landing-card-cta" id="cardMinjiCta">Meet Minji →</div>
+            </a>
+
+            <a class="landing-card" href="capri.html">
+                <div class="landing-card-avatar landing-card-icon" aria-hidden="true">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v6h6"/><path d="M4 10a8 8 0 1 1 2.34 6.66"/></svg>
+                </div>
+                <div class="landing-card-eyebrow" id="cardCapriEyebrow">Linux Desktop App</div>
+                <div class="landing-card-title">Capri</div>
+                <div class="landing-card-desc" id="cardCapriDesc">Converts Windows cursor packs to Xcursor format and installs them as your active theme on Pop!_OS / COSMIC.</div>
+                <div class="landing-card-cta" id="cardCapriCta">Meet Capri →</div>
+            </a>
+        </div>
+
+        <footer class="site-footer">
+            <div class="footer-copy">© 2026 waichapa</div>
+            <div class="footer-contacts">
+                <a class="footer-contact-link" href="https://github.com/waichapa" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
+                    <span>GitHub</span>
+                </a>
+                <a class="footer-contact-link" href="mailto:waichapaofficial@gmail.com">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+                    <span>waichapaofficial@gmail.com</span>
+                </a>
+                <span class="footer-contact-link footer-contact-static">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    <span>Discord: waichapa</span>
+                </span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="projects.js?v=5"></script>
+</body>
+</html>

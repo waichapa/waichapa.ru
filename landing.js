@@ -33,9 +33,10 @@ const STR = {
         cardBlogTitle: "Dictionary & Grammar",
         cardBlogDesc: "Browse the word list, search grammar rules, take a quiz and track your stats.",
         cardBlogCta: "Open the blog →",
-        cardMinjiEyebrow: "Discord Bot",
-        cardMinjiDesc: "An AI Korean tutor for your Discord server — lessons, vocab quizzes, TOPIK exams and live chat.",
-        cardMinjiCta: "Meet Minji →"
+        cardProjectsEyebrow: "More from waichapa",
+        cardProjectsTitle: "Projects",
+        cardProjectsDesc: "Minji, an AI Korean tutor for Discord, and Capri, a cursor theme installer for Linux.",
+        cardProjectsCta: "See the projects →"
     },
     ru: {
         heroEyebrow: "Учи корейский",
@@ -44,9 +45,10 @@ const STR = {
         cardBlogTitle: "Словарь и грамматика",
         cardBlogDesc: "Смотри список слов, ищи грамматические правила, проходи квиз и следи за статистикой.",
         cardBlogCta: "Открыть блог →",
-        cardMinjiEyebrow: "Discord-бот",
-        cardMinjiDesc: "AI-репетитор корейского для твоего Discord-сервера — уроки, квизы по словарю, экзамены TOPIK и живой чат.",
-        cardMinjiCta: "Познакомиться с Minji →"
+        cardProjectsEyebrow: "Ещё проекты waichapa",
+        cardProjectsTitle: "Проекты",
+        cardProjectsDesc: "Minji — AI-репетитор корейского для Discord, и Capri — установщик тем курсора для Linux.",
+        cardProjectsCta: "Смотреть проекты →"
     }
 };
 

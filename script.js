@@ -61,6 +61,8 @@ const STR = {
         recentLast50: "Last 50",
         newBadge: "new",
         themeToggle: "Switch Theme",
+        navBlog: "Blog",
+        navProjects: "Projects",
         tabDict: "Dictionary",
         tabGrammar: "Grammar",
         tabQuiz: "Quiz",
@@ -99,6 +101,8 @@ const STR = {
         recentLast50: "Последние 50",
         newBadge: "новое",
         themeToggle: "Переключить тему",
+        navBlog: "Блог",
+        navProjects: "Проекты",
         tabDict: "Словарь",
         tabGrammar: "Грамматика",
         tabQuiz: "Квиз",
@@ -526,6 +530,8 @@ function setLang(lang) {
     document.getElementById("quizRecentLast30Opt").textContent = t().recentLast30;
     document.getElementById("quizRecentLast50Opt").textContent = t().recentLast50;
     document.getElementById("themeToggle").setAttribute("aria-label", t().themeToggle);
+    document.getElementById("navBlog").textContent = t().navBlog;
+    document.getElementById("navProjects").textContent = t().navProjects;
     document.getElementById("tabDictLabel").textContent = t().tabDict;
     document.getElementById("tabGrammarLabel").textContent = t().tabGrammar;
     document.getElementById("tabQuizLabel").textContent = t().tabQuiz;
