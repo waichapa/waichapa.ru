@@ -5523,5 +5523,40 @@
     "Korean": "엔화",
     "English": "Japanese yen",
     "Russian": "японская иена"
+  },
+  {
+    "Korean": "주중",
+    "English": "weekdays",
+    "Russian": "будни"
+  },
+  {
+    "Korean": "전철",
+    "English": "subway / train",
+    "Russian": "электричка / метро"
+  },
+  {
+    "Korean": "휘발유",
+    "English": "gasoline",
+    "Russian": "бензин"
+  },
+  {
+    "Korean": "거리",
+    "English": "street / distance",
+    "Russian": "улица / расстояние"
+  },
+  {
+    "Korean": "지불",
+    "English": "payment",
+    "Russian": "платёж, оплата"
+  },
+  {
+    "Korean": "주차장",
+    "English": "parking lot",
+    "Russian": "парковка"
+  },
+  {
+    "Korean": "치하절이용권",
+    "English": "parking ticket / parking pass (likely typo of '주차 이용권')",
+    "Russian": "талон на парковку / разрешение на парковку"
   }
 ]
