@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>waichapa — Statistics</title>
+<link rel="icon" href="favicon-32x32.png" type="image/png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app-header"></div>
+
+<div class="container">
+  <h1 data-i18n="stats_title">Detailed Statistics</h1>
+
+  <div class="stat-grid" id="statGrid"></div>
+
+  <div class="card">
+    <h2 data-i18n="stat_by_tag">Words by tag</h2>
+    <div id="tagBars"></div>
+  </div>
+</div>
+
+<div id="app-footer"></div>
+
+<script src="js/i18n.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/common.js"></script>
+<script src="js/stats-app.js"></script>
+<script>
+  renderHeader('stats');
+  renderFooter();
+  document.addEventListener('langChanged', () => { renderHeader('stats'); renderFooter(); renderStats(); });
+</script>
+</body>
+</html>

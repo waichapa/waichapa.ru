@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>waichapa — Quiz</title>
+<link rel="icon" href="favicon-32x32.png" type="image/png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app-header"></div>
+
+<div class="container">
+  <h1 data-i18n="quiz_title">Vocabulary Quiz</h1>
+  <p data-i18n="quiz_intro"></p>
+
+  <div class="search-bar">
+    <select id="quizTagFilter"></select>
+  </div>
+  <div class="quick-filters" id="quizQuickFilters"></div>
+
+  <div class="card">
+    <div class="quiz-progress-text" id="quizProgress"></div>
+    <div id="flashcardWrap"></div>
+    <div class="quiz-score" id="quizScore"></div>
+  </div>
+</div>
+
+<div id="app-footer"></div>
+
+<script src="js/i18n.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/common.js"></script>
+<script src="js/quiz-app.js"></script>
+<script>
+  renderHeader('quiz');
+  renderFooter();
+  document.addEventListener('langChanged', () => { renderHeader('quiz'); renderFooter(); });
+</script>
+</body>
+</html>
