@@ -7757,9 +7757,51 @@
   },
   {
     "Korean": "치하절이용권",
-    "English": "parking ticket / parking pass (likely typo of '주차 이용권')",
+    "English": "parking ticket / parking pass",
     "Russian": "талон на парковку / разрешение на парковку",
     "rutag": "транспорт",
     "engtag": "transport"
+  },
+  {
+    "Korean": "구름",
+    "English": "cloud",
+    "Russian": "облако",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "기온",
+    "English": "temperature (air)",
+    "Russian": "температура воздуха",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "영상",
+    "English": "above zero (temperature)",
+    "Russian": "выше нуля (о температуре)",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "영하",
+    "English": "below zero (temperature)",
+    "Russian": "ниже нуля (о температуре)",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "일기예보",
+    "English": "weather forecast",
+    "Russian": "прогноз погоды",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "태풍",
+    "English": "typhoon",
+    "Russian": "тайфун",
+    "rutag": "природа",
+    "engtag": "nature"
   }
 ]
