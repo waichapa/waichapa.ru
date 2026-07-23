@@ -7803,5 +7803,82 @@
     "Russian": "тайфун",
     "rutag": "природа",
     "engtag": "nature"
+  },
+  {
+    "Korean": "나아가다",
+    "English": "to go forward / to advance / to proceed",
+    "Russian": "двигаться вперёд, продвигаться",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "올라가다",
+    "English": "to go up / to climb (away from speaker)",
+    "Russian": "подниматься (туда, от говорящего)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "올라오다",
+    "English": "to come up / to climb (towards speaker)",
+    "Russian": "подниматься (сюда, к говорящему)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "내려가다",
+    "English": "to go down / to descend (away from speaker)",
+    "Russian": "спускаться (туда, от говорящего)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "내려오다",
+    "English": "to come down / to descend (towards speaker)",
+    "Russian": "спускаться (сюда, к говорящему)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "들어오다",
+    "English": "to come in / to enter (towards speaker)",
+    "Russian": "входить (сюда, к говорящему)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "돌아가다",
+    "English": "to go back / to return / to rotate (away from speaker)",
+    "Russian": "возвращаться (туда), вращаться",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "건너가다",
+    "English": "to cross over / to go across (away from speaker)",
+    "Russian": "переходить, переправляться (туда)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "건너오다",
+    "English": "to cross over / to come across (towards speaker)",
+    "Russian": "переходить, переправляться (сюда)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "다가가다",
+    "English": "to approach / to go closer (towards something, away from speaker)",
+    "Russian": "приближаться (к чему-то, от говорящего)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "다시오다",
+    "English": "to come again / to return (towards speaker) — likely contraction of '다시 오다'",
+    "Russian": "приходить снова, возвращаться (сюда)",
+    "rutag": "действие",
+    "engtag": "action"
   }
 ]
