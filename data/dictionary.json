@@ -3990,6 +3990,27 @@
     "engtag": "study"
   },
   {
+    "Korean": "언어",
+    "English": "language",
+    "Russian": "язык (речь)",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "새",
+    "English": "bird / new",
+    "Russian": "птица / новый",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "내",
+    "English": "my (informal) / next",
+    "Russian": "мой (неформально) / следующий",
+    "rutag": "местоимение",
+    "engtag": "pronoun"
+  },
+  {
     "Korean": "가사",
     "English": "lyrics / household chores",
     "Russian": "текст песни / домашние дела",
