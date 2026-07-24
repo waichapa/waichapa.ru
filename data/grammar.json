@@ -559,6 +559,14 @@
     "ru_example": "한국에 가 본 적이 있어요. — Был в Корее (имею опыт). / 스키를 타 본 적이 없어요. — Никогда не катался на лыжах. / 그 영화를 본 적이 있어요. — Видел этот фильм. / 여기서 일한 적이 있어요? — Ты когда-нибудь здесь работал?",
     "en_example": "한국에 가 본 적이 있어요. — I have been to Korea (have experience). / 스키를 타 본 적이 없어요. — I have never skied. / 그 영화를 본 적이 있어요. — I have seen that movie. / 여기서 일한 적이 있어요? — Have you ever worked here?"
   },
+    {
+    "ru_title": "Желание/предложение (으)면 하다",
+    "en_title": "Wish/suggestion (으)면 하다",
+    "ru_explanation": "Выражает лёгкое желание, предложение или надежду ('хорошо бы', 'было бы неплохо', 'может быть, стоит'). Образуется от условной формы (으)면 и глагола 하다 в значении 'думать/считать'. Часто используется для вежливого предложения или выражения мнения, что было бы хорошо что-то сделать. В разговорной речи часто используется в форме (으)면 해요 или (으)면 할 텐데. Более мягкий вариант, чем (으)면 좋겠다 (тоже 'хорошо бы', но с более сильной эмоцией). В прошлом времени: (으)면 했어요 (хорошо бы сделал, но не сделал — сожаление). В отрицании: 지 않으면 하다 (если не ... было бы хорошо).",
+    "en_explanation": "Expresses a mild wish, suggestion, or hope ('it would be good', 'would be nice', 'maybe it's worth'). Formed from the conditional form (으)면 and the verb 하다 in the meaning 'to think/consider'. Often used for polite suggestions or expressing an opinion that it would be good to do something. In colloquial speech, often used in the form (으)면 해요 or (으)면 할 텐데. A softer variant than (으)면 좋겠다 (also 'it would be good', but with a stronger emotion). Past tense: (으)면 했어요 (it would have been good if I did, but I didn't — regret). Negative: 지 않으면 하다 (it would be good if not).",
+    "ru_example": "조금 더 일찍 오면 해요. — Хорошо бы прийти немного пораньше. / 같이 영화 보면 해요. — Может, сходим вместе в кино? / 매일 운동하면 해요. — Хорошо бы заниматься спортом каждый день. / 그 책을 읽으면 해요. — Стоило бы прочитать ту книгу. / 늦지 않으면 하는데. — Хорошо бы не опаздывать.",
+    "en_example": "조금 더 일찍 오면 해요. — It would be good to come a little earlier. / 같이 영화 보면 해요. — Maybe we should watch a movie together? / 매일 운동하면 해요. — It would be nice to exercise every day. / 그 책을 읽으면 해요. — It would be good to read that book. / 늦지 않으면 하는데. — It would be good not to be late."
+  },
   {
     "ru_title": "Знание/незнание (으)ㄹ 줄 알다/모르다",
     "en_title": "Knowing/not knowing (으)ㄹ 줄 알다/모르다",
