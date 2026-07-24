@@ -24,6 +24,14 @@
     "en_example": "가 + 아 → 가 (as in '가요'), 보 + 아 → 봐, 주 + 어 → 줘, 쓰 + 어 → 써"
   },
   {
+  "ru_title": "Неправильные глаголы (все случаи)",
+  "en_title": "Irregular verb/adjective conjugation (all cases)",
+  "ru_explanation": "Некоторые глаголы и прилагательные меняют согласную в конце основы при присоединении окончаний, начинающихся на гласную (아/어, 으). Это не сводится к правилам слияния гласных — меняется сама основа. Основные типы: ㅂ-неправильные (ㅂ → 우, реже 오): 덥다→더워요, 춥다→추워요, 어렵다→어려워요, 쉽다→쉬워요, 돕다→도와요 (искл.). ㄷ-неправильные (ㄷ → ㄹ): 듣다→들어요, 걷다→걸어요. 르-неправильные (르 → ㄹㄹ): 모르다→몰라요, 다르다→달라요, 빠르다→빨라요. ㅅ-неправильные (ㅅ исчезает): 낫다→나아요, 짓다→지어요. ㅎ-неправильные (ㅎ исчезает, гласные сливаются по-особому): 그렇다→그래요, 이렇다→이래요, 하얗다→하얘요. Правильные глаголы с такими же на вид основами (입다, 받다, 따르다, 웃다) спрягаются без изменений — их нужно запоминать отдельно как исключения из неправильных типов.",
+  "en_explanation": "Some verbs and adjectives change the final consonant of the stem when a vowel-initial ending (아/어, 으) is attached. This is different from vowel contraction — the stem consonant itself changes. Main types: ㅂ-irregular (ㅂ → 우, rarely 오): 덥다→더워요, 춥다→추워요, 어렵다→어려워요, 쉽다→쉬워요, 돕다→도와요 (exception). ㄷ-irregular (ㄷ → ㄹ): 듣다→들어요, 걷다→걸어요. 르-irregular (르 → ㄹㄹ): 모르다→몰라요, 다르다→달라요, 빠르다→빨라요. ㅅ-irregular (ㅅ disappears): 낫다→나아요, 짓다→지어요. ㅎ-irregular (ㅎ disappears, vowels contract irregularly): 그렇다→그래요, 이렇다→이래요, 하얗다→하얘요. Regular verbs that look similar (입다, 받다, 따르다, 웃다) conjugate normally and must be memorized separately as exceptions.",
+  "ru_example": "날씨가 더워요. — Погода жаркая. / 저는 한국어를 잘 몰라요. — Я плохо знаю корейский. / 어제 음악을 들었어요. — Вчера я слушал музыку.",
+  "en_example": "날씨가 더워요. — The weather is hot. / 저는 한국어를 잘 몰라요. — I don't know Korean well. / 어제 음악을 들었어요. — Yesterday I listened to music."
+},
+  {
     "ru_title": "Именительный падеж 이/가",
     "en_title": "Nominative case markers 이/가",
     "ru_explanation": "Указывают на подлежащее предложения. 이 — после согласной, 가 — после гласной. Выделяют новую информацию или фокус предложения. Используются для обозначения субъекта действия или состояния. В разговорной речи часто опускаются, если подлежащее ясно из контекста.",

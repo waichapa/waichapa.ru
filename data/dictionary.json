@@ -3261,6 +3261,41 @@
     "rutag": "описание",
     "engtag": "description"
   },
+    {
+    "Korean": "이거",
+    "English": "this (thing, colloquial)",
+    "Russian": "это (вещь, разговорное)",
+    "rutag": "местоимение",
+    "engtag": "pronoun"
+  },
+  {
+    "Korean": "이것",
+    "English": "this (thing, formal)",
+    "Russian": "это (вещь, формальное)",
+    "rutag": "местоимение",
+    "engtag": "pronoun"
+  },
+  {
+    "Korean": "거기",
+    "English": "there / that place",
+    "Russian": "там, то место",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "어떻게",
+    "English": "how / in what way",
+    "Russian": "как, каким образом",
+    "rutag": "вопрос",
+    "engtag": "question"
+  },
+  {
+    "Korean": "인터넷",
+    "English": "internet",
+    "Russian": "интернет",
+    "rutag": "техника",
+    "engtag": "electronics"
+  },
   {
     "Korean": "건강하다",
     "English": "to be healthy",
