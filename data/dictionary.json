@@ -2904,6 +2904,34 @@
     "rutag": "дом",
     "engtag": "home"
   },
+    {
+    "Korean": "이집트",
+    "English": "Egypt",
+    "Russian": "Египет",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "파키스탄",
+    "English": "Pakistan",
+    "Russian": "Пакистан",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "크리스마스",
+    "English": "Christmas",
+    "Russian": "Рождество",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "어린이날",
+    "English": "Children's Day",
+    "Russian": "День детей",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
   {
     "Korean": "걸레",
     "English": "rag",
