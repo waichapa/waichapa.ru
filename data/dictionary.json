@@ -7943,5 +7943,68 @@
     "Russian": "приходить снова, возвращаться (сюда)",
     "rutag": "действие",
     "engtag": "action"
+  },
+    {
+    "Korean": "유학생",
+    "English": "international student / student studying abroad",
+    "Russian": "иностранный студент, студент, обучающийся за границей",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "초등학교",
+    "English": "elementary school",
+    "Russian": "начальная школа",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "중학교",
+    "English": "middle school",
+    "Russian": "средняя школа (неполная)",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "고등학교",
+    "English": "high school",
+    "Russian": "старшая школа",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "대학원",
+    "English": "graduate school",
+    "Russian": "аспирантура, магистратура",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "학원",
+    "English": "private academy / cram school / institute",
+    "Russian": "частная академия, курсы, репетиторский центр",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "사립",
+    "English": "private (school/institution)",
+    "Russian": "частный (о школе/учреждении)",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "학년",
+    "English": "school year / grade (in school)",
+    "Russian": "класс, курс, год обучения",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "학기",
+    "English": "semester / school term",
+    "Russian": "семестр, учебная четверть",
+    "rutag": "учёба",
+    "engtag": "study"
   }
 ]
