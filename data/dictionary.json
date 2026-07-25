@@ -8027,5 +8027,89 @@
     "Russian": "семестр, учебная четверть",
     "rutag": "учёба",
     "engtag": "study"
+  },
+  {
+    "Korean": "밝다",
+    "English": "to be bright / to be light (not dark)",
+    "Russian": "быть светлым, ярким",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "깊다",
+    "English": "to be deep",
+    "Russian": "быть глубоким",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "괴롭다",
+    "English": "to be painful / to be distressed / to be tormented",
+    "Russian": "быть мучительным, страдать",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "가볍다",
+    "English": "to be light (weight) / to be easy / to be mild",
+    "Russian": "быть лёгким (по весу), несложным",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "가렵다",
+    "English": "to be itchy",
+    "Russian": "зудеть, чесаться",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "까맣다",
+    "English": "to be black / to be dark (color)",
+    "Russian": "быть чёрным, тёмным",
+    "rutag": "цвет",
+    "engtag": "color"
+  },
+  {
+    "Korean": "놀랍다",
+    "English": "to be surprising / to be amazing / to be astonishing",
+    "Russian": "быть удивительным, поразительным",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "더럽다",
+    "English": "to be dirty / to be filthy",
+    "Russian": "быть грязным",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "두껍다",
+    "English": "to be thick",
+    "Russian": "быть толстым (о предмете), плотным",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "뜨겁다",
+    "English": "to be hot (to the touch)",
+    "Russian": "быть горячим (на ощупь)",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "맞다",
+    "English": "to be correct / to fit / to match / to get hit",
+    "Russian": "быть правильным, подходить, соответствовать / быть ударенным",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "못되다",
+    "English": "to be mean / to be bad / to be nasty",
+    "Russian": "быть злым, плохим, вредным (о характере)",
+    "rutag": "описание",
+    "engtag": "description"
   }
 ]
