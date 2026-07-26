@@ -8111,5 +8111,33 @@
     "Russian": "быть злым, плохим, вредным (о характере)",
     "rutag": "описание",
     "engtag": "description"
+  },
+    {
+    "Korean": "카키색",
+    "English": "khaki color",
+    "Russian": "цвет хаки",
+    "rutag": "цвет",
+    "engtag": "color"
+  },
+  {
+    "Korean": "금색",
+    "English": "gold color",
+    "Russian": "золотистый цвет",
+    "rutag": "цвет",
+    "engtag": "color"
+  },
+  {
+    "Korean": "은색",
+    "English": "silver color",
+    "Russian": "серебряный цвет",
+    "rutag": "цвет",
+    "engtag": "color"
+  },
+  {
+    "Korean": "무지개색",
+    "English": "rainbow color / iridescent",
+    "Russian": "цвет радуги",
+    "rutag": "цвет",
+    "engtag": "color"
   }
 ]
