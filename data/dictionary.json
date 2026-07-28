@@ -113,8 +113,22 @@
   },
   {
     "Korean": "쓰다",
-    "English": "to write / to be bitter / to use",
-    "Russian": "писать / горький / использовать, носить (на голове)",
+    "English": "to write",
+    "Russian": "писать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "쓰다",
+    "English": "to be bitter",
+    "Russian": "горький",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "쓰다",
+    "English": "to use / to wear (on head)",
+    "Russian": "использовать, носить (на голове)",
     "rutag": "действие",
     "engtag": "action"
   },
@@ -148,8 +162,15 @@
   },
   {
     "Korean": "달",
-    "English": "moon / month",
-    "Russian": "луна / месяц",
+    "English": "moon",
+    "Russian": "луна",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "달",
+    "English": "month",
+    "Russian": "месяц",
     "rutag": "время",
     "engtag": "time"
   },
@@ -239,10 +260,24 @@
   },
   {
     "Korean": "배",
-    "English": "pear / ship / stomach",
-    "Russian": "груша / корабль / желудок",
+    "English": "pear",
+    "Russian": "груша",
     "rutag": "еда",
     "engtag": "food"
+  },
+  {
+    "Korean": "배",
+    "English": "ship",
+    "Russian": "корабль",
+    "rutag": "транспорт",
+    "engtag": "transport"
+  },
+  {
+    "Korean": "배",
+    "English": "stomach",
+    "Russian": "желудок",
+    "rutag": "тело",
+    "engtag": "body"
   },
   {
     "Korean": "배개",
@@ -260,17 +295,31 @@
   },
   {
     "Korean": "눈",
-    "English": "eye / snow",
-    "Russian": "глаз / снег",
+    "English": "eye",
+    "Russian": "глаз",
     "rutag": "тело",
     "engtag": "body"
   },
   {
+    "Korean": "눈",
+    "English": "snow",
+    "Russian": "снег",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
     "Korean": "밤",
-    "English": "night / chestnut",
-    "Russian": "ночь / каштан",
+    "English": "night",
+    "Russian": "ночь",
     "rutag": "время",
     "engtag": "time"
+  },
+  {
+    "Korean": "밤",
+    "English": "chestnut",
+    "Russian": "каштан",
+    "rutag": "еда",
+    "engtag": "food"
   },
   {
     "Korean": "집",
@@ -463,10 +512,17 @@
   },
   {
     "Korean": "이",
-    "English": "this / tooth",
-    "Russian": "этот / зуб",
+    "English": "this",
+    "Russian": "этот",
     "rutag": "местоимение",
     "engtag": "pronoun"
+  },
+  {
+    "Korean": "이",
+    "English": "tooth",
+    "Russian": "зуб",
+    "rutag": "тело",
+    "engtag": "body"
   },
   {
     "Korean": "저",
@@ -477,8 +533,15 @@
   },
   {
     "Korean": "그",
-    "English": "that / he",
-    "Russian": "тот / он",
+    "English": "that",
+    "Russian": "тот",
+    "rutag": "местоимение",
+    "engtag": "pronoun"
+  },
+  {
+    "Korean": "그",
+    "English": "he",
+    "Russian": "он",
     "rutag": "местоимение",
     "engtag": "pronoun"
   },
@@ -855,8 +918,15 @@
   },
   {
     "Korean": "부르다",
-    "English": "to call / to sing",
-    "Russian": "звать / петь",
+    "English": "to call",
+    "Russian": "звать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "부르다",
+    "English": "to sing",
+    "Russian": "петь",
     "rutag": "действие",
     "engtag": "action"
   },
@@ -869,8 +939,15 @@
   },
   {
     "Korean": "병",
-    "English": "bottle / illness",
-    "Russian": "бутылка / болезнь",
+    "English": "bottle",
+    "Russian": "бутылка",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "병",
+    "English": "illness",
+    "Russian": "болезнь",
     "rutag": "здоровье",
     "engtag": "health"
   },
@@ -1135,10 +1212,17 @@
   },
   {
     "Korean": "비",
-    "English": "rain / broom (sweeping tool)",
-    "Russian": "дождь / веник, метла",
+    "English": "rain",
+    "Russian": "дождь",
     "rutag": "природа",
     "engtag": "nature"
+  },
+  {
+    "Korean": "비",
+    "English": "broom (sweeping tool)",
+    "Russian": "веник, метла",
+    "rutag": "дом",
+    "engtag": "home"
   },
   {
     "Korean": "따뜻하다",
@@ -1436,10 +1520,17 @@
   },
   {
     "Korean": "차",
-    "English": "tea / car",
-    "Russian": "чай / машина",
+    "English": "tea",
+    "Russian": "чай",
     "rutag": "еда",
     "engtag": "food"
+  },
+  {
+    "Korean": "차",
+    "English": "car",
+    "Russian": "машина",
+    "rutag": "транспорт",
+    "engtag": "transport"
   },
   {
     "Korean": "층",
@@ -1464,8 +1555,15 @@
   },
   {
     "Korean": "반",
-    "English": "half / class",
-    "Russian": "половина / группа, класс",
+    "English": "half",
+    "Russian": "половина",
+    "rutag": "количество",
+    "engtag": "quantity"
+  },
+  {
+    "Korean": "반",
+    "English": "class (group)",
+    "Russian": "группа, класс",
     "rutag": "учёба",
     "engtag": "study"
   },
@@ -2066,8 +2164,15 @@
   },
   {
     "Korean": "치다",
-    "English": "to hit / to play (an instrument)",
-    "Russian": "ударять / играть (на инструменте)",
+    "English": "to hit",
+    "Russian": "ударять",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "치다",
+    "English": "to play (an instrument)",
+    "Russian": "играть (на инструменте)",
     "rutag": "действие",
     "engtag": "action"
   },
@@ -2605,8 +2710,15 @@
   },
   {
     "Korean": "일어나다",
-    "English": "to get up / to happen",
-    "Russian": "вставать / случаться",
+    "English": "to get up",
+    "Russian": "вставать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "일어나다",
+    "English": "to happen",
+    "Russian": "случаться",
     "rutag": "действие",
     "engtag": "action"
   },
@@ -2904,7 +3016,7 @@
     "rutag": "дом",
     "engtag": "home"
   },
-    {
+  {
     "Korean": "이집트",
     "English": "Egypt",
     "Russian": "Египет",
@@ -3289,7 +3401,7 @@
     "rutag": "описание",
     "engtag": "description"
   },
-    {
+  {
     "Korean": "이거",
     "English": "this (thing, colloquial)",
     "Russian": "это (вещь, разговорное)",
@@ -3473,8 +3585,15 @@
   },
   {
     "Korean": "머리",
-    "English": "head / hair",
-    "Russian": "голова / волосы",
+    "English": "head",
+    "Russian": "голова",
+    "rutag": "тело",
+    "engtag": "body"
+  },
+  {
+    "Korean": "머리",
+    "English": "hair",
+    "Russian": "волосы",
     "rutag": "тело",
     "engtag": "body"
   },
@@ -3487,10 +3606,17 @@
   },
   {
     "Korean": "마르다",
-    "English": "to be thin / to dry",
-    "Russian": "быть худым / сохнуть",
+    "English": "to be thin",
+    "Russian": "быть худым",
     "rutag": "тело",
     "engtag": "body"
+  },
+  {
+    "Korean": "마르다",
+    "English": "to dry",
+    "Russian": "сохнуть",
+    "rutag": "действие",
+    "engtag": "action"
   },
   {
     "Korean": "맑다",
@@ -3501,8 +3627,15 @@
   },
   {
     "Korean": "세다",
-    "English": "to be strong / to count / to be strict / to be strong (tea/coffee)",
-    "Russian": "быть сильным / считать / быть строгим / быть крепким (о чае/кофе)",
+    "English": "to count",
+    "Russian": "считать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "세다",
+    "English": "to be strong / to be strict / to be strong (tea, coffee)",
+    "Russian": "быть сильным, строгим, крепким (о чае/кофе)",
     "rutag": "описание",
     "engtag": "description"
   },
@@ -3564,10 +3697,17 @@
   },
   {
     "Korean": "굽다",
-    "English": "to bake / to be curved",
-    "Russian": "печь / быть изогнутым",
+    "English": "to bake",
+    "Russian": "печь",
     "rutag": "действие",
     "engtag": "action"
+  },
+  {
+    "Korean": "굽다",
+    "English": "to be curved",
+    "Russian": "быть изогнутым",
+    "rutag": "описание",
+    "engtag": "description"
   },
   {
     "Korean": "몸",
@@ -3627,10 +3767,17 @@
   },
   {
     "Korean": "다리",
-    "English": "leg / bridge",
-    "Russian": "нога / мост",
+    "English": "leg",
+    "Russian": "нога",
     "rutag": "тело",
     "engtag": "body"
+  },
+  {
+    "Korean": "다리",
+    "English": "bridge",
+    "Russian": "мост",
+    "rutag": "место",
+    "engtag": "place"
   },
   {
     "Korean": "마음",
@@ -3767,10 +3914,17 @@
   },
   {
     "Korean": "열",
-    "English": "fever / ten",
-    "Russian": "жар / десять",
+    "English": "fever",
+    "Russian": "жар",
     "rutag": "здоровье",
     "engtag": "health"
+  },
+  {
+    "Korean": "열",
+    "English": "ten",
+    "Russian": "десять",
+    "rutag": "число",
+    "engtag": "number"
   },
   {
     "Korean": "다치다",
@@ -3872,10 +4026,17 @@
   },
   {
     "Korean": "적다",
-    "English": "to write down / to be few",
-    "Russian": "записывать / быть малым, немногим",
+    "English": "to write down",
+    "Russian": "записывать",
     "rutag": "действие",
     "engtag": "action"
+  },
+  {
+    "Korean": "적다",
+    "English": "to be few",
+    "Russian": "быть малым, немногим",
+    "rutag": "количество",
+    "engtag": "quantity"
   },
   {
     "Korean": "남쪽",
@@ -3900,10 +4061,17 @@
   },
   {
     "Korean": "화",
-    "English": "anger / fire",
-    "Russian": "гнев / огонь",
+    "English": "anger",
+    "Russian": "гнев",
     "rutag": "состояние",
     "engtag": "state"
+  },
+  {
+    "Korean": "화",
+    "English": "fire",
+    "Russian": "огонь",
+    "rutag": "природа",
+    "engtag": "nature"
   },
   {
     "Korean": "기분",
@@ -3998,24 +4166,45 @@
   },
   {
     "Korean": "새",
-    "English": "bird / new",
-    "Russian": "птица / новый",
+    "English": "bird",
+    "Russian": "птица",
     "rutag": "природа",
     "engtag": "nature"
   },
   {
+    "Korean": "새",
+    "English": "new",
+    "Russian": "новый",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
     "Korean": "내",
-    "English": "my (informal) / next",
-    "Russian": "мой (неформально) / следующий",
+    "English": "my (informal)",
+    "Russian": "мой (неформально)",
     "rutag": "местоимение",
     "engtag": "pronoun"
   },
   {
+    "Korean": "내",
+    "English": "next",
+    "Russian": "следующий",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
     "Korean": "가사",
-    "English": "lyrics / household chores",
-    "Russian": "текст песни / домашние дела",
+    "English": "lyrics",
+    "Russian": "текст песни",
     "rutag": "культура",
     "engtag": "culture"
+  },
+  {
+    "Korean": "가사",
+    "English": "household chores",
+    "Russian": "домашние дела",
+    "rutag": "дом",
+    "engtag": "home"
   },
   {
     "Korean": "앉다",
@@ -4145,8 +4334,15 @@
   },
   {
     "Korean": "조카",
-    "English": "nephew/niece",
-    "Russian": "племянник, племянница",
+    "English": "nephew",
+    "Russian": "племянник",
+    "rutag": "семья",
+    "engtag": "family"
+  },
+  {
+    "Korean": "조카",
+    "English": "niece",
+    "Russian": "племянница",
     "rutag": "семья",
     "engtag": "family"
   },
@@ -4250,8 +4446,22 @@
   },
   {
     "Korean": "성",
-    "English": "castle / gender / last name",
-    "Russian": "замок / пол / фамилия",
+    "English": "castle",
+    "Russian": "замок",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "성",
+    "English": "gender",
+    "Russian": "пол",
+    "rutag": "человек",
+    "engtag": "person"
+  },
+  {
+    "Korean": "성",
+    "English": "last name",
+    "Russian": "фамилия",
     "rutag": "человек",
     "engtag": "person"
   },
@@ -4600,8 +4810,22 @@
   },
   {
     "Korean": "기사",
-    "English": "article / driver / technician",
-    "Russian": "статья / водитель / техник",
+    "English": "article",
+    "Russian": "статья",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "기사",
+    "English": "driver",
+    "Russian": "водитель",
+    "rutag": "профессия",
+    "engtag": "profession"
+  },
+  {
+    "Korean": "기사",
+    "English": "technician",
+    "Russian": "техник",
     "rutag": "профессия",
     "engtag": "profession"
   },
@@ -5104,10 +5328,17 @@
   },
   {
     "Korean": "인도",
-    "English": "sidewalk / India",
-    "Russian": "тротуар / Индия",
+    "English": "sidewalk",
+    "Russian": "тротуар",
     "rutag": "транспорт",
     "engtag": "transport"
+  },
+  {
+    "Korean": "인도",
+    "English": "India",
+    "Russian": "Индия",
+    "rutag": "место",
+    "engtag": "place"
   },
   {
     "Korean": "차도",
@@ -5118,15 +5349,29 @@
   },
   {
     "Korean": "감다",
-    "English": "to close (eyes) / to wind / to wrap / to coil / to curl (hair)",
-    "Russian": "закрывать (глаза) / наматывать / обёртывать",
+    "English": "to close (eyes)",
+    "Russian": "закрывать (глаза)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "감다",
+    "English": "to wind / to wrap / to coil / to curl (hair)",
+    "Russian": "наматывать, обёртывать, накручивать (волосы)",
     "rutag": "действие",
     "engtag": "action"
   },
   {
     "Korean": "걷다",
-    "English": "to walk / to collect",
-    "Russian": "идти пешком / собирать",
+    "English": "to walk",
+    "Russian": "идти пешком",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "걷다",
+    "English": "to collect",
+    "Russian": "собирать",
     "rutag": "действие",
     "engtag": "action"
   },
@@ -7505,17 +7750,31 @@
   },
   {
     "Korean": "그쪽",
-    "English": "that way / that side / you (polite)",
-    "Russian": "туда, вы (вежливо)",
+    "English": "that way / that side",
+    "Russian": "туда, та сторона",
     "rutag": "место",
     "engtag": "place"
   },
   {
+    "Korean": "그쪽",
+    "English": "you (polite)",
+    "Russian": "вы (вежливо)",
+    "rutag": "местоимение",
+    "engtag": "pronoun"
+  },
+  {
     "Korean": "그치다",
-    "English": "to stop / to cease / to be right (as in 그치죠?)",
+    "English": "to stop / to cease",
     "Russian": "прекращаться",
     "rutag": "действие",
     "engtag": "action"
+  },
+  {
+    "Korean": "그치다",
+    "English": "to be right (tag question, as in 그치죠?)",
+    "Russian": "не так ли (в вопросе-подтверждении)",
+    "rutag": "фраза",
+    "engtag": "phrase"
   },
   {
     "Korean": "글",
@@ -7533,17 +7792,31 @@
   },
   {
     "Korean": "금주",
-    "English": "this week / abstinence from alcohol",
-    "Russian": "на этой неделе / воздержание от алкоголя",
+    "English": "this week",
+    "Russian": "на этой неделе",
     "rutag": "время",
     "engtag": "time"
   },
   {
+    "Korean": "금주",
+    "English": "abstinence from alcohol",
+    "Russian": "воздержание от алкоголя",
+    "rutag": "здоровье",
+    "engtag": "health"
+  },
+  {
     "Korean": "급",
-    "English": "class / grade / level / urgent",
-    "Russian": "уровень, срочный",
+    "English": "class / grade / level",
+    "Russian": "уровень, класс",
     "rutag": "учёба",
     "engtag": "study"
+  },
+  {
+    "Korean": "급",
+    "English": "urgent",
+    "Russian": "срочный",
+    "rutag": "описание",
+    "engtag": "description"
   },
   {
     "Korean": "기간",
@@ -7561,10 +7834,17 @@
   },
   {
     "Korean": "기름",
-    "English": "oil / grease / fuel",
-    "Russian": "масло, топливо",
+    "English": "oil / grease (cooking)",
+    "Russian": "масло (кулинарное)",
     "rutag": "еда",
     "engtag": "food"
+  },
+  {
+    "Korean": "기름",
+    "English": "fuel",
+    "Russian": "топливо",
+    "rutag": "транспорт",
+    "engtag": "transport"
   },
   {
     "Korean": "환경",
@@ -7827,10 +8107,17 @@
   },
   {
     "Korean": "거리",
-    "English": "street / distance",
-    "Russian": "улица / расстояние",
+    "English": "street",
+    "Russian": "улица",
     "rutag": "место",
     "engtag": "place"
+  },
+  {
+    "Korean": "거리",
+    "English": "distance",
+    "Russian": "расстояние",
+    "rutag": "количество",
+    "engtag": "quantity"
   },
   {
     "Korean": "지불",
@@ -7965,7 +8252,7 @@
     "rutag": "действие",
     "engtag": "action"
   },
-    {
+  {
     "Korean": "유학생",
     "English": "international student / student studying abroad",
     "Russian": "иностранный студент, студент, обучающийся за границей",
@@ -8100,10 +8387,17 @@
   },
   {
     "Korean": "맞다",
-    "English": "to be correct / to fit / to match / to get hit",
-    "Russian": "быть правильным, подходить, соответствовать / быть ударенным",
+    "English": "to be correct / to fit / to match",
+    "Russian": "быть правильным, подходить, соответствовать",
     "rutag": "состояние",
     "engtag": "state"
+  },
+  {
+    "Korean": "맞다",
+    "English": "to get hit",
+    "Russian": "быть ударенным",
+    "rutag": "действие",
+    "engtag": "action"
   },
   {
     "Korean": "못되다",
@@ -8112,7 +8406,7 @@
     "rutag": "описание",
     "engtag": "description"
   },
-    {
+  {
     "Korean": "카키색",
     "English": "khaki color",
     "Russian": "цвет хаки",
@@ -8147,7 +8441,7 @@
     "rutag": "действие",
     "engtag": "action"
   },
-    {
+  {
     "Korean": "일상생활",
     "English": "everyday life / daily life",
     "Russian": "повседневная жизнь",
@@ -8209,5 +8503,12 @@
     "Russian": "губка для мытья посуды / мочалка",
     "rutag": "дом",
     "engtag": "home"
+  },
+  {
+  "Korean": "설거지하다",
+  "English": "to do the dishes / to wash the dishes",
+  "Russian": "мыть посуду",
+  "rutag": "действие",
+  "engtag": "action"
   }
 ]
