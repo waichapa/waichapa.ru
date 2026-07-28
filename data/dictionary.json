@@ -8139,5 +8139,75 @@
     "Russian": "цвет радуги",
     "rutag": "цвет",
     "engtag": "color"
+  },
+  {
+    "Korean": "켜다",
+    "English": "to turn on (light, device) / to light (a fire, candle)",
+    "Russian": "включать (свет, прибор), зажигать (огонь, свечу)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+    {
+    "Korean": "일상생활",
+    "English": "everyday life / daily life",
+    "Russian": "повседневная жизнь",
+    "rutag": "жизнь",
+    "engtag": "life"
+  },
+  {
+    "Korean": "청소",
+    "English": "cleaning",
+    "Russian": "уборка",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "청소하다",
+    "English": "to clean",
+    "Russian": "убирать, делать уборку",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "비누",
+    "English": "soap",
+    "Russian": "мыло",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "비누곽",
+    "English": "soap dish / soap box",
+    "Russian": "мыльница",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "설거지",
+    "English": "washing the dishes / doing the dishes",
+    "Russian": "мытьё посуды",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "주방세제",
+    "English": "kitchen detergent / dish soap",
+    "Russian": "средство для мытья посуды",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "행주",
+    "English": "dishcloth / dishrag",
+    "Russian": "тряпка для посуды, полотенце для посуды",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "수세미",
+    "English": "scrub brush / scouring pad / sponge (for dishes)",
+    "Russian": "губка для мытья посуды / мочалка",
+    "rutag": "дом",
+    "engtag": "home"
   }
 ]
