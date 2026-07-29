@@ -8510,5 +8510,215 @@
   "Russian": "мыть посуду",
   "rutag": "действие",
   "engtag": "action"
+  },
+    {
+    "Korean": "기억",
+    "English": "memory",
+    "Russian": "память",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "기억",
+    "English": "recollection",
+    "Russian": "воспоминание",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "기억력",
+    "English": "memory (ability to remember)",
+    "Russian": "память (способность запоминать)",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "기억나다",
+    "English": "to remember",
+    "Russian": "вспоминаться",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "기억나다",
+    "English": "to recall (passive)",
+    "Russian": "помниться",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "잊다",
+    "English": "to forget",
+    "Russian": "забывать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "잊어버리다",
+    "English": "to forget (completely)",
+    "Russian": "забыть (совсем)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "잊어버리다",
+    "English": "to forget (accidentally)",
+    "Russian": "забыть (случайно)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "생각나다",
+    "English": "to come to mind",
+    "Russian": "вспоминаться",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "생각나다",
+    "English": "to occur to one",
+    "Russian": "приходить на ум",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "떠오르다",
+    "English": "to come up (in one's mind)",
+    "Russian": "всплывать в памяти",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "떠오르다",
+    "English": "to occur to one",
+    "Russian": "приходить в голову",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "떠오르다",
+    "English": "to rise (in one's mind)",
+    "Russian": "возникать (в мыслях)",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "고민",
+    "English": "worry",
+    "Russian": "беспокойство",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "고민",
+    "English": "concern",
+    "Russian": "забота",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "고민",
+    "English": "trouble",
+    "Russian": "проблема",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "고민하다",
+    "English": "to worry",
+    "Russian": "беспокоиться",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "고민하다",
+    "English": "to be concerned",
+    "Russian": "переживать",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "고민하다",
+    "English": "to agonize over",
+    "Russian": "ломать голову",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "긴장하다",
+    "English": "to be tense",
+    "Russian": "напрягаться",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "긴장하다",
+    "English": "to be nervous",
+    "Russian": "нервничать",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "긴장하다",
+    "English": "to be on edge",
+    "Russian": "быть на взводе",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "긴장",
+    "English": "tension",
+    "Russian": "напряжение",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "긴장",
+    "English": "nervousness",
+    "Russian": "нервозность",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "스트레스",
+    "English": "stress",
+    "Russian": "стресс",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "스트레스를 받다",
+    "English": "to get stressed",
+    "Russian": "подвергаться стрессу",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "스트레스를 받다",
+    "English": "to suffer from stress",
+    "Russian": "испытывать стресс",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "답답하다",
+    "English": "to feel stifled",
+    "Russian": "чувствовать себя скованно",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "답답하다",
+    "English": "to feel frustrated",
+    "Russian": "быть в тупике",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "답답하다",
+    "English": "to be stuffy (air)",
+    "Russian": "быть душно (о воздухе)",
+    "rutag": "состояние",
+    "engtag": "state"
   }
 ]
