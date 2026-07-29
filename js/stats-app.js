@@ -1,15 +1,21 @@
 let statDict = [], statGrammar = [];
 
-// Каждое значение через " / " считается отдельным выученным словом
 function countLearnedWords(entries) {
-  return entries.reduce((sum, e) => {
-    const meanings = e.English.split(' / ').map(s => s.trim()).filter(Boolean);
-    return sum + (meanings.length || 1);
-  }, 0);
+  return entries.length;
 }
 
 function countMultiMeaning(entries) {
-  return entries.filter(e => e.English.split(' / ').map(s => s.trim()).filter(Boolean).length > 1).length;
+  const seen = new Set();
+  const duplicates = new Set();
+  for (const e of entries) {
+    const word = e.Korean;
+    if (seen.has(word)) {
+      duplicates.add(word);
+    } else {
+      seen.add(word);
+    }
+  }
+  return duplicates.size;
 }
 
 async function initStats() {
