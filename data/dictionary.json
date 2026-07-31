@@ -414,8 +414,8 @@
   },
   {
     "Korean": "공무원",
-    "English": "civil servant",
-    "Russian": "государственный служащий",
+    "English": "civil servant / public official",
+    "Russian": "государственный служащий, госслужащий",
     "rutag": "профессия",
     "engtag": "profession"
   },
@@ -2213,8 +2213,8 @@
   },
   {
     "Korean": "옆",
-    "English": "next to",
-    "Russian": "рядом",
+    "English": "next to / side",
+    "Russian": "рядом, сторона",
     "rutag": "место",
     "engtag": "place"
   },
@@ -6427,8 +6427,8 @@
   },
   {
     "Korean": "뒤",
-    "English": "behind",
-    "Russian": "сзади, позади",
+    "English": "behind / back",
+    "Russian": "сзади, позади, зад",
     "rutag": "место",
     "engtag": "place"
   },
@@ -6441,15 +6441,15 @@
   },
   {
     "Korean": "위",
-    "English": "above",
-    "Russian": "над, выше",
+    "English": "above / top",
+    "Russian": "над, выше, верх",
     "rutag": "место",
     "engtag": "place"
   },
   {
     "Korean": "아래",
-    "English": "below",
-    "Russian": "под, ниже",
+    "English": "below / under",
+    "Russian": "под, ниже, низ",
     "rutag": "место",
     "engtag": "place"
   },
@@ -6644,8 +6644,8 @@
   },
   {
     "Korean": "가볍다",
-    "English": "light",
-    "Russian": "лёгкий",
+    "English": "to be light (weight) / to be easy / to be mild",
+    "Russian": "быть лёгким (по весу), несложным",
     "rutag": "описание",
     "engtag": "description"
   },
@@ -6704,13 +6704,6 @@
     "Russian": "простой",
     "rutag": "описание",
     "engtag": "description"
-  },
-  {
-    "Korean": "간단히",
-    "English": "simply",
-    "Russian": "просто",
-    "rutag": "наречие",
-    "engtag": "adverb"
   },
   {
     "Korean": "간식",
@@ -6993,34 +6986,6 @@
     "engtag": "phrase"
   },
   {
-    "Korean": "뒤",
-    "English": "back",
-    "Russian": "зад, сзади",
-    "rutag": "место",
-    "engtag": "place"
-  },
-  {
-    "Korean": "위",
-    "English": "top/above",
-    "Russian": "верх, над",
-    "rutag": "место",
-    "engtag": "place"
-  },
-  {
-    "Korean": "옆",
-    "English": "side",
-    "Russian": "сторона, рядом",
-    "rutag": "место",
-    "engtag": "place"
-  },
-  {
-    "Korean": "아래",
-    "English": "below/under",
-    "Russian": "низ, под",
-    "rutag": "место",
-    "engtag": "place"
-  },
-  {
     "Korean": "밑",
     "English": "bottom",
     "Russian": "нижняя часть",
@@ -7089,13 +7054,6 @@
     "Russian": "мяч",
     "rutag": "спорт",
     "engtag": "sport"
-  },
-  {
-    "Korean": "공무원",
-    "English": "public official",
-    "Russian": "госслужащий",
-    "rutag": "профессия",
-    "engtag": "profession"
   },
   {
     "Korean": "공연",
@@ -8107,13 +8065,6 @@
   },
   {
     "Korean": "거리",
-    "English": "street",
-    "Russian": "улица",
-    "rutag": "место",
-    "engtag": "place"
-  },
-  {
-    "Korean": "거리",
     "English": "distance",
     "Russian": "расстояние",
     "rutag": "количество",
@@ -8274,13 +8225,6 @@
     "engtag": "study"
   },
   {
-    "Korean": "고등학교",
-    "English": "high school",
-    "Russian": "старшая школа",
-    "rutag": "учёба",
-    "engtag": "study"
-  },
-  {
     "Korean": "대학원",
     "English": "graduate school",
     "Russian": "аспирантура, магистратура",
@@ -8335,13 +8279,6 @@
     "Russian": "быть мучительным, страдать",
     "rutag": "состояние",
     "engtag": "state"
-  },
-  {
-    "Korean": "가볍다",
-    "English": "to be light (weight) / to be easy / to be mild",
-    "Russian": "быть лёгким (по весу), несложным",
-    "rutag": "описание",
-    "engtag": "description"
   },
   {
     "Korean": "가렵다",
@@ -8505,23 +8442,16 @@
     "engtag": "home"
   },
   {
-  "Korean": "설거지하다",
-  "English": "to do the dishes / to wash the dishes",
-  "Russian": "мыть посуду",
-  "rutag": "действие",
-  "engtag": "action"
-  },
-    {
-    "Korean": "기억",
-    "English": "memory",
-    "Russian": "память",
-    "rutag": "мысль",
-    "engtag": "thought"
+    "Korean": "설거지하다",
+    "English": "to do the dishes / to wash the dishes",
+    "Russian": "мыть посуду",
+    "rutag": "действие",
+    "engtag": "action"
   },
   {
     "Korean": "기억",
-    "English": "recollection",
-    "Russian": "воспоминание",
+    "English": "memory / recollection",
+    "Russian": "память, воспоминание",
     "rutag": "мысль",
     "engtag": "thought"
   },
@@ -8534,15 +8464,8 @@
   },
   {
     "Korean": "기억나다",
-    "English": "to remember",
-    "Russian": "вспоминаться",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "기억나다",
-    "English": "to recall (passive)",
-    "Russian": "помниться",
+    "English": "to remember / to recall",
+    "Russian": "вспоминаться, помниться",
     "rutag": "состояние",
     "engtag": "state"
   },
@@ -8555,127 +8478,50 @@
   },
   {
     "Korean": "잊어버리다",
-    "English": "to forget (completely)",
-    "Russian": "забыть (совсем)",
-    "rutag": "действие",
-    "engtag": "action"
-  },
-  {
-    "Korean": "잊어버리다",
-    "English": "to forget (accidentally)",
-    "Russian": "забыть (случайно)",
+    "English": "to forget (completely / accidentally)",
+    "Russian": "забыть (совсем, случайно)",
     "rutag": "действие",
     "engtag": "action"
   },
   {
     "Korean": "생각나다",
-    "English": "to come to mind",
-    "Russian": "вспоминаться",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "생각나다",
-    "English": "to occur to one",
-    "Russian": "приходить на ум",
+    "English": "to come to mind / to occur to one",
+    "Russian": "вспоминаться, приходить на ум",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "떠오르다",
-    "English": "to come up (in one's mind)",
-    "Russian": "всплывать в памяти",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "떠오르다",
-    "English": "to occur to one",
-    "Russian": "приходить в голову",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "떠오르다",
-    "English": "to rise (in one's mind)",
-    "Russian": "возникать (в мыслях)",
+    "English": "to come up / to occur / to rise (in one's mind)",
+    "Russian": "всплывать в памяти, приходить в голову, возникать (в мыслях)",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "고민",
-    "English": "worry",
-    "Russian": "беспокойство",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "고민",
-    "English": "concern",
-    "Russian": "забота",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "고민",
-    "English": "trouble",
-    "Russian": "проблема",
+    "English": "worry / concern / trouble",
+    "Russian": "беспокойство, забота, проблема",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "고민하다",
-    "English": "to worry",
-    "Russian": "беспокоиться",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "고민하다",
-    "English": "to be concerned",
-    "Russian": "переживать",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "고민하다",
-    "English": "to agonize over",
-    "Russian": "ломать голову",
+    "English": "to worry / to be concerned / to agonize over",
+    "Russian": "беспокоиться, переживать, ломать голову",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "긴장하다",
-    "English": "to be tense",
-    "Russian": "напрягаться",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "긴장하다",
-    "English": "to be nervous",
-    "Russian": "нервничать",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "긴장하다",
-    "English": "to be on edge",
-    "Russian": "быть на взводе",
+    "English": "to be tense / nervous / on edge",
+    "Russian": "напрягаться, нервничать, быть на взводе",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "긴장",
-    "English": "tension",
-    "Russian": "напряжение",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "긴장",
-    "English": "nervousness",
-    "Russian": "нервозность",
+    "English": "tension / nervousness",
+    "Russian": "напряжение, нервозность",
     "rutag": "состояние",
     "engtag": "state"
   },
@@ -8688,211 +8534,92 @@
   },
   {
     "Korean": "스트레스를 받다",
-    "English": "to get stressed",
-    "Russian": "подвергаться стрессу",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "스트레스를 받다",
-    "English": "to suffer from stress",
-    "Russian": "испытывать стресс",
+    "English": "to get stressed / to suffer from stress",
+    "Russian": "подвергаться стрессу, испытывать стресс",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "답답하다",
-    "English": "to feel stifled",
-    "Russian": "чувствовать себя скованно",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "답답하다",
-    "English": "to feel frustrated",
-    "Russian": "быть в тупике",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "답답하다",
-    "English": "to be stuffy (air)",
-    "Russian": "быть душно (о воздухе)",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-    {
-    "Korean": "당황하다",
-    "English": "to be embarrassed",
-    "Russian": "быть смущённым, растерянным",
+    "English": "to feel stifled / frustrated / stuffy",
+    "Russian": "чувствовать себя скованно, быть в тупике, быть душно (о воздухе)",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "당황하다",
-    "English": "to be flustered",
-    "Russian": "быть в замешательстве",
+    "English": "to be embarrassed / flustered",
+    "Russian": "быть смущённым, растерянным, быть в замешательстве",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "당황스럽다",
-    "English": "to be embarrassing",
+    "English": "to be embarrassing / awkward",
     "Russian": "быть смущающим, неловким",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
-    "Korean": "당황스럽다",
-    "English": "to be awkward",
-    "Russian": "быть неловким",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
     "Korean": "불안하다",
-    "English": "to be anxious",
-    "Russian": "быть тревожным",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "불안하다",
-    "English": "to be uneasy",
-    "Russian": "быть неспокойным",
+    "English": "to be anxious / uneasy",
+    "Russian": "быть тревожным, неспокойным",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "불안",
-    "English": "anxiety",
-    "Russian": "тревога",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "불안",
-    "English": "unease",
-    "Russian": "беспокойство",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "불안",
-    "English": "apprehension",
-    "Russian": "опасение",
+    "English": "anxiety / unease / apprehension",
+    "Russian": "тревога, беспокойство, опасение",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "후회하다",
-    "English": "to regret",
-    "Russian": "сожалеть",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "후회하다",
-    "English": "to repent",
-    "Russian": "раскаиваться",
+    "English": "to regret / repent",
+    "Russian": "сожалеть, раскаиваться",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "실망하다",
-    "English": "to be disappointed",
-    "Russian": "разочаровываться",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "실망하다",
-    "English": "to be let down",
-    "Russian": "быть обманутым в ожиданиях",
+    "English": "to be disappointed / let down",
+    "Russian": "разочаровываться, быть обманутым в ожиданиях",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "실망",
-    "English": "disappointment",
-    "Russian": "разочарование",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "실망",
-    "English": "letdown",
-    "Russian": "обманутые ожидания",
+    "English": "disappointment / letdown",
+    "Russian": "разочарование, обманутые ожидания",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "만족하다",
-    "English": "to be satisfied",
-    "Russian": "быть удовлетворённым",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "만족하다",
-    "English": "to be content",
-    "Russian": "быть довольным",
+    "English": "to be satisfied / content",
+    "Russian": "быть удовлетворённым, довольным",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "감동적이다",
-    "English": "to be touching",
-    "Russian": "быть трогательным",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "감동적이다",
-    "English": "to be moving",
-    "Russian": "быть впечатляющим",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "감동적이다",
-    "English": "to be heartwarming",
-    "Russian": "быть сердечным, тёплым",
+    "English": "to be touching / moving / heartwarming",
+    "Russian": "быть трогательным, впечатляющим, сердечным",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "반갑다",
-    "English": "to be glad (to see someone)",
-    "Russian": "быть радостным (при встрече)",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "반갑다",
-    "English": "to be pleased to meet",
-    "Russian": "быть рад встрече",
+    "English": "to be glad to see someone / pleased to meet",
+    "Russian": "быть радостным, рад встрече",
     "rutag": "состояние",
     "engtag": "state"
   },
   {
     "Korean": "속상하다",
-    "English": "to be upset",
-    "Russian": "быть расстроенным",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "속상하다",
-    "English": "to be distressed",
-    "Russian": "быть огорчённым",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "속상하다",
-    "English": "to be troubled",
-    "Russian": "быть взволнованным (от переживаний)",
+    "English": "to be upset / distressed / troubled",
+    "Russian": "быть расстроенным, огорчённым, взволнованным",
     "rutag": "состояние",
     "engtag": "state"
   }
