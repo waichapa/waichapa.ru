@@ -8622,5 +8622,103 @@
     "Russian": "быть расстроенным, огорчённым, взволнованным",
     "rutag": "состояние",
     "engtag": "state"
-  }
+  },
+  {
+"Korean": "서운하다",
+"English": "to feel slighted / hurt / disappointed (by someone's action)",
+"Russian": "чувствовать себя обиженным, задетым, разочарованным (чьим-то поступком)",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "부담스럽다",
+"English": "to be burdensome / overwhelming / heavy (responsibility)",
+"Russian": "быть обременительным, тягостным, давящим",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "부담",
+"English": "burden / pressure / load (mental or physical)",
+"Russian": "бремя, обуза, давление, нагрузка",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "궁금하다",
+"English": "to be curious / wonder / inquisitive",
+"Russian": "интересоваться, хотеть знать, любопытствовать",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "의심하다",
+"English": "to suspect / doubt / be suspicious of",
+"Russian": "подозревать, сомневаться, относиться с недоверием",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "의심",
+"English": "suspicion / doubt / distrust",
+"Russian": "подозрение, сомнение, недоверие",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "믿다",
+"English": "to believe / trust / rely on",
+"Russian": "верить, доверять, полагаться",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "믿음",
+"English": "belief / trust / faith",
+"Russian": "вера, доверие, убеждение",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "오해하다",
+"English": "to misunderstand / misinterpret",
+"Russian": "неправильно понять, истолковать превратно",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "오해",
+"English": "misunderstanding / misinterpretation",
+"Russian": "недоразумение, неправильное понимание",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "판단하다",
+"English": "to judge / assess / evaluate / decide",
+"Russian": "судить, оценивать, принимать решение",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "판단",
+"English": "judgment / assessment / evaluation / decision",
+"Russian": "суждение, оценка, решение, мнение",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "결심하다",
+"English": "to resolve / make up one's mind / decide firmly",
+"Russian": "твёрдо решить, настроиться, принять решение",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "결심",
+"English": "resolution / determination / firm decision",
+"Russian": "твёрдое решение, решимость, настрой",
+"rutag": "мысль",
+"engtag": "thought"
+}
 ]
