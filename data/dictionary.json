@@ -8720,5 +8720,89 @@
 "Russian": "твёрдое решение, решимость, настрой",
 "rutag": "мысль",
 "engtag": "thought"
+},
+{
+"Korean": "고려하다",
+"English": "to consider / take into account / take into consideration",
+"Russian": "учитывать, принимать во внимание, обдумывать",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "포기하다",
+"English": "to give up / abandon / quit / renounce",
+"Russian": "отказываться, бросать, сдаваться, отрекаться",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "각오하다",
+"English": "to be prepared / brace oneself / be resolved (for a challenge)",
+"Russian": "быть готовым, приготовиться, настроиться (к испытанию)",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "상상하다",
+"English": "to imagine / envision / picture",
+"Russian": "воображать, представлять себе, рисовать в уме",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "상상",
+"English": "imagination / vision / fantasy",
+"Russian": "воображение, представление, фантазия",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "주장하다",
+"English": "to assert / argue / claim / maintain",
+"Russian": "утверждать, заявлять, отстаивать, настаивать",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "주장",
+"English": "assertion / argument / claim / position",
+"Russian": "утверждение, заявление, довод, позиция",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "의견",
+"English": "opinion / view / suggestion / comment",
+"Russian": "мнение, взгляд, предложение, замечание",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "입장",
+"English": "position / stance / standpoint",
+"Russian": "позиция, точка зрения, статус (в обществе)",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "태도",
+"English": "attitude / manner / approach / posture",
+"Russian": "отношение, манера поведения, подход, поза",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "반응하다",
+"English": "to react / respond",
+"Russian": "реагировать, отвечать (на раздражитель)",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "반응",
+"English": "reaction / response",
+"Russian": "реакция, отклик",
+"rutag": "мысль",
+"engtag": "thought"
 }
 ]
