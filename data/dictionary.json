@@ -8804,5 +8804,26 @@
 "Russian": "реакция, отклик",
 "rutag": "мысль",
 "engtag": "thought"
+},
+{
+"Korean": "관광 안내원",
+"English": "tour guide",
+"Russian": "гид, экскурсовод",
+"rutag": "профессия",
+"engtag": "profession"
+},
+{
+"Korean": "영화배우",
+"English": "movie actor / film actor",
+"Russian": "киноактёр",
+"rutag": "профессия",
+"engtag": "profession"
+},
+{
+"Korean": "매니저",
+"English": "manager",
+"Russian": "менеджер",
+"rutag": "профессия",
+"engtag": "profession"
 }
 ]
