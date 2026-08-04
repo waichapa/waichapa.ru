@@ -78,7 +78,7 @@ function buildOptions(current, answerKey, correctAnswer) {
   const distractors = [];
   const pool = shuffle(ALL_WORDS.filter(e => e !== current));
   for (const e of pool) {
-    const val = e[answerKey].split(' / ')[0].trim();
+    const val = e[answerKey].trim();
     const key = val.toLowerCase();
     if (!seen.has(key)) { seen.add(key); distractors.push(val); }
     if (distractors.length === 3) break;
@@ -127,7 +127,7 @@ function renderQuiz() {
   const w = quizWords[quizIndex];
   const lang = getLang();
   const answerKey = lang === 'ru' ? 'Russian' : 'English';
-  const correctAnswer = w[answerKey].split(' / ')[0].trim();
+  const correctAnswer = w[answerKey].trim();
   const options = buildOptions(w, answerKey, correctAnswer);
 
   wrap.innerHTML = `

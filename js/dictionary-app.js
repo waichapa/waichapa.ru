@@ -1,6 +1,7 @@
 let DICTIONARY = [];
 let GRAMMAR = [];
 let currentQuickFilter = 'all'; // all | last10 | last30 | last50 | last100
+let multiMeaningCounts = {}; // Korean word -> number of entries sharing it
 
 async function loadData() {
   const [d, g] = await Promise.all([
@@ -9,14 +10,25 @@ async function loadData() {
   ]);
   DICTIONARY = d;
   GRAMMAR = g;
+  buildMultiMeaningCounts();
   buildTagFilter();
   buildQuickFilters();
   renderDict();
   renderGrammar();
 }
 
+// A word is "multi-meaning" when it appears in the dictionary as more than
+// one entry (each entry = one distinct sense). This is decided at data-entry
+// time (see word-entry prompt), not by string-splitting English/Russian.
+function buildMultiMeaningCounts() {
+  multiMeaningCounts = {};
+  DICTIONARY.forEach(e => {
+    multiMeaningCounts[e.Korean] = (multiMeaningCounts[e.Korean] || 0) + 1;
+  });
+}
+
 function isMultiMeaning(entry) {
-  return entry.English.split(' / ').map(s => s.trim()).filter(Boolean).length > 1;
+  return (multiMeaningCounts[entry.Korean] || 0) > 1;
 }
 
 function buildTagFilter() {

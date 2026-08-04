@@ -3466,8 +3466,36 @@
   },
   {
     "Korean": "가지다",
-    "English": "to have / to take / to carry / to contain / to mean (as in 'have in mind') / to possess",
-    "Russian": "иметь, брать, нести, содержать, иметь в виду, обладать",
+    "English": "to have / to possess",
+    "Russian": "иметь, обладать",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "가지다",
+    "English": "to take",
+    "Russian": "брать",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "가지다",
+    "English": "to carry",
+    "Russian": "нести",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "가지다",
+    "English": "to contain",
+    "Russian": "содержать",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "가지다",
+    "English": "to mean (as in 'have in mind')",
+    "Russian": "иметь в виду",
     "rutag": "состояние",
     "engtag": "state"
   },
@@ -7141,8 +7169,15 @@
   },
   {
     "Korean": "계산",
-    "English": "calculation / bill",
-    "Russian": "расчёт, счёт",
+    "English": "calculation",
+    "Russian": "расчёт",
+    "rutag": "деньги",
+    "engtag": "money"
+  },
+  {
+    "Korean": "계산",
+    "English": "bill",
+    "Russian": "счёт (в ресторане)",
     "rutag": "деньги",
     "engtag": "money"
   },
@@ -7435,8 +7470,15 @@
   },
   {
     "Korean": "문제",
-    "English": "problem / question (exam)",
-    "Russian": "проблема, вопрос",
+    "English": "problem",
+    "Russian": "проблема",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "문제",
+    "English": "question (exam)",
+    "Russian": "вопрос (на экзамене)",
     "rutag": "мысль",
     "engtag": "thought"
   },
@@ -8170,8 +8212,15 @@
   },
   {
     "Korean": "돌아가다",
-    "English": "to go back / to return / to rotate (away from speaker)",
-    "Russian": "возвращаться (туда), вращаться",
+    "English": "to go back / to return (away from speaker)",
+    "Russian": "возвращаться (туда, от говорящего)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "돌아가다",
+    "English": "to rotate",
+    "Russian": "вращаться",
     "rutag": "действие",
     "engtag": "action"
   },
@@ -8624,367 +8673,367 @@
     "engtag": "state"
   },
   {
-"Korean": "서운하다",
-"English": "to feel slighted / hurt / disappointed (by someone's action)",
-"Russian": "чувствовать себя обиженным, задетым, разочарованным (чьим-то поступком)",
-"rutag": "состояние",
-"engtag": "state"
-},
-{
-"Korean": "부담스럽다",
-"English": "to be burdensome / overwhelming / heavy (responsibility)",
-"Russian": "быть обременительным, тягостным, давящим",
-"rutag": "состояние",
-"engtag": "state"
-},
-{
-"Korean": "부담",
-"English": "burden / pressure / load (mental or physical)",
-"Russian": "бремя, обуза, давление, нагрузка",
-"rutag": "состояние",
-"engtag": "state"
-},
-{
-"Korean": "궁금하다",
-"English": "to be curious / wonder / inquisitive",
-"Russian": "интересоваться, хотеть знать, любопытствовать",
-"rutag": "состояние",
-"engtag": "state"
-},
-{
-"Korean": "의심하다",
-"English": "to suspect / doubt / be suspicious of",
-"Russian": "подозревать, сомневаться, относиться с недоверием",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "의심",
-"English": "suspicion / doubt / distrust",
-"Russian": "подозрение, сомнение, недоверие",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "믿다",
-"English": "to believe / trust / rely on",
-"Russian": "верить, доверять, полагаться",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "믿음",
-"English": "belief / trust / faith",
-"Russian": "вера, доверие, убеждение",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "오해하다",
-"English": "to misunderstand / misinterpret",
-"Russian": "неправильно понять, истолковать превратно",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "오해",
-"English": "misunderstanding / misinterpretation",
-"Russian": "недоразумение, неправильное понимание",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "판단하다",
-"English": "to judge / assess / evaluate / decide",
-"Russian": "судить, оценивать, принимать решение",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "판단",
-"English": "judgment / assessment / evaluation / decision",
-"Russian": "суждение, оценка, решение, мнение",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "결심하다",
-"English": "to resolve / make up one's mind / decide firmly",
-"Russian": "твёрдо решить, настроиться, принять решение",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "결심",
-"English": "resolution / determination / firm decision",
-"Russian": "твёрдое решение, решимость, настрой",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "고려하다",
-"English": "to consider / take into account / take into consideration",
-"Russian": "учитывать, принимать во внимание, обдумывать",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "포기하다",
-"English": "to give up / abandon / quit / renounce",
-"Russian": "отказываться, бросать, сдаваться, отрекаться",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "각오하다",
-"English": "to be prepared / brace oneself / be resolved (for a challenge)",
-"Russian": "быть готовым, приготовиться, настроиться (к испытанию)",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "상상하다",
-"English": "to imagine / envision / picture",
-"Russian": "воображать, представлять себе, рисовать в уме",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "상상",
-"English": "imagination / vision / fantasy",
-"Russian": "воображение, представление, фантазия",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "주장하다",
-"English": "to assert / argue / claim / maintain",
-"Russian": "утверждать, заявлять, отстаивать, настаивать",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "주장",
-"English": "assertion / argument / claim / position",
-"Russian": "утверждение, заявление, довод, позиция",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "의견",
-"English": "opinion / view / suggestion / comment",
-"Russian": "мнение, взгляд, предложение, замечание",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "입장",
-"English": "position / stance / standpoint",
-"Russian": "позиция, точка зрения, статус (в обществе)",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "태도",
-"English": "attitude / manner / approach / posture",
-"Russian": "отношение, манера поведения, подход, поза",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "반응하다",
-"English": "to react / respond",
-"Russian": "реагировать, отвечать (на раздражитель)",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "반응",
-"English": "reaction / response",
-"Russian": "реакция, отклик",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "관광 안내원",
-"English": "tour guide",
-"Russian": "гид, экскурсовод",
-"rutag": "профессия",
-"engtag": "profession"
-},
-{
-"Korean": "영화배우",
-"English": "movie actor / film actor",
-"Russian": "киноактёр",
-"rutag": "профессия",
-"engtag": "profession"
-},
-{
-"Korean": "매니저",
-"English": "manager",
-"Russian": "менеджер",
-"rutag": "профессия",
-"engtag": "profession"
-},
-{
-"Korean": "미용사",
-"English": "hairdresser / beautician",
-"Russian": "парикмахер, косметолог",
-"rutag": "профессия",
-"engtag": "profession"
-},
-{
-"Korean": "수학",
-"English": "mathematics",
-"Russian": "математика",
-"rutag": "учёба",
-"engtag": "study"
-},
-{
-"Korean": "전공",
-"English": "major / field of study",
-"Russian": "специальность, основная дисциплина",
-"rutag": "учёба",
-"engtag": "study"
-},
-{
-"Korean": "전공하다",
-"English": "to major in",
-"Russian": "специализироваться, изучать как основную дисциплину",
-"rutag": "учёба",
-"engtag": "study"
-},
-{
-"Korean": "교육학",
-"English": "education studies",
-"Russian": "педагогика",
-"rutag": "учёба",
-"engtag": "study"
-},
-{
-"Korean": "경영학",
-"English": "business administration",
-"Russian": "бизнес-администрирование, менеджмент",
-"rutag": "учёба",
-"engtag": "study"
-},
-{
-"Korean": "경영하다",
-"English": "to manage / run / operate (a business)",
-"Russian": "управлять, руководить, вести (бизнес)",
-"rutag": "работа",
-"engtag": "work"
-},
-{
-"Korean": "이사하다",
-"English": "to move (house)",
-"Russian": "переезжать",
-"rutag": "действие",
-"engtag": "action"
-},
-{
-"Korean": "세우다",
-"English": "to set up / establish / put up / make stand",
-"Russian": "ставить, устанавливать, основывать, воздвигать",
-"rutag": "действие",
-"engtag": "action"
-},
-{
-"Korean": "나중",
-"English": "later / afterwards",
-"Russian": "позже, потом",
-"rutag": "время",
-"engtag": "time"
-},
-{
-"Korean": "소개하다",
-"English": "to introduce / present",
-"Russian": "представлять, знакомить, презентовать",
-"rutag": "действие",
-"engtag": "action"
-},
-{
-"Korean": "수출하다",
-"English": "to export",
-"Russian": "экспортировать, вывозить",
-"rutag": "работа",
-"engtag": "work"
-},
-{
-"Korean": "수입하다",
-"English": "to import",
-"Russian": "импортировать, ввозить",
-"rutag": "работа",
-"engtag": "work"
-},
-{
-"Korean": "방콕",
-"English": "Bangkok",
-"Russian": "Бангкок",
-"rutag": "место",
-"engtag": "place"
-},
-{
-"Korean": "인사하다",
-"English": "to greet / say hello",
-"Russian": "здороваться, приветствовать",
-"rutag": "фраза",
-"engtag": "phrase"
-},
-{
-"Korean": "연극",
-"English": "theater play / drama",
-"Russian": "пьеса, театральная постановка",
-"rutag": "культура",
-"engtag": "culture"
-},
-{
-"Korean": "영화",
-"English": "movie / film",
-"Russian": "фильм, кино",
-"rutag": "культура",
-"engtag": "culture"
-},
-{
-"Korean": "출생",
-"English": "birth",
-"Russian": "рождение",
-"rutag": "человек",
-"engtag": "person"
-},
-{
-"Korean": "학력",
-"English": "educational background",
-"Russian": "образование, учёная степень",
-"rutag": "учёба",
-"engtag": "study"
-},
-{
-"Korean": "드럼",
-"English": "drums",
-"Russian": "барабаны",
-"rutag": "культура",
-"engtag": "culture"
-},
-{
-"Korean": "잘 맞다",
-"English": "to get along well / to fit well / to suit",
-"Russian": "хорошо ладить, подходить, совпадать",
-"rutag": "состояние",
-"engtag": "state"
-},
-{
-"Korean": "답장",
-"English": "reply / response (to a letter/message)",
-"Russian": "ответ (на письмо/сообщение)",
-"rutag": "мысль",
-"engtag": "thought"
-},
-{
-"Korean": "연주",
-"English": "performance (instrumental) / playing",
-"Russian": "исполнение (музыкальное), игра",
-"rutag": "культура",
-"engtag": "culture"
-}
+    "Korean": "서운하다",
+    "English": "to feel slighted / hurt / disappointed (by someone's action)",
+    "Russian": "чувствовать себя обиженным, задетым, разочарованным (чьим-то поступком)",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "부담스럽다",
+    "English": "to be burdensome / overwhelming / heavy (responsibility)",
+    "Russian": "быть обременительным, тягостным, давящим",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "부담",
+    "English": "burden / pressure / load (mental or physical)",
+    "Russian": "бремя, обуза, давление, нагрузка",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "궁금하다",
+    "English": "to be curious / wonder / inquisitive",
+    "Russian": "интересоваться, хотеть знать, любопытствовать",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "의심하다",
+    "English": "to suspect / doubt / be suspicious of",
+    "Russian": "подозревать, сомневаться, относиться с недоверием",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "의심",
+    "English": "suspicion / doubt / distrust",
+    "Russian": "подозрение, сомнение, недоверие",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "믿다",
+    "English": "to believe / trust / rely on",
+    "Russian": "верить, доверять, полагаться",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "믿음",
+    "English": "belief / trust / faith",
+    "Russian": "вера, доверие, убеждение",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "오해하다",
+    "English": "to misunderstand / misinterpret",
+    "Russian": "неправильно понять, истолковать превратно",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "오해",
+    "English": "misunderstanding / misinterpretation",
+    "Russian": "недоразумение, неправильное понимание",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "판단하다",
+    "English": "to judge / assess / evaluate / decide",
+    "Russian": "судить, оценивать, принимать решение",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "판단",
+    "English": "judgment / assessment / evaluation / decision",
+    "Russian": "суждение, оценка, решение, мнение",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "결심하다",
+    "English": "to resolve / make up one's mind / decide firmly",
+    "Russian": "твёрдо решить, настроиться, принять решение",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "결심",
+    "English": "resolution / determination / firm decision",
+    "Russian": "твёрдое решение, решимость, настрой",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "고려하다",
+    "English": "to consider / take into account / take into consideration",
+    "Russian": "учитывать, принимать во внимание, обдумывать",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "포기하다",
+    "English": "to give up / abandon / quit / renounce",
+    "Russian": "отказываться, бросать, сдаваться, отрекаться",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "각오하다",
+    "English": "to be prepared / brace oneself / be resolved (for a challenge)",
+    "Russian": "быть готовым, приготовиться, настроиться (к испытанию)",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "상상하다",
+    "English": "to imagine / envision / picture",
+    "Russian": "воображать, представлять себе, рисовать в уме",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "상상",
+    "English": "imagination / vision / fantasy",
+    "Russian": "воображение, представление, фантазия",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "주장하다",
+    "English": "to assert / argue / claim / maintain",
+    "Russian": "утверждать, заявлять, отстаивать, настаивать",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "주장",
+    "English": "assertion / argument / claim / position",
+    "Russian": "утверждение, заявление, довод, позиция",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "의견",
+    "English": "opinion / view / suggestion / comment",
+    "Russian": "мнение, взгляд, предложение, замечание",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "입장",
+    "English": "position / stance / standpoint",
+    "Russian": "позиция, точка зрения, статус (в обществе)",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "태도",
+    "English": "attitude / manner / approach / posture",
+    "Russian": "отношение, манера поведения, подход, поза",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "반응하다",
+    "English": "to react / respond",
+    "Russian": "реагировать, отвечать (на раздражитель)",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "반응",
+    "English": "reaction / response",
+    "Russian": "реакция, отклик",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "관광 안내원",
+    "English": "tour guide",
+    "Russian": "гид, экскурсовод",
+    "rutag": "профессия",
+    "engtag": "profession"
+  },
+  {
+    "Korean": "영화배우",
+    "English": "movie actor / film actor",
+    "Russian": "киноактёр",
+    "rutag": "профессия",
+    "engtag": "profession"
+  },
+  {
+    "Korean": "매니저",
+    "English": "manager",
+    "Russian": "менеджер",
+    "rutag": "профессия",
+    "engtag": "profession"
+  },
+  {
+    "Korean": "미용사",
+    "English": "hairdresser / beautician",
+    "Russian": "парикмахер, косметолог",
+    "rutag": "профессия",
+    "engtag": "profession"
+  },
+  {
+    "Korean": "수학",
+    "English": "mathematics",
+    "Russian": "математика",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "전공",
+    "English": "major / field of study",
+    "Russian": "специальность, основная дисциплина",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "전공하다",
+    "English": "to major in",
+    "Russian": "специализироваться, изучать как основную дисциплину",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "교육학",
+    "English": "education studies",
+    "Russian": "педагогика",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "경영학",
+    "English": "business administration",
+    "Russian": "бизнес-администрирование, менеджмент",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "경영하다",
+    "English": "to manage / run / operate (a business)",
+    "Russian": "управлять, руководить, вести (бизнес)",
+    "rutag": "работа",
+    "engtag": "work"
+  },
+  {
+    "Korean": "이사하다",
+    "English": "to move (house)",
+    "Russian": "переезжать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "세우다",
+    "English": "to set up / establish / put up / make stand",
+    "Russian": "ставить, устанавливать, основывать, воздвигать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "나중",
+    "English": "later / afterwards",
+    "Russian": "позже, потом",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
+    "Korean": "소개하다",
+    "English": "to introduce / present",
+    "Russian": "представлять, знакомить, презентовать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "수출하다",
+    "English": "to export",
+    "Russian": "экспортировать, вывозить",
+    "rutag": "работа",
+    "engtag": "work"
+  },
+  {
+    "Korean": "수입하다",
+    "English": "to import",
+    "Russian": "импортировать, ввозить",
+    "rutag": "работа",
+    "engtag": "work"
+  },
+  {
+    "Korean": "방콕",
+    "English": "Bangkok",
+    "Russian": "Бангкок",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "인사하다",
+    "English": "to greet / say hello",
+    "Russian": "здороваться, приветствовать",
+    "rutag": "фраза",
+    "engtag": "phrase"
+  },
+  {
+    "Korean": "연극",
+    "English": "theater play / drama",
+    "Russian": "пьеса, театральная постановка",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "영화",
+    "English": "movie / film",
+    "Russian": "фильм, кино",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "출생",
+    "English": "birth",
+    "Russian": "рождение",
+    "rutag": "человек",
+    "engtag": "person"
+  },
+  {
+    "Korean": "학력",
+    "English": "educational background",
+    "Russian": "образование, учёная степень",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "드럼",
+    "English": "drums",
+    "Russian": "барабаны",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "잘 맞다",
+    "English": "to get along well / to fit well / to suit",
+    "Russian": "хорошо ладить, подходить, совпадать",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "답장",
+    "English": "reply / response (to a letter/message)",
+    "Russian": "ответ (на письмо/сообщение)",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "연주",
+    "English": "performance (instrumental) / playing",
+    "Russian": "исполнение (музыкальное), игра",
+    "rutag": "культура",
+    "engtag": "culture"
+  }
 ]

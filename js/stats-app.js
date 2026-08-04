@@ -1,6 +1,9 @@
 let statDict = [], statGrammar = [];
 
 function countLearnedWords(entries) {
+  // Each entry is a separate meaning/sense to memorize (e.g. 배: pear/ship/
+  // stomach are 3 things to actually learn), so count entries, not unique
+  // Korean strings.
   return entries.length;
 }
 
