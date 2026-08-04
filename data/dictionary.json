@@ -8825,5 +8825,166 @@
 "Russian": "менеджер",
 "rutag": "профессия",
 "engtag": "profession"
+},
+{
+"Korean": "미용사",
+"English": "hairdresser / beautician",
+"Russian": "парикмахер, косметолог",
+"rutag": "профессия",
+"engtag": "profession"
+},
+{
+"Korean": "수학",
+"English": "mathematics",
+"Russian": "математика",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "전공",
+"English": "major / field of study",
+"Russian": "специальность, основная дисциплина",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "전공하다",
+"English": "to major in",
+"Russian": "специализироваться, изучать как основную дисциплину",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "교육학",
+"English": "education studies",
+"Russian": "педагогика",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "경영학",
+"English": "business administration",
+"Russian": "бизнес-администрирование, менеджмент",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "경영하다",
+"English": "to manage / run / operate (a business)",
+"Russian": "управлять, руководить, вести (бизнес)",
+"rutag": "работа",
+"engtag": "work"
+},
+{
+"Korean": "이사하다",
+"English": "to move (house)",
+"Russian": "переезжать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "세우다",
+"English": "to set up / establish / put up / make stand",
+"Russian": "ставить, устанавливать, основывать, воздвигать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "나중",
+"English": "later / afterwards",
+"Russian": "позже, потом",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "소개하다",
+"English": "to introduce / present",
+"Russian": "представлять, знакомить, презентовать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "수출하다",
+"English": "to export",
+"Russian": "экспортировать, вывозить",
+"rutag": "работа",
+"engtag": "work"
+},
+{
+"Korean": "수입하다",
+"English": "to import",
+"Russian": "импортировать, ввозить",
+"rutag": "работа",
+"engtag": "work"
+},
+{
+"Korean": "방콕",
+"English": "Bangkok",
+"Russian": "Бангкок",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "인사하다",
+"English": "to greet / say hello",
+"Russian": "здороваться, приветствовать",
+"rutag": "фраза",
+"engtag": "phrase"
+},
+{
+"Korean": "연극",
+"English": "theater play / drama",
+"Russian": "пьеса, театральная постановка",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "영화",
+"English": "movie / film",
+"Russian": "фильм, кино",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "출생",
+"English": "birth",
+"Russian": "рождение",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "학력",
+"English": "educational background",
+"Russian": "образование, учёная степень",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "드럼",
+"English": "drums",
+"Russian": "барабаны",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "잘 맞다",
+"English": "to get along well / to fit well / to suit",
+"Russian": "хорошо ладить, подходить, совпадать",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "답장",
+"English": "reply / response (to a letter/message)",
+"Russian": "ответ (на письмо/сообщение)",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "연주",
+"English": "performance (instrumental) / playing",
+"Russian": "исполнение (музыкальное), игра",
+"rutag": "культура",
+"engtag": "culture"
 }
 ]
