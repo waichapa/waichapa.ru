@@ -9035,5 +9035,33 @@
     "Russian": "исполнение (музыкальное), игра",
     "rutag": "культура",
     "engtag": "culture"
-  }
+  },
+  {
+"Korean": "배구",
+"English": "volleyball",
+"Russian": "волейбол",
+"rutag": "спорт",
+"engtag": "sport"
+},
+{
+"Korean": "농구",
+"English": "basketball",
+"Russian": "баскетбол",
+"rutag": "спорт",
+"engtag": "sport"
+},
+{
+"Korean": "태권도",
+"English": "taekwondo",
+"Russian": "тхэквондо",
+"rutag": "спорт",
+"engtag": "sport"
+},
+{
+"Korean": "조깅",
+"English": "jogging",
+"Russian": "бег трусцой",
+"rutag": "спорт",
+"engtag": "sport"
+}
 ]
