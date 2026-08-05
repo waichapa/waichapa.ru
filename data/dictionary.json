@@ -9063,5 +9063,40 @@
 "Russian": "бег трусцой",
 "rutag": "спорт",
 "engtag": "sport"
-}
+},
+  {
+    "Korean": "사귀다",
+    "English": "to date, to go out with, to be in a relationship",
+    "Russian": "встречаться, быть в отношениях, гулять с кем-то (в романтическом смысле)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "사귀다",
+    "English": "to make friends, to befriend, to keep company with",
+    "Russian": "дружить, общаться, водить знакомство",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "어울리다",
+    "English": "to suit, to match, to look good together",
+    "Russian": "подходить, сочетаться, идти (о цвете, одежде)",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "어울리다",
+    "English": "to get along, to socialize, to hang out with",
+    "Russian": "ладить, общаться, проводить время вместе",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "어울리다",
+    "English": "to be fitting, to be appropriate",
+    "Russian": "быть уместным, соответствовать (ситуации)",
+    "rutag": "описание",
+    "engtag": "description"
+  }
 ]
