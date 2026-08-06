@@ -7,6 +7,7 @@ let bestStreak = 0;
 let answered = false;
 let currentTag = '';
 let currentQuickFilter = 'all'; // all | last10 | last30 | last50 | last100
+let questionLang = 'korean'; // korean | english | russian — what's shown on the card
 
 function shuffle(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
@@ -20,9 +21,20 @@ function escapeHtml(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+// Given the chosen "front of card" language and current site language,
+// decide which field is shown on the card and which field the person
+// answers with.
+function getQuizFields() {
+  const lang = getLang();
+  if (questionLang === 'english') return { questionKey: 'English', answerKey: 'Korean' };
+  if (questionLang === 'russian') return { questionKey: 'Russian', answerKey: 'Korean' };
+  return { questionKey: 'Korean', answerKey: lang === 'ru' ? 'Russian' : 'English' };
+}
+
 function buildQuizFilters() {
   const tagSel = document.getElementById('quizTagFilter');
   const wrap = document.getElementById('quizQuickFilters');
+  const frontSel = document.getElementById('quizFrontLang');
   if (!tagSel || !wrap) return;
 
   const lang = getLang();
@@ -31,6 +43,18 @@ function buildQuizFilters() {
   tagSel.innerHTML = `<option value="">${t('all_tags')}</option>` +
     tags.map(tag => `<option value="${tag}">${tag}</option>`).join('');
   tagSel.onchange = () => { currentTag = tagSel.value; initQuiz(); };
+
+  if (frontSel) {
+    const frontOpts = [
+      ['korean', t('quiz_front_korean')],
+      ['english', t('quiz_front_english')],
+      ['russian', t('quiz_front_russian')]
+    ];
+    frontSel.innerHTML = frontOpts.map(([key, label]) =>
+      `<option value="${key}" ${key === questionLang ? 'selected' : ''}>${label}</option>`
+    ).join('');
+    frontSel.onchange = () => { questionLang = frontSel.value; initQuiz(); };
+  }
 
   const opts = [
     ['all', t('show_all')], ['last10', t('last10')],
@@ -125,15 +149,15 @@ function renderQuiz() {
   }
 
   const w = quizWords[quizIndex];
-  const lang = getLang();
-  const answerKey = lang === 'ru' ? 'Russian' : 'English';
+  const { questionKey, answerKey } = getQuizFields();
+  const questionText = w[questionKey].trim();
   const correctAnswer = w[answerKey].trim();
   const options = buildOptions(w, answerKey, correctAnswer);
 
   wrap.innerHTML = `
     <div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:${(quizIndex / quizWords.length) * 100}%"></div></div>
     <div class="flashcard">
-      <div class="kr-big">${w.Korean}</div>
+      <div class="kr-big">${questionText}</div>
     </div>
     <div class="quiz-options">
       ${options.map(opt => `<button class="quiz-opt" data-opt="${escapeHtml(opt)}">${opt}</button>`).join('')}
