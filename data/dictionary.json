@@ -9105,5 +9105,89 @@
     "Russian": "быть уместным, соответствовать (ситуации)",
     "rutag": "описание",
     "engtag": "description"
-  }
+  },
+  {
+"Korean": "참다",
+"English": "to endure, to bear, to tolerate, to refrain from",
+"Russian": "терпеть, выдерживать, сдерживаться, воздерживаться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "견디다",
+"English": "to endure, to withstand, to bear, to hold out",
+"Russian": "выдерживать, выносить, стойко переносить",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "이기다",
+"English": "to win, to beat, to overcome",
+"Russian": "побеждать, выигрывать, преодолевать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "지다",
+"English": "to lose, to be defeated",
+"Russian": "проигрывать, быть побеждённым",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "지다",
+"English": "to carry (on one's back), to have (a burden, responsibility)",
+"Russian": "нести на спине, иметь (бремя, ответственность)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "극복하다",
+"English": "to overcome, to surmount, to conquer",
+"Russian": "преодолевать, перебарывать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "애쓰다",
+"English": "to strive, to make an effort, to try hard",
+"Russian": "стараться, прилагать усилия, пытаться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "도전하다",
+"English": "to challenge, to take on a challenge",
+"Russian": "бросать вызов, рискнуть, попробовать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "발전하다",
+"English": "to develop, to advance, to make progress",
+"Russian": "развиваться, прогрессировать, совершенствоваться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "발전하다",
+"English": "to evolve, to grow (in a positive way)",
+"Russian": "эволюционировать, расти (в положительном смысле)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "발달하다",
+"English": "to develop, to grow (physically or mentally)",
+"Russian": "развиваться (физически или умственно), формироваться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "성장하다",
+"English": "to grow, to develop, to mature (physically or emotionally)",
+"Russian": "расти, развиваться, взрослеть (физически или эмоционально)",
+"rutag": "действие",
+"engtag": "action"
+}
 ]
