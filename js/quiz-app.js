@@ -8,6 +8,7 @@ let answered = false;
 let currentTag = '';
 let currentQuickFilter = 'all'; // all | last10 | last30 | last50 | last100
 let questionLang = 'korean'; // korean | english | russian — what's shown on the card
+let quizLength = '20'; // '10' | '20' | '30' | '50' | '100' | 'all' — how many cards per round
 
 function shuffle(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
@@ -35,6 +36,7 @@ function buildQuizFilters() {
   const tagSel = document.getElementById('quizTagFilter');
   const wrap = document.getElementById('quizQuickFilters');
   const frontSel = document.getElementById('quizFrontLang');
+  const lengthSel = document.getElementById('quizLength');
   if (!tagSel || !wrap) return;
 
   const lang = getLang();
@@ -54,6 +56,17 @@ function buildQuizFilters() {
       `<option value="${key}" ${key === questionLang ? 'selected' : ''}>${label}</option>`
     ).join('');
     frontSel.onchange = () => { questionLang = frontSel.value; initQuiz(); };
+  }
+
+  if (lengthSel) {
+    const lengthOpts = [
+      ['10', '10'], ['20', '20'], ['30', '30'], ['50', '50'], ['100', '100'],
+      ['all', t('quiz_length_all')]
+    ];
+    lengthSel.innerHTML = lengthOpts.map(([key, label]) =>
+      `<option value="${key}" ${key === quizLength ? 'selected' : ''}>${label}</option>`
+    ).join('');
+    lengthSel.onchange = () => { quizLength = lengthSel.value; initQuiz(); };
   }
 
   const opts = [
@@ -84,7 +97,8 @@ function buildQuizPool() {
   }
   if (currentTag) data = data.filter(e => e[tagKey] === currentTag);
 
-  quizWords = shuffle([...data]).slice(0, Math.min(20, data.length));
+  const shuffled = shuffle([...data]);
+  quizWords = quizLength === 'all' ? shuffled : shuffled.slice(0, Math.min(parseInt(quizLength, 10), shuffled.length));
 }
 
 async function initQuiz() {
