@@ -9189,5 +9189,75 @@
 "Russian": "расти, развиваться, взрослеть (физически или эмоционально)",
 "rutag": "действие",
 "engtag": "action"
+},
+{
+"Korean": "주로",
+"English": "mainly, mostly, primarily, chiefly",
+"Russian": "главным образом, в основном, преимущественно",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "싫어하다",
+"English": "to dislike, to hate",
+"Russian": "не любить, ненавидеть",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "치우다",
+"English": "to tidy up, to clear away, to put away",
+"Russian": "убирать, прибирать, убирать с дороги",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "밭",
+"English": "dry field, farmland (not flooded, for crops like vegetables)",
+"Russian": "поле (сухое, под овощи, зерновые), огород",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "논",
+"English": "rice paddy, rice field (flooded)",
+"Russian": "рисовое поле (залитое водой)",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "새롭다",
+"English": "to be new, novel, fresh",
+"Russian": "быть новым, свежим, оригинальным",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "목소리",
+"English": "voice",
+"Russian": "голос",
+"rutag": "тело",
+"engtag": "body"
+},
+{
+"Korean": "친하다",
+"English": "to be close (to someone), intimate, familiar",
+"Russian": "быть близким, дружески близким",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "모습",
+"English": "appearance, figure, shape, look, form",
+"Russian": "внешность, облик, вид, образ",
+"rutag": "тело",
+"engtag": "body"
+},
+{
+"Korean": "중요하다",
+"English": "to be important, significant",
+"Russian": "быть важным, значительным",
+"rutag": "описание",
+"engtag": "description"
 }
 ]
