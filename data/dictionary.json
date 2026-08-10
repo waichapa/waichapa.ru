@@ -3829,6 +3829,20 @@
     "engtag": "action"
   },
   {
+"Korean": "다음",
+"English": "next, following (as in '다음 날' – the next day)",
+"Russian": "следующий, следующий за (как в '다음 날' – на следующий день)",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "누구",
+"English": "who (as in '거기 누구 계세요?' – Who is there?)",
+"Russian": "кто (как в '거기 누구 계세요?' – Кто там?)",
+"rutag": "вопрос",
+"engtag": "question"
+},
+  {
     "Korean": "굽다",
     "English": "to bake",
     "Russian": "печь",
@@ -9357,5 +9371,187 @@
 "Russian": "быть важным, значительным",
 "rutag": "описание",
 "engtag": "description"
+},
+{
+"Korean": "속",
+"English": "inside, interior (of a pocket, bag, etc.)",
+"Russian": "внутренняя часть, нутро (кармана, сумки и т.д.)",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "소리",
+"English": "sound, voice, noise",
+"Russian": "звук, голос, шум",
+"rutag": "тело",
+"engtag": "body"
+},
+{
+"Korean": "정도",
+"English": "extent, degree, level",
+"Russian": "степень, уровень, мера",
+"rutag": "количество",
+"engtag": "quantity"
+},
+{
+"Korean": "다",
+"English": "all, everything, completely (adverb)",
+"Russian": "все, всё, полностью (наречие)",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "들다",
+"English": "to enter, to go in, to be inside (as in '여관에 들다' – to check into an inn)",
+"Russian": "входить, заходить, помещаться (как в '여관에 들다' – заселиться в гостиницу)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "들다",
+"English": "to take, to require (money, time, effort, as in '돈이 들다' – to cost money)",
+"Russian": "требоваться, стоить (денег, времени, усилий, как в '돈이 들다' – стоить денег)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "사실",
+"English": "fact, truth (as in '사실을 밝히다' – to reveal the truth)",
+"Russian": "факт, правда (как в '사실을 밝히다' – раскрыть правду)",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "이렇다",
+"English": "to be like this, to be such (as in '결과가 이렇다' – the result is like this)",
+"Russian": "быть таким, вот таким (как в '결과가 이렇다' – результат такой)",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "전",
+"English": "before, ago (as in '오래 전' – long ago)",
+"Russian": "до, назад (как в '오래 전' – давно)",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "여러",
+"English": "several, various, many (as in '여러 나라' – various countries)",
+"Russian": "несколько, различные, многие (как в '여러 나라' – разные страны)",
+"rutag": "количество",
+"engtag": "quantity"
+},
+{
+"Korean": "세계",
+"English": "world (as in '세계 여행' – world travel)",
+"Russian": "мир, свет (как в '세계 여행' – путешествие по миру)",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "바로",
+"English": "right now, immediately, exactly (as in '바로 시작하다' – to start right away)",
+"Russian": "прямо сейчас, немедленно, именно (как в '바로 시작하다' – начать сразу)",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "모든",
+"English": "every, all (as in '모든 사람' – all people)",
+"Russian": "каждый, весь (как в '모든 사람' – все люди)",
+"rutag": "количество",
+"engtag": "quantity"
+},
+{
+"Korean": "날",
+"English": "day (as in '마지막 날' – the last day; '어느 날' – one day)",
+"Russian": "день (как в '마지막 날' – последний день; '어느 날' – однажды)",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "여성",
+"English": "woman, female (as in '여성/남성' – female/male)",
+"Russian": "женщина, женский пол (как в '여성/남성' – женщина/мужчина)",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "후",
+"English": "after, later (as in '오 분 후' – five minutes later)",
+"Russian": "после, спустя (как в '오 분 후' – через пять минут)",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "내다",
+"English": "to take out, to put out, to pay, to submit (as in '길을 내다' – to make a path; '문제를 내다' – to raise a question)",
+"Russian": "вынимать, выкладывать, платить, представлять (как в '길을 내다' – проложить путь; '문제를 내다' – поставить вопрос)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "이번",
+"English": "this time, this (as in '이번 주' – this week)",
+"Russian": "этот раз, эта (неделя) (как в '이번 주' – на этой неделе)",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "생활",
+"English": "life, living, daily life (as in '직장 생활' – work life)",
+"Russian": "жизнь, быт, повседневная жизнь (как в '직장 생활' – рабочая жизнь)",
+"rutag": "жизнь",
+"engtag": "life"
+},
+{
+"Korean": "사이",
+"English": "between, among, gap (as in '사이에 놓다' – to put between)",
+"Russian": "между, среди, промежуток (как в '사이에 놓다' – поставить между)",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "우리나라",
+"English": "our country, Korea (as in '우리나라 사람' – Korean person)",
+"Russian": "наша страна, Корея (как в '우리나라 사람' – кореец)",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "이상",
+"English": "above, more than (as in '한 시간 이상' – more than an hour)",
+"Russian": "выше, более чем (как в '한 시간 이상' – больше часа)",
+"rutag": "количество",
+"engtag": "quantity"
+},
+{
+"Korean": "교육",
+"English": "education (as in '교육을 받다' – to receive education)",
+"Russian": "образование (как в '교육을 받다' – получать образование)",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "잡다",
+"English": "to hold, to grab, to catch (as in '손을 잡다' – to hold hands)",
+"Russian": "держать, хватать, ловить (как в '손을 잡다' – держать за руку)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "예술",
+"English": "art (as in '예술 작품' – a work of art)",
+"Russian": "искусство (как в '예술 작품' – произведение искусства)",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "서다",
+"English": "to stand, to stop, to be erected (as in '똑바로 서다' – to stand straight)",
+"Russian": "стоять, останавливаться, быть воздвигнутым (как в '똑바로 서다' – стоять прямо)",
+"rutag": "действие",
+"engtag": "action"
 }
 ]
