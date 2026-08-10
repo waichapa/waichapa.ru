@@ -336,6 +336,111 @@
     "engtag": "place"
   },
   {
+"Korean": "되다",
+"English": "to become, to be (used as a passive auxiliary)",
+"Russian": "становиться, делаться (используется как вспомогательный глагол пассива)",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "되다",
+"English": "to be (used for time, age, etc.)",
+"Russian": "быть (используется для времени, возраста и т.д.)",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "되다",
+"English": "to be okay, to be allowed, to work out",
+"Russian": "быть нормальным, разрешённым, удаваться",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "아니다",
+"English": "to not be (copula negative)",
+"Russian": "не быть, не являться (отрицательная связка)",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "때",
+"English": "when, time (of an event)",
+"Russian": "когда, время (события)",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "거",
+"English": "thing, fact (contraction of 것)",
+"Russian": "вещь, факт (сокращение от 것)",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "한",
+"English": "one (short form of 하나)",
+"Russian": "один (краткая форма от 하나)",
+"rutag": "число",
+"engtag": "number"
+},
+{
+"Korean": "한",
+"English": "great, big (as in 한강 – Han River)",
+"Russian": "великий, большой (как в 한강 – река Хан)",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "씨",
+"English": "Mr./Ms. (suffix after a name)",
+"Russian": "господин/госпожа (суффикс после имени)",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "씨",
+"English": "seed",
+"Russian": "семя, семечко",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "두",
+"English": "two (short form of 둘)",
+"Russian": "два (краткая форма от 둘)",
+"rutag": "число",
+"engtag": "number"
+},
+{
+"Korean": "중",
+"English": "middle, center",
+"Russian": "середина, центр",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "중",
+"English": "among, among them",
+"Russian": "среди, из них",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "중",
+"English": "currently doing (as in ~중이다)",
+"Russian": "в процессе, прямо сейчас (как в ~중이다)",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "문화",
+"English": "culture",
+"Russian": "культура",
+"rutag": "культура",
+"engtag": "culture"
+},
+  {
     "Korean": "일본",
     "English": "Japan",
     "Russian": "Япония",
