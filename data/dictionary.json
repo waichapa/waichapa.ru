@@ -9560,5 +9560,145 @@
 "Russian": "мужчина, мужской пол",
 "rutag": "человек",
 "engtag": "person"
+},
+{
+"Korean": "못",
+"English": "cannot, unable to (as in '못 마시다' – cannot drink)",
+"Russian": "не мочь, не быть в состоянии (как в '못 마시다' – не могу пить)",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "역사",
+"English": "history (as in '한국의 역사' – history of Korea)",
+"Russian": "история (как в '한국의 역사' – история Кореи)",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "이제",
+"English": "now (as in '이제부터' – from now on)",
+"Russian": "теперь, сейчас (как в '이제부터' – с этих пор)",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "내용",
+"English": "content, contents (as in '수업 내용' – class content)",
+"Russian": "содержание (как в '수업 내용' – содержание урока)",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "물론",
+"English": "of course, certainly (as in '물론 그렇다' – of course, that's right)",
+"Russian": "конечно, разумеется (как в '물론 그렇다' – конечно, это так)",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "동안",
+"English": "for, during, while (as in '며칠 동안' – for a few days)",
+"Russian": "в течение, во время (как в '며칠 동안' – в течение нескольких дней)",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "넣다",
+"English": "to put in, to insert (as in '책을 넣다' – to put a book in)",
+"Russian": "вставлять, вкладывать (как в '책을 넣다' – положить книгу)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "의미",
+"English": "meaning, significance (as in '의미가 있다' – to have meaning)",
+"Russian": "смысл, значение (как в '의미가 있다' – иметь значение)",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "자리",
+"English": "seat, place (as in '자리가 없다' – there is no seat; '자리에 앉다' – to sit in a seat)",
+"Russian": "место, сиденье (как в '자리가 없다' – нет места; '자리에 앉다' – сесть на место)",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "이미",
+"English": "already (as in '이미 끝나다' – already finished)",
+"Russian": "уже (как в '이미 끝나다' – уже закончилось)",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "얘기",
+"English": "talk, story, conversation (as in '얘기를 들려주다' – to tell a story; 이야기)",
+"Russian": "разговор, рассказ, беседа (как в '얘기를 들려주다' – рассказать историю; 이야기)",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "엄마",
+"English": "mom, mother (as in '엄마 가족' – mother's family)",
+"Russian": "мама (как в '엄마 가족' – семья мамы)",
+"rutag": "семья",
+"engtag": "family"
+},
+{
+"Korean": "내리다",
+"English": "to come down, to fall (snow/rain), to get off (as in '눈이 내리다' – snow falls; '비가 내리다' – rain falls)",
+"Russian": "опускаться, падать (о снеге/дожде), выходить (из транспорта) (как в '눈이 내리다' – идёт снег; '비가 내리다' – идёт дождь)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "또는",
+"English": "or (as in '남자 또는 여자' – man or woman)",
+"Russian": "или (как в '남자 또는 여자' – мужчина или женщина)",
+"rutag": "служебное",
+"engtag": "function"
+},
+{
+"Korean": "생기다",
+"English": "to be formed, to arise, to occur (as in '건물이 생기다' – a building appears/is built)",
+"Russian": "возникать, появляться, образовываться (как в '건물이 생기다' – появилось здание)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "세상",
+"English": "world (as in '세상이 넓다' – the world is big)",
+"Russian": "мир (как в '세상이 넓다' – мир большой)",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "대학",
+"English": "college, university (as in '대학에 들어가다' – to enter university)",
+"Russian": "университет, колледж (как в '대학에 들어가다' – поступить в университет)",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "두다",
+"English": "to put, to place (as in '책상 위에 두다' – to put on the desk)",
+"Russian": "класть, ставить (как в '책상 위에 두다' – положить на стол)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "이후",
+"English": "after, from now on, later (as in '이후의 삶' – life after this)",
+"Russian": "после, в дальнейшем, затем (как в '이후의 삶' – дальнейшая жизнь)",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "더욱",
+"English": "more, even more (as in '더욱 좋다' – even better)",
+"Russian": "более, ещё более (как в '더욱 좋다' – ещё лучше)",
+"rutag": "наречие",
+"engtag": "adverb"
 }
 ]
