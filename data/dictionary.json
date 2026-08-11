@@ -9226,6 +9226,7 @@
     "engtag": "description"
   },
   {
+{
 "Korean": "참다",
 "English": "to endure, to bear, to tolerate, to refrain from",
 "Russian": "терпеть, выдерживать, сдерживаться, воздерживаться",
@@ -9255,8 +9256,8 @@
 },
 {
 "Korean": "지다",
-"English": "to carry (on one's back), to have (a burden, responsibility)",
-"Russian": "нести на спине, иметь (бремя, ответственность)",
+"English": "to carry on one's back, to have a burden or responsibility",
+"Russian": "нести на спине, иметь бремя или ответственность",
 "rutag": "действие",
 "engtag": "action"
 },
@@ -9290,22 +9291,22 @@
 },
 {
 "Korean": "발전하다",
-"English": "to evolve, to grow (in a positive way)",
-"Russian": "эволюционировать, расти (в положительном смысле)",
+"English": "to evolve, to grow in a positive way",
+"Russian": "эволюционировать, расти в положительном смысле",
 "rutag": "действие",
 "engtag": "action"
 },
 {
 "Korean": "발달하다",
-"English": "to develop, to grow (physically or mentally)",
-"Russian": "развиваться (физически или умственно), формироваться",
+"English": "to develop, to grow physically or mentally",
+"Russian": "развиваться физически или умственно, формироваться",
 "rutag": "действие",
 "engtag": "action"
 },
 {
 "Korean": "성장하다",
-"English": "to grow, to develop, to mature (physically or emotionally)",
-"Russian": "расти, развиваться, взрослеть (физически или эмоционально)",
+"English": "to grow, to develop, to mature physically or emotionally",
+"Russian": "расти, развиваться, взрослеть физически или эмоционально",
 "rutag": "действие",
 "engtag": "action"
 },
@@ -9325,15 +9326,15 @@
 },
 {
 "Korean": "밭",
-"English": "dry field, farmland (not flooded, for crops like vegetables)",
-"Russian": "поле (сухое, под овощи, зерновые), огород",
+"English": "dry field, farmland for vegetables or crops",
+"Russian": "поле, огород для овощей или зерновых",
 "rutag": "природа",
 "engtag": "nature"
 },
 {
 "Korean": "논",
-"English": "rice paddy, rice field (flooded)",
-"Russian": "рисовое поле (залитое водой)",
+"English": "rice paddy, flooded rice field",
+"Russian": "рисовое поле, залитое водой",
 "rutag": "природа",
 "engtag": "nature"
 },
@@ -9353,7 +9354,7 @@
 },
 {
 "Korean": "친하다",
-"English": "to be close (to someone), intimate, familiar",
+"English": "to be close to someone, intimate, familiar",
 "Russian": "быть близким, дружески близким",
 "rutag": "описание",
 "engtag": "description"
@@ -9374,8 +9375,8 @@
 },
 {
 "Korean": "속",
-"English": "inside, interior (of a pocket, bag, etc.)",
-"Russian": "внутренняя часть, нутро (кармана, сумки и т.д.)",
+"English": "inside, interior of a pocket, bag, etc.",
+"Russian": "внутренняя часть, нутро кармана, сумки и т.д.",
 "rutag": "место",
 "engtag": "place"
 },
@@ -9395,162 +9396,162 @@
 },
 {
 "Korean": "다",
-"English": "all, everything, completely (adverb)",
-"Russian": "все, всё, полностью (наречие)",
+"English": "all, everything, completely",
+"Russian": "все, всё, полностью",
 "rutag": "наречие",
 "engtag": "adverb"
 },
 {
 "Korean": "들다",
-"English": "to enter, to go in, to be inside (as in '여관에 들다' – to check into an inn)",
-"Russian": "входить, заходить, помещаться (как в '여관에 들다' – заселиться в гостиницу)",
+"English": "to enter, to go in, to be inside",
+"Russian": "входить, заходить, помещаться",
 "rutag": "действие",
 "engtag": "action"
 },
 {
 "Korean": "들다",
-"English": "to take, to require (money, time, effort, as in '돈이 들다' – to cost money)",
-"Russian": "требоваться, стоить (денег, времени, усилий, как в '돈이 들다' – стоить денег)",
+"English": "to take, to require money, time or effort",
+"Russian": "требоваться, стоить денег, времени или усилий",
 "rutag": "действие",
 "engtag": "action"
 },
 {
 "Korean": "사실",
-"English": "fact, truth (as in '사실을 밝히다' – to reveal the truth)",
-"Russian": "факт, правда (как в '사실을 밝히다' – раскрыть правду)",
+"English": "fact, truth",
+"Russian": "факт, правда",
 "rutag": "мысль",
 "engtag": "thought"
 },
 {
 "Korean": "이렇다",
-"English": "to be like this, to be such (as in '결과가 이렇다' – the result is like this)",
-"Russian": "быть таким, вот таким (как в '결과가 이렇다' – результат такой)",
+"English": "to be like this, to be such",
+"Russian": "быть таким, вот таким",
 "rutag": "описание",
 "engtag": "description"
 },
 {
 "Korean": "전",
-"English": "before, ago (as in '오래 전' – long ago)",
-"Russian": "до, назад (как в '오래 전' – давно)",
+"English": "before, ago",
+"Russian": "до, назад",
 "rutag": "время",
 "engtag": "time"
 },
 {
 "Korean": "여러",
-"English": "several, various, many (as in '여러 나라' – various countries)",
-"Russian": "несколько, различные, многие (как в '여러 나라' – разные страны)",
+"English": "several, various, many",
+"Russian": "несколько, различные, многие",
 "rutag": "количество",
 "engtag": "quantity"
 },
 {
 "Korean": "세계",
-"English": "world (as in '세계 여행' – world travel)",
-"Russian": "мир, свет (как в '세계 여행' – путешествие по миру)",
+"English": "world",
+"Russian": "мир, свет",
 "rutag": "место",
 "engtag": "place"
 },
 {
 "Korean": "바로",
-"English": "right now, immediately, exactly (as in '바로 시작하다' – to start right away)",
-"Russian": "прямо сейчас, немедленно, именно (как в '바로 시작하다' – начать сразу)",
+"English": "right now, immediately, exactly",
+"Russian": "прямо сейчас, немедленно, именно",
 "rutag": "наречие",
 "engtag": "adverb"
 },
 {
 "Korean": "모든",
-"English": "every, all (as in '모든 사람' – all people)",
-"Russian": "каждый, весь (как в '모든 사람' – все люди)",
+"English": "every, all",
+"Russian": "каждый, весь",
 "rutag": "количество",
 "engtag": "quantity"
 },
 {
 "Korean": "날",
-"English": "day (as in '마지막 날' – the last day; '어느 날' – one day)",
-"Russian": "день (как в '마지막 날' – последний день; '어느 날' – однажды)",
+"English": "day",
+"Russian": "день",
 "rutag": "время",
 "engtag": "time"
 },
 {
 "Korean": "여성",
-"English": "woman, female (as in '여성/남성' – female/male)",
-"Russian": "женщина, женский пол (как в '여성/남성' – женщина/мужчина)",
+"English": "woman, female",
+"Russian": "женщина, женский пол",
 "rutag": "человек",
 "engtag": "person"
 },
 {
 "Korean": "후",
-"English": "after, later (as in '오 분 후' – five minutes later)",
-"Russian": "после, спустя (как в '오 분 후' – через пять минут)",
+"English": "after, later",
+"Russian": "после, спустя",
 "rutag": "время",
 "engtag": "time"
 },
 {
 "Korean": "내다",
-"English": "to take out, to put out, to pay, to submit (as in '길을 내다' – to make a path; '문제를 내다' – to raise a question)",
-"Russian": "вынимать, выкладывать, платить, представлять (как в '길을 내다' – проложить путь; '문제를 내다' – поставить вопрос)",
+"English": "to take out, to put out, to pay, to submit",
+"Russian": "вынимать, выкладывать, платить, представлять",
 "rutag": "действие",
 "engtag": "action"
 },
 {
 "Korean": "이번",
-"English": "this time, this (as in '이번 주' – this week)",
-"Russian": "этот раз, эта (неделя) (как в '이번 주' – на этой неделе)",
+"English": "this time, this",
+"Russian": "этот раз, эта",
 "rutag": "время",
 "engtag": "time"
 },
 {
 "Korean": "생활",
-"English": "life, living, daily life (as in '직장 생활' – work life)",
-"Russian": "жизнь, быт, повседневная жизнь (как в '직장 생활' – рабочая жизнь)",
+"English": "life, living, daily life",
+"Russian": "жизнь, быт, повседневная жизнь",
 "rutag": "жизнь",
 "engtag": "life"
 },
 {
 "Korean": "사이",
-"English": "between, among, gap (as in '사이에 놓다' – to put between)",
-"Russian": "между, среди, промежуток (как в '사이에 놓다' – поставить между)",
+"English": "between, among, gap",
+"Russian": "между, среди, промежуток",
 "rutag": "место",
 "engtag": "place"
 },
 {
 "Korean": "우리나라",
-"English": "our country, Korea (as in '우리나라 사람' – Korean person)",
-"Russian": "наша страна, Корея (как в '우리나라 사람' – кореец)",
+"English": "our country, Korea",
+"Russian": "наша страна, Корея",
 "rutag": "место",
 "engtag": "place"
 },
 {
 "Korean": "이상",
-"English": "above, more than (as in '한 시간 이상' – more than an hour)",
-"Russian": "выше, более чем (как в '한 시간 이상' – больше часа)",
+"English": "above, more than",
+"Russian": "выше, более чем",
 "rutag": "количество",
 "engtag": "quantity"
 },
 {
 "Korean": "교육",
-"English": "education (as in '교육을 받다' – to receive education)",
-"Russian": "образование (как в '교육을 받다' – получать образование)",
+"English": "education",
+"Russian": "образование",
 "rutag": "учёба",
 "engtag": "study"
 },
 {
 "Korean": "잡다",
-"English": "to hold, to grab, to catch (as in '손을 잡다' – to hold hands)",
-"Russian": "держать, хватать, ловить (как в '손을 잡다' – держать за руку)",
+"English": "to hold, to grab, to catch",
+"Russian": "держать, хватать, ловить",
 "rutag": "действие",
 "engtag": "action"
 },
 {
 "Korean": "예술",
-"English": "art (as in '예술 작품' – a work of art)",
-"Russian": "искусство (как в '예술 작품' – произведение искусства)",
+"English": "art",
+"Russian": "искусство",
 "rutag": "культура",
 "engtag": "culture"
 },
 {
 "Korean": "서다",
-"English": "to stand, to stop, to be erected (as in '똑바로 서다' – to stand straight)",
-"Russian": "стоять, останавливаться, быть воздвигнутым (как в '똑바로 서다' – стоять прямо)",
+"English": "to stand, to stop, to be erected",
+"Russian": "стоять, останавливаться, быть воздвигнутым",
 "rutag": "действие",
 "engtag": "action"
 },
@@ -9563,141 +9564,141 @@
 },
 {
 "Korean": "못",
-"English": "cannot, unable to (as in '못 마시다' – cannot drink)",
-"Russian": "не мочь, не быть в состоянии (как в '못 마시다' – не могу пить)",
+"English": "cannot, unable to",
+"Russian": "не мочь, не быть в состоянии",
 "rutag": "наречие",
 "engtag": "adverb"
 },
 {
 "Korean": "역사",
-"English": "history (as in '한국의 역사' – history of Korea)",
-"Russian": "история (как в '한국의 역사' – история Кореи)",
+"English": "history",
+"Russian": "история",
 "rutag": "учёба",
 "engtag": "study"
 },
 {
 "Korean": "이제",
-"English": "now (as in '이제부터' – from now on)",
-"Russian": "теперь, сейчас (как в '이제부터' – с этих пор)",
+"English": "now",
+"Russian": "теперь, сейчас",
 "rutag": "время",
 "engtag": "time"
 },
 {
 "Korean": "내용",
-"English": "content, contents (as in '수업 내용' – class content)",
-"Russian": "содержание (как в '수업 내용' – содержание урока)",
+"English": "content, contents",
+"Russian": "содержание",
 "rutag": "мысль",
 "engtag": "thought"
 },
 {
 "Korean": "물론",
-"English": "of course, certainly (as in '물론 그렇다' – of course, that's right)",
-"Russian": "конечно, разумеется (как в '물론 그렇다' – конечно, это так)",
+"English": "of course, certainly",
+"Russian": "конечно, разумеется",
 "rutag": "наречие",
 "engtag": "adverb"
 },
 {
 "Korean": "동안",
-"English": "for, during, while (as in '며칠 동안' – for a few days)",
-"Russian": "в течение, во время (как в '며칠 동안' – в течение нескольких дней)",
+"English": "for, during, while",
+"Russian": "в течение, во время",
 "rutag": "время",
 "engtag": "time"
 },
 {
 "Korean": "넣다",
-"English": "to put in, to insert (as in '책을 넣다' – to put a book in)",
-"Russian": "вставлять, вкладывать (как в '책을 넣다' – положить книгу)",
+"English": "to put in, to insert",
+"Russian": "вставлять, вкладывать",
 "rutag": "действие",
 "engtag": "action"
 },
 {
 "Korean": "의미",
-"English": "meaning, significance (as in '의미가 있다' – to have meaning)",
-"Russian": "смысл, значение (как в '의미가 있다' – иметь значение)",
+"English": "meaning, significance",
+"Russian": "смысл, значение",
 "rutag": "мысль",
 "engtag": "thought"
 },
 {
 "Korean": "자리",
-"English": "seat, place (as in '자리가 없다' – there is no seat; '자리에 앉다' – to sit in a seat)",
-"Russian": "место, сиденье (как в '자리가 없다' – нет места; '자리에 앉다' – сесть на место)",
+"English": "seat, place",
+"Russian": "место, сиденье",
 "rutag": "место",
 "engtag": "place"
 },
 {
 "Korean": "이미",
-"English": "already (as in '이미 끝나다' – already finished)",
-"Russian": "уже (как в '이미 끝나다' – уже закончилось)",
+"English": "already",
+"Russian": "уже",
 "rutag": "время",
 "engtag": "time"
 },
 {
 "Korean": "얘기",
-"English": "talk, story, conversation (as in '얘기를 들려주다' – to tell a story; 이야기)",
-"Russian": "разговор, рассказ, беседа (как в '얘기를 들려주다' – рассказать историю; 이야기)",
+"English": "talk, story, conversation",
+"Russian": "разговор, рассказ, беседа",
 "rutag": "мысль",
 "engtag": "thought"
 },
 {
 "Korean": "엄마",
-"English": "mom, mother (as in '엄마 가족' – mother's family)",
-"Russian": "мама (как в '엄마 가족' – семья мамы)",
+"English": "mom, mother",
+"Russian": "мама",
 "rutag": "семья",
 "engtag": "family"
 },
 {
 "Korean": "내리다",
-"English": "to come down, to fall (snow/rain), to get off (as in '눈이 내리다' – snow falls; '비가 내리다' – rain falls)",
-"Russian": "опускаться, падать (о снеге/дожде), выходить (из транспорта) (как в '눈이 내리다' – идёт снег; '비가 내리다' – идёт дождь)",
+"English": "to come down, to fall, to get off",
+"Russian": "опускаться, падать, выходить из транспорта",
 "rutag": "действие",
 "engtag": "action"
 },
 {
 "Korean": "또는",
-"English": "or (as in '남자 또는 여자' – man or woman)",
-"Russian": "или (как в '남자 또는 여자' – мужчина или женщина)",
+"English": "or",
+"Russian": "или",
 "rutag": "служебное",
 "engtag": "function"
 },
 {
 "Korean": "생기다",
-"English": "to be formed, to arise, to occur (as in '건물이 생기다' – a building appears/is built)",
-"Russian": "возникать, появляться, образовываться (как в '건물이 생기다' – появилось здание)",
+"English": "to be formed, to arise, to occur",
+"Russian": "возникать, появляться, образовываться",
 "rutag": "действие",
 "engtag": "action"
 },
 {
 "Korean": "세상",
-"English": "world (as in '세상이 넓다' – the world is big)",
-"Russian": "мир (как в '세상이 넓다' – мир большой)",
+"English": "world",
+"Russian": "мир",
 "rutag": "место",
 "engtag": "place"
 },
 {
 "Korean": "대학",
-"English": "college, university (as in '대학에 들어가다' – to enter university)",
-"Russian": "университет, колледж (как в '대학에 들어가다' – поступить в университет)",
+"English": "college, university",
+"Russian": "университет, колледж",
 "rutag": "учёба",
 "engtag": "study"
 },
 {
 "Korean": "두다",
-"English": "to put, to place (as in '책상 위에 두다' – to put on the desk)",
-"Russian": "класть, ставить (как в '책상 위에 두다' – положить на стол)",
+"English": "to put, to place",
+"Russian": "класть, ставить",
 "rutag": "действие",
 "engtag": "action"
 },
 {
 "Korean": "이후",
-"English": "after, from now on, later (as in '이후의 삶' – life after this)",
-"Russian": "после, в дальнейшем, затем (как в '이후의 삶' – дальнейшая жизнь)",
+"English": "after, from now on, later",
+"Russian": "после, в дальнейшем, затем",
 "rutag": "время",
 "engtag": "time"
 },
 {
 "Korean": "더욱",
-"English": "more, even more (as in '더욱 좋다' – even better)",
-"Russian": "более, ещё более (как в '더욱 좋다' – ещё лучше)",
+"English": "more, even more",
+"Russian": "более, ещё более",
 "rutag": "наречие",
 "engtag": "adverb"
 }
