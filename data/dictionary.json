@@ -9700,5 +9700,152 @@
 "Russian": "более, ещё более",
 "rutag": "наречие",
 "engtag": "adverb"
+},
+{
+"Korean": "지방",
+"English": "region, province, local area",
+"Russian": "регион, провинция, местность",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "높다",
+"English": "to be high, tall",
+"Russian": "быть высоким",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "최근",
+"English": "recent, lately",
+"Russian": "недавний, в последнее время",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "묻다",
+"English": "to ask",
+"Russian": "спрашивать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "묻다",
+"English": "to bury, to cover, to be buried (in dust, mud)",
+"Russian": "закапывать, хоронить, быть покрытым (пылью, грязью)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "남다",
+"English": "to remain, to be left",
+"Russian": "оставаться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "부분",
+"English": "part, portion, section",
+"Russian": "часть, доля, раздел",
+"rutag": "количество",
+"engtag": "quantity"
+},
+{
+"Korean": "뜻",
+"English": "meaning, significance, intention",
+"Russian": "смысл, значение, намерение",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "아",
+"English": "oh, ah (interjection)",
+"Russian": "о, ах (междометие)",
+"rutag": "фраза",
+"engtag": "phrase"
+},
+{
+"Korean": "나누다",
+"English": "to divide, to share, to split",
+"Russian": "делить, разделять, распределять",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "중심",
+"English": "center, core, heart (of a city, organization)",
+"Russian": "центр, ядро, сердце (города, организации)",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "서로",
+"English": "each other, mutually",
+"Russian": "друг друга, взаимно",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "역시",
+"English": "also, too, as expected, likewise",
+"Russian": "тоже, также, как ожидалось, в свою очередь",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "애",
+"English": "child, kid (colloquial)",
+"Russian": "ребёнок, малыш (разговорное)",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "땅",
+"English": "land, ground, earth",
+"Russian": "земля, грунт, почва",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "웃다",
+"English": "to laugh, to smile",
+"Russian": "смеяться, улыбаться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "떠나다",
+"English": "to leave, to depart, to set off",
+"Russian": "уезжать, покидать, отправляться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "전체",
+"English": "whole, entire, all",
+"Russian": "целый, весь, всеобщий",
+"rutag": "количество",
+"engtag": "quantity"
+},
+{
+"Korean": "그래",
+"English": "yes, okay, right (informal, as an answer)",
+"Russian": "да, ладно, хорошо (неформальный ответ)",
+"rutag": "фраза",
+"engtag": "phrase"
+},
+{
+"Korean": "얻다",
+"English": "to get, to obtain, to gain",
+"Russian": "получать, приобретать, добиваться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "끝",
+"English": "end, finish, conclusion",
+"Russian": "конец, завершение, окончание",
+"rutag": "время",
+"engtag": "time"
 }
 ]
