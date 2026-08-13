@@ -9847,5 +9847,152 @@
 "Russian": "конец, завершение, окончание",
 "rutag": "время",
 "engtag": "time"
+},
+{
+"Korean": "그대로",
+"English": "as it is, just like that, unchanged",
+"Russian": "как есть, просто так, без изменений",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "하늘",
+"English": "sky",
+"Russian": "небо",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "프로그램",
+"English": "program",
+"Russian": "программа",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "남",
+"English": "other person, another, stranger",
+"Russian": "другой человек, посторонний, чужой",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "돌아오다",
+"English": "to come back, to return",
+"Russian": "возвращаться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "아빠",
+"English": "dad, daddy",
+"Russian": "папа",
+"rutag": "семья",
+"engtag": "family"
+},
+{
+"Korean": "걸리다",
+"English": "to be hung, to be caught, to take (time)",
+"Russian": "висеть, быть повешенным, застревать, отнимать (время)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "지키다",
+"English": "to protect, to keep, to observe, to guard",
+"Russian": "защищать, хранить, соблюдать, охранять",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "한번",
+"English": "once, one time, at some point",
+"Russian": "один раз, однажды",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "바라보다",
+"English": "to look at, to gaze at, to view",
+"Russian": "смотреть на, вглядываться, созерцать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "알아보다",
+"English": "to find out, to look up, to check, to recognize",
+"Russian": "узнавать, выяснять, проверять, распознавать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "맛",
+"English": "taste, flavor",
+"Russian": "вкус",
+"rutag": "еда",
+"engtag": "food"
+},
+{
+"Korean": "오르다",
+"English": "to go up, to rise, to climb",
+"Russian": "подниматься, расти (о цене), взбираться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "꼭",
+"English": "surely, certainly, tightly, exactly",
+"Russian": "непременно, обязательно, крепко, точно",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "일부",
+"English": "some, part, portion",
+"Russian": "часть, некоторая часть",
+"rutag": "количество",
+"engtag": "quantity"
+},
+{
+"Korean": "고개",
+"English": "head (in phrases about turning or nodding)",
+"Russian": "голова (в выражениях поворота или кивка)",
+"rutag": "тело",
+"engtag": "body"
+},
+{
+"Korean": "고개",
+"English": "hill, pass (mountain)",
+"Russian": "холм, перевал",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "세",
+"English": "three (before counting words)",
+"Russian": "три (перед счётными словами)",
+"rutag": "число",
+"engtag": "number"
+},
+{
+"Korean": "분위기",
+"English": "atmosphere, mood, ambiance",
+"Russian": "атмосфера, настроение, обстановка",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "나이",
+"English": "age",
+"Russian": "возраст",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "우선",
+"English": "first, first of all, for now",
+"Russian": "сначала, прежде всего, пока что",
+"rutag": "наречие",
+"engtag": "adverb"
 }
 ]
