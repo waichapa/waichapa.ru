@@ -9994,5 +9994,152 @@
 "Russian": "сначала, прежде всего, пока что",
 "rutag": "наречие",
 "engtag": "adverb"
+},
+{
+"Korean": "그동안",
+"English": "during that time, in the meantime",
+"Russian": "в это время, тем временем",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "마지막",
+"English": "last, final",
+"Russian": "последний, финальный",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "이메일",
+"English": "email",
+"Russian": "электронная почта",
+"rutag": "техника",
+"engtag": "electronics"
+},
+{
+"Korean": "모바일폰",
+"English": "mobile phone, cell phone",
+"Russian": "мобильный телефон",
+"rutag": "техника",
+"engtag": "electronics"
+},
+{
+"Korean": "방송",
+"English": "broadcast, broadcasting, TV/radio program",
+"Russian": "трансляция, вещание, теле/радиопередача",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "닭고기",
+"English": "chicken (meat)",
+"Russian": "курица (мясо)",
+"rutag": "еда",
+"engtag": "food"
+},
+{
+"Korean": "쇠고기",
+"English": "beef",
+"Russian": "говядина",
+"rutag": "еда",
+"engtag": "food"
+},
+{
+"Korean": "돼지고기",
+"English": "pork",
+"Russian": "свинина",
+"rutag": "еда",
+"engtag": "food"
+},
+{
+"Korean": "만화",
+"English": "comic, cartoon, manga",
+"Russian": "комикс, мультфильм, манга",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "사이즈",
+"English": "size",
+"Russian": "размер",
+"rutag": "измерение",
+"engtag": "measurement"
+},
+{
+"Korean": "비비크림",
+"English": "BB cream (blemish balm cream)",
+"Russian": "BB-крем",
+"rutag": "одежда",
+"engtag": "clothing"
+},
+{
+"Korean": "식물원",
+"English": "botanical garden",
+"Russian": "ботанический сад",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "동물원",
+"English": "zoo",
+"Russian": "зоопарк",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "국어",
+"English": "Korean language (as a school subject)",
+"Russian": "корейский язык (как школьный предмет)",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "외국어",
+"English": "foreign language",
+"Russian": "иностранный язык",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "테스트",
+"English": "test",
+"Russian": "тест, проверка",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "꾸다",
+"English": "to borrow (money)",
+"Russian": "занимать (деньги)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "꾸다",
+"English": "to dream",
+"Russian": "видеть сон",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "나빠지다",
+"English": "to get worse, to deteriorate",
+"Russian": "становиться хуже, ухудшаться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "모으다",
+"English": "to collect, to gather, to save (money)",
+"Russian": "собирать, накапливать, копить (деньги)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "세수하다",
+"English": "to wash one's face",
+"Russian": "умываться",
+"rutag": "действие",
+"engtag": "action"
 }
 ]
