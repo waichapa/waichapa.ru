@@ -10141,5 +10141,124 @@
 "Russian": "умываться",
 "rutag": "действие",
 "engtag": "action"
+},
+{
+"Korean": "열리다",
+"English": "to open (passive), to be held (event)",
+"Russian": "открываться (пассив), проводиться (о мероприятии)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "행동",
+"English": "action, behavior, conduct",
+"Russian": "действие, поведение",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "그럼",
+"English": "then, in that case, okay (contraction of 그렇면)",
+"Russian": "тогда, в таком случае, хорошо (сокращение от 그러면)",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "모양",
+"English": "shape, form, appearance",
+"Russian": "форма, вид, очертание",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "올리다",
+"English": "to raise, to lift, to upload, to increase (price)",
+"Russian": "поднимать, загружать, повышать (цену)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "교사",
+"English": "teacher (profession)",
+"Russian": "учитель (профессия)",
+"rutag": "профессия",
+"engtag": "profession"
+},
+{
+"Korean": "넘다",
+"English": "to go over, to exceed, to pass (time)",
+"Russian": "пересекать, превышать, переваливать (о времени)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "잘하다",
+"English": "to do well, to be good at",
+"Russian": "хорошо делать, уметь, преуспевать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "어리다",
+"English": "to be young (age)",
+"Russian": "быть молодым, юным",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "방향",
+"English": "direction, course",
+"Russian": "направление, курс",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "대회",
+"English": "contest, competition, tournament",
+"Russian": "соревнование, конкурс, турнир",
+"rutag": "спорт",
+"engtag": "sport"
+},
+{
+"Korean": "움직이다",
+"English": "to move, to stir",
+"Russian": "двигаться, шевелиться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "전혀",
+"English": "not at all, completely (used with negative)",
+"Russian": "совсем, вовсе (используется с отрицанием)",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "자식",
+"English": "child, one's own offspring",
+"Russian": "ребёнок, потомок, дитя",
+"rutag": "семья",
+"engtag": "family"
+},
+{
+"Korean": "돌리다",
+"English": "to rotate, to spin, to turn, to redirect",
+"Russian": "вращать, крутить, поворачивать, перенаправлять",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "사업",
+"English": "business, enterprise, project",
+"Russian": "бизнес, предприятие, проект",
+"rutag": "работа",
+"engtag": "work"
+},
+{
+"Korean": "지난해",
+"English": "last year",
+"Russian": "прошлый год",
+"rutag": "время",
+"engtag": "time"
 }
 ]
