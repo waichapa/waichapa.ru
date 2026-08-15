@@ -10260,5 +10260,201 @@
 "Russian": "прошлый год",
 "rutag": "время",
 "engtag": "time"
-}
+},
+  {
+    "Korean": "점점",
+    "English": "gradually, increasingly, little by little",
+    "Russian": "постепенно, всё более, мало-помалу",
+    "rutag": "наречие",
+    "engtag": "adverb"
+  },
+  {
+    "Korean": "선택하다",
+    "English": "to choose, to select, to pick",
+    "Russian": "выбирать, отбирать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "물건",
+    "English": "thing, object, item, goods",
+    "Russian": "вещь, предмет, товар",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "안내하다",
+    "English": "to guide, to escort, to show around",
+    "Russian": "направлять, сопровождать, показывать (дорогу)",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "별로",
+    "English": "not really, not particularly (used with negation)",
+    "Russian": "не особенно, не очень (используется с отрицанием)",
+    "rutag": "наречие",
+    "engtag": "adverb"
+  },
+  {
+    "Korean": "마음에 들다",
+    "English": "to like, to be to one's liking, to be satisfactory",
+    "Russian": "нравиться, быть по душе, устраивать",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "값",
+    "English": "price, cost, value",
+    "Russian": "цена, стоимость, ценность",
+    "rutag": "деньги",
+    "engtag": "money"
+  },
+  {
+    "Korean": "즐겁다",
+    "English": "to be enjoyable, pleasant, happy",
+    "Russian": "быть приятным, радостным, весёлым",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "지하",
+    "English": "underground, basement, subway",
+    "Russian": "подземный этаж, подвал, метро",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "식사",
+    "English": "meal, dining, eating",
+    "Russian": "приём пищи, еда",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "말씀",
+    "English": "words, speech, remark (honorific)",
+    "Russian": "слова, речь (почтительная форма)",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "지우다",
+    "English": "to erase, to delete, to remove",
+    "Russian": "стирать, удалять, убирать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "잘못",
+    "English": "mistake, error, fault, wrongdoing",
+    "Russian": "ошибка, недоразумение, вина",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "확인하다",
+    "English": "to confirm, to verify, to check",
+    "Russian": "подтверждать, проверять, удостоверяться",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "신청자",
+    "English": "applicant, candidate",
+    "Russian": "заявитель, кандидат",
+    "rutag": "человек",
+    "engtag": "person"
+  },
+  {
+    "Korean": "학생회",
+    "English": "student council, student government",
+    "Russian": "студенческий совет, ученический комитет",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "공항버스",
+    "English": "airport bus",
+    "Russian": "автобус до аэропорта",
+    "rutag": "транспорт",
+    "engtag": "transport"
+  },
+  {
+    "Korean": "매표소",
+    "English": "ticket booth, ticket office",
+    "Russian": "касса, билетная касса",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "전통",
+    "English": "tradition, custom",
+    "Russian": "традиция, обычай",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "도움",
+    "English": "help, assistance, support",
+    "Russian": "помощь, поддержка",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "온몸",
+    "English": "whole body, entire body",
+    "Russian": "всё тело",
+    "rutag": "тело",
+    "engtag": "body"
+  },
+  {
+    "Korean": "씩",
+    "English": "each, apiece, at a time (for dividing or distributing)",
+    "Russian": "по (сколько-то) на каждого, поровну, понемногу",
+    "rutag": "количество",
+    "engtag": "quantity"
+  },
+  {
+    "Korean": "바라시다",
+    "English": "to wish, to hope, to desire (honorific)",
+    "Russian": "желать, надеяться (почтительная форма)",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "숫자",
+    "English": "number, numeral, digit",
+    "Russian": "число, цифра",
+    "rutag": "число",
+    "engtag": "number"
+  },
+  {
+    "Korean": "특별하다",
+    "English": "to be special, extraordinary, particular",
+    "Russian": "быть особенным, исключительным",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "외롭다",
+    "English": "to be lonely, solitary",
+    "Russian": "быть одиноким",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "신청하다",
+    "English": "to apply, to request, to register for",
+    "Russian": "подавать заявку, регистрироваться",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "체육관",
+    "English": "gym, sports hall, gymnasium",
+    "Russian": "спортзал, гимнастический зал",
+    "rutag": "спорт",
+    "engtag": "sport"
+  }
 ]
