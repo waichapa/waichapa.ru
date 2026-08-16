@@ -1,6 +1,7 @@
 let DICTIONARY = [];
 let GRAMMAR = [];
 let currentQuickFilter = 'all'; // all | last10 | last30 | last50 | last100
+let currentSortOrder = 'newest'; // newest | oldest
 let multiMeaningCounts = {}; // Korean word -> number of entries sharing it
 
 async function loadData() {
@@ -13,6 +14,7 @@ async function loadData() {
   buildMultiMeaningCounts();
   buildTagFilter();
   buildQuickFilters();
+  buildSortFilter();
   renderDict();
   renderGrammar();
 }
@@ -60,6 +62,17 @@ function buildQuickFilters() {
   });
 }
 
+function buildSortFilter() {
+  const sel = document.getElementById('sortFilter');
+  if (!sel) return;
+  sel.innerHTML = `
+    <option value="newest">${t('sort_newest')}</option>
+    <option value="oldest">${t('sort_oldest')}</option>
+  `;
+  sel.value = currentSortOrder;
+  sel.onchange = () => { currentSortOrder = sel.value; renderDict(); };
+}
+
 function renderDict() {
   const listEl = document.getElementById('dictList');
   if (!listEl || !DICTIONARY.length) return;
@@ -71,8 +84,9 @@ function renderDict() {
   let data = DICTIONARY;
   if (currentQuickFilter.startsWith('last')) {
     const n = parseInt(currentQuickFilter.replace('last', ''), 10);
-    data = data.slice(-n).reverse();
+    data = data.slice(-n);
   }
+  if (currentSortOrder === 'newest') data = [...data].reverse();
 
   const filtered = data.filter(e => {
     const matchesQuery = !query ||
@@ -122,5 +136,5 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('grammarSearch').addEventListener('input', renderGrammar);
 });
 document.addEventListener('langChanged', () => {
-  buildTagFilter(); buildQuickFilters();
+  buildTagFilter(); buildQuickFilters(); buildSortFilter();
 });

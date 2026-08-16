@@ -3654,13 +3654,6 @@
     "engtag": "time"
   },
   {
-    "Korean": "별로",
-    "English": "not really",
-    "Russian": "не очень, не особенно",
-    "rutag": "наречие",
-    "engtag": "adverb"
-  },
-  {
     "Korean": "빨리",
     "English": "quickly",
     "Russian": "быстро",
@@ -3680,13 +3673,6 @@
     "Russian": "быть разным, отличаться",
     "rutag": "описание",
     "engtag": "description"
-  },
-  {
-    "Korean": "이메일",
-    "English": "email",
-    "Russian": "электронная почта",
-    "rutag": "работа",
-    "engtag": "work"
   },
   {
     "Korean": "외모",
@@ -10085,13 +10071,6 @@
 "Russian": "зоопарк",
 "rutag": "место",
 "engtag": "place"
-},
-{
-"Korean": "국어",
-"English": "Korean language (as a school subject)",
-"Russian": "корейский язык (как школьный предмет)",
-"rutag": "учёба",
-"engtag": "study"
 },
 {
 "Korean": "외국어",
