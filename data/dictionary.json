@@ -10428,5 +10428,138 @@
     "Russian": "спортзал, гимнастический зал",
     "rutag": "спорт",
     "engtag": "sport"
-  }
+  },
+  {
+"Korean": "젊다",
+"English": "young",
+"Russian": "молодой",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "동시",
+"English": "simultaneously, at the same time",
+"Russian": "одновременно, в то же время",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "옷",
+"English": "clothes, clothing",
+"Russian": "одежда",
+"rutag": "одежда",
+"engtag": "clothing"
+},
+{
+"Korean": "나무",
+"English": "tree",
+"Russian": "дерево",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "이때",
+"English": "this time, at this moment",
+"Russian": "это время, в этот момент",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "풀다",
+"English": "to untie, to solve, to loosen",
+"Russian": "развязывать, решать, ослаблять",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "물건",
+"English": "object, thing",
+"Russian": "предмет, вещь",
+"rutag": "дом",
+"engtag": "home"
+},
+{
+"Korean": "직접",
+"English": "directly, in person",
+"Russian": "непосредственно, лично",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "말다",
+"English": "to stop, to quit, to fold",
+"Russian": "переставать, заворачивать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "바라다",
+"English": "to wish, to hope, to want",
+"Russian": "желать, надеяться",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "강하다",
+"English": "strong, powerful",
+"Russian": "сильный, мощный",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "최고",
+"English": "best, highest, the best",
+"Russian": "лучший, высший",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "놀라다",
+"English": "to be surprised, to be amazed",
+"Russian": "удивляться, поражаться",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "울다",
+"English": "to cry, to weep",
+"Russian": "плакать",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "동생",
+"English": "younger sibling",
+"Russian": "младший брат/сестра",
+"rutag": "семья",
+"engtag": "family"
+},
+{
+"Korean": "소설",
+"English": "novel, fiction",
+"Russian": "роман, художественная проза",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "예",
+"English": "yes",
+"Russian": "да",
+"rutag": "фраза",
+"engtag": "phrase"
+},
+{
+"Korean": "스스로",
+"English": "by oneself, on one's own",
+"Russian": "сам, самостоятельно",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "옛날",
+"English": "old times, the past, ancient times",
+"Russian": "давние времена, прошлое, старина",
+"rutag": "время",
+"engtag": "time"
+}
 ]
