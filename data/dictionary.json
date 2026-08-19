@@ -10547,5 +10547,138 @@
 "Russian": "давние времена, прошлое, старина",
 "rutag": "время",
 "engtag": "time"
+},
+{
+"Korean": "이날",
+"English": "this day, that day",
+"Russian": "этот день, тот день",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "던지다",
+"English": "to throw, to cast",
+"Russian": "бросать, кидать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "참",
+"English": "very, really, indeed",
+"Russian": "очень, действительно, в самом деле",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "이곳",
+"English": "this place, here",
+"Russian": "это место, здесь",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "잠",
+"English": "sleep",
+"Russian": "сон",
+"rutag": "здоровье",
+"engtag": "health"
+},
+{
+"Korean": "훨씬",
+"English": "much, far, by far",
+"Russian": "гораздо, намного",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "외국",
+"English": "foreign country, abroad",
+"Russian": "иностранная страна, заграница",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "주변",
+"English": "surroundings, vicinity, area",
+"Russian": "окрестности, окружение, район",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "차례",
+"English": "turn, order, sequence",
+"Russian": "очередь, порядок, последовательность",
+"rutag": "число",
+"engtag": "number"
+},
+{
+"Korean": "약간",
+"English": "a little, slightly, somewhat",
+"Russian": "немного, слегка, несколько",
+"rutag": "количество",
+"engtag": "quantity"
+},
+{
+"Korean": "첫",
+"English": "first",
+"Russian": "первый",
+"rutag": "число",
+"engtag": "number"
+},
+{
+"Korean": "태어나다",
+"English": "to be born",
+"Russian": "родиться",
+"rutag": "жизнь",
+"engtag": "life"
+},
+{
+"Korean": "공장",
+"English": "factory, plant",
+"Russian": "завод, фабрика",
+"rutag": "работа",
+"engtag": "work"
+},
+{
+"Korean": "벌써",
+"English": "already, so soon",
+"Russian": "уже, так скоро",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "즐기다",
+"English": "to enjoy, to have fun",
+"Russian": "наслаждаться, веселиться",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "변하다",
+"English": "to change, to transform",
+"Russian": "меняться, изменяться",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "사고",
+"English": "accident, incident",
+"Russian": "авария, происшествие",
+"rutag": "здоровье",
+"engtag": "health"
+},
+{
+"Korean": "아무리",
+"English": "no matter how, even if, however",
+"Russian": "как бы ни, даже если, сколько бы ни",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "맞추다",
+"English": "to match, to fit, to adjust, to solve",
+"Russian": "подгонять, соответствовать, настраивать, решать",
+"rutag": "действие",
+"engtag": "action"
 }
 ]
