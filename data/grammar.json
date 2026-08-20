@@ -862,5 +862,29 @@
   "en_explanation": "Forms the passive voice from transitive verbs using suffixes. -이- attaches to verbs ending in a vowel and batchim ㄱ/ㅎ (보다→보이다, 쌓다→쌓이다). -히- attaches to batchim ㄱ, ㄷ, ㅂ, ㅈ, ㅊ (먹다→먹히다, 닫다→닫히다, 잡다→잡히다). -리- attaches to batchim ㄹ and irregular ㄷ-verbs (열다→열리다, 듣다→들리다). -기- attaches to batchim ㄴ, ㅁ, ㅅ, ㄹ and double batchim (안다→안기다, 감다→감기다, 씻다→씻기다). In passive voice, the subject becomes the object, and the object becomes the new subject with 이/가. The agent (by whom/what) is expressed with particles: 에게/한테 — for animate beings, 에 — for inanimate objects, 에 의해 — in formal style.",
   "ru_example": "경찰이 도둑을 잡았어요. — Полицейский поймал вора. (актив) / 도둑이 경찰에게 잡혔어요. — Вор был пойман полицией. (пассив) / 문이 닫혔어요. — Дверь закрылась. / 그 책이 팔렸어요. — Та книга была продана.",
   "en_example": "경찰이 도둑을 잡았어요. — The police caught the thief. (active) / 도둑이 경찰에게 잡혔어요. — The thief was caught by the police. (passive) / 문이 닫혔어요. — The door was closed. / 그 책이 팔렸어요. — That book was sold."
+},
+{
+  "ru_title": "Каузативный залог (사동) - суффиксы -이-/-히-/-리-/-기-/-우-/-구-/-추-",
+  "en_title": "Causative voice (사동) - suffixes -이-/-히-/-리-/-기-/-우-/-구-/-추-",
+  "ru_explanation": "Образует каузатив от некоторых глаголов с помощью суффиксов, меняя значение глагола на 'заставлять/заставить делать что-то'. -이-: 먹다→먹이다 (кормить), 보다→보이다 (показывать). -히-: 밝다→밝히다 (освещать), 앉다→앉히다 (усаживать). -리-: 울다→울리다 (заставить плакать), 알다→알리다 (сообщить). -기-: 웃다→웃기다 (смешить), 맡다→맡기다 (доверить). -우-: 깨다→깨우다 (будить), 자다→재우다 (укладывать спать). -구-: 서다→세우다 (ставить). -추-: 낮다→낮추다 (понижать). Присоединяются не ко всем глаголам, только к определённым. При переходе в каузатив появляется новый субъект (тот, кто заставляет), а исходный субъект становится объектом с 을/를.",
+  "en_explanation": "Forms causatives from some verbs using suffixes, changing the verb meaning to 'make/force to do something'. -이-: 먹다→먹이다 (to feed), 보다→보이다 (to show). -히-: 밝다→밝히다 (to light up), 앉다→앉히다 (to seat). -리-: 울다→울리다 (to make cry), 알다→알리다 (to inform). -기-: 웃다→웃기다 (to make laugh), 맡다→맡기다 (to entrust). -우-: 깨다→깨우다 (to wake up), 자다→재우다 (to put to sleep). -구-: 서다→세우다 (to stand something up). -추-: 낮다→낮추다 (to lower). Not all verbs take these suffixes, only specific ones. In causative, a new subject (the causer) appears, and the original subject becomes the object with 을/를.",
+  "ru_example": "제가 울었어요. — Я плакал. / 민재는 저를 울렸어요. — Минджэ заставил меня плакать. / 엄마가 아기에게 밥을 먹였어요. — Мама покормила ребёнка. / 그는 농담으로 모두를 웃겼어요. — Он рассмешил всех своей шуткой. / 아침에 아이를 깨웠어요. — Разбудил ребёнка утром.",
+  "en_example": "제가 울었어요. — I cried. / 민재는 저를 울렸어요. — Minjae made me cry. / 엄마가 아기에게 밥을 먹였어요. — Mom fed the baby. / 그는 농담으로 모두를 웃겼어요. — He made everyone laugh with his jokes. / 아침에 아이를 깨웠어요. — I woke the child up in the morning."
+},
+{
+  "ru_title": "Каузативная конструкция -게 하다",
+  "en_title": "Causative construction -게 하다",
+  "ru_explanation": "Универсальная конструкция каузатива, работает со всеми глаголами ('заставлять/делать так, чтобы ...'). Присоединяется к основе глагола: -게 하다. В отрицательной форме: -지 않게 하다 (заставить не делать) или -게 안 하다 (не заставлять делать). В прошедшем времени: -게 했어요. В разговорной речи часто используется с глаголами 만들다 (сделать так, чтобы) в том же значении. Более формальный вариант: -도록 하다 (см. отдельный пункт). При переходе в каузатив появляется новый субъект (тот, кто заставляет), а исходный субъект становится объектом с 을/를 или 에게/한테.",
+  "en_explanation": "Universal causative construction, works with all verbs ('make/let/have someone do something'). Attaches to verb stem: -게 하다. Negative: -지 않게 하다 (make not do) or -게 안 하다 (not make do). Past tense: -게 했어요. In colloquial speech, often used with 만들다 in the same meaning. More formal variant: -도록 하다 (see separate entry). In causative, a new subject (the causer) appears, and the original subject becomes the object with 을/를 or 에게/한테.",
+  "ru_example": "인부들이 길을 넓게 했어요. — Рабочие расширили дорогу. / 친구들이 나를 못 자게 했어요. — Друзья не дали мне уснуть. / 모두를 웃게 했어요. — Заставил всех смеяться. / 아이가 약을 먹게 했어요. — Заставил ребёнка выпить лекарство.",
+  "en_example": "인부들이 길을 넓게 했어요. — The workers widened the road. / 친구들이 나를 못 자게 했어요. — My friends didn't let me sleep. / 모두를 웃게 했어요. — I made everyone laugh. / 아이가 약을 먹게 했어요. — I made the child take medicine."
+},
+{
+  "ru_title": "Каузативная конструкция -도록 하다",
+  "en_title": "Causative construction -도록 하다",
+  "ru_explanation": "Каузативная конструкция, работающая только с глаголами действия ('заставлять/сделать так, чтобы ...'). Более формальный вариант, чем -게 하다. Присоединяется к основе глагола: -도록 하다. В отрицательной форме: -지 않도록 하다 (заставить не делать). В прошедшем времени: -도록 했어요. Часто используется в инструкциях, правилах, официальных указаниях. В разговорной речи может означать 'постараться сделать'. При переходе в каузатив появляется новый субъект (тот, кто заставляет), а исходный субъект становится объектом с 을/를 или 에게/한테.",
+  "en_explanation": "Causative construction that works only with action verbs ('make/let/have someone do something'). More formal than -게 하다. Attaches to verb stem: -도록 하다. Negative: -지 않도록 하다 (make not do). Past tense: -도록 했어요. Often used in instructions, rules, official directions. In colloquial speech can mean 'try to do'. In causative, a new subject (the causer) appears, and the original subject becomes the object with 을/를 or 에게/한테.",
+  "ru_example": "선생님께서 학생들에게 청소를 하도록 했어요. — Учитель заставил учеников убираться. / 모두가 이해하도록 설명했어요. — Объяснил так, чтобы все поняли. / 아이가 일찍 자도록 했어요. — Заставил ребёнка лечь спать рано. / 늦지 않도록 하세요. — Постарайтесь не опаздывать.",
+  "en_example": "선생님께서 학생들에게 청소를 하도록 했어요. — The teacher made the students clean. / 모두가 이해하도록 설명했어요. — I explained so that everyone could understand. / 아이가 일찍 자도록 했어요. — I made the child go to bed early. / 늦지 않도록 하세요. — Try not to be late."
 }
 ]
