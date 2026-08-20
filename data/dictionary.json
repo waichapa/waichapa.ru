@@ -10680,5 +10680,131 @@
 "Russian": "подгонять, соответствовать, настраивать, решать",
 "rutag": "действие",
 "engtag": "action"
+},
+{
+"Korean": "쌀",
+"English": "rice (uncooked)",
+"Russian": "рис (сырой)",
+"rutag": "еда",
+"engtag": "food"
+},
+{
+"Korean": "대화",
+"English": "conversation, dialogue",
+"Russian": "разговор, диалог",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "올해",
+"English": "this year",
+"Russian": "этот год",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "버리다",
+"English": "to throw away, to discard",
+"Russian": "выбрасывать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "붙이다",
+"English": "to attach, to stick, to affix",
+"Russian": "прикреплять, приклеивать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "늘",
+"English": "always, ever",
+"Russian": "всегда, постоянно",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "마치다",
+"English": "to finish, to complete",
+"Russian": "заканчивать, завершать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "빠지다",
+"English": "to fall into, to be missing, to be left out",
+"Russian": "попадать (в воду/яму), выпадать, отсутствовать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "멀다",
+"English": "to be far, distant",
+"Russian": "быть далеким, далекий",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "잠시",
+"English": "for a moment, briefly",
+"Russian": "на мгновение, недолго",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "붙다",
+"English": "to stick, to be attached, to pass (an exam)",
+"Russian": "прилипать, быть прикрепленным, сдать (экзамен)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "목적",
+"English": "purpose, aim, goal",
+"Russian": "цель, назначение",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "주위",
+"English": "surroundings, around, perimeter",
+"Russian": "окрестности, вокруг, периметр",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "아무",
+"English": "any, no (in negative sentences), arbitrary",
+"Russian": "любой, какой-нибудь (в отрицаниях - никакой)",
+"rutag": "местоимение",
+"engtag": "pronoun"
+},
+{
+"Korean": "각각",
+"English": "each, respectively",
+"Russian": "каждый, соответственно",
+"rutag": "количество",
+"engtag": "quantity"
+},
+{
+"Korean": "해",
+"English": "sun, year (with numbers)",
+"Russian": "солнце, год (в счете лет)",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "잃다",
+"English": "to lose, to misplace",
+"Russian": "терять",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "바뀌다",
+"English": "to be changed, to be replaced, to turn into",
+"Russian": "меняться, заменяться, превращаться",
+"rutag": "состояние",
+"engtag": "state"
 }
 ]
