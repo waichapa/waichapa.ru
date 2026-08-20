@@ -10788,10 +10788,17 @@
 },
 {
 "Korean": "해",
-"English": "sun, year (with numbers)",
-"Russian": "солнце, год (в счете лет)",
+"English": "sun",
+"Russian": "солнце",
 "rutag": "природа",
 "engtag": "nature"
+},
+{
+"Korean": "해",
+"English": "year (with numbers)",
+"Russian": "год (в счете лет)",
+"rutag": "время",
+"engtag": "time"
 },
 {
 "Korean": "잃다",
