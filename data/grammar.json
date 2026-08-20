@@ -24,13 +24,13 @@
     "en_example": "가 + 아 → 가 (as in '가요'), 보 + 아 → 봐, 주 + 어 → 줘, 쓰 + 어 → 써"
   },
   {
-  "ru_title": "Неправильные глаголы (все случаи)",
-  "en_title": "Irregular verb/adjective conjugation (all cases)",
-  "ru_explanation": "Некоторые глаголы и прилагательные меняют согласную в конце основы при присоединении окончаний, начинающихся на гласную (아/어, 으). Это не сводится к правилам слияния гласных — меняется сама основа. Основные типы: ㅂ-неправильные (ㅂ → 우, реже 오): 덥다→더워요, 춥다→추워요, 어렵다→어려워요, 쉽다→쉬워요, 돕다→도와요 (искл.). ㄷ-неправильные (ㄷ → ㄹ): 듣다→들어요, 걷다→걸어요. 르-неправильные (르 → ㄹㄹ): 모르다→몰라요, 다르다→달라요, 빠르다→빨라요. ㅅ-неправильные (ㅅ исчезает): 낫다→나아요, 짓다→지어요. ㅎ-неправильные (ㅎ исчезает, гласные сливаются по-особому): 그렇다→그래요, 이렇다→이래요, 하얗다→하얘요. Правильные глаголы с такими же на вид основами (입다, 받다, 따르다, 웃다) спрягаются без изменений — их нужно запоминать отдельно как исключения из неправильных типов.",
-  "en_explanation": "Some verbs and adjectives change the final consonant of the stem when a vowel-initial ending (아/어, 으) is attached. This is different from vowel contraction — the stem consonant itself changes. Main types: ㅂ-irregular (ㅂ → 우, rarely 오): 덥다→더워요, 춥다→추워요, 어렵다→어려워요, 쉽다→쉬워요, 돕다→도와요 (exception). ㄷ-irregular (ㄷ → ㄹ): 듣다→들어요, 걷다→걸어요. 르-irregular (르 → ㄹㄹ): 모르다→몰라요, 다르다→달라요, 빠르다→빨라요. ㅅ-irregular (ㅅ disappears): 낫다→나아요, 짓다→지어요. ㅎ-irregular (ㅎ disappears, vowels contract irregularly): 그렇다→그래요, 이렇다→이래요, 하얗다→하얘요. Regular verbs that look similar (입다, 받다, 따르다, 웃다) conjugate normally and must be memorized separately as exceptions.",
-  "ru_example": "날씨가 더워요. — Погода жаркая. / 저는 한국어를 잘 몰라요. — Я плохо знаю корейский. / 어제 음악을 들었어요. — Вчера я слушал музыку.",
-  "en_example": "날씨가 더워요. — The weather is hot. / 저는 한국어를 잘 몰라요. — I don't know Korean well. / 어제 음악을 들었어요. — Yesterday I listened to music."
-},
+    "ru_title": "Неправильные глаголы (все случаи)",
+    "en_title": "Irregular verb/adjective conjugation (all cases)",
+    "ru_explanation": "Некоторые глаголы и прилагательные меняют согласную в конце основы при присоединении окончаний, начинающихся на гласную (아/어, 으). Это не сводится к правилам слияния гласных — меняется сама основа. Основные типы: ㅂ-неправильные (ㅂ → 우, реже 오): 덥다→더워요, 춥다→추워요, 어렵다→어려워요, 쉽다→쉬워요, 돕다→도와요 (искл.). ㄷ-неправильные (ㄷ → ㄹ): 듣다→들어요, 걷다→걸어요. 르-неправильные (르 → ㄹㄹ): 모르다→몰라요, 다르다→달라요, 빠르다→빨라요. ㅅ-неправильные (ㅅ исчезает): 낫다→나아요, 짓다→지어요. ㅎ-неправильные (ㅎ исчезает, гласные сливаются по-особому): 그렇다→그래요, 이렇다→이래요, 하얗다→하얘요. Правильные глаголы с такими же на вид основами (입다, 받다, 따르다, 웃다) спрягаются без изменений — их нужно запоминать отдельно как исключения из неправильных типов.",
+    "en_explanation": "Some verbs and adjectives change the final consonant of the stem when a vowel-initial ending (아/어, 으) is attached. This is different from vowel contraction — the stem consonant itself changes. Main types: ㅂ-irregular (ㅂ → 우, rarely 오): 덥다→더워요, 춥다→추워요, 어렵다→어려워요, 쉽다→쉬워요, 돕다→도와요 (exception). ㄷ-irregular (ㄷ → ㄹ): 듣다→들어요, 걷다→걸어요. 르-irregular (르 → ㄹㄹ): 모르다→몰라요, 다르다→달라요, 빠르다→빨라요. ㅅ-irregular (ㅅ disappears): 낫다→나아요, 짓다→지어요. ㅎ-irregular (ㅎ disappears, vowels contract irregularly): 그렇다→그래요, 이렇다→이래요, 하얗다→하얘요. Regular verbs that look similar (입다, 받다, 따르다, 웃다) conjugate normally and must be memorized separately as exceptions.",
+    "ru_example": "날씨가 더워요. — Погода жаркая. / 저는 한국어를 잘 몰라요. — Я плохо знаю корейский. / 어제 음악을 들었어요. — Вчера я слушал музыку.",
+    "en_example": "날씨가 더워요. — The weather is hot. / 저는 한국어를 잘 몰라요. — I don't know Korean well. / 어제 음악을 들었어요. — Yesterday I listened to music."
+  },
   {
     "ru_title": "Именительный падеж 이/가",
     "en_title": "Nominative case markers 이/가",
@@ -74,8 +74,8 @@
   {
     "ru_title": "Винительный падеж 을/를",
     "en_title": "Accusative case markers 을/를",
-    "ru_explanation": "Указывают на прямое дополнение (объект действия). 을 после согласной, 를 после гласной. В разговорной речи часто сокращается до 를 → 를 (произносится как '를') или опускается, если объект ясен из контекста. Используется с переходными глаголами.",
-    "en_explanation": "Mark the direct object of an action. 을 after consonants, 를 after vowels. In colloquial speech often shortened or omitted if the object is clear from context. Used with transitive verbs.",
+    "ru_explanation": "Указывают на прямое дополнение (объект действия). 을 после согласной, 를 после гласной. В разговорной речи частицы часто просто опускаются, если объект ясен из контекста (особенно с 를 после гласной: '커피 마셔요' вместо '커피를 마셔요'). Используются с переходными глаголами.",
+    "en_explanation": "Mark the direct object of an action. 을 after consonants, 를 after vowels. In colloquial speech the particle is often simply dropped if the object is clear from context (especially 를 after vowels: '커피 마셔요' instead of '커피를 마셔요'). Used with transitive verbs.",
     "ru_example": "사과를 먹어요. — Ем яблоко. / 책을 읽어요. — Читаю книгу. / 커피를 마셔요. — Пью кофе.",
     "en_example": "사과를 먹어요. — I eat an apple. / 책을 읽어요. — I read a book. / 커피를 마셔요. — I drink coffee."
   },
@@ -210,8 +210,8 @@
   {
     "ru_title": "Соединительный союз 그리고",
     "en_title": "Connective conjunction 그리고",
-    "ru_explanation": "Союз 'и' для соединения предложений или перечисления. Используется в начале нового предложения или между однородными членами. Более формальный вариант: 및 (в письменной речи). В разговорной речи часто заменяется на 하고 или (이)랑 в конце списка. Также используется для соединения прилагательных и глаголов в прошлом времени.",
-    "en_explanation": "Conjunction 'and' for connecting sentences or listing items. Used at the beginning of a new sentence or between equal members. More formal: 및 (in written language). In colloquial speech often replaced by 하고 or (이)랑 at the end of a list. Also used to connect adjectives and verbs in past tense.",
+    "ru_explanation": "Союз 'и' для соединения предложений или перечисления действий/событий. Используется в начале нового предложения. В отличие от 그리고, союз 및 (более формальный) соединяет только существительные/элементы списка в официальных текстах (например, '이름 및 주소') и НЕ может связывать два самостоятельных предложения. В разговорной речи для соединения предложений чаще используют интонацию или просто 고 внутри одного предложения, а не отдельное 그리고.",
+    "en_explanation": "Conjunction 'and' for connecting sentences or listing actions/events. Used at the start of a new sentence. Unlike 그리고, the more formal conjunction 및 only connects nouns/list items in official texts (e.g., '이름 및 주소') and CANNOT link two independent sentences. In colloquial speech, sentences are more often linked with the connective 고 within one sentence rather than a separate 그리고.",
     "ru_example": "사과를 샀어요. 그리고 바나나도 샀어요. — Купил яблоки. И бананы тоже купил. / 친구를 만나고 그리고 영화를 봤어요. — Встретился с другом и посмотрел фильм.",
     "en_example": "사과를 샀어요. 그리고 바나나도 샀어요. — I bought apples. And I also bought bananas. / 친구를 만나고 그리고 영화를 봤어요. — I met a friend and watched a movie."
   },
@@ -234,16 +234,16 @@
   {
     "ru_title": "Множественное число 들",
     "en_title": "Plural marker 들",
-    "ru_explanation": "Показатель множественности для существительных. Используется не всегда, если число ясно из контекста (например, когда есть числительное или контекст указывает на множественность). Часто опускается в разговорной речи. После 들 может идти падежная частица (학생들이, 학생들을). Для вежливого обращения используется 들 после имени (민수 씨들 — группа с Минсу).",
-    "en_explanation": "Plural marker for nouns. Not always used if number is clear from context (e.g., when there's a numeral or context indicates plurality). Often omitted in colloquial speech. Can be followed by case particles (학생들이, 학생들을). For polite address, 들 can be used after a name (민수 씨들 — group with Minsu).",
-    "ru_example": "학생들 — студенты. / 사람들 — люди. / 친구들 — друзья. / 아이들 — дети.",
-    "en_example": "학생들 — students. / 사람들 — people. / 친구들 — friends. / 아이들 — children."
+    "ru_explanation": "Показатель множественности для существительных. Используется не всегда, если число ясно из контекста (например, когда есть числительное или контекст указывает на множественность). Часто опускается в разговорной речи. После 들 может идти падежная частица (학생들이, 학생들을). Отдельно 들 может присоединяться к обращениям, наречиям или окончаниям предложения, чтобы показать, что говорящий обращается сразу к нескольким слушателям (여러분들, 빨리 오세요들 — 'подходите (все)'), но присоединение 들 напрямую к 'имя + 씨' для значения 'группа с этим человеком' не является нормой корейского языка.",
+    "en_explanation": "Plural marker for nouns. Not always used if number is clear from context (e.g., when there's a numeral or context indicates plurality). Often omitted in colloquial speech. Can be followed by case particles (학생들이, 학생들을). 들 can also attach to forms of address, adverbs, or sentence endings to show the speaker is addressing multiple listeners at once (여러분들, 빨리 오세요들 — 'come on, everyone'), but attaching 들 directly to 'name + 씨' to mean 'the group with this person' is not standard Korean.",
+    "ru_example": "학생들 — студенты. / 사람들 — люди. / 친구들 — друзья. / 아이들 — дети. / 여러분들, 조용히 하세요! — Все, тише, пожалуйста!",
+    "en_example": "학생들 — students. / 사람들 — people. / 친구들 — friends. / 아이들 — children. / 여러분들, 조용히 하세요! — Everyone, please be quiet!"
   },
   {
     "ru_title": "Будущее время (으)ㄹ 거예요",
     "en_title": "Future tense (으)ㄹ 거예요",
-    "ru_explanation": "Выражает будущее время, намерение или предположение. ㄹ 거예요 после гласной, 을 거예요 после согласной. Происходит от конструкции (으)ㄹ 것이에요 (것 → 거 в разговорной речи). В формальной речи: (으)ㄹ 것입니다. В вопросительной форме: (으)ㄹ 거예요? Отрицание: 안 + (으)ㄹ 거예요 или (으)ㄹ 거예요? + 않을 거예요.",
-    "en_explanation": "Expresses future tense, intention, or supposition. ㄹ 거예요 after vowels, 을 거예요 after consonants. Derived from (으)ㄹ 것이에요 (것 → 거 in colloquial speech). Formal: (으)ㄹ 것입니다. Interrogative: (으)ㄹ 거예요? Negative: 안 + (으)ㄹ 거예요 or (으)ㄹ 거예요? + 않을 거예요.",
+    "ru_explanation": "Выражает будущее время, намерение или предположение. ㄹ 거예요 после гласной, 을 거예요 после согласной. Происходит от конструкции (으)ㄹ 것이에요 (것 → 거 в разговорной речи). В формальной речи: (으)ㄹ 것입니다. В вопросительной форме: (으)ㄹ 거예요? Отрицание образуется двумя способами: 안 перед глаголом (안 갈 거예요 — не пойду) или через -지 않을 거예요 (가지 않을 거예요 — не пойду, книжнее).",
+    "en_explanation": "Expresses future tense, intention, or supposition. ㄹ 거예요 after vowels, 을 거예요 after consonants. Derived from (으)ㄹ 것이에요 (것 → 거 in colloquial speech). Formal: (으)ㄹ 것입니다. Interrogative: (으)ㄹ 거예요? Negative is formed two ways: 안 before the verb (안 갈 거예요 — I won't go) or with -지 않을 거예요 (가지 않을 거예요 — I won't go, more formal/written).",
     "ru_example": "내일 갈 거예요. — Завтра пойду. / 뭐 할 거예요? — Что будешь делать? / 비가 올 거예요. — Дождь, наверное, пойдёт. / 안 먹을 거예요. — Не буду есть.",
     "en_example": "내일 갈 거예요. — I will go tomorrow. / 뭐 할 거예요? — What will you do? / 비가 올 거예요. — It will probably rain. / 안 먹을 거예요. — I won't eat."
   },
@@ -306,10 +306,10 @@
   {
     "ru_title": "Глагол 걸리다",
     "en_title": "Verb 걸리다",
-    "ru_explanation": "Многозначный глагол, используется в нескольких значениях: 1) занимать время (시간이 걸리다); 2) заболеть (감기에 걸리다 — простудиться); 3) попасться, быть пойманным (경찰에 걸리다 — попасться полиции); 4) зависнуть (о технике, компьютере); 5) зацепиться/застрять (옷이 걸리다 — одежда зацепилась). В каждом значении используются разные предлоги и конструкции. Пассивная форма от 걸다 (вешать).",
-    "en_explanation": "Polysemous verb, used in several meanings: 1) to take time (시간이 걸리다); 2) to catch an illness (감기에 걸리다 — to catch a cold); 3) to get caught (경찰에 걸리다 — to get caught by the police); 4) to freeze/hang (of device, computer); 5) to get caught on/snag (옷이 걸리다 — clothing snagged). Different prepositions and constructions are used for each meaning. Passive form of 걸다 (to hang).",
-    "ru_example": "시간이 얼마나 걸려요? — Сколько времени занимает? / 감기에 걸렸어요. — Простудился. / 길에 걸렸어요. — Застрял в пробке. / 컴퓨터가 걸렸어요. — Компьютер завис.",
-    "en_example": "시간이 얼마나 걸려요? — How long does it take? / 감기에 걸렸어요. — I caught a cold. / 길에 걸렸어요. — I got stuck in traffic. / 컴퓨터가 걸렸어요. — The computer froze."
+    "ru_explanation": "Многозначный глагол, используется в нескольких значениях: 1) занимать время (시간이 걸리다); 2) заболеть (감기에 걸리다 — простудиться); 3) попасться, быть пойманным (경찰에 걸리다 — попасться полиции); 4) зависнуть (о технике, компьютере); 5) зацепиться/застрять (옷이 걸리다 — одежда зацепилась). Обратите внимание: 'застрять в пробке' по-корейски выражается НЕ через 걸리다, а через глагол 막히다 (길이 막히다 / 차가 막히다). Пассивная форма от 걸다 (вешать).",
+    "en_explanation": "Polysemous verb, used in several meanings: 1) to take time (시간이 걸리다); 2) to catch an illness (감기에 걸리다 — to catch a cold); 3) to get caught (경찰에 걸리다 — to get caught by the police); 4) to freeze/hang (of device, computer); 5) to get caught on/snag (옷이 걸리다 — clothing snagged). Note: 'to be stuck in traffic' is NOT expressed with 걸리다 in Korean — it uses the verb 막히다 instead (길이 막히다 / 차가 막히다). Passive form of 걸다 (to hang).",
+    "ru_example": "시간이 얼마나 걸려요? — Сколько времени занимает? / 감기에 걸렸어요. — Простудился. / 길이 막혔어요. — Застрял в пробке. / 컴퓨터가 걸렸어요. — Компьютер завис.",
+    "en_example": "시간이 얼마나 걸려요? — How long does it take? / 감기에 걸렸어요. — I caught a cold. / 길이 막혔어요. — I got stuck in traffic. / 컴퓨터가 걸렸어요. — The computer froze."
   },
   {
     "ru_title": "Пространственные пределы 에서/까지",
@@ -559,13 +559,13 @@
     "ru_example": "한국에 가 본 적이 있어요. — Был в Корее (имею опыт). / 스키를 타 본 적이 없어요. — Никогда не катался на лыжах. / 그 영화를 본 적이 있어요. — Видел этот фильм. / 여기서 일한 적이 있어요? — Ты когда-нибудь здесь работал?",
     "en_example": "한국에 가 본 적이 있어요. — I have been to Korea (have experience). / 스키를 타 본 적이 없어요. — I have never skied. / 그 영화를 본 적이 있어요. — I have seen that movie. / 여기서 일한 적이 있어요? — Have you ever worked here?"
   },
-    {
+  {
     "ru_title": "Желание/предложение (으)면 하다",
     "en_title": "Wish/suggestion (으)면 하다",
-    "ru_explanation": "Выражает лёгкое желание, предложение или надежду ('хорошо бы', 'было бы неплохо', 'может быть, стоит'). Образуется от условной формы (으)면 и глагола 하다 в значении 'думать/считать'. Часто используется для вежливого предложения или выражения мнения, что было бы хорошо что-то сделать. В разговорной речи часто используется в форме (으)면 해요 или (으)면 할 텐데. Более мягкий вариант, чем (으)면 좋겠다 (тоже 'хорошо бы', но с более сильной эмоцией). В прошлом времени: (으)면 했어요 (хорошо бы сделал, но не сделал — сожаление). В отрицании: 지 않으면 하다 (если не ... было бы хорошо).",
-    "en_explanation": "Expresses a mild wish, suggestion, or hope ('it would be good', 'would be nice', 'maybe it's worth'). Formed from the conditional form (으)면 and the verb 하다 in the meaning 'to think/consider'. Often used for polite suggestions or expressing an opinion that it would be good to do something. In colloquial speech, often used in the form (으)면 해요 or (으)면 할 텐데. A softer variant than (으)면 좋겠다 (also 'it would be good', but with a stronger emotion). Past tense: (으)면 했어요 (it would have been good if I did, but I didn't — regret). Negative: 지 않으면 하다 (it would be good if not).",
-    "ru_example": "조금 더 일찍 오면 해요. — Хорошо бы прийти немного пораньше. / 같이 영화 보면 해요. — Может, сходим вместе в кино? / 매일 운동하면 해요. — Хорошо бы заниматься спортом каждый день. / 그 책을 읽으면 해요. — Стоило бы прочитать ту книгу. / 늦지 않으면 하는데. — Хорошо бы не опаздывать.",
-    "en_example": "조금 더 일찍 오면 해요. — It would be good to come a little earlier. / 같이 영화 보면 해요. — Maybe we should watch a movie together? / 매일 운동하면 해요. — It would be nice to exercise every day. / 그 책을 읽으면 해요. — It would be good to read that book. / 늦지 않으면 하는데. — It would be good not to be late."
+    "ru_explanation": "Выражает мягкое пожелание ('хорошо было бы, если бы...'). ВАЖНО: на практике эта конструкция почти всегда используется с прошедшим временем перед 면, то есть в виде -았/었으면 하다 — по той же модели, что и -았/었으면 좋겠다 (см. отдельную карточку), только с чуть более нейтральной/сдержанной эмоцией. Форма без 았/었 (просто основа + 면 하다) звучит для носителя языка неестественно и почти не встречается в реальной речи. По сути это стилистический вариант конструкции 았/었으면 좋겠다, а не отдельная независимая грамматика. В прошедшем времени о несбывшемся: 았/었으면 했어요 (хотел бы, но не сбылось — сожаление).",
+    "en_explanation": "Expresses a mild wish ('it would be nice if...'). IMPORTANT: in practice this construction is almost always used with the past-tense marker before 면, i.e. as -았/었으면 하다 — following the same pattern as -았/었으면 좋겠다 (see separate entry), just with a slightly more neutral/reserved emotional tone. The bare form without 았/었 (stem + 면 하다) sounds unnatural to native speakers and is rarely used in real speech. It is essentially a stylistic variant of 았/었으면 좋겠다 rather than an independent grammar point. Past tense for unfulfilled wishes: 았/었으면 했어요 (I wish it had happened, but it didn't — regret).",
+    "ru_example": "조금 더 일찍 왔으면 해요. — Хорошо бы прийти немного пораньше. / 같이 영화 봤으면 해요. — Хорошо бы вместе сходить в кино. / 매일 운동했으면 해요. — Хорошо бы заниматься спортом каждый день. / 늦지 않았으면 해요. — Хорошо бы не опоздать. / 시간이 더 있었으면 했어요. — Жаль, что не было больше времени (сожаление).",
+    "en_example": "조금 더 일찍 왔으면 해요. — It would be good to come a little earlier. / 같이 영화 봤으면 해요. — It would be nice to watch a movie together. / 매일 운동했으면 해요. — It would be nice to exercise every day. / 늦지 않았으면 해요. — I hope not to be late. / 시간이 더 있었으면 했어요. — I wish there had been more time (regret)."
   },
   {
     "ru_title": "Знание/незнание (으)ㄹ 줄 알다/모르다",
@@ -626,10 +626,10 @@
   {
     "ru_title": "Будущее предположительное 겠",
     "en_title": "Future presumptive 겠",
-    "ru_explanation": "Выражает предположение, намерение или обещание в формальном стиле. Часто используется в рекламе, прогнозах, обещаниях. Присоединяется к основе глагола: 겠 + окончание (например, 겠어요, 겠습니다). В разговорной речи часто используется в формальных выражениях (알겠어요 — понял, обещаю). В значении предположения более формальное, чем (으)ㄹ 것 같다. В прошедшем времени: 겠어요? (только в вопросительных предложениях для выражения удивления).",
-    "en_explanation": "Expresses supposition, intention, or promise in formal style. Often used in advertisements, forecasts, promises. Attaches to verb stem: 겠 + ending (e.g., 겠어요, 겠습니다). In colloquial speech, often used in formal expressions (알겠어요 — I understand, I promise). In meaning of supposition, more formal than (으)ㄹ 것 같다. Past tense: 겠어요? (only in interrogative for surprise).",
-    "ru_example": "내일 날씨가 좋겠어요. — Завтра погода, наверное, будет хорошей. / 알겠어요. — Понял (обещаю). / 도와주겠어요? — Поможете? (вежл.) / 저도 그렇게 생각하겠어요. — Я тоже так думаю (формально).",
-    "en_example": "내일 날씨가 좋겠어요. — The weather will probably be nice tomorrow. / 알겠어요. — I understand (I promise). / 도와주겠어요? — Will you help? (polite) / 저도 그렇게 생각하겠어요. — I think so too (formal)."
+    "ru_explanation": "Выражает предположение, намерение или обещание. Часто встречается в формальных контекстах (рекламе, прогнозах погоды, официальных обещаниях), но это НЕ признак формальности как таковой — 겠 очень активно используется и в обычной разговорной речи, особенно для мгновенной реакции/догадки при виде чего-либо ('맛있겠다!' — 'выглядит вкусно!', '배고프겠다' — 'ты, наверное, голоден'). Присоединяется к основе глагола: 겠 + окончание (например, 겠어요, 겠습니다). В значении предположения по эмоциональной окраске часто более непосредственное и разговорное, чем (으)ㄹ 것 같다, а не обязательно более формальное.",
+    "en_explanation": "Expresses supposition, intention, or promise. Common in formal contexts (advertisements, weather forecasts, official promises), but this does NOT mean 겠 itself is inherently formal — it's used very actively in everyday colloquial speech too, especially for an immediate reaction/guess upon seeing something ('맛있겠다!' — 'looks delicious!', '배고프겠다' — 'you must be hungry'). Attaches to verb stem: 겠 + ending (e.g., 겠어요, 겠습니다). In the meaning of supposition it's often more immediate/colloquial in feel than (으)ㄹ 것 같다, not necessarily more formal.",
+    "ru_example": "내일 날씨가 좋겠어요. — Завтра погода, наверное, будет хорошей. / 알겠어요. — Понял. / 정말 맛있겠다! — Выглядит очень вкусно! / 힘들겠어요. — Наверное, тяжело (тебе).",
+    "en_example": "내일 날씨가 좋겠어요. — The weather will probably be nice tomorrow. / 알겠어요. — I understand. / 정말 맛있겠다! — That looks so delicious! / 힘들겠어요. — That must be hard (for you)."
   },
   {
     "ru_title": "Частица 마다 (каждый)",
@@ -791,7 +791,7 @@
     "ru_example": "한국어를 배우기 위해서 한국에 왔어요. — Я приехал в Корею, чтобы учить корейский язык. / 건강을 위해 운동해요. — Занимаюсь спортом для здоровья. / 좋은 성적을 받기 위해 열심히 공부해요. — Усердно учусь, чтобы получить хорошие оценки. / 살을 빼기 위해 다이어트를 해요. — Сижу на диете, чтобы похудеть.",
     "en_example": "한국어를 배우기 위해서 한국에 왔어요. — I came to Korea in order to learn Korean. / 건강을 위해 운동해요. — I exercise for my health. / 좋은 성적을 받기 위해 열심히 공부해요. — I study hard in order to get good grades. / 살을 빼기 위해 다이어트를 해요. — I'm on a diet in order to lose weight."
   },
-    {
+  {
     "ru_title": "Субстантиватор 는 것",
     "en_title": "Nominalizer 는 것",
     "ru_explanation": "Превращает глагол или прилагательное в существительное, позволяя использовать его как подлежащее, дополнение или тему предложения ('то, что', 'делать что-то'). Присоединяется к основе глагола/прилагательного: 는 것 — для настоящего времени (действие происходит в момент речи или вообще), (으)ㄴ 것 — для прошедшего времени (уже сделанное), (으)ㄹ 것 — для будущего времени (будет сделано). В разговорной речи часто сокращается до 는 거 (в значении 'то, что ...'). Является одной из самых важных грамматических конструкций корейского языка для образования сложных предложений. Используется для выражения мыслей, мнений, фактов, планов, желаний и т.д.",
@@ -799,7 +799,7 @@
     "ru_example": "제가 좋아하는 것은 한국 음식이에요. — То, что я люблю, — это корейская еда. / 매일 운동하는 것이 중요해요. — Важно заниматься спортом каждый день. / 어제 본 영화가 재미있었어요. — Фильм, который я посмотрел вчера, был интересным. / 내일 할 일이 많아요. — У меня много дел, которые нужно сделать завтра. / 그 사람이 말한 것이 맞아요. — То, что сказал тот человек, правильно.",
     "en_example": "제가 좋아하는 것은 한국 음식이에요. — What I like is Korean food. / 매일 운동하는 것이 중요해요. — It's important to exercise every day. / 어제 본 영화가 재미있었어요. — The movie I watched yesterday was interesting. / 내일 할 일이 많아요. — I have many things to do tomorrow. / 그 사람이 말한 것이 맞아요. — What that person said is correct."
   },
-    {
+  {
     "ru_title": "Косвенная речь (цитирование) 다고 하다",
     "en_title": "Indirect speech (quotation) 다고 하다",
     "ru_explanation": "Используется для передачи чужой речи, мыслей или мнений в косвенной форме ('говорят, что...', 'сказал, что...', 'он сказал мне, что...'). Присоединяется к основе глагола/прилагательного в зависимости от времени и типа предложения: (이)라고 하다 — для существительных (книжный/нейтральный), 다고 하다 — для глаголов/прилагательных в утвердительной форме (настоящее время), (으)ㄴ/는/다고 하다 — для разных времён. В разговорной речи часто сокращается до 다고 해요 или 래요 (особенно в неформальной речи). В письменной речи используется для цитирования источников и передачи информации. Является одной из ключевых грамматик для ведения диалогов и пересказа.",
@@ -807,21 +807,13 @@
     "ru_example": "선생님이 학생이라고 했어요. — Учитель сказал, что (я) студент. / 민수가 내일 온다고 했어요. — Минсу сказал, что придёт завтра. / 날씨가 좋다고 들었어요. — Слышал, что погода хорошая. / 한국어가 재미있다고 생각해요. — Я думаю, что корейский интересный. / 친구가 영화를 봤다고 말했어요. — Друг сказал, что посмотрел фильм.",
     "en_example": "선생님이 학생이라고 했어요. — The teacher said that (I) am a student. / 민수가 내일 온다고 했어요. — Minsu said that he will come tomorrow. / 날씨가 좋다고 들었어요. — I heard that the weather is good. / 한국어가 재미있다고 생각해요. — I think that Korean is interesting. / 친구가 영화를 봤다고 말했어요. — My friend said that he watched a movie."
   },
-    {
+  {
     "ru_title": "Косвенный вопрос (으)냐고 하다",
     "en_title": "Indirect question (으)냐고 하다",
     "ru_explanation": "Используется для передачи чужого вопроса в косвенной речи ('спросил, ... ли', 'спросил, что/где/когда/почему'). Присоединяется к основе глагола/прилагательного: 냐고 하다 — после гласной и окончания ㄹ (кроме глаголов на 있다/없다), 으냐고 하다 — после остальных согласных. Для существительных используется (이)냐고 하다 (после согласной — 이냐고, после гласной — 냐고). В разговорной речи часто сокращается до 냬요 (неформально) или 냐고 했어요 (нейтрально). Вопросительные слова (누구, 어디, 언제, 왜, 어떻게, 몇, 얼마나) остаются внутри цитаты. Используется для пересказа вопросов, которые кто-то задал, а также в косвенных вопросах в письменной речи.",
     "en_explanation": "Used to convey someone else's question in indirect speech ('asked whether', 'asked what/where/when/why'). Attaches to verb/adjective stem: 냐고 하다 — after vowels and ㄹ ending (except verbs ending in 있다/없다), 으냐고 하다 — after other consonants. For nouns, use (이)냐고 하다 (after consonants — 이냐고, after vowels — 냐고). In colloquial speech, often shortened to 냬요 (informal) or 냐고 했어요 (neutral). Interrogative words (누구, 어디, 언제, 왜, 어떻게, 몇, 얼마나) remain inside the quote. Used for retelling questions that someone asked, as well as in indirect questions in written language.",
     "ru_example": "민수가 어디에 가냐고 했어요. — Минсу спросил, куда я иду. / 선생님이 학생이냐고 물어봤어요. — Учитель спросил, студент ли я. / 친구가 왜 늦었냐고 했어요. — Друг спросил, почему я опоздал. / 엄마가 저녁을 먹었냐고 했어요. — Мама спросила, поел ли я ужин. / 뭐를 좋아하냐고 물어봤어요. — Спросил, что я люблю.",
     "en_example": "민수가 어디에 가냐고 했어요. — Minsu asked where I am going. / 선생님이 학생이냐고 물어봤어요. — The teacher asked if I am a student. / 친구가 왜 늦었냐고 했어요. — My friend asked why I was late. / 엄마가 저녁을 먹었냐고 했어요. — Mom asked if I ate dinner. / 뭐를 좋아하냐고 물어봤어요. — (S)he asked what I like."
-  },
-    {
-    "ru_title": "Косвенный вопрос (으)냐고 하다",
-    "en_title": "Indirect question (으)냐고 하다",
-    "ru_explanation": "Используется для передачи чужого вопроса в косвенной речи ('спросил, ... ли', 'спросил, что/где/когда/почему'). Присоединяется к основе глагола/прилагательного: 냐고 하다 — после гласной и окончания ㄹ (кроме глаголов на 있다/없다), 으냐고 하다 — после остальных согласных. Для существительных используется (이)냐고 하다 (после согласной — 이냐고, после гласной — 냐고). В разговорной речи часто сокращается до 냬요 (неформально). Вопросительные слова (누구, 어디, 언제, 왜, 어떻게, 몇, 얼마나) остаются внутри цитаты. Используется для пересказа вопросов, которые кто-то задал, а также в косвенных вопросах в письменной речи.",
-    "en_explanation": "Used to convey someone else's question in indirect speech ('asked whether', 'asked what/where/when/why'). Attaches to verb/adjective stem: 냐고 하다 — after vowels and ㄹ ending (except verbs ending in 있다/없다), 으냐고 하다 — after other consonants. For nouns, use (이)냐고 하다 (after consonants — 이냐고, after vowels — 냐고). In colloquial speech, often shortened to 냬요 (informal). Interrogative words (누구, 어디, 언제, 왜, 어떻게, 몇, 얼마나) remain inside the quote. Used for retelling questions that someone asked, as well as in indirect questions in written language.",
-    "ru_example": "민수가 어디에 가냐고 했어요. — Минсу спросил, куда я иду. / 선생님이 학생이냐고 물어봤어요. — Учитель спросил, студент ли я. / 친구가 왜 늦었냐고 했어요. — Друг спросил, почему я опоздал. / 엄마가 저녁을 먹었냐고 했어요. — Мама спросила, поел ли я ужин.",
-    "en_example": "민수가 어디에 가냐고 했어요. — Minsu asked where I am going. / 선생님이 학생이냐고 물어봤어요. — The teacher asked if I am a student. / 친구가 왜 늦었냐고 했어요. — My friend asked why I was late. / 엄마가 저녁을 먹었냐고 했어요. — Mom asked if I ate dinner."
   },
   {
     "ru_title": "Косвенная речь (повелительное) (으)라고 하다",
@@ -848,43 +840,43 @@
     "en_example": "민수가 내일 온대요. — They say Minsu is coming tomorrow. (→ 온다고 해요) / 어디에 가냬요? — (He) asks where I'm going? (→ 가냐고 해요) / 엄마가 빨리 오래요. — Mom tells me to come quickly. (→ 오라고 해요) / 같이 영화 보재요. — (He) suggests watching a movie together. (→ 보자고 해요) / 그 사람이 학생이래요. — They say that person is a student. (→ 학생이라고 해요)"
   },
   {
-  "ru_title": "Косвенный вопрос (вопрос внутри предложения) -는지/-은지/-인지 + 알다/모르다/궁금하다",
-  "en_title": "Indirect question (embedded question) -는지/-은지/-인지 + 알다/모르다/궁금하다",
-  "ru_explanation": "Используется для встраивания вопроса внутрь предложения с глаголами знания/незнания/интереса ('знаю, что/как/где ...', 'не знаю, ... ли', 'интересно, ... ли'). Присоединяется к основе глагола/прилагательного: 는지 — для глаголов действия в настоящем времени, 은지 — для глаголов в прошедшем времени и для прилагательных в настоящем времени, (으)ㄹ지 — для будущего времени. Для существительных используется 인지. В разговорной речи часто используется с глаголами 알다, 모르다, 궁금하다, 물어보다, 생각하다, 기억하다, 확인하다. В вопросительных предложениях не требует вопросительного знака в конце, так как вопрос уже внутри.",
-  "en_explanation": "Used to embed a question inside a sentence with verbs of knowledge/ignorance/interest ('know that/how/where ...', 'don't know whether ...', 'wonder whether ...'). Attaches to verb/adjective stem: 는지 — for action verbs in present tense, 은지 — for verbs in past tense and adjectives in present tense, (으)ㄹ지 — for future tense. For nouns, use 인지. In colloquial speech, often used with verbs 알다, 모르다, 궁금하다, 물어보다, 생각하다, 기억하다, 확인하다. In interrogative sentences, does not require a question mark at the end since the question is already embedded.",
-  "ru_example": "그 사람이 누구인지 알아요? — Знаете, кто этот человек? / 민수가 오는지 몰라요. — Не знаю, придёт ли Минсу. / 어제 무슨 일이 있었는지 궁금해요. — Интересно, что случилось вчера. / 어떻게 가는지 아세요? — Знаете, как пройти? / 내일 비가 올지 모르겠어요. — Не знаю, будет ли завтра дождь.",
-  "en_example": "그 사람이 누구인지 알아요? — Do you know who that person is? / 민수가 오는지 몰라요. — I don't know if Minsu is coming. / 어제 무슨 일이 있었는지 궁금해요. — I wonder what happened yesterday. / 어떻게 가는지 아세요? — Do you know how to get there? / 내일 비가 올지 모르겠어요. — I don't know if it will rain tomorrow."
-},
-{
-  "ru_title": "Пассивный залог (피동) - суффиксы -이-, -히-, -리-, -기-",
-  "en_title": "Passive voice (피동) - suffixes -이-, -히-, -리-, -기-",
-  "ru_explanation": "Образует страдательный залог от переходных глаголов с помощью суффиксов. -이- присоединяется к глаголам на гласную и патчимы ㄱ/ㅎ (보다→보이다, 쌓다→쌓이다). -히- присоединяется к патчимам ㄱ, ㄷ, ㅂ, ㅈ, ㅊ (먹다→먹히다, 닫다→닫히다, 잡다→잡히다). -리- присоединяется к патчиму ㄹ и неправильным глаголам на ㄷ (열다→열리다, 듣다→들리다). -기- присоединяется к патчимам ㄴ, ㅁ, ㅅ, ㄹ и двойным патчимам (안다→안기다, 감다→감기다, 씻다→씻기다). При переходе в пассивный залог субъект становится объектом, а объект становится новым субъектом с 이/가. Агент действия (кем/чем) выражается частицами: 에게/한테 — для одушевлённых лиц, 에 — для неодушевлённых, 에 의해 — в формальном стиле.",
-  "en_explanation": "Forms the passive voice from transitive verbs using suffixes. -이- attaches to verbs ending in a vowel and batchim ㄱ/ㅎ (보다→보이다, 쌓다→쌓이다). -히- attaches to batchim ㄱ, ㄷ, ㅂ, ㅈ, ㅊ (먹다→먹히다, 닫다→닫히다, 잡다→잡히다). -리- attaches to batchim ㄹ and irregular ㄷ-verbs (열다→열리다, 듣다→들리다). -기- attaches to batchim ㄴ, ㅁ, ㅅ, ㄹ and double batchim (안다→안기다, 감다→감기다, 씻다→씻기다). In passive voice, the subject becomes the object, and the object becomes the new subject with 이/가. The agent (by whom/what) is expressed with particles: 에게/한테 — for animate beings, 에 — for inanimate objects, 에 의해 — in formal style.",
-  "ru_example": "경찰이 도둑을 잡았어요. — Полицейский поймал вора. (актив) / 도둑이 경찰에게 잡혔어요. — Вор был пойман полицией. (пассив) / 문이 닫혔어요. — Дверь закрылась. / 그 책이 팔렸어요. — Та книга была продана.",
-  "en_example": "경찰이 도둑을 잡았어요. — The police caught the thief. (active) / 도둑이 경찰에게 잡혔어요. — The thief was caught by the police. (passive) / 문이 닫혔어요. — The door was closed. / 그 책이 팔렸어요. — That book was sold."
-},
-{
-  "ru_title": "Каузативный залог (사동) - суффиксы -이-/-히-/-리-/-기-/-우-/-구-/-추-",
-  "en_title": "Causative voice (사동) - suffixes -이-/-히-/-리-/-기-/-우-/-구-/-추-",
-  "ru_explanation": "Образует каузатив от некоторых глаголов с помощью суффиксов, меняя значение глагола на 'заставлять/заставить делать что-то'. -이-: 먹다→먹이다 (кормить), 보다→보이다 (показывать). -히-: 밝다→밝히다 (освещать), 앉다→앉히다 (усаживать). -리-: 울다→울리다 (заставить плакать), 알다→알리다 (сообщить). -기-: 웃다→웃기다 (смешить), 맡다→맡기다 (доверить). -우-: 깨다→깨우다 (будить), 자다→재우다 (укладывать спать). -구-: 서다→세우다 (ставить). -추-: 낮다→낮추다 (понижать). Присоединяются не ко всем глаголам, только к определённым. При переходе в каузатив появляется новый субъект (тот, кто заставляет), а исходный субъект становится объектом с 을/를.",
-  "en_explanation": "Forms causatives from some verbs using suffixes, changing the verb meaning to 'make/force to do something'. -이-: 먹다→먹이다 (to feed), 보다→보이다 (to show). -히-: 밝다→밝히다 (to light up), 앉다→앉히다 (to seat). -리-: 울다→울리다 (to make cry), 알다→알리다 (to inform). -기-: 웃다→웃기다 (to make laugh), 맡다→맡기다 (to entrust). -우-: 깨다→깨우다 (to wake up), 자다→재우다 (to put to sleep). -구-: 서다→세우다 (to stand something up). -추-: 낮다→낮추다 (to lower). Not all verbs take these suffixes, only specific ones. In causative, a new subject (the causer) appears, and the original subject becomes the object with 을/를.",
-  "ru_example": "제가 울었어요. — Я плакал. / 민재는 저를 울렸어요. — Минджэ заставил меня плакать. / 엄마가 아기에게 밥을 먹였어요. — Мама покормила ребёнка. / 그는 농담으로 모두를 웃겼어요. — Он рассмешил всех своей шуткой. / 아침에 아이를 깨웠어요. — Разбудил ребёнка утром.",
-  "en_example": "제가 울었어요. — I cried. / 민재는 저를 울렸어요. — Minjae made me cry. / 엄마가 아기에게 밥을 먹였어요. — Mom fed the baby. / 그는 농담으로 모두를 웃겼어요. — He made everyone laugh with his jokes. / 아침에 아이를 깨웠어요. — I woke the child up in the morning."
-},
-{
-  "ru_title": "Каузативная конструкция -게 하다",
-  "en_title": "Causative construction -게 하다",
-  "ru_explanation": "Универсальная конструкция каузатива, работает со всеми глаголами ('заставлять/делать так, чтобы ...'). Присоединяется к основе глагола: -게 하다. В отрицательной форме: -지 않게 하다 (заставить не делать) или -게 안 하다 (не заставлять делать). В прошедшем времени: -게 했어요. В разговорной речи часто используется с глаголами 만들다 (сделать так, чтобы) в том же значении. Более формальный вариант: -도록 하다 (см. отдельный пункт). При переходе в каузатив появляется новый субъект (тот, кто заставляет), а исходный субъект становится объектом с 을/를 или 에게/한테.",
-  "en_explanation": "Universal causative construction, works with all verbs ('make/let/have someone do something'). Attaches to verb stem: -게 하다. Negative: -지 않게 하다 (make not do) or -게 안 하다 (not make do). Past tense: -게 했어요. In colloquial speech, often used with 만들다 in the same meaning. More formal variant: -도록 하다 (see separate entry). In causative, a new subject (the causer) appears, and the original subject becomes the object with 을/를 or 에게/한테.",
-  "ru_example": "인부들이 길을 넓게 했어요. — Рабочие расширили дорогу. / 친구들이 나를 못 자게 했어요. — Друзья не дали мне уснуть. / 모두를 웃게 했어요. — Заставил всех смеяться. / 아이가 약을 먹게 했어요. — Заставил ребёнка выпить лекарство.",
-  "en_example": "인부들이 길을 넓게 했어요. — The workers widened the road. / 친구들이 나를 못 자게 했어요. — My friends didn't let me sleep. / 모두를 웃게 했어요. — I made everyone laugh. / 아이가 약을 먹게 했어요. — I made the child take medicine."
-},
-{
-  "ru_title": "Каузативная конструкция -도록 하다",
-  "en_title": "Causative construction -도록 하다",
-  "ru_explanation": "Каузативная конструкция, работающая только с глаголами действия ('заставлять/сделать так, чтобы ...'). Более формальный вариант, чем -게 하다. Присоединяется к основе глагола: -도록 하다. В отрицательной форме: -지 않도록 하다 (заставить не делать). В прошедшем времени: -도록 했어요. Часто используется в инструкциях, правилах, официальных указаниях. В разговорной речи может означать 'постараться сделать'. При переходе в каузатив появляется новый субъект (тот, кто заставляет), а исходный субъект становится объектом с 을/를 или 에게/한테.",
-  "en_explanation": "Causative construction that works only with action verbs ('make/let/have someone do something'). More formal than -게 하다. Attaches to verb stem: -도록 하다. Negative: -지 않도록 하다 (make not do). Past tense: -도록 했어요. Often used in instructions, rules, official directions. In colloquial speech can mean 'try to do'. In causative, a new subject (the causer) appears, and the original subject becomes the object with 을/를 or 에게/한테.",
-  "ru_example": "선생님께서 학생들에게 청소를 하도록 했어요. — Учитель заставил учеников убираться. / 모두가 이해하도록 설명했어요. — Объяснил так, чтобы все поняли. / 아이가 일찍 자도록 했어요. — Заставил ребёнка лечь спать рано. / 늦지 않도록 하세요. — Постарайтесь не опаздывать.",
-  "en_example": "선생님께서 학생들에게 청소를 하도록 했어요. — The teacher made the students clean. / 모두가 이해하도록 설명했어요. — I explained so that everyone could understand. / 아이가 일찍 자도록 했어요. — I made the child go to bed early. / 늦지 않도록 하세요. — Try not to be late."
-}
+    "ru_title": "Косвенный вопрос (вопрос внутри предложения) -는지/-은지/-인지 + 알다/모르다/궁금하다",
+    "en_title": "Indirect question (embedded question) -는지/-은지/-인지 + 알다/모르다/궁금하다",
+    "ru_explanation": "Используется для встраивания вопроса внутрь предложения с глаголами знания/незнания/интереса ('знаю, что/как/где ...', 'не знаю, ... ли', 'интересно, ... ли'). Присоединяется к основе глагола/прилагательного: 는지 — для глаголов действия в настоящем времени, 은지 — для глаголов в прошедшем времени и для прилагательных в настоящем времени, (으)ㄹ지 — для будущего времени. Для существительных используется 인지. В разговорной речи часто используется с глаголами 알다, 모르다, 궁금하다, 물어보다, 생각하다, 기억하다, 확인하다. В вопросительных предложениях не требует вопросительного знака в конце, так как вопрос уже внутри.",
+    "en_explanation": "Used to embed a question inside a sentence with verbs of knowledge/ignorance/interest ('know that/how/where ...', 'don't know whether ...', 'wonder whether ...'). Attaches to verb/adjective stem: 는지 — for action verbs in present tense, 은지 — for verbs in past tense and adjectives in present tense, (으)ㄹ지 — for future tense. For nouns, use 인지. In colloquial speech, often used with verbs 알다, 모르다, 궁금하다, 물어보다, 생각하다, 기억하다, 확인하다. In interrogative sentences, does not require a question mark at the end since the question is already embedded.",
+    "ru_example": "그 사람이 누구인지 알아요? — Знаете, кто этот человек? / 민수가 오는지 몰라요. — Не знаю, придёт ли Минсу. / 어제 무슨 일이 있었는지 궁금해요. — Интересно, что случилось вчера. / 어떻게 가는지 아세요? — Знаете, как пройти? / 내일 비가 올지 모르겠어요. — Не знаю, будет ли завтра дождь.",
+    "en_example": "그 사람이 누구인지 알아요? — Do you know who that person is? / 민수가 오는지 몰라요. — I don't know if Minsu is coming. / 어제 무슨 일이 있었는지 궁금해요. — I wonder what happened yesterday. / 어떻게 가는지 아세요? — Do you know how to get there? / 내일 비가 올지 모르겠어요. — I don't know if it will rain tomorrow."
+  },
+  {
+    "ru_title": "Пассивный залог (피동) - суффиксы -이-, -히-, -리-, -기-",
+    "en_title": "Passive voice (피동) - suffixes -이-, -히-, -리-, -기-",
+    "ru_explanation": "Образует страдательный залог от переходных глаголов с помощью суффиксов. -이- присоединяется к глаголам на гласную и патчимы ㄱ/ㅎ (보다→보이다, 쌓다→쌓이다). -히- присоединяется к патчимам ㄱ, ㄷ, ㅂ, ㅈ, ㅊ (먹다→먹히다, 닫다→닫히다, 잡다→잡히다). -리- присоединяется к патчиму ㄹ и неправильным глаголам на ㄷ (열다→열리다, 듣다→들리다). -기- присоединяется к патчимам ㄴ, ㅁ, ㅅ, ㄹ и двойным патчимам (안다→안기다, 감다→감기다, 쫓다→쫓기다). Важно: суффикс -기- часто двузначен — у многих глаголов он образует не пассив, а каузатив (например, 씻기다 в живой речи чаще значит 'искупать кого-то', а не 'быть вымытым'); конкретное значение нужно уточнять по контексту и запоминать для каждого глагола отдельно. При переходе в пассивный залог субъект становится объектом, а объект становится новым субъектом с 이/가. Агент действия (кем/чем) выражается частицами: 에게/한테 — для одушевлённых лиц, 에 — для неодушевлённых, 에 의해 — в формальном стиле.",
+    "en_explanation": "Forms the passive voice from transitive verbs using suffixes. -이- attaches to verbs ending in a vowel and batchim ㄱ/ㅎ (보다→보이다, 쌓다→쌓이다). -히- attaches to batchim ㄱ, ㄷ, ㅂ, ㅈ, ㅊ (먹다→먹히다, 닫다→닫히다, 잡다→잡히다). -리- attaches to batchim ㄹ and irregular ㄷ-verbs (열다→열리다, 듣다→들리다). -기- attaches to batchim ㄴ, ㅁ, ㅅ, ㄹ and double batchim (안다→안기다, 감다→감기다, 쫓다→쫓기다). Important: the -기- suffix is often ambiguous — for many verbs it forms a causative rather than a passive (e.g., in everyday speech 씻기다 usually means 'to bathe someone', not 'to be washed'); the actual meaning must be checked per verb and per context. In passive voice, the subject becomes the object, and the object becomes the new subject with 이/가. The agent (by whom/what) is expressed with particles: 에게/한테 — for animate beings, 에 — for inanimate objects, 에 의해 — in formal style.",
+    "ru_example": "경찰이 도둑을 잡았어요. — Полицейский поймал вора. (актив) / 도둑이 경찰에게 잡혔어요. — Вор был пойман полицией. (пассив) / 문이 닫혔어요. — Дверь закрылась. / 그 책이 팔렸어요. — Та книга была продана. / 고양이가 개에게 쫓겼어요. — Кошку преследовала собака (кошку загнала собака).",
+    "en_example": "경찰이 도둑을 잡았어요. — The police caught the thief. (active) / 도둑이 경찰에게 잡혔어요. — The thief was caught by the police. (passive) / 문이 닫혔어요. — The door was closed. / 그 책이 팔렸어요. — That book was sold. / 고양이가 개에게 쫓겼어요. — The cat was chased by the dog."
+  },
+  {
+    "ru_title": "Каузативный залог (사동) - суффиксы -이-/-히-/-리-/-기-/-우-/-구-/-추-",
+    "en_title": "Causative voice (사동) - suffixes -이-/-히-/-리-/-기-/-우-/-구-/-추-",
+    "ru_explanation": "Образует каузатив от некоторых глаголов с помощью суффиксов, меняя значение глагола на 'заставлять/заставить делать что-то'. -이-: 먹다→먹이다 (кормить), 보다→보이다 (показывать). -히-: 밝다→밝히다 (освещать), 앉다→앉히다 (усаживать). -리-: 울다→울리다 (заставить плакать), 알다→알리다 (сообщить). -기-: 웃다→웃기다 (смешить), 맡다→맡기다 (доверить). -우-: 깨다→깨우다 (будить), 자다→재우다 (укладывать спать), 서다→세우다 (ставить, поднимать на ноги/останавливать). -구-: 돋다→돋구다 (возбуждать, поднимать, например아 흥을 돋구다 — поднять настроение). -추-: 낮다→낮추다 (понижать), 맞다→맞추다 (подгонять, сверять). Присоединяются не ко всем глаголам, только к определённым, и их нужно запоминать индивидуально. При переходе в каузатив появляется новый субъект (тот, кто заставляет), а исходный субъект становится объектом с 을/를.",
+    "en_explanation": "Forms causatives from some verbs using suffixes, changing the verb meaning to 'make/force to do something'. -이-: 먹다→먹이다 (to feed), 보다→보이다 (to show). -히-: 밝다→밝히다 (to light up), 앉다→앉히다 (to seat). -리-: 울다→울리다 (to make cry), 알다→알리다 (to inform). -기-: 웃다→웃기다 (to make laugh), 맡다→맡기다 (to entrust). -우-: 깨다→깨우다 (to wake up), 자다→재우다 (to put to sleep), 서다→세우다 (to stand something up / make it stop). -구-: 돋다→돋구다 (to raise/stimulate, e.g. 흥을 돋구다 — to lift the mood). -추-: 낮다→낮추다 (to lower), 맞다→맞추다 (to adjust/match). Not all verbs take these suffixes, only specific ones, and each has to be memorized individually. In causative, a new subject (the causer) appears, and the original subject becomes the object with 을/를.",
+    "ru_example": "제가 울었어요. — Я плакал. / 민재는 저를 울렸어요. — Минджэ заставил меня плакать. / 엄마가 아기에게 밥을 먹였어요. — Мама покормила ребёнка. / 그는 농담으로 모두를 웃겼어요. — Он рассмешил всех своей шуткой. / 아침에 아이를 깨웠어요. — Разбудил ребёнка утром. / 아이를 의자에 세웠어요. — Поставил ребёнка на стул.",
+    "en_example": "제가 울었어요. — I cried. / 민재는 저를 울렸어요. — Minjae made me cry. / 엄마가 아기에게 밥을 먹였어요. — Mom fed the baby. / 그는 농담으로 모두를 웃겼어요. — He made everyone laugh with his jokes. / 아침에 아이를 깨웠어요. — I woke the child up in the morning. / 아이를 의자에 세웠어요. — I stood the child up on the chair."
+  },
+  {
+    "ru_title": "Каузативная конструкция -게 하다",
+    "en_title": "Causative construction -게 하다",
+    "ru_explanation": "Универсальная конструкция каузатива, работает со всеми глаголами ('заставлять/делать так, чтобы ...'). Присоединяется к основе глагола: -게 하다. В отрицательной форме: -지 않게 하다 (заставить не делать) или -게 안 하다 (не заставлять делать). В прошедшем времени: -게 했어요. В разговорной речи часто используется с глаголами 만들다 (сделать так, чтобы) в том же значении. Более формальный вариант: -도록 하다 (см. отдельный пункт). При переходе в каузатив появляется новый субъект (тот, кто заставляет), а исходный субъект становится объектом с 을/를 или 에게/한테.",
+    "en_explanation": "Universal causative construction, works with all verbs ('make/let/have someone do something'). Attaches to verb stem: -게 하다. Negative: -지 않게 하다 (make not do) or -게 안 하다 (not make do). Past tense: -게 했어요. In colloquial speech, often used with 만들다 in the same meaning. More formal variant: -도록 하다 (see separate entry). In causative, a new subject (the causer) appears, and the original subject becomes the object with 을/를 or 에게/한테.",
+    "ru_example": "인부들이 길을 넓게 했어요. — Рабочие расширили дорогу. / 친구들이 나를 못 자게 했어요. — Друзья не дали мне уснуть. / 모두를 웃게 했어요. — Заставил всех смеяться. / 아이가 약을 먹게 했어요. — Заставил ребёнка выпить лекарство.",
+    "en_example": "인부들이 길을 넓게 했어요. — The workers widened the road. / 친구들이 나를 못 자게 했어요. — My friends didn't let me sleep. / 모두를 웃게 했어요. — I made everyone laugh. / 아이가 약을 먹게 했어요. — I made the child take medicine."
+  },
+  {
+    "ru_title": "Каузативная конструкция -도록 하다",
+    "en_title": "Causative construction -도록 하다",
+    "ru_explanation": "Каузативная конструкция, работающая только с глаголами действия ('заставлять/сделать так, чтобы ...'). Более формальный вариант, чем -게 하다. Присоединяется к основе глагола: -도록 하다. В отрицательной форме: -지 않도록 하다 (заставить не делать). В прошедшем времени: -도록 했어요. Часто используется в инструкциях, правилах, официальных указаниях. В разговорной речи может означать 'постараться сделать'. При переходе в каузатив появляется новый субъект (тот, кто заставляет), а исходный субъект становится объектом с 을/를 или 에게/한테.",
+    "en_explanation": "Causative construction that works only with action verbs ('make/let/have someone do something'). More formal than -게 하다. Attaches to verb stem: -도록 하다. Negative: -지 않도록 하다 (make not do). Past tense: -도록 했어요. Often used in instructions, rules, official directions. In colloquial speech can mean 'try to do'. In causative, a new subject (the causer) appears, and the original subject becomes the object with 을/를 or 에게/한테.",
+    "ru_example": "선생님께서 학생들에게 청소를 하도록 했어요. — Учитель заставил учеников убираться. / 모두가 이해하도록 설명했어요. — Объяснил так, чтобы все поняли. / 아이가 일찍 자도록 했어요. — Заставил ребёнка лечь спать рано. / 늦지 않도록 하세요. — Постарайтесь не опаздывать.",
+    "en_example": "선생님께서 학생들에게 청소를 하도록 했어요. — The teacher made the students clean. / 모두가 이해하도록 설명했어요. — I explained so that everyone could understand. / 아이가 일찍 자도록 했어요. — I made the child go to bed early. / 늦지 않도록 하세요. — Try not to be late."
+  }
 ]
