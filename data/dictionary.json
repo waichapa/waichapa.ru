@@ -10813,5 +10813,131 @@
 "Russian": "меняться, заменяться, превращаться",
 "rutag": "состояние",
 "engtag": "state"
+},
+{
+"Korean": "비슷하다",
+"English": "to be similar, alike",
+"Russian": "быть похожим, сходным",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "심하다",
+"English": "to be severe, excessive, serious",
+"Russian": "быть серьёзным, чрезмерным, суровым",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "자라다",
+"English": "to grow, to grow up",
+"Russian": "расти, вырастать",
+"rutag": "жизнь",
+"engtag": "life"
+},
+{
+"Korean": "회",
+"English": "time, occasion, instance",
+"Russian": "раз, раз за разом",
+"rutag": "число",
+"engtag": "number"
+},
+{
+"Korean": "기회",
+"English": "chance, opportunity",
+"Russian": "возможность, шанс",
+"rutag": "жизнь",
+"engtag": "life"
+},
+{
+"Korean": "번째",
+"English": "times, number of times (ordinal)",
+"Russian": "раз, порядковый числитель",
+"rutag": "число",
+"engtag": "number"
+},
+{
+"Korean": "반드시",
+"English": "certainly, without fail, inevitably",
+"Russian": "непременно, обязательно",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "꺼내다",
+"English": "to take out, to pull out",
+"Russian": "доставать, вынимать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "언제나",
+"English": "always, all the time",
+"Russian": "всегда, постоянно",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "완전히",
+"English": "completely, entirely",
+"Russian": "полностью, совершенно",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "전하다",
+"English": "to convey, to deliver, to pass on",
+"Russian": "передавать, сообщать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "개월",
+"English": "month (counting unit)",
+"Russian": "месяц (единица счёта)",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "정하다",
+"English": "to decide, to set, to determine",
+"Russian": "решать, устанавливать, определять",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "눈물",
+"English": "tears",
+"Russian": "слёзы",
+"rutag": "тело",
+"engtag": "body"
+},
+{
+"Korean": "야",
+"English": "hey",
+"Russian": "эй",
+"rutag": "фраза",
+"engtag": "phrase"
+},
+{
+"Korean": "어떠하다",
+"English": "to be how, what kind of",
+"Russian": "какой, каков",
+"rutag": "вопрос",
+"engtag": "question"
+},
+{
+"Korean": "인기",
+"English": "popularity, favor",
+"Russian": "популярность, спрос",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "그곳",
+"English": "that place, there",
+"Russian": "то место, там",
+"rutag": "место",
+"engtag": "place"
 }
 ]
