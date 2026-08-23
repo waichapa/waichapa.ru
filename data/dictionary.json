@@ -10939,5 +10939,145 @@
 "Russian": "то место, там",
 "rutag": "место",
 "engtag": "place"
-}
+},
+  {
+    "Korean": "들리다",
+    "English": "to be heard, to sound",
+    "Russian": "слышаться, быть слышимым, звучать",
+    "rutag": "чувства",
+    "engtag": "senses"
+  },
+  {
+    "Korean": "달리다",
+    "English": "to run, to race",
+    "Russian": "бегать, бежать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "이전",
+    "English": "before, previous",
+    "Russian": "прежде, предыдущий",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
+    "Korean": "중앙",
+    "English": "center, middle",
+    "Russian": "центр, середина",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "시키다",
+    "English": "to make (someone do), to order, to cause",
+    "Russian": "заставлять, приказывать, вызывать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "위치",
+    "English": "location, position",
+    "Russian": "местоположение, позиция",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "줄이다",
+    "English": "to reduce, to shorten, to decrease",
+    "Russian": "сокращать, уменьшать, укорачивать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "비다",
+    "English": "to be empty, to be vacant",
+    "Russian": "быть пустым, свободным",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "원하다",
+    "English": "to want, to desire, to wish",
+    "Russian": "хотеть, желать",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "수",
+    "English": "number, count",
+    "Russian": "число, количество",
+    "rutag": "число",
+    "engtag": "number"
+  },
+  {
+    "Korean": "웃음",
+    "English": "laughter, smile",
+    "Russian": "смех, улыбка",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "뉴스",
+    "English": "news",
+    "Russian": "новости",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "펴다",
+    "English": "to open, to unfold, to spread",
+    "Russian": "открывать, разворачивать, расправлять",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "돌다",
+    "English": "to turn, to spin, to go around",
+    "Russian": "вращаться, крутиться, обходить",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "식사",
+    "English": "meal, dining",
+    "Russian": "еда, приём пищи",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "안다",
+    "English": "to hold in arms, to hug",
+    "Russian": "обнимать, держать в руках",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "이웃",
+    "English": "neighbor, neighborhood",
+    "Russian": "сосед, соседство",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "편지",
+    "English": "letter (mail)",
+    "Russian": "письмо",
+    "rutag": "работа",
+    "engtag": "work"
+  },
+  {
+    "Korean": "센티미터",
+    "English": "centimeter",
+    "Russian": "сантиметр",
+    "rutag": "измерение",
+    "engtag": "measurement"
+  },
+  {
+    "Korean": "분명하다",
+    "English": "to be clear, definite, obvious",
+    "Russian": "быть ясным, определённым, очевидным",
+    "rutag": "описание",
+    "engtag": "description"
+  }
 ]
