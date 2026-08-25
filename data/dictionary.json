@@ -11072,5 +11072,138 @@
     "Russian": "быть ясным, определённым, очевидным",
     "rutag": "описание",
     "engtag": "description"
-  }
+  },
+  {
+"Korean": "지나가다",
+"English": "to pass by, to go past, to elapse",
+"Russian": "проходить мимо, проезжать, протекать (о времени)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "설명",
+"English": "explanation",
+"Russian": "объяснение",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "훌륭하다",
+"English": "to be excellent, splendid, great",
+"Russian": "быть превосходным, великолепным, отличным",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "새로",
+"English": "newly, again, freshly",
+"Russian": "заново, снова, недавно",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "낮다",
+"English": "to be low, short (in height)",
+"Russian": "быть низким, коротким (по высоте)",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "부부",
+"English": "married couple, husband and wife",
+"Russian": "супружеская пара, муж и жена",
+"rutag": "семья",
+"engtag": "family"
+},
+{
+"Korean": "키우다",
+"English": "to raise, to bring up, to grow (plants)",
+"Russian": "воспитывать, растить, выращивать",
+"rutag": "жизнь",
+"engtag": "life"
+},
+{
+"Korean": "알리다",
+"English": "to inform, to let know, to announce",
+"Russian": "сообщать, извещать, объявлять",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "차다",
+"English": "to be cold (weather/objects), to kick, to fill",
+"Russian": "быть холодным, пинать, наполняться",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "멀리",
+"English": "far, far away",
+"Russian": "далеко, вдали",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "빼다",
+"English": "to subtract, to remove, to take out, to exclude",
+"Russian": "вычитать, удалять, вынимать, исключать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "싸우다",
+"English": "to fight, to quarrel, to struggle",
+"Russian": "драться, ссориться, бороться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "며칠",
+"English": "a few days, how many days, what day",
+"Russian": "несколько дней, сколько дней, какое число",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "찾아오다",
+"English": "to visit, to come and find, to bring",
+"Russian": "навещать, приходить (за чем-то), приносить",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "작년",
+"English": "last year",
+"Russian": "прошлый год",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "무섭다",
+"English": "to be scary, frightened",
+"Russian": "быть страшным, пугающим",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "크기",
+"English": "size, magnitude",
+"Russian": "размер, величина",
+"rutag": "измерение",
+"engtag": "measurement"
+},
+{
+"Korean": "남기다",
+"English": "to leave (behind), to leave over, to save",
+"Russian": "оставлять, откладывать, сохранять",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "냄새",
+"English": "smell, odor, scent",
+"Russian": "запах, аромат",
+"rutag": "чувства",
+"engtag": "senses"
+}
 ]
