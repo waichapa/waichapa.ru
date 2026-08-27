@@ -142,15 +142,33 @@ async function initQuiz() {
 }
 
 function buildOptions(current, answerKey, correctAnswer) {
+  const lang = getLang();
+  const tagKey = lang === 'ru' ? 'rutag' : 'engtag';
+  const tag = current[tagKey];
+
   const seen = new Set([correctAnswer.toLowerCase()]);
   const distractors = [];
-  const pool = shuffle(ALL_WORDS.filter(e => e !== current));
-  for (const e of pool) {
-    const val = e[answerKey].trim();
-    const key = val.toLowerCase();
-    if (!seen.has(key)) { seen.add(key); distractors.push(val); }
-    if (distractors.length === 3) break;
+
+  const addFrom = pool => {
+    for (const e of pool) {
+      if (distractors.length === 3) break;
+      const val = e[answerKey].trim();
+      const key = val.toLowerCase();
+      if (!seen.has(key)) { seen.add(key); distractors.push(val); }
+    }
+  };
+
+  // Prefer distractors from the same topic, so options can't be guessed
+  // just by grammatical form/pattern (e.g. verbs ending in -하다).
+  const samePool = shuffle(ALL_WORDS.filter(e => e !== current && e[tagKey] === tag));
+  addFrom(samePool);
+
+  // If the topic doesn't have enough words, fill the rest from the whole dictionary.
+  if (distractors.length < 3) {
+    const restPool = shuffle(ALL_WORDS.filter(e => e !== current && e[tagKey] !== tag));
+    addFrom(restPool);
   }
+
   return shuffle([correctAnswer, ...distractors]);
 }
 
