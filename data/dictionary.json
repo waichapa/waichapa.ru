@@ -11205,5 +11205,138 @@
 "Russian": "запах, аромат",
 "rutag": "чувства",
 "engtag": "senses"
+},
+{
+"Korean": "부드럽다",
+"English": "to be soft, smooth, gentle",
+"Russian": "быть мягким, нежным, плавным",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "남녀",
+"English": "men and women, both sexes",
+"Russian": "мужчины и женщины, оба пола",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "속도",
+"English": "speed, velocity",
+"Russian": "скорость, темп",
+"rutag": "измерение",
+"engtag": "measurement"
+},
+{
+"Korean": "소식",
+"English": "news, information, tidings",
+"Russian": "новость, весть, известие",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "노인",
+"English": "elderly person, old person",
+"Russian": "пожилой человек, старик",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "벌다",
+"English": "to earn, to make (money)",
+"Russian": "зарабатывать, получать (доход)",
+"rutag": "работа",
+"engtag": "work"
+},
+{
+"Korean": "썰다",
+"English": "to slice, to chop, to cut",
+"Russian": "нарезать, шинковать, рубить",
+"rutag": "еда",
+"engtag": "food"
+},
+{
+"Korean": "벗다",
+"English": "to take off (clothes/hat), to remove",
+"Russian": "снимать (одежду/головной убор)",
+"rutag": "одежда",
+"engtag": "clothing"
+},
+{
+"Korean": "청소년",
+"English": "youth, teenager, adolescent",
+"Russian": "молодёжь, подросток, юноша/девушка",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "찾아보다",
+"English": "to look up, to search, to visit (and see)",
+"Russian": "искать, просматривать, навещать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "선배",
+"English": "senior (at work/school), older colleague",
+"Russian": "старший (по работе/учебе), наставник",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "그러므로",
+"English": "therefore, consequently, thus",
+"Russian": "поэтому, следовательно",
+"rutag": "служебное",
+"engtag": "function"
+},
+{
+"Korean": "만약",
+"English": "in case, if, supposing",
+"Russian": "в случае, если, предположим",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "행사",
+"English": "event, function, ceremony",
+"Russian": "мероприятие, событие, церемония",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "왕",
+"English": "king, monarch",
+"Russian": "король, монарх",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "무척",
+"English": "very, extremely, awfully",
+"Russian": "очень, крайне, ужасно",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "옳다",
+"English": "to be right, correct, proper",
+"Russian": "быть правильным, верным, справедливым",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "놀이",
+"English": "play, game, amusement",
+"Russian": "игра, забава, развлечение",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "직원",
+"English": "employee, staff, personnel",
+"Russian": "сотрудник, персонал, служащий",
+"rutag": "работа",
+"engtag": "work"
 }
 ]
