@@ -11338,5 +11338,145 @@
 "Russian": "сотрудник, персонал, служащий",
 "rutag": "работа",
 "engtag": "work"
+},
+{
+"Korean": "찍다",
+"English": "to stamp, to mark, to take (a photo), to choose",
+"Russian": "ставить (печать/отметку), снимать (фото), выбирать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "가득",
+"English": "full, filled, completely",
+"Russian": "полно, доверху, полностью",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "도",
+"English": "degree (temperature/angle), province (Korea)",
+"Russian": "градус, провинция (в Корее)",
+"rutag": "измерение",
+"engtag": "measurement"
+},
+{
+"Korean": "인사",
+"English": "greeting, regards, personnel (HR)",
+"Russian": "приветствие, поклон, отдел кадров",
+"rutag": "фраза",
+"engtag": "phrase"
+},
+{
+"Korean": "줄",
+"English": "line, row, string, queue",
+"Russian": "линия, ряд, верёвка, очередь",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "쳐다보다",
+"English": "to look up at, to stare at, to look at",
+"Russian": "смотреть (наверх), глядеть, созерцать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "반대",
+"English": "opposite, contrary, opposition",
+"Russian": "противоположность, обратное, возражение",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "소금",
+"English": "salt",
+"Russian": "соль",
+"rutag": "еда",
+"engtag": "food"
+},
+{
+"Korean": "푸르다",
+"English": "to be blue, green (verdant)",
+"Russian": "быть синим, зелёным (о растительности)",
+"rutag": "цвет",
+"engtag": "color"
+},
+{
+"Korean": "목",
+"English": "neck, throat",
+"Russian": "шея, горло",
+"rutag": "тело",
+"engtag": "body"
+},
+{
+"Korean": "흔들다",
+"English": "to shake, to wave, to swing",
+"Russian": "трясти, махать, качать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "뽑다",
+"English": "to pull out, to pick, to extract, to elect",
+"Russian": "вытаскивать, вынимать, извлекать, избирать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "피우다",
+"English": "to bloom, to light (fire), to smoke",
+"Russian": "цвести, зажигать (огонь), курить",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "미리",
+"English": "in advance, beforehand, early",
+"Russian": "заранее, предварительно, заблаговременно",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "저희",
+"English": "we, our (humble form)",
+"Russian": "мы, наш (скромный вариант)",
+"rutag": "местоимение",
+"engtag": "pronoun"
+},
+{
+"Korean": "불다",
+"English": "to blow (wind)",
+"Russian": "дуть (о ветре)",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "한글",
+"English": "Hangul (Korean alphabet)",
+"Russian": "Хангыль (корейский алфавит)",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "길이",
+"English": "length, duration",
+"Russian": "длина, продолжительность",
+"rutag": "измерение",
+"engtag": "measurement"
+},
+{
+"Korean": "나머지",
+"English": "rest, remainder, leftover",
+"Russian": "остаток, остальное, оставшаяся часть",
+"rutag": "количество",
+"engtag": "quantity"
+},
+{
+"Korean": "왜냐하면",
+"English": "because, the reason is",
+"Russian": "потому что, поскольку",
+"rutag": "служебное",
+"engtag": "function"
 }
 ]
