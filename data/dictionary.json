@@ -11478,5 +11478,138 @@
 "Russian": "потому что, поскольку",
 "rutag": "служебное",
 "engtag": "function"
+},
+{
+"Korean": "흘리다",
+"English": "to spill, to shed (tears), to leak",
+"Russian": "проливать, ронять (слезы), пропускать жидкость",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "따로",
+"English": "separately, apart, aside",
+"Russian": "отдельно, особо, в стороне",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "빌리다",
+"English": "to borrow, to rent",
+"Russian": "занимать, брать взаймы, арендовать",
+"rutag": "деньги",
+"engtag": "money"
+},
+{
+"Korean": "장소",
+"English": "place, location, venue",
+"Russian": "место, локация, площадка",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "서비스",
+"English": "service",
+"Russian": "услуга, обслуживание, сервис",
+"rutag": "работа",
+"engtag": "work"
+},
+{
+"Korean": "심다",
+"English": "to plant, to implant",
+"Russian": "сажать, насаждать",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "막히다",
+"English": "to be blocked, stopped up, clogged",
+"Russian": "быть заблокированным, забитым, перекрытым",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "복잡하다",
+"English": "to be complicated, complex, crowded",
+"Russian": "быть сложным, запутанным, переполненным",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "비밀",
+"English": "secret",
+"Russian": "секрет, тайна",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "알맞다",
+"English": "to be suitable, proper, adequate",
+"Russian": "быть подходящим, соответствующим, достаточным",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "모시다",
+"English": "to escort, to wait on, to accompany (a senior)",
+"Russian": "провожать, сопровождать, прислуживать (старшему)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "똑같다",
+"English": "to be exactly the same, identical",
+"Russian": "быть совершенно одинаковым, идентичным",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "자꾸",
+"English": "repeatedly, continuously, keep (doing)",
+"Russian": "постоянно, повторно, продолжая",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "해외",
+"English": "overseas, abroad, foreign",
+"Russian": "заграница, за рубежом, иностранный",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "땀",
+"English": "sweat, perspiration",
+"Russian": "пот, испарина",
+"rutag": "тело",
+"engtag": "body"
+},
+{
+"Korean": "잘되다",
+"English": "to go well, to succeed, to turn out well",
+"Russian": "удаваться, получаться, идти хорошо",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "끓이다",
+"English": "to boil, to simmer",
+"Russian": "кипятить, варить",
+"rutag": "еда",
+"engtag": "food"
+},
+{
+"Korean": "멈추다",
+"English": "to stop, to halt, to pause",
+"Russian": "останавливать, останавливаться, приостанавливать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "오랫동안",
+"English": "for a long time, long, for ages",
+"Russian": "долго, долгое время, давно",
+"rutag": "время",
+"engtag": "time"
 }
 ]
