@@ -11611,5 +11611,145 @@
 "Russian": "долго, долгое время, давно",
 "rutag": "время",
 "engtag": "time"
+},
+{
+"Korean": "종이",
+"English": "paper",
+"Russian": "бумага",
+"rutag": "дом",
+"engtag": "home"
+},
+{
+"Korean": "찾아가다",
+"English": "to go and find, to go to (someone/place)",
+"Russian": "отправиться за чем-либо, навестить, подойти к",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "혹시",
+"English": "perhaps, maybe, by any chance",
+"Russian": "возможно, может быть, случайно",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "늘다",
+"English": "to increase, to grow, to expand",
+"Russian": "увеличиваться, расти, расширяться",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "진짜",
+"English": "really, truly, genuine",
+"Russian": "настоящий, реально, действительно",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "올림픽",
+"English": "Olympics",
+"Russian": "Олимпиада, Олимпийские игры",
+"rutag": "спорт",
+"engtag": "sport"
+},
+{
+"Korean": "재미",
+"English": "fun, interest, enjoyment",
+"Russian": "интерес, веселье, удовольствие",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "떡",
+"English": "rice cake (tteok)",
+"Russian": "котток (рисовый пирожок)",
+"rutag": "еда",
+"engtag": "food"
+},
+{
+"Korean": "옛",
+"English": "old, former, past",
+"Russian": "старый, былой, прошлый",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "편하다",
+"English": "to be comfortable, convenient, easy",
+"Russian": "быть удобным, комфортным, легким",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "끝내다",
+"English": "to finish, to complete, to end",
+"Russian": "заканчивать, завершать, кончать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "일주일",
+"English": "one week",
+"Russian": "одна неделя",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "아무것",
+"English": "anything, nothing (in negative)",
+"Russian": "что-нибудь, что угодно (в отрицаниях - ничего)",
+"rutag": "местоимение",
+"engtag": "pronoun"
+},
+{
+"Korean": "젖다",
+"English": "to get wet, to be soaked",
+"Russian": "намокать, быть мокрым",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "평소",
+"English": "usual, ordinary, normally",
+"Russian": "обычный, обыкновенный, обычно",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "어둡다",
+"English": "to be dark, dim",
+"Russian": "быть тёмным, тусклым",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "물어보다",
+"English": "to ask, to inquire",
+"Russian": "спрашивать, интересоваться",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "밀다",
+"English": "to push, to shove",
+"Russian": "толкать, двигать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "음",
+"English": "um, uh, hmm",
+"Russian": "хм, э-э, ммм",
+"rutag": "фраза",
+"engtag": "phrase"
+},
+{
+"Korean": "바르다",
+"English": "to apply (ointment/lotion), to paste, to spread",
+"Russian": "наносить (мазь/лосьон), наклеивать, мазать",
+"rutag": "действие",
+"engtag": "action"
 }
 ]
