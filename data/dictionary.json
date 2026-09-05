@@ -11751,5 +11751,145 @@
 "Russian": "наносить (мазь/лосьон), наклеивать, мазать",
 "rutag": "действие",
 "engtag": "action"
+},
+{
+"Korean": "다하다",
+"English": "to be exhausted, to end, to reach the limit",
+"Russian": "иссякать, заканчиваться, достигать предела",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "싣다",
+"English": "to load (cargo), to carry (on vehicle), to publish",
+"Russian": "грузить, нагружать, перевозить, публиковать",
+"rutag": "транспорт",
+"engtag": "transport"
+},
+{
+"Korean": "쌓다",
+"English": "to pile up, to stack, to accumulate",
+"Russian": "складывать, нагромождать, накапливать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "어서",
+"English": "quickly, soon, come on",
+"Russian": "быстро, поскорей, давай (поторопись)",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "제목",
+"English": "title, heading",
+"Russian": "заголовок, название",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "하얗다",
+"English": "to be white",
+"Russian": "быть белым",
+"rutag": "цвет",
+"engtag": "color"
+},
+{
+"Korean": "희망",
+"English": "hope, wish, desire",
+"Russian": "надежда, желание, мечта",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "실수",
+"English": "mistake, error, blunder",
+"Russian": "ошибка, оплошность, промах",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "잘못되다",
+"English": "to go wrong, to fail, to be ruined",
+"Russian": "пойти неправильно, испортиться, потерпеть неудачу",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "호",
+"English": "number (issue of magazine), number (house/building)",
+"Russian": "номер (журнала/здания)",
+"rutag": "число",
+"engtag": "number"
+},
+{
+"Korean": "식구",
+"English": "family member, household",
+"Russian": "член семьи, домочадцы",
+"rutag": "семья",
+"engtag": "family"
+},
+{
+"Korean": "글자",
+"English": "character, letter, script",
+"Russian": "буква, знак, символ",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "착하다",
+"English": "to be kind, good-natured",
+"Russian": "быть добрым, мягким, покладистым",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "라디오",
+"English": "radio",
+"Russian": "радио",
+"rutag": "техника",
+"engtag": "electronics"
+},
+{
+"Korean": "너희",
+"English": "you (plural), your (plural)",
+"Russian": "вы, ваш (множественное число)",
+"rutag": "местоимение",
+"engtag": "pronoun"
+},
+{
+"Korean": "누르다",
+"English": "to press, to push (a button)",
+"Russian": "нажимать, давить (на кнопку)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "색깔",
+"English": "color, hue",
+"Russian": "цвет, оттенок",
+"rutag": "цвет",
+"engtag": "color"
+},
+{
+"Korean": "외국인",
+"English": "foreigner, alien",
+"Russian": "иностранец, чужеземец",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "끊다",
+"English": "to cut, to break, to disconnect, to quit (smoking)",
+"Russian": "резать, обрывать, отключать, бросать (курить)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "마당",
+"English": "yard, courtyard, garden",
+"Russian": "двор, внутренний двор, сад",
+"rutag": "дом",
+"engtag": "home"
 }
 ]
