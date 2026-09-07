@@ -11891,5 +11891,138 @@
 "Russian": "двор, внутренний двор, сад",
 "rutag": "дом",
 "engtag": "home"
+},
+{
+"Korean": "부인",
+"English": "wife, madam, lady",
+"Russian": "жена, супруга, госпожа",
+"rutag": "семья",
+"engtag": "family"
+},
+{
+"Korean": "서두르다",
+"English": "to hurry, to rush, to hasten",
+"Russian": "торопиться, спешить",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "짝",
+"English": "pair, mate, counterpart",
+"Russian": "пара, партнёр, соответствие",
+"rutag": "количество",
+"engtag": "quantity"
+},
+{
+"Korean": "우산",
+"English": "umbrella",
+"Russian": "зонт, зонтик",
+"rutag": "одежда",
+"engtag": "clothing"
+},
+{
+"Korean": "깊이",
+"English": "deeply, in depth",
+"Russian": "глубоко, глубоко (по смыслу)",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "이용",
+"English": "use, usage, convenience",
+"Russian": "использование, удобство, пользование",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "지난달",
+"English": "last month",
+"Russian": "прошлый месяц",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "지르다",
+"English": "to shout, to pierce, to yell",
+"Russian": "кричать, вопить, пронзать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "걸음",
+"English": "step, pace, walk",
+"Russian": "шаг, походка, ход",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "늙다",
+"English": "to grow old, to age",
+"Russian": "стареть, стариться",
+"rutag": "жизнь",
+"engtag": "life"
+},
+{
+"Korean": "둘째",
+"English": "second, second child",
+"Russian": "второй, второй ребенок",
+"rutag": "число",
+"engtag": "number"
+},
+{
+"Korean": "무겁다",
+"English": "to be heavy, weighty",
+"Russian": "быть тяжёлым, веским",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "뜨다",
+"English": "to float, to rise, to open (eyes)",
+"Russian": "плавать, подниматься, открывать (глаза)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "스타",
+"English": "star, celebrity",
+"Russian": "звезда, знаменитость",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "입술",
+"English": "lip",
+"Russian": "губа",
+"rutag": "тело",
+"engtag": "body"
+},
+{
+"Korean": "잎",
+"English": "leaf",
+"Russian": "лист (растения)",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "중간",
+"English": "middle, halfway, intermediate",
+"Russian": "середина, полпути, промежуточный",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "스포츠",
+"English": "sports",
+"Russian": "спорт",
+"rutag": "спорт",
+"engtag": "sport"
+},
+{
+"Korean": "볶다",
+"English": "to stir-fry, to pan-fry",
+"Russian": "жарить, обжаривать (с перемешиванием)",
+"rutag": "еда",
+"engtag": "food"
 }
 ]
