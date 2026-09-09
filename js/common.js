@@ -20,6 +20,7 @@ function renderHeader(activePage) {
         <a href="dictionary.html" data-page="dictionary" data-i18n="nav_dict">Dictionary</a>
         <a href="quiz.html" data-page="quiz" data-i18n="nav_quiz">Quiz</a>
         <a href="stats.html" data-page="stats" data-i18n="nav_stats">Stats</a>
+        <a href="map.html" data-page="map" data-i18n="nav_map">Map</a>
         <a href="projects.html" data-page="projects" data-i18n="nav_projects">Projects</a>
       </nav>
       <div class="controls">
