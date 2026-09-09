@@ -12082,13 +12082,6 @@
 "engtag": "health"
 },
 {
-"Korean": "지하",
-"English": "underground, basement, subway",
-"Russian": "подземелье, подвал, метро",
-"rutag": "место",
-"engtag": "place"
-},
-{
 "Korean": "만일",
 "English": "in case, if, supposing",
 "Russian": "в случае, если, предположим",
@@ -12122,13 +12115,6 @@
 "Russian": "кровь",
 "rutag": "тело",
 "engtag": "body"
-},
-{
-"Korean": "숫자",
-"English": "number, numeral, digit",
-"Russian": "число, цифра, номер",
-"rutag": "число",
-"engtag": "number"
 },
 {
 "Korean": "전기",
