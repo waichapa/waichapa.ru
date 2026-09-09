@@ -1,6 +1,13 @@
 const I18N = {
   en: {
-    nav_home: "Blog", nav_dict: "Dictionary", nav_quiz: "Quiz", nav_stats: "Stats", nav_projects: "Projects",
+    nav_home: "Blog", nav_dict: "Dictionary", nav_quiz: "Quiz", nav_stats: "Stats", nav_map: "Map", nav_projects: "Projects",
+    map_title: "Study Map",
+    map_streak: "Current streak",
+    map_best: "Best streak",
+    map_days: "Days studied",
+    map_filled: "Map filled",
+    map_world_title: "World map",
+    map_calendar_title: "Study calendar",
     site_subtitle: "Korean language learning notes & tools",
     level_label: "Korean level: TOPIK II 급",
     about_title: "About this blog",
@@ -101,7 +108,14 @@ const I18N = {
     back_to_projects: "← Back to Projects"
   },
   ru: {
-    nav_home: "Блог", nav_dict: "Словарь", nav_quiz: "Квиз", nav_stats: "Статистика", nav_projects: "Проекты",
+    nav_home: "Блог", nav_dict: "Словарь", nav_quiz: "Квиз", nav_stats: "Статистика", nav_map: "Карта", nav_projects: "Проекты",
+    map_title: "Карта учёбы",
+    map_streak: "Серия сейчас",
+    map_best: "Лучшая серия",
+    map_days: "Дней позанимался",
+    map_filled: "Карта закрашена",
+    map_world_title: "Карта мира",
+    map_calendar_title: "Календарь занятий",
     site_subtitle: "Заметки и инструменты для изучения корейского",
     level_label: "Уровень корейского: TOPIK II 급",
     about_title: "О блоге",

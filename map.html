@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>waichapa — Study Map</title>
+<link rel="icon" href="favicon-32x32.png" type="image/png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app-header"></div>
+
+<div class="container">
+  <h1 data-i18n="map_title">Study Map</h1>
+
+  <div class="stat-grid" id="mapStatGrid"></div>
+
+  <div class="card">
+    <h2 data-i18n="map_world_title">World map</h2>
+    <div class="map-meta" id="mapMeta"></div>
+    <svg id="worldmap" viewBox="0 0 84 36" xmlns="http://www.w3.org/2000/svg"></svg>
+  </div>
+
+  <div class="card">
+    <h2 data-i18n="map_calendar_title">Study calendar</h2>
+    <div class="cal-wrap">
+      <div class="cal-months" id="calMonths"></div>
+      <div class="cal-grid" id="calGrid"></div>
+    </div>
+  </div>
+</div>
+
+<div id="app-footer"></div>
+
+<script src="js/i18n.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/common.js"></script>
+<script src="js/map-app.js"></script>
+<script>
+  renderHeader('map');
+  renderFooter();
+  document.addEventListener('langChanged', () => { renderHeader('map'); renderFooter(); renderMapStats(); });
+</script>
+</body>
+</html>
