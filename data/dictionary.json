@@ -12031,5 +12031,145 @@
 "Russian": "Держись! Не сдавайся! Вперёд!",
 "rutag": "фраза",
 "engtag": "phrase"
+},
+{
+"Korean": "한두",
+"English": "one or two, a couple of",
+"Russian": "один-два, пара",
+"rutag": "количество",
+"engtag": "quantity"
+},
+{
+"Korean": "식품",
+"English": "food, food product, grocery",
+"Russian": "продукт питания, продовольствие",
+"rutag": "еда",
+"engtag": "food"
+},
+{
+"Korean": "첫째",
+"English": "first, firstborn",
+"Russian": "первый, первенец",
+"rutag": "число",
+"engtag": "number"
+},
+{
+"Korean": "회원",
+"English": "member, associate",
+"Russian": "член, участник",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "조금씩",
+"English": "little by little, gradually, bit by bit",
+"Russian": "понемногу, постепенно, мало-помалу",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "아주머니",
+"English": "middle-aged woman, auntie, ma'am",
+"Russian": "женщина средних лет, тётя",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "위험",
+"English": "danger, risk, hazard",
+"Russian": "опасность, риск",
+"rutag": "здоровье",
+"engtag": "health"
+},
+{
+"Korean": "지하",
+"English": "underground, basement, subway",
+"Russian": "подземелье, подвал, метро",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "만일",
+"English": "in case, if, supposing",
+"Russian": "в случае, если, предположим",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "피다",
+"English": "to bloom, to blossom, to flower",
+"Russian": "цвести, распускаться (о цветах)",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "일어서다",
+"English": "to stand up, to rise",
+"Russian": "вставать, подниматься",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "방문",
+"English": "visit, call, attendance",
+"Russian": "визит, посещение",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "피",
+"English": "blood",
+"Russian": "кровь",
+"rutag": "тело",
+"engtag": "body"
+},
+{
+"Korean": "숫자",
+"English": "number, numeral, digit",
+"Russian": "число, цифра, номер",
+"rutag": "число",
+"engtag": "number"
+},
+{
+"Korean": "전기",
+"English": "electricity, electric power",
+"Russian": "электричество, электроэнергия",
+"rutag": "техника",
+"engtag": "electronics"
+},
+{
+"Korean": "틀리다",
+"English": "to be wrong, to be incorrect, to differ",
+"Russian": "быть неправильным, ошибаться, отличаться",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "약하다",
+"English": "to be weak, fragile",
+"Russian": "быть слабым, хрупким",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "잘못하다",
+"English": "to do wrong, to make a mistake",
+"Russian": "поступать неправильно, ошибаться",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "그만두다",
+"English": "to quit, to stop, to give up",
+"Russian": "бросать, прекращать, отказываться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "댁",
+"English": "house, home (polite), residence",
+"Russian": "дом, жилище (вежливо)",
+"rutag": "дом",
+"engtag": "home"
 }
 ]
