@@ -12157,5 +12157,138 @@
 "Russian": "дом, жилище (вежливо)",
 "rutag": "дом",
 "engtag": "home"
+},
+{
+"Korean": "부족",
+"English": "shortage, lack, insufficiency",
+"Russian": "нехватка, недостаток, дефицит",
+"rutag": "количество",
+"engtag": "quantity"
+},
+{
+"Korean": "다녀오다",
+"English": "to go and come back, to visit and return",
+"Russian": "сходить (и вернуться), съездить, побывать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "이쪽",
+"English": "this side, this way, here",
+"Russian": "эта сторона, сюда, здесь",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "연습",
+"English": "practice, training, rehearsal",
+"Russian": "практика, тренировка, репетиция",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "섞다",
+"English": "to mix, to blend, to stir",
+"Russian": "смешивать, перемешивать, размешивать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "화장품",
+"English": "cosmetics, makeup",
+"Russian": "косметика",
+"rutag": "одежда",
+"engtag": "clothing"
+},
+{
+"Korean": "굵다",
+"English": "to be thick, coarse",
+"Russian": "быть толстым, крупным",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "깨끗이",
+"English": "cleanly, neatly, thoroughly",
+"Russian": "чисто, аккуратно, начисто",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "대학생",
+"English": "university student, college student",
+"Russian": "студент университета",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "붉다",
+"English": "to be red, crimson",
+"Russian": "быть красным, багровым",
+"rutag": "цвет",
+"engtag": "color"
+},
+{
+"Korean": "순서",
+"English": "order, sequence, procedure",
+"Russian": "порядок, очерёдность, последовательность",
+"rutag": "число",
+"engtag": "number"
+},
+{
+"Korean": "이사",
+"English": "moving (house), relocation",
+"Russian": "переезд, смена жилья",
+"rutag": "дом",
+"engtag": "home"
+},
+{
+"Korean": "닫다",
+"English": "to close, to shut",
+"Russian": "закрывать, затворять",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "들르다",
+"English": "to drop by, to stop in",
+"Russian": "заходить, заглядывать (по пути)",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "글쎄",
+"English": "well, I'm not sure, maybe",
+"Russian": "ну, не знаю, вряд ли",
+"rutag": "фраза",
+"engtag": "phrase"
+},
+{
+"Korean": "소중하다",
+"English": "to be precious, valuable, important",
+"Russian": "быть дорогим, ценным, важным",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "조용히",
+"English": "quietly, silently, softly",
+"Russian": "тихо, спокойно, молча",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "차갑다",
+"English": "to be cold, chilly (to the touch)",
+"Russian": "быть холодным, студёным",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "드디어",
+"English": "finally, at last",
+"Russian": "наконец, в конце концов",
+"rutag": "наречие",
+"engtag": "adverb"
 }
 ]
