@@ -12290,5 +12290,145 @@
 "Russian": "наконец, в конце концов",
 "rutag": "наречие",
 "engtag": "adverb"
+},
+{
+"Korean": "여기저기",
+"English": "here and there, everywhere, various places",
+"Russian": "тут и там, повсюду, в разных местах",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "표",
+"English": "ticket, vote",
+"Russian": "билет, голос (на выборах)",
+"rutag": "транспорт",
+"engtag": "transport"
+},
+{
+"Korean": "형제",
+"English": "brothers, siblings",
+"Russian": "братья, брат и сестра",
+"rutag": "семья",
+"engtag": "family"
+},
+{
+"Korean": "화려하다",
+"English": "to be splendid, gorgeous, colorful",
+"Russian": "быть роскошным, великолепным, ярким",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "안전",
+"English": "safety, security",
+"Russian": "безопасность, сохранность",
+"rutag": "здоровье",
+"engtag": "health"
+},
+{
+"Korean": "틀다",
+"English": "to turn on (TV/radio), to twist, to turn",
+"Russian": "включать (телевизор/радио), крутить, поворачивать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "북쪽",
+"English": "north, northern direction",
+"Russian": "север, северное направление",
+"rutag": "место",
+"engtag": "place"
+},
+{
+"Korean": "단어",
+"English": "word, vocabulary",
+"Russian": "слово, лексическая единица",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "도와주다",
+"English": "to help, to assist",
+"Russian": "помогать, содействовать",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "높이",
+"English": "height, altitude",
+"Russian": "высота, вышина",
+"rutag": "измерение",
+"engtag": "measurement"
+},
+{
+"Korean": "닮다",
+"English": "to resemble, to look like",
+"Russian": "быть похожим, напоминать",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "콩",
+"English": "bean, soybean",
+"Russian": "боб, соя",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "헤어지다",
+"English": "to part, to separate, to break up",
+"Russian": "расставаться, разлучаться, разводиться",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "날다",
+"English": "to fly",
+"Russian": "летать, лететь",
+"rutag": "действие",
+"engtag": "action"
+},
+{
+"Korean": "설탕",
+"English": "sugar",
+"Russian": "сахар",
+"rutag": "еда",
+"engtag": "food"
+},
+{
+"Korean": "자세히",
+"English": "in detail, closely, carefully",
+"Russian": "подробно, детально, внимательно",
+"rutag": "наречие",
+"engtag": "adverb"
+},
+{
+"Korean": "청년",
+"English": "young man, youth",
+"Russian": "молодой человек, юноша",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "혀",
+"English": "tongue",
+"Russian": "язык (орган)",
+"rutag": "тело",
+"engtag": "body"
+},
+{
+"Korean": "연락",
+"English": "contact, communication, connection",
+"Russian": "связь, контакт, сообщение",
+"rutag": "человек",
+"engtag": "person"
+},
+{
+"Korean": "칼",
+"English": "knife, blade",
+"Russian": "нож, лезвие",
+"rutag": "дом",
+"engtag": "home"
 }
 ]
