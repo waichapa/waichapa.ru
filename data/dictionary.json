@@ -12430,5 +12430,145 @@
 "Russian": "нож, лезвие",
 "rutag": "дом",
 "engtag": "home"
+},
+{
+"Korean": "깨다",
+"English": "to wake up, to sober up",
+"Russian": "просыпаться, трезветь",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "슬프다",
+"English": "to be sad, sorrowful",
+"Russian": "быть грустным, печальным",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "요금",
+"English": "fee, charge, fare",
+"Russian": "плата, тариф, стоимость",
+"rutag": "деньги",
+"engtag": "money"
+},
+{
+"Korean": "음료",
+"English": "beverage, drink",
+"Russian": "напиток",
+"rutag": "еда",
+"engtag": "food"
+},
+{
+"Korean": "선택",
+"English": "choice, selection",
+"Russian": "выбор, отбор",
+"rutag": "мысль",
+"engtag": "thought"
+},
+{
+"Korean": "정리",
+"English": "arrangement, organization, cleanup",
+"Russian": "приведение в порядок, уборка, организация",
+"rutag": "дом",
+"engtag": "home"
+},
+{
+"Korean": "주머니",
+"English": "pocket, pouch, bag",
+"Russian": "карман, мешочек, сумка",
+"rutag": "одежда",
+"engtag": "clothing"
+},
+{
+"Korean": "부끄럽다",
+"English": "to be shy, embarrassed, ashamed",
+"Russian": "стыдиться, смущаться",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "신청",
+"English": "application, request, registration",
+"Russian": "заявка, подача заявления, регистрация",
+"rutag": "работа",
+"engtag": "work"
+},
+{
+"Korean": "버릇",
+"English": "habit, mannerism",
+"Russian": "привычка, манера",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "빨갛다",
+"English": "to be red, bright red",
+"Russian": "быть красным, алым",
+"rutag": "цвет",
+"engtag": "color"
+},
+{
+"Korean": "술집",
+"English": "bar, pub, tavern",
+"Russian": "бар, пивная, кабак",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "오랜만",
+"English": "after a long time",
+"Russian": "спустя долгое время, давно не",
+"rutag": "время",
+"engtag": "time"
+},
+{
+"Korean": "풍경",
+"English": "scenery, landscape, view",
+"Russian": "пейзаж, вид, ландшафт",
+"rutag": "природа",
+"engtag": "nature"
+},
+{
+"Korean": "부럽다",
+"English": "to be envious, jealous",
+"Russian": "завидовать, быть завистливым",
+"rutag": "состояние",
+"engtag": "state"
+},
+{
+"Korean": "추다",
+"English": "to dance",
+"Russian": "танцевать",
+"rutag": "культура",
+"engtag": "culture"
+},
+{
+"Korean": "달걀",
+"English": "egg",
+"Russian": "яйцо",
+"rutag": "еда",
+"engtag": "food"
+},
+{
+"Korean": "무게",
+"English": "weight, heaviness",
+"Russian": "вес, тяжесть",
+"rutag": "измерение",
+"engtag": "measurement"
+},
+{
+"Korean": "성적",
+"English": "grade, academic record, score",
+"Russian": "оценка, успеваемость, результат",
+"rutag": "учёба",
+"engtag": "study"
+},
+{
+"Korean": "깎다",
+"English": "to peel, to trim, to shave, to cut down",
+"Russian": "очищать (от кожуры), обрезать, сбривать, снижать",
+"rutag": "действие",
+"engtag": "action"
 }
 ]
