@@ -294,6 +294,8 @@ footer.site-footer {
 .tech-table td, .tech-table th { padding: 8px 12px; border-bottom: 1px solid var(--border); font-size: .88rem; text-align: left; }
 .tech-table th { color: var(--text-soft); font-size: .78rem; text-transform: uppercase; letter-spacing: .5px; }
 .tech-pill { display: inline-block; background: var(--primary-soft); color: var(--primary); padding: 3px 10px; border-radius: 10px; font-size: .78rem; font-weight: 700; margin: 2px 4px 2px 0; }
+.status-pill { display: inline-block; background: var(--danger); color: #fff; padding: 3px 10px; border-radius: 10px; font-size: .72rem; font-weight: 700; margin: 2px 4px 2px 0; vertical-align: middle; }
+.notice { border-left: 4px solid var(--danger); background: var(--primary-soft); border-radius: 10px; padding: 12px 16px; font-size: .9rem; color: var(--text); margin: 14px 0; }
 
 /* ---- Project detail page ---- */
 .project-hero { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
