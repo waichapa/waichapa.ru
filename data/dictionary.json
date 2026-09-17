@@ -12570,5 +12570,19 @@
 "Russian": "очищать (от кожуры), обрезать, сбривать, снижать",
 "rutag": "действие",
 "engtag": "action"
+},
+{
+"Korean": "싱싱하다",
+"English": "to be fresh, crisp, lively",
+"Russian": "быть свежим, бодрым, крепким",
+"rutag": "описание",
+"engtag": "description"
+},
+{
+"Korean": "키",
+"English": "key",
+"Russian": "ключ",
+"rutag": "дом",
+"engtag": "home"
 }
 ]
