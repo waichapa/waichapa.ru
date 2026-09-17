@@ -12564,13 +12564,27 @@
 "rutag": "учёба",
 "engtag": "study"
 },
-{
-"Korean": "깎다",
-"English": "to peel, to trim, to shave, to cut down",
-"Russian": "очищать (от кожуры), обрезать, сбривать, снижать",
-"rutag": "действие",
-"engtag": "action"
-},
+  {
+    "Korean": "깎다",
+    "English": "to peel, to trim",
+    "Russian": "очищать (от кожуры), обрезать",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "깎다",
+    "English": "to shave, to scrape off",
+    "Russian": "сбривать, соскабливать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "깎다",
+    "English": "to cut down, to reduce, to lower (price)",
+    "Russian": "снижать (цену), урезать, уменьшать",
+    "rutag": "деньги",
+    "engtag": "money"
+  }
 {
 "Korean": "싱싱하다",
 "English": "to be fresh, crisp, lively",
