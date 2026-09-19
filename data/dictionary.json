@@ -3571,36 +3571,8 @@
   },
   {
     "Korean": "가지다",
-    "English": "to have / to possess",
-    "Russian": "иметь, обладать",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "가지다",
-    "English": "to take",
-    "Russian": "брать",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "가지다",
-    "English": "to carry",
-    "Russian": "нести",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "가지다",
-    "English": "to contain",
-    "Russian": "содержать",
-    "rutag": "состояние",
-    "engtag": "state"
-  },
-  {
-    "Korean": "가지다",
-    "English": "to mean (as in 'have in mind')",
-    "Russian": "иметь в виду",
+    "English": "to have, to possess, to hold, to carry, to contain, to take",
+    "Russian": "иметь, обладать, держать, нести, содержать, брать",
     "rutag": "состояние",
     "engtag": "state"
   },
@@ -8001,7 +7973,7 @@
     "engtag": "nature"
   },
   {
-    "Korean": "시자",
+    "Korean": "사자",
     "English": "lion",
     "Russian": "лев",
     "rutag": "природа",
@@ -9185,8 +9157,8 @@
   },
   {
     "Korean": "어울리다",
-    "English": "to suit, to match, to look good together",
-    "Russian": "подходить, сочетаться, идти (о цвете, одежде)",
+    "English": "to suit, to match, to look good together, to be fitting, to be appropriate",
+    "Russian": "подходить, сочетаться, идти (о цвете, одежде), быть уместным",
     "rutag": "описание",
     "engtag": "description"
   },
@@ -9196,13 +9168,6 @@
     "Russian": "ладить, общаться, проводить время вместе",
     "rutag": "действие",
     "engtag": "action"
-  },
-  {
-    "Korean": "어울리다",
-    "English": "to be fitting, to be appropriate",
-    "Russian": "быть уместным, соответствовать (ситуации)",
-    "rutag": "описание",
-    "engtag": "description"
   },
 {
 "Korean": "참다",
@@ -9262,15 +9227,8 @@
 },
 {
 "Korean": "발전하다",
-"English": "to develop, to advance, to make progress",
-"Russian": "развиваться, прогрессировать, совершенствоваться",
-"rutag": "действие",
-"engtag": "action"
-},
-{
-"Korean": "발전하다",
-"English": "to evolve, to grow in a positive way",
-"Russian": "эволюционировать, расти в положительном смысле",
+"English": "to develop, to advance, to make progress, to evolve",
+"Russian": "",
 "rutag": "действие",
 "engtag": "action"
 },
@@ -12598,5 +12556,284 @@
 "Russian": "ключ",
 "rutag": "дом",
 "engtag": "home"
-}
+},
+  {
+
+    "Korean": "온도",
+
+    "English": "temperature",
+
+    "Russian": "температура",
+
+    "rutag": "измерение",
+
+    "engtag": "measurement"
+
+  },
+
+  {
+
+    "Korean": "이마",
+
+    "English": "forehead",
+
+    "Russian": "лоб",
+
+    "rutag": "тело",
+
+    "engtag": "body"
+
+  },
+
+  {
+
+    "Korean": "끄다",
+
+    "English": "to turn off (light, device), to extinguish (fire)",
+
+    "Russian": "выключать (свет, прибор), тушить (огонь)",
+
+    "rutag": "действие",
+
+    "engtag": "action"
+
+  },
+
+  {
+
+    "Korean": "만지다",
+
+    "English": "to touch, to feel with the hand",
+
+    "Russian": "трогать, щупать, прикасаться",
+
+    "rutag": "действие",
+
+    "engtag": "action"
+
+  },
+
+  {
+
+    "Korean": "운동장",
+
+    "English": "playground, sports field",
+
+    "Russian": "спортивная площадка, стадион",
+
+    "rutag": "спорт",
+
+    "engtag": "sport"
+
+  },
+
+  {
+
+    "Korean": "짐",
+
+    "English": "luggage, baggage, load",
+
+    "Russian": "багаж, груз, поклажа",
+
+    "rutag": "транспорт",
+
+    "engtag": "transport"
+
+  },
+
+  {
+
+    "Korean": "해마다",
+
+    "English": "every year, year after year",
+
+    "Russian": "каждый год, из года в год",
+
+    "rutag": "время",
+
+    "engtag": "time"
+
+  },
+
+  {
+
+    "Korean": "후배",
+
+    "English": "junior (at work/school), younger colleague",
+
+    "Russian": "младший (по работе/учёбе), подчинённый по статусу",
+
+    "rutag": "человек",
+
+    "engtag": "person"
+
+  },
+
+  {
+
+    "Korean": "이르다",
+
+    "English": "to be early, to be premature",
+
+    "Russian": "быть ранним, преждевременным",
+
+    "rutag": "время",
+
+    "engtag": "time"
+
+  },
+
+  {
+
+    "Korean": "동쪽",
+
+    "English": "east, eastern direction",
+
+    "Russian": "восток, восточное направление",
+
+    "rutag": "место",
+
+    "engtag": "place"
+
+  },
+
+  {
+
+    "Korean": "운전사",
+
+    "English": "driver, chauffeur",
+
+    "Russian": "водитель, шофёр",
+
+    "rutag": "профессия",
+
+    "engtag": "profession"
+
+  },
+
+  {
+
+    "Korean": "잠깐",
+
+    "English": "a moment, a short while, briefly",
+
+    "Russian": "минутку, недолго, на мгновение",
+
+    "rutag": "время",
+
+    "engtag": "time"
+
+  },
+
+  {
+
+    "Korean": "적당하다",
+
+    "English": "to be suitable, appropriate, moderate",
+
+    "Russian": "быть подходящим, умеренным, соответствующим",
+
+    "rutag": "описание",
+
+    "engtag": "description"
+
+  },
+
+  {
+
+    "Korean": "금지",
+
+    "English": "prohibition, ban",
+
+    "Russian": "запрет, запрещение",
+
+    "rutag": "служебное",
+
+    "engtag": "function"
+
+  },
+
+  {
+
+    "Korean": "비교",
+
+    "English": "comparison",
+
+    "Russian": "сравнение",
+
+    "rutag": "мысль",
+
+    "engtag": "thought"
+
+  },
+
+  {
+
+    "Korean": "열차",
+
+    "English": "train",
+
+    "Russian": "поезд",
+
+    "rutag": "транспорт",
+
+    "engtag": "transport"
+
+  },
+
+  {
+
+    "Korean": "잃어버리다",
+
+    "English": "to lose (something), to misplace",
+
+    "Russian": "потерять, затерять",
+
+    "rutag": "действие",
+
+    "engtag": "action"
+
+  },
+
+  {
+
+    "Korean": "한복",
+
+    "English": "hanbok (traditional Korean clothing)",
+
+    "Russian": "ханбок (традиционная корейская одежда)",
+
+    "rutag": "одежда",
+
+    "engtag": "clothing"
+
+  },
+
+  {
+
+    "Korean": "똑같이",
+
+    "English": "equally, identically, in the same way",
+
+    "Russian": "одинаково, точно так же, поровну",
+
+    "rutag": "наречие",
+
+    "engtag": "adverb"
+
+  },
+
+  {
+
+    "Korean": "밀가루",
+
+    "English": "flour, wheat flour",
+
+    "Russian": "мука, пшеничная мука",
+
+    "rutag": "еда",
+
+    "engtag": "food"
+
+  }
 ]
