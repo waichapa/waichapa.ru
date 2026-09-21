@@ -55,6 +55,17 @@ function renderFooter() {
   </footer>`;
 }
 
+// Small non-blocking notification (used by tts.js and quiz-app.js)
+function showToast(msg) {
+  const el = document.createElement('div');
+  el.className = 'toast';
+  el.setAttribute('role', 'status');
+  el.textContent = msg;
+  document.body.appendChild(el);
+  setTimeout(() => el.classList.add('out'), 3200);
+  setTimeout(() => el.remove(), 3700);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   applyI18n();
 });

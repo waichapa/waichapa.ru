@@ -9,12 +9,49 @@ let currentTag = '';
 let currentQuickFilter = 'all'; // all | last10 | last30 | last50 | last100
 let questionLang = 'korean'; // korean | english | russian — what's shown on the card
 let quizLength = '20'; // '10' | '20' | '30' | '50' | '100' | 'all' — how many cards per round
-let quizMode = 'choice'; // 'choice' | 'swipe'
+let quizMode = 'choice'; // 'choice' | 'swipe' | 'type' | 'listen' | 'dictation'
 let swipeFlipped = false;
 let swipeKnown = [];
 let swipeUnknown = [];
 let swipeDrag = null; // { startX, startY, dx, dy, pointerId }
 let swipeReviewPool = null; // when set, quiz runs only over these words (review round)
+
+// ---- New in this version: SRS + typing/listening modes ----
+let missedWords = [];          // words answered wrong this round (non-swipe modes) -> "review" button
+let typeState = { fb: null, typed: '', hint: 0 };
+let quizPoolIds = [];          // ids of all words passing the current filters (for SRS counters)
+let quizSession = 0;           // bumped on every initQuiz(): lets delayed callbacks detect a restart
+let storageWarned = false;
+const WORD_ID = new Map();     // dictionary entry -> stable id used as SRS key
+const ENTRY_BY_ID = new Map();
+
+// Stable SRS key. The first entry with a given Korean string uses the string itself;
+// further senses of the same word get "#1", "#2"... in file order. So appending new
+// words/senses to dictionary.json never changes existing keys, and fixing a typo in
+// the English/Russian text does not reset progress. (Don't reorder/delete entries.)
+function buildWordIds() {
+  WORD_ID.clear(); ENTRY_BY_ID.clear();
+  const seen = Object.create(null);
+  ALL_WORDS.forEach(e => {
+    const n = seen[e.Korean] = (seen[e.Korean] || 0) + 1;
+    const id = n === 1 ? e.Korean : e.Korean + '#' + (n - 1);
+    WORD_ID.set(e, id);
+    ENTRY_BY_ID.set(id, e);
+  });
+}
+function idOf(e) { return WORD_ID.get(e); }
+
+function ttsOk() { return typeof KoTTS !== 'undefined' && KoTTS.supported; }
+function ttsBtn(text) { return typeof KoTTS !== 'undefined' ? KoTTS.btnHtml(text) : ''; }
+function speakWord(e) { if (ttsOk()) KoTTS.speak(e.Korean); }
+
+// Records an answer in the spaced-repetition store. Skipped in "review missed words" rounds
+// (those words were already graded once in the round they were missed).
+function gradeWord(w, ok) {
+  if (swipeReviewPool || !SRS.enabled()) return;
+  SRS.grade(idOf(w), ok);
+  if (SRS.saveFailed() && !storageWarned) { storageWarned = true; showToast(t('srs_storage_warn')); }
+}
 
 function shuffle(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
@@ -36,6 +73,13 @@ function getQuizFields() {
   if (questionLang === 'english') return { questionKey: 'English', answerKey: 'Korean' };
   if (questionLang === 'russian') return { questionKey: 'Russian', answerKey: 'Korean' };
   return { questionKey: 'Korean', answerKey: lang === 'ru' ? 'Russian' : 'English' };
+}
+
+// For typing/listening modes: which field is the "meaning" side (the non-Korean one).
+// Respects the "Show on card" selector: English/Russian if chosen, otherwise the site language.
+function getMeaningKey() {
+  const { questionKey, answerKey } = getQuizFields();
+  return questionKey === 'Korean' ? answerKey : questionKey;
 }
 
 function buildQuizFilters() {
@@ -96,6 +140,7 @@ function buildQuizModeTabs() {
   const tabsWrap = document.getElementById('quizModeTabs');
   if (!tabsWrap) return;
   tabsWrap.querySelectorAll('.tab-btn').forEach(btn => {
+    if (btn.hasAttribute('data-needs-tts')) btn.hidden = !ttsOk();
     btn.classList.toggle('active', btn.dataset.mode === quizMode);
     btn.onclick = () => {
       if (quizMode === btn.dataset.mode) return;
@@ -114,6 +159,7 @@ function buildQuizPool() {
 
   if (swipeReviewPool) {
     quizWords = shuffle([...swipeReviewPool]);
+    quizPoolIds = quizWords.map(idOf);
     return;
   }
 
@@ -125,19 +171,33 @@ function buildQuizPool() {
   }
   if (currentTag) data = data.filter(e => e[tagKey] === currentTag);
 
-  const shuffled = shuffle([...data]);
-  quizWords = quizLength === 'all' ? shuffled : shuffled.slice(0, Math.min(parseInt(quizLength, 10), shuffled.length));
+  quizPoolIds = data.map(idOf);
+  const limit = quizLength === 'all' ? Infinity : parseInt(quizLength, 10);
+
+  if (SRS.enabled()) {
+    // Spaced repetition: words due for review first, then a few new ones (see srs.js).
+    const ids = SRS.buildQueue(quizPoolIds, { limit });
+    quizWords = shuffle(ids.map(id => ENTRY_BY_ID.get(id)));
+  } else {
+    const shuffled = shuffle([...data]);
+    quizWords = shuffled.slice(0, Math.min(limit, shuffled.length));
+  }
 }
 
 async function initQuiz() {
   if (!ALL_WORDS.length) {
     ALL_WORDS = await fetch('data/dictionary.json').then(r => r.json());
+    buildWordIds();
     buildQuizFilters();
+    initSrsUi();
   }
   buildQuizModeTabs();
   buildQuizPool();
+  quizSession++;
+  if (typeof KoTTS !== 'undefined') KoTTS.stop();
   quizIndex = 0; score = { correct: 0, wrong: 0 }; streak = 0; answered = false;
   swipeFlipped = false; swipeKnown = []; swipeUnknown = [];
+  missedWords = []; typeState = { fb: null, typed: '', hint: 0 };
   renderQuiz();
 }
 
@@ -172,7 +232,16 @@ function buildOptions(current, answerKey, correctAnswer) {
   return shuffle([correctAnswer, ...distractors]);
 }
 
+function updateSrsStats() {
+  const el = document.getElementById('srsStats');
+  if (!el) return;
+  if (!SRS.enabled() || !quizPoolIds.length || swipeReviewPool) { el.textContent = ''; return; }
+  const c = SRS.counts(quizPoolIds);
+  el.textContent = tf('srs_stats', { due: c.due, new: c.newAvailable, mature: c.mature });
+}
+
 function updateScoreboard() {
+  updateSrsStats();
   const scoreEl = document.getElementById('quizScore');
   if (!scoreEl) return;
   if (quizMode === 'swipe') {
@@ -195,7 +264,23 @@ function renderQuiz() {
   if (!wrap) return;
 
   if (!quizWords.length) {
-    wrap.innerHTML = `<div class="flashcard"><p>${t('quiz_empty')}</p></div>`;
+    if (SRS.enabled() && quizPoolIds.length && !swipeReviewPool) {
+      // Nothing is due today: say so instead of "no words match".
+      wrap.innerHTML = `
+        <div class="flashcard result">
+          <div class="result-emoji">✅</div>
+          <p>${t('srs_empty')}</p>
+          <button class="btn outline" id="srsPractice">${t('srs_practice')}</button>
+        </div>`;
+      document.getElementById('srsPractice').onclick = () => {
+        SRS.setEnabled(false);
+        const toggle = document.getElementById('srsToggle');
+        if (toggle) toggle.checked = false;
+        initQuiz();
+      };
+    } else {
+      wrap.innerHTML = `<div class="flashcard"><p>${t('quiz_empty')}</p></div>`;
+    }
     if (progEl) progEl.textContent = '';
     updateScoreboard();
     return;
@@ -211,6 +296,8 @@ function renderQuiz() {
   if (progEl) progEl.textContent = `${quizIndex + 1} / ${quizWords.length}`;
 
   if (quizMode === 'swipe') renderSwipeCard();
+  else if (quizMode === 'type' || quizMode === 'dictation') renderTypeCard();
+  else if (quizMode === 'listen') renderListenCard();
   else renderChoiceCard();
 
   updateScoreboard();
@@ -245,9 +332,17 @@ function renderFinishScreen() {
         <div class="result-emoji">${emoji}</div>
         <p>${t('quiz_finished')}</p>
         <div class="quiz-final-score">${score.correct} / ${total}</div>
-        <button class="btn" id="restartQuiz">${t('quiz_start')}</button>
+        <div class="quiz-final-actions">
+          ${missedWords.length ? `<button class="btn" id="reviewUnknown">${t('quiz_review_unknown')}</button>` : ''}
+          <button class="btn outline" id="restartQuiz">${t('quiz_start')}</button>
+        </div>
       </div>`;
-    document.getElementById('restartQuiz').onclick = initQuiz;
+    const reviewBtn = document.getElementById('reviewUnknown');
+    if (reviewBtn) reviewBtn.onclick = () => {
+      swipeReviewPool = [...missedWords];
+      initQuiz();
+    };
+    document.getElementById('restartQuiz').onclick = () => { swipeReviewPool = null; initQuiz(); };
   }
 }
 
@@ -262,7 +357,7 @@ function renderChoiceCard() {
   wrap.innerHTML = `
     <div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:${(quizIndex / quizWords.length) * 100}%"></div></div>
     <div class="flashcard">
-      <div class="kr-big">${questionText}</div>
+      <div class="kr-big">${questionText}${questionKey === 'Korean' ? ttsBtn(questionText) : ''}</div>
     </div>
     <div class="quiz-options">
       ${options.map(opt => `<button class="quiz-opt" data-opt="${escapeHtml(opt)}">${opt}</button>`).join('')}
@@ -297,6 +392,7 @@ function renderSwipeCard() {
     <div class="swipe-buttons">
       <button class="swipe-btn dontknow" id="btnDontKnow">❌ ${t('quiz_dont_know')}</button>
       <button class="swipe-btn flip" id="btnFlip">🔄</button>
+      ${ttsOk() ? `<button type="button" class="swipe-btn flip" data-tts="${escapeHtml(w.Korean)}" aria-label="${escapeHtml(t('tts_play'))}" title="${escapeHtml(t('tts_play'))}">🔊</button>` : ''}
       <button class="swipe-btn know" id="btnKnow">✅ ${t('quiz_know')}</button>
     </div>
   `;
@@ -375,6 +471,7 @@ function flyOutAndResolve(cardEl, knew) {
 function resolveSwipe(knew) {
   const w = quizWords[quizIndex];
   if (knew) swipeKnown.push(w); else swipeUnknown.push(w);
+  gradeWord(w, knew);
   quizIndex++;
   renderQuiz();
 }
@@ -391,11 +488,15 @@ function handleAnswer(btn, correctAnswer) {
     else if (b === btn) b.classList.add('wrong');
   });
 
+  const w = quizWords[quizIndex];
   if (isCorrect) { score.correct++; streak++; bestStreak = Math.max(bestStreak, streak); }
-  else { score.wrong++; streak = 0; }
+  else { score.wrong++; streak = 0; missedWords.push(w); }
+  gradeWord(w, isCorrect);
 
   updateScoreboard();
-  setTimeout(nextCard, 900);
+  if (quizMode === 'listen') revealListenAnswer(w);
+  const session = quizSession;
+  setTimeout(() => { if (session === quizSession) nextCard(); }, quizMode === 'listen' ? 1800 : 900);
 }
 
 function nextCard() {
@@ -403,6 +504,247 @@ function nextCard() {
   answered = false;
   renderQuiz();
 }
+
+// ---- Listening mode: hear the word, pick its meaning ----
+
+function renderListenCard() {
+  const wrap = document.getElementById('flashcardWrap');
+  const w = quizWords[quizIndex];
+  const meaningKey = getMeaningKey();
+  const correctAnswer = w[meaningKey].trim();
+  const options = buildOptions(w, meaningKey, correctAnswer);
+
+  wrap.innerHTML = `
+    <div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:${(quizIndex / quizWords.length) * 100}%"></div></div>
+    <div class="flashcard">
+      <p class="type-label">${t('quiz_p_listen')}</p>
+      <div class="type-audio">
+        <button type="button" class="btn" data-tts="${escapeHtml(w.Korean)}">🔊 ${t('tts_play')}</button>
+        <button type="button" class="btn outline" data-tts="${escapeHtml(w.Korean)}" data-tts-slow>🐢 ${t('tts_slow')}</button>
+      </div>
+      <div class="type-reveal" id="listenReveal"></div>
+    </div>
+    <div class="quiz-options">
+      ${options.map(opt => `<button class="quiz-opt" data-opt="${escapeHtml(opt)}">${escapeHtml(opt)}</button>`).join('')}
+    </div>
+  `;
+
+  document.querySelectorAll('.quiz-opt').forEach(btn => {
+    btn.onclick = () => handleAnswer(btn, correctAnswer);
+  });
+  speakWord(w);
+}
+
+// After answering in listening mode, show what the word looked like.
+function revealListenAnswer(w) {
+  const el = document.getElementById('listenReveal');
+  if (!el) return;
+  el.innerHTML = `<span class="kr-word">${escapeHtml(w.Korean)}</span>`;
+}
+
+// ---- Typing modes: 'type' (meaning -> write Korean) and 'dictation' (audio -> write Korean) ----
+
+function normAnswer(s) {
+  // NFC: macOS/iOS keyboards can deliver decomposed jamo; the "~" is used in the dictionary for endings.
+  return String(s == null ? '' : s).normalize('NFC').replace(/[~∼〜]/g, '').replace(/\s+/g, ' ').trim();
+}
+
+// Spacing (띄어쓰기) is a common learner mistake, so spaces are ignored when comparing.
+function sameKorean(a, b) {
+  a = normAnswer(a); b = normAnswer(b);
+  return a === b || a.replace(/ /g, '') === b.replace(/ /g, '');
+}
+
+// In 'type' mode every dictionary word with the same meaning text is accepted (synonyms).
+// In 'dictation' only the word that was actually pronounced counts.
+function isTypedCorrect(w, given) {
+  if (!normAnswer(given)) return false;
+  let accepted = [w.Korean];
+  if (quizMode === 'type') {
+    const key = getMeaningKey();
+    const m = w[key].trim().toLowerCase();
+    accepted = ALL_WORDS.filter(e => e === w || e[key].trim().toLowerCase() === m).map(e => e.Korean);
+  }
+  return accepted.some(k => sameKorean(k, given));
+}
+
+// "먹다" + hint level 1  ->  "먹 _"
+function hintMask(word, level) {
+  let shown = 0;
+  return [...word].map(ch => {
+    if (ch === ' ') return '\u00A0\u00A0';
+    if (shown < level) { shown++; return ch; }
+    return '_';
+  }).join(' ');
+}
+
+function renderTypeCard() {
+  const wrap = document.getElementById('flashcardWrap');
+  const w = quizWords[quizIndex];
+  const dictation = quizMode === 'dictation';
+  const canHint = [...w.Korean.replace(/ /g, '')].length > 1;
+  typeState = { fb: null, typed: '', hint: 0 };
+
+  const prompt = dictation
+    ? `<div class="type-audio">
+         <button type="button" class="btn" data-tts="${escapeHtml(w.Korean)}">🔊 ${t('tts_play')}</button>
+         <button type="button" class="btn outline" data-tts="${escapeHtml(w.Korean)}" data-tts-slow>🐢 ${t('tts_slow')}</button>
+       </div>`
+    : `<div class="type-prompt">${escapeHtml(w[getMeaningKey()].trim())}</div>`;
+
+  wrap.innerHTML = `
+    <div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:${(quizIndex / quizWords.length) * 100}%"></div></div>
+    <div class="flashcard">
+      <p class="type-label">${t(dictation ? 'quiz_p_dictation' : 'quiz_p_type')}</p>
+      ${prompt}
+    </div>
+    <div class="type-area">
+      <input id="typeInput" class="type-input" type="text" lang="ko" autocomplete="off" autocapitalize="off"
+             autocorrect="off" spellcheck="false" placeholder="${escapeHtml(t('quiz_type_placeholder'))}">
+      <div class="type-hint" id="typeHint" aria-live="polite"></div>
+      <div class="type-actions" id="typeActions">
+        ${canHint ? `<button type="button" class="btn outline small" id="typeHintBtn">💡 ${t('quiz_hint')}</button>` : ''}
+        <button type="button" class="btn outline small" id="typeSkipBtn">${t('quiz_dont_know')}</button>
+        <button type="button" class="btn" id="typeCheckBtn">${t('quiz_check')}</button>
+      </div>
+      <div id="typeFeedback"></div>
+    </div>
+  `;
+
+  const input = document.getElementById('typeInput');
+  input.addEventListener('input', () => { typeState.typed = input.value; });
+  // Korean IME: Enter also confirms the syllable being composed. Ignore it until composition ends.
+  input.addEventListener('keydown', e => {
+    if (e.key !== 'Enter' || e.isComposing || e.keyCode === 229) return;
+    e.preventDefault();
+    submitTyped();
+  });
+  document.getElementById('typeCheckBtn').onclick = submitTyped;
+  document.getElementById('typeSkipBtn').onclick = skipTyped;
+  const hintBtn = document.getElementById('typeHintBtn');
+  if (hintBtn) hintBtn.onclick = () => {
+    const max = [...w.Korean.replace(/ /g, '')].length - 1; // always keep at least one syllable hidden
+    typeState.hint = Math.min(typeState.hint + 1, max);
+    document.getElementById('typeHint').textContent = hintMask(w.Korean, typeState.hint);
+    if (typeState.hint >= max) hintBtn.disabled = true;
+    input.focus();
+  };
+
+  input.focus();
+  if (dictation) speakWord(w);
+}
+
+function submitTyped() {
+  if (typeState.fb) return;
+  const w = quizWords[quizIndex];
+  const given = typeState.typed.trim();
+  if (!given) return;
+  const correct = isTypedCorrect(w, given);
+  // Correct-with-hint is honest but not "known": it counts as a miss (score and SRS).
+  finishTyped(w, correct && !typeState.hint, { given, hinted: correct && typeState.hint > 0 });
+}
+
+function skipTyped() {
+  if (typeState.fb) return;
+  finishTyped(quizWords[quizIndex], false, { skipped: true, given: '' });
+}
+
+function finishTyped(w, ok, extra) {
+  typeState.fb = Object.assign({ ok }, extra);
+  answered = true;
+  if (ok) { score.correct++; streak++; bestStreak = Math.max(bestStreak, streak); }
+  else { score.wrong++; streak = 0; missedWords.push(w); }
+  gradeWord(w, ok);
+  updateScoreboard();
+  showTypeFeedback(w);
+}
+
+function showTypeFeedback(w) {
+  const fb = typeState.fb;
+  const input = document.getElementById('typeInput');
+  if (input) input.disabled = true;
+  const actions = document.getElementById('typeActions');
+  if (actions) actions.hidden = true;
+
+  const msgKey = fb.ok ? 'quiz_fb_ok' : fb.hinted ? 'quiz_fb_hinted' : fb.skipped ? 'quiz_fb_skipped' : 'quiz_fb_bad';
+  const meaning = w[getLang() === 'ru' ? 'Russian' : 'English'];
+  document.getElementById('typeFeedback').innerHTML = `
+    <div class="type-fb ${fb.ok ? 'ok' : 'bad'}" role="status">
+      <strong>${t(msgKey)}</strong>
+      ${!fb.ok && fb.given ? `<div class="type-yours">${t('quiz_fb_yours')} ${escapeHtml(fb.given)}</div>` : ''}
+      <div class="type-answer"><span class="kr-word">${escapeHtml(w.Korean)}</span>${ttsBtn(w.Korean)}
+        <span class="type-meaning">${escapeHtml(meaning)}</span></div>
+    </div>
+    <div class="type-actions"><button type="button" class="btn" id="typeNextBtn">${t('quiz_next')}</button></div>
+  `;
+
+  const shownAt = Date.now();
+  const next = document.getElementById('typeNextBtn');
+  // 300 ms guard: a held-down Enter must not skip the feedback the moment it appears.
+  next.onclick = () => { if (Date.now() - shownAt > 300) nextCard(); };
+  setTimeout(() => next.focus(), 0);
+  if (quizMode === 'type') speakWord(w); // dictation already played it
+}
+
+// ---- SRS progress tools (export / import / reset) ----
+
+function initSrsUi() {
+  const toggle = document.getElementById('srsToggle');
+  if (toggle) {
+    toggle.checked = SRS.enabled();
+    toggle.onchange = () => { SRS.setEnabled(toggle.checked); swipeReviewPool = null; initQuiz(); };
+  }
+
+  const exportBtn = document.getElementById('srsExport');
+  if (exportBtn) exportBtn.onclick = () => {
+    const url = URL.createObjectURL(new Blob([SRS.exportJSON()], { type: 'application/json' }));
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'waichapa-srs-' + new Date().toISOString().slice(0, 10) + '.json';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+
+  const fileInput = document.getElementById('srsFile');
+  const importBtn = document.getElementById('srsImport');
+  if (importBtn && fileInput) {
+    importBtn.onclick = () => fileInput.click();
+    fileInput.onchange = () => {
+      const file = fileInput.files && fileInput.files[0];
+      fileInput.value = '';
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const n = SRS.importJSON(String(reader.result));
+          showToast(tf('srs_imported', { n }));
+          initQuiz();
+        } catch (e) { showToast(t('srs_bad')); }
+      };
+      reader.onerror = () => showToast(t('srs_bad'));
+      reader.readAsText(file);
+    };
+  }
+
+  const resetBtn = document.getElementById('srsReset');
+  if (resetBtn) resetBtn.onclick = () => {
+    if (!confirm(t('srs_reset_confirm'))) return;
+    SRS.reset();
+    showToast(t('srs_reset_done'));
+    initQuiz();
+  };
+}
+
+// Keys 1-4 pick an option in multiple-choice and listening modes.
+document.addEventListener('keydown', e => {
+  if (quizMode !== 'choice' && quizMode !== 'listen') return;
+  if (answered || e.ctrlKey || e.metaKey || e.altKey) return;
+  const tag = e.target && e.target.tagName;
+  if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA') return;
+  if (!/^[1-4]$/.test(e.key)) return;
+  const btn = document.querySelectorAll('.quiz-opt')[Number(e.key) - 1];
+  if (btn) btn.click();
+});
 
 document.addEventListener('DOMContentLoaded', initQuiz);
 document.addEventListener('langChanged', () => {

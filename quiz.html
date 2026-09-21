@@ -17,6 +17,9 @@
   <div class="tabs" id="quizModeTabs">
     <button class="tab-btn active" data-mode="choice" data-i18n="quiz_mode_choice">Multiple choice</button>
     <button class="tab-btn" data-mode="swipe" data-i18n="quiz_mode_swipe">Know / Don't know</button>
+    <button class="tab-btn" data-mode="type" data-i18n="quiz_mode_type">Type the word</button>
+    <button class="tab-btn" data-mode="listen" data-needs-tts data-i18n="quiz_mode_listen">Listening</button>
+    <button class="tab-btn" data-mode="dictation" data-needs-tts data-i18n="quiz_mode_dictation">Dictation</button>
   </div>
 
   <div class="search-bar">
@@ -26,11 +29,27 @@
   </div>
   <div class="quick-filters" id="quizQuickFilters"></div>
 
+  <div class="srs-bar" id="srsBar">
+    <label class="srs-toggle"><input type="checkbox" id="srsToggle" checked> <span data-i18n="srs_toggle">Spaced repetition</span></label>
+    <span class="srs-stats" id="srsStats"></span>
+  </div>
+
   <div class="card">
     <div class="quiz-progress-text" id="quizProgress"></div>
     <div id="flashcardWrap"></div>
     <div class="quiz-score" id="quizScore"></div>
   </div>
+
+  <details class="srs-tools">
+    <summary data-i18n="srs_tools_title">My progress</summary>
+    <p data-i18n="srs_help"></p>
+    <div class="type-actions">
+      <button type="button" class="btn outline small" id="srsExport" data-i18n="srs_export">Export</button>
+      <button type="button" class="btn outline small" id="srsImport" data-i18n="srs_import">Import</button>
+      <button type="button" class="btn outline small" id="srsReset" data-i18n="srs_reset">Reset</button>
+      <input type="file" id="srsFile" accept="application/json,.json" hidden>
+    </div>
+  </details>
 </div>
 
 <div id="app-footer"></div>
@@ -38,6 +57,8 @@
 <script src="js/i18n.js"></script>
 <script src="js/theme.js"></script>
 <script src="js/common.js"></script>
+<script src="js/srs.js"></script>
+<script src="js/tts.js"></script>
 <script src="js/quiz-app.js"></script>
 <script>
   renderHeader('quiz');

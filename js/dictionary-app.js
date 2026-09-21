@@ -73,6 +73,23 @@ function buildSortFilter() {
   sel.onchange = () => { currentSortOrder = sel.value; renderDict(); };
 }
 
+// 🔊 button (empty string when the browser has no speech synthesis)
+function ttsBtn(text, opts) {
+  return typeof KoTTS !== 'undefined' ? KoTTS.btnHtml(text, opts) : '';
+}
+
+// Grammar examples look like "한국어 문장. — Перевод. / 다음 문장 — Перевод."
+// Show each sentence on its own line and add 🔊 to the Korean part.
+function renderExamples(text) {
+  return text.split(' / ').map(part => {
+    const i = part.indexOf(' — ');
+    if (i === -1) return `<span class="ex-line">${part}</span>`;
+    const ko = part.slice(0, i);
+    const tr = part.slice(i);
+    return `<span class="ex-line">${ko}${ttsBtn(ko, { sentence: true })}${tr}</span>`;
+  }).join('');
+}
+
 function renderDict() {
   const listEl = document.getElementById('dictList');
   if (!listEl || !DICTIONARY.length) return;
@@ -101,7 +118,7 @@ function renderDict() {
 
   listEl.innerHTML = filtered.map(e => `
     <div class="word-card">
-      <div class="kr">${e.Korean}</div>
+      <div class="kr">${e.Korean}${ttsBtn(e.Korean)}</div>
       <div class="en">${e.English}${isMultiMeaning(e) ? `<span class="multi-badge">✦ ${t('multi_meaning')}</span>` : ''}</div>
       <div class="ru">${e.Russian}</div>
       <span class="tag">${lang === 'ru' ? e.rutag : e.engtag}</span>
@@ -125,7 +142,7 @@ function renderGrammar() {
     <div class="card grammar-card">
       <h3>${lang === 'ru' ? g.ru_title : g.en_title}</h3>
       <p class="expl">${lang === 'ru' ? g.ru_explanation : g.en_explanation}</p>
-      <p class="ex">${lang === 'ru' ? g.ru_example : g.en_example}</p>
+      <p class="ex">${renderExamples(lang === 'ru' ? g.ru_example : g.en_example)}</p>
     </div>
   `).join('');
 }
