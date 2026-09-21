@@ -22,6 +22,13 @@
   var ONLINE_URL = 'https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ko&q=';
   var GOOD_VOICE_SCORE = 30;   // голоса с баллом ниже считаются «роботными»
 
+  // Google может отклонять запросы с чужим Referer — не отправляем его
+  try {
+    var meta = document.createElement('meta');
+    meta.name = 'referrer'; meta.content = 'no-referrer';
+    document.head.appendChild(meta);
+  } catch (e) {}
+
   var synth = global.speechSynthesis;
   var supported = !!(synth && global.SpeechSynthesisUtterance);
   var koVoice = null;
@@ -88,14 +95,33 @@
   function speakOnline(s, slow) {
     return new Promise(function (resolve) {
       if (typeof Audio === 'undefined' || s.length > 190) return resolve(false);
-      var a = new Audio(ONLINE_URL + encodeURIComponent(s));
+      var a = new Audio(), finished = false, started = false, timer;
+
+      function done(ok, why) {
+        if (finished) return;
+        finished = true;
+        clearTimeout(timer);
+        if (current === a) current = null;
+        if (!ok) {
+          try { a.pause(); } catch (e) {}
+          if (why && global.console) console.warn('KoTTS online failed:', why);
+        }
+        resolve(ok);
+      }
+
       current = a;
       a.playbackRate = slow ? 0.75 : 1;
-      a.onended = function () { if (current === a) current = null; resolve(true); };
-      a.onerror = function () { if (current === a) current = null; resolve(false); };
-      a.onpause = function () { if (!a.ended) resolve(false); };   // stop() или прерывание другим звуком
+      a.onplaying = function () { started = true; clearTimeout(timer); };
+      a.onended = function () { done(true); };
+      a.onerror = function () { done(false, 'load error'); };
+      // stop() из нового speak(): просто выходим, запасной голос НЕ включаем
+      a.onpause = function () { if (!a.ended) done(a._stopped === true); };
+      // если запрос завис или заблокирован — не ждём вечно
+      timer = setTimeout(function () { if (!started) done(false, 'timeout'); }, 4000);
+
+      a.src = ONLINE_URL + encodeURIComponent(s);
       var p = a.play();
-      if (p && typeof p.catch === 'function') p.catch(function () { resolve(false); });
+      if (p && typeof p.catch === 'function') p.catch(function (e) { done(false, e && e.name); });
     });
   }
 
@@ -121,7 +147,7 @@
   }
 
   function stop() {
-    if (current) { try { current.pause(); } catch (e) {} current = null; }
+    if (current) { current._stopped = true; try { current.pause(); } catch (e) {} current = null; }
     if (supported) synth.cancel();
   }
 
