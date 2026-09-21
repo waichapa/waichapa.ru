@@ -12835,5 +12835,187 @@
 
     "engtag": "food"
 
+  },
+  {
+    "Korean": "일",
+    "English": "work, job, task, matter, affair",
+    "Russian": "работа, дело, занятие",
+    "rutag": "работа",
+    "engtag": "work"
+  },
+  {
+    "Korean": "레몬",
+    "English": "lemon",
+    "Russian": "лимон",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "참가하다",
+    "English": "to participate, to take part in, to join",
+    "Russian": "участвовать, принимать участие",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "유명하다",
+    "English": "to be famous, well-known",
+    "Russian": "быть известным, знаменитым",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "그래도",
+    "English": "still, nevertheless, even so, anyway",
+    "Russian": "всё-таки, тем не менее, всё равно",
+    "rutag": "служебное",
+    "engtag": "function"
+  },
+  {
+    "Korean": "전시회",
+    "English": "exhibition, art show",
+    "Russian": "выставка, экспозиция",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "청바지",
+    "English": "jeans",
+    "Russian": "джинсы",
+    "rutag": "одежда",
+    "engtag": "clothing"
+  },
+  {
+    "Korean": "예전",
+    "English": "old times, the past, formerly",
+    "Russian": "раньше, в прошлом, прежде",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
+    "Korean": "알려지다",
+    "English": "to become known, to be made public",
+    "Russian": "становиться известным, обнародоваться",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "그러하다",
+    "English": "to be so, to be that way, to be like that",
+    "Russian": "быть таким, быть таковым",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "칭찬",
+    "English": "praise, compliment",
+    "Russian": "похвала, комплимент",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "촬영",
+    "English": "filming, shooting (photo/video)",
+    "Russian": "съёмка, фотосъёмка, киносъёмка",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "딱",
+    "English": "exactly, precisely, just, right",
+    "Russian": "точно, ровно, как раз",
+    "rutag": "наречие",
+    "engtag": "adverb"
+  },
+  {
+    "Korean": "게시판",
+    "English": "bulletin board, message board",
+    "Russian": "доска объявлений, форум",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "관리실",
+    "English": "management office, administration office",
+    "Russian": "управляющая контора, администрация",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "옮기다",
+    "English": "to move (something), to transfer, to shift",
+    "Russian": "перемещать, переносить, переводить",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "주민",
+    "English": "resident, inhabitant",
+    "Russian": "житель, резидент",
+    "rutag": "человек",
+    "engtag": "person"
+  },
+  {
+    "Korean": "협조",
+    "English": "cooperation, collaboration, assistance",
+    "Russian": "сотрудничество, содействие, кооперация",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "부탁하다",
+    "English": "to ask (a favor), to request, to entrust",
+    "Russian": "просить (об услуге), поручать, обращаться с просьбой",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "토끼",
+    "English": "rabbit, hare",
+    "Russian": "кролик, заяц",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "튼튼하다",
+    "English": "to be strong, sturdy, robust, durable",
+    "Russian": "быть крепким, прочным, здоровым",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "정확하다",
+    "English": "to be accurate, precise, exact",
+    "Russian": "быть точным, правильным",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "장씩",
+    "English": "sheet by sheet, each (flat object), by the sheet",
+    "Russian": "по листу, листами, поштучно (о плоских предметах)",
+    "rutag": "количество",
+    "engtag": "quantity"
+  },
+  {
+    "Korean": "주인공",
+    "English": "main character, protagonist, hero",
+    "Russian": "главный герой, протагонист",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "파도",
+    "English": "wave (sea)",
+    "Russian": "волна (морская)",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "그리워하다",
+    "English": "to miss (someone/something), to long for, to yearn for",
+    "Russian": "скучать, тосковать, скучать по кому-либо",
+    "rutag": "состояние",
+    "engtag": "state"
   }
 ]

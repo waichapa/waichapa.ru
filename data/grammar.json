@@ -392,6 +392,14 @@
     "en_example": "지금 공부하고 있어요. — I am studying now. / 뭐 하고 있어요? — What are you doing? / 기다리고 있어요. — I am waiting. / 친구를 만나고 있었어요. — I was meeting a friend (at that moment)."
   },
   {
+  "ru_title": "Результативное состояние -아/어 있다",
+  "en_title": "Resultative state -아/어 있다",
+  "ru_explanation": "Выражает состояние, которое сохраняется после завершения действия ('находится в состоянии...', 'стоит/лежит/сидит — уже приведён в это состояние'). Образуется: основа глагола + -아/어 있다. Используется в основном с непереходными глаголами (앉다, 서다, 눕다, 앉다, 피다, 열리다, 닫히다, 켜지다, 꺼지다 и т.д.). Важно отличать от -고 있다: -고 있다 означает действие в процессе ('делает сейчас'), а -아/어 있다 означает результат, сохраняющийся после завершения действия ('находится в состоянии'). В прошедшем времени: -아/어 있었어요. В отрицательной форме: -아/어 있지 않다. Часто используется с глаголами движения и изменения состояния.",
+  "en_explanation": "Expresses a state that persists after an action is completed ('is in a state of...', 'is standing/sitting/lying — already brought into this state'). Formation: verb stem + -아/어 있다. Used mainly with intransitive verbs (앉다, 서다, 눕다, 피다, 열리다, 닫히다, 켜지다, 꺼지다, etc.). Important to distinguish from -고 있다: -고 있다 means an action in progress ('is doing now'), while -아/어 있다 means a result that persists after the action is completed ('is in a state'). Past tense: -아/어 있었어요. Negative: -아/어 있지 않다. Often used with verbs of movement and change of state.",
+  "ru_example": "학생들이 의자에 앉아 있어요. — Студенты сидят на стульях. / 문이 열려 있어요. — Дверь открыта. / 꽃이 피어 있어요. — Цветы расцвели (и стоят в цвету). / 불이 켜져 있어요. — Свет включён. / 벽에 그림이 걸려 있어요. — На стене висит картина.",
+  "en_example": "학생들이 의자에 앉아 있어요. — The students are sitting on the chairs. / 문이 열려 있어요. — The door is open. / 꽃이 피어 있어요. — The flowers are in bloom. / 불이 켜져 있어요. — The light is on. / 벽에 그림이 걸려 있어요. — A picture is hanging on the wall."
+},
+  {
     "ru_title": "Причастный оборот 는 (определение действия)",
     "en_title": "Adnominal form 는 (action modifier)",
     "ru_explanation": "Превращает глагол в определение к существительному в настоящем времени: 'читающий студент', 'книга, которую читают'. 는 используется для глаголов действия в настоящем времени. Для прошлого времени: (으)ㄴ (читавший, прочитанный). Для будущего времени: (으)ㄹ (который прочитает, который будет прочитан). Также используется для описания привычных или регулярных действий.",
