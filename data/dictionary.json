@@ -13024,5 +13024,138 @@
     "Russian": "мираж",
     "rutag": "природа",
     "engtag": "nature"
+  },
+  {
+    "Korean": "바깥",
+    "English": "outside, exterior",
+    "Russian": "снаружи, внешняя сторона",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "빨래",
+    "English": "laundry, washing clothes",
+    "Russian": "стирка, бельё (для стирки)",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "테이블",
+    "English": "table",
+    "Russian": "стол",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "신선하다",
+    "English": "to be fresh",
+    "Russian": "быть свежим",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "취미",
+    "English": "hobby",
+    "Russian": "хобби, увлечение",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "이불",
+    "English": "blanket, quilt, bedding",
+    "Russian": "одеяло, покрывало, постель",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "죄송하다",
+    "English": "to be sorry, to apologize (polite)",
+    "Russian": "извиняться, сожалеть (вежливо)",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "특별히",
+    "English": "especially, particularly, specially",
+    "Russian": "особенно, специально, в особенности",
+    "rutag": "наречие",
+    "engtag": "adverb"
+  },
+  {
+    "Korean": "가늘다",
+    "English": "to be thin, slender, fine",
+    "Russian": "быть тонким, худым, мелким",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "겉",
+    "English": "outside, exterior, surface",
+    "Russian": "внешняя сторона, наружность, поверхность",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "깜짝",
+    "English": "with a start, in surprise, suddenly (startled)",
+    "Russian": "вздрогнув, от неожиданности, испугавшись",
+    "rutag": "наречие",
+    "engtag": "adverb"
+  },
+  {
+    "Korean": "떠들다",
+    "English": "to make noise, to be loud, to chatter",
+    "Russian": "шуметь, галдеть, болтать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "매년",
+    "English": "every year, annually",
+    "Russian": "ежегодно, каждый год",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
+    "Korean": "손바닥",
+    "English": "palm (of the hand)",
+    "Russian": "ладонь",
+    "rutag": "тело",
+    "engtag": "body"
+  },
+  {
+    "Korean": "줍다",
+    "English": "to pick up, to gather",
+    "Russian": "подбирать, поднимать, собирать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "킬로그램",
+    "English": "kilogram",
+    "Russian": "килограмм",
+    "rutag": "измерение",
+    "engtag": "measurement"
+  },
+  {
+    "Korean": "방금",
+    "English": "just now, a moment ago",
+    "Russian": "только что, минуту назад",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
+    "Korean": "줄다",
+    "English": "to decrease, to shrink, to diminish",
+    "Russian": "уменьшаться, сокращаться, убывать",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "모자라다",
+    "English": "to be insufficient, to be lacking, to be short of",
+    "Russian": "не хватать, быть недостаточным",
+    "rutag": "состояние",
+    "engtag": "state"
   }
 ]
