@@ -176,9 +176,32 @@ footer.site-footer {
 }
 :root[data-theme="dark"] .multi-badge { color: #04261d; }
 
-.grammar-card h3 { margin: 0 0 6px; color: var(--primary); }
+.grammar-card h3 { margin: 0 0 6px; color: var(--primary); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .grammar-card .expl { font-size: .92rem; margin: 8px 0; }
 .grammar-card .ex { font-size: .88rem; color: var(--text-soft); font-style: italic; }
+.grammar-card .g-tag {
+  display: inline-block; background: var(--primary-soft); color: var(--primary);
+  font-size: .68rem; padding: 3px 9px; border-radius: 10px; font-weight: 700; vertical-align: middle;
+}
+.grammar-card .g-level {
+  display: inline-block; background: var(--accent); color: #063;
+  font-size: .68rem; padding: 3px 9px; border-radius: 10px; font-weight: 800; vertical-align: middle;
+}
+:root[data-theme="dark"] .grammar-card .g-level { color: #04261d; }
+
+/* ---- Grammar tag cloud (distribution + filter) ---- */
+.tag-cloud { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
+.tag-cloud button {
+  border: 1px solid var(--border); border-radius: 20px; padding: 6px 12px; font-size: .8rem;
+  background: var(--bg-card); color: var(--text-soft); cursor: pointer; font-weight: 700;
+  display: flex; align-items: center; gap: 6px; transition: .15s;
+}
+.tag-cloud button:hover { border-color: var(--primary); color: var(--primary); }
+.tag-cloud button.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+.tag-cloud button .cnt {
+  background: rgba(0,0,0,.12); border-radius: 8px; padding: 0 6px; font-size: .72rem;
+}
+.tag-cloud button.active .cnt { background: rgba(255,255,255,.25); }
 
 /* ---- Stats ---- */
 .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 14px; margin-bottom: 24px; }

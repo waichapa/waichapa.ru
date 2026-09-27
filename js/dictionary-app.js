@@ -3,6 +3,8 @@ let GRAMMAR = [];
 let currentQuickFilter = 'all'; // all | last10 | last30 | last50 | last100
 let currentSortOrder = 'newest'; // newest | oldest
 let multiMeaningCounts = {}; // Korean word -> number of entries sharing it
+let currentGrammarTag = ''; // '' = all tags
+let currentGrammarLevel = ''; // '' = all levels
 
 async function loadData() {
   const [d, g] = await Promise.all([
@@ -15,6 +17,8 @@ async function loadData() {
   buildTagFilter();
   buildQuickFilters();
   buildSortFilter();
+  buildGrammarTagCloud();
+  buildGrammarLevelFilter();
   renderDict();
   renderGrammar();
 }
@@ -109,25 +113,73 @@ function renderDict() {
   `).join('') || `<p style="color:var(--text-soft)">—</p>`;
 }
 
+// Distribution of grammar points by tag, shown as clickable chips so it
+// doubles as both an overview (counts per tag/"reason", "condition", etc.)
+// and a quick way to filter the list down to just that tag.
+function buildGrammarTagCloud() {
+  const wrap = document.getElementById('grammarTagCloud');
+  if (!wrap || !GRAMMAR.length) return;
+  const lang = getLang();
+  const tagKey = lang === 'ru' ? 'rutag' : 'engtag';
+
+  const counts = {};
+  GRAMMAR.forEach(g => { counts[g[tagKey]] = (counts[g[tagKey]] || 0) + 1; });
+  const sortedTags = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+
+  if (currentGrammarTag && !(currentGrammarTag in counts)) currentGrammarTag = '';
+
+  wrap.innerHTML = `<button data-tag="" class="${!currentGrammarTag ? 'active' : ''}">${t('all_tags')}</button>` +
+    sortedTags.map(([tag, count]) =>
+      `<button data-tag="${tag}" class="${tag === currentGrammarTag ? 'active' : ''}">${tag} <span class="cnt">${count}</span></button>`
+    ).join('');
+
+  wrap.querySelectorAll('button').forEach(b => {
+    b.onclick = () => {
+      currentGrammarTag = b.dataset.tag;
+      wrap.querySelectorAll('button').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      renderGrammar();
+    };
+  });
+}
+
+function buildGrammarLevelFilter() {
+  const sel = document.getElementById('grammarLevelFilter');
+  if (!sel || !GRAMMAR.length) return;
+  const levels = [...new Set(GRAMMAR.map(g => g.level))].sort((a, b) => a - b);
+  sel.innerHTML = `<option value="">${t('all_levels')}</option>` +
+    levels.map(l => `<option value="${l}">${t('grammar_level_' + l)}</option>`).join('');
+  sel.value = currentGrammarLevel;
+  sel.onchange = () => { currentGrammarLevel = sel.value; renderGrammar(); };
+}
+
 function renderGrammar() {
   const listEl = document.getElementById('grammarList');
   if (!listEl || !GRAMMAR.length) return;
   const query = (document.getElementById('grammarSearch').value || '').toLowerCase().trim();
   const lang = getLang();
+  const tagKey = lang === 'ru' ? 'rutag' : 'engtag';
 
   const filtered = GRAMMAR.filter(g => {
     const title = lang === 'ru' ? g.ru_title : g.en_title;
     const expl = lang === 'ru' ? g.ru_explanation : g.en_explanation;
-    return !query || title.toLowerCase().includes(query) || expl.toLowerCase().includes(query);
+    const matchesQuery = !query || title.toLowerCase().includes(query) || expl.toLowerCase().includes(query) ||
+      g.engtag.toLowerCase().includes(query) || g.rutag.toLowerCase().includes(query);
+    const matchesTag = !currentGrammarTag || g[tagKey] === currentGrammarTag;
+    const matchesLevel = !currentGrammarLevel || String(g.level) === String(currentGrammarLevel);
+    return matchesQuery && matchesTag && matchesLevel;
   });
 
   listEl.innerHTML = filtered.map(g => `
     <div class="card grammar-card">
-      <h3>${lang === 'ru' ? g.ru_title : g.en_title}</h3>
+      <h3>${lang === 'ru' ? g.ru_title : g.en_title}
+        <span class="g-tag">${g[tagKey]}</span>
+        <span class="g-level">${t('grammar_level_' + g.level)}</span>
+      </h3>
       <p class="expl">${lang === 'ru' ? g.ru_explanation : g.en_explanation}</p>
       <p class="ex">${lang === 'ru' ? g.ru_example : g.en_example}</p>
     </div>
-  `).join('');
+  `).join('') || `<p style="color:var(--text-soft)">—</p>`;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -137,4 +189,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 document.addEventListener('langChanged', () => {
   buildTagFilter(); buildQuickFilters(); buildSortFilter();
+  buildGrammarTagCloud(); buildGrammarLevelFilter();
 });

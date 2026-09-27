@@ -30,9 +30,28 @@ async function initStats() {
   renderStats();
 }
 
+function renderBarSection(wrapId, entries, tagKey) {
+  const wrap = document.getElementById(wrapId);
+  if (!wrap) return;
+  const counts = {};
+  entries.forEach(e => {
+    const key = e[tagKey];
+    counts[key] = (counts[key] || 0) + 1;
+  });
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  const max = sorted.length ? sorted[0][1] : 1;
+
+  wrap.innerHTML = sorted.map(([label, count]) => `
+    <div class="bar-row">
+      <div class="bar-label">${label}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(count / max) * 100}%"></div></div>
+      <div class="bar-count">${count}</div>
+    </div>
+  `).join('');
+}
+
 function renderStats() {
   const grid = document.getElementById('statGrid');
-  const tagWrap = document.getElementById('tagBars');
   if (!grid || !statDict.length) return;
   const lang = getLang();
   const tagKey = lang === 'ru' ? 'rutag' : 'engtag';
@@ -47,21 +66,23 @@ function renderStats() {
     <div class="card stat-box"><div class="num">${grammarCount}</div><div class="label">${t('stat_grammar')}</div></div>
   `;
 
-  const tagCounts = {};
-  statDict.forEach(e => {
-    const tag = e[tagKey];
-    tagCounts[tag] = (tagCounts[tag] || 0) + 1;
-  });
-  const sorted = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
-  const max = sorted.length ? sorted[0][1] : 1;
+  renderBarSection('tagBars', statDict, tagKey);
+  renderBarSection('grammarTagBars', statGrammar, tagKey);
 
-  tagWrap.innerHTML = sorted.map(([tag, count]) => `
-    <div class="bar-row">
-      <div class="bar-label">${tag}</div>
-      <div class="bar-track"><div class="bar-fill" style="width:${(count / max) * 100}%"></div></div>
-      <div class="bar-count">${count}</div>
-    </div>
-  `).join('');
+  const levelWrap = document.getElementById('grammarLevelBars');
+  if (levelWrap && statGrammar.length) {
+    const counts = {};
+    statGrammar.forEach(e => { counts[e.level] = (counts[e.level] || 0) + 1; });
+    const levels = Object.keys(counts).map(Number).sort((a, b) => a - b);
+    const max = levels.length ? Math.max(...levels.map(l => counts[l])) : 1;
+    levelWrap.innerHTML = levels.map(l => `
+      <div class="bar-row">
+        <div class="bar-label">${t('grammar_level_' + l)}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${(counts[l] / max) * 100}%"></div></div>
+        <div class="bar-count">${counts[l]}</div>
+      </div>
+    `).join('');
+  }
 }
 
 document.addEventListener('DOMContentLoaded', initStats);
