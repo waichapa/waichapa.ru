@@ -13215,11 +13215,11 @@
     "engtag": "home"
   },
   {
-    "Korean": "칭찬",
-    "English": "praise, compliment",
-    "Russian": "похвала, комплимент",
-    "rutag": "мысль",
-    "engtag": "thought"
+    "Korean": "칭찬하다",
+    "English": "to praise, to compliment",
+    "Russian": "хвалить, делать комплимент",
+    "rutag": "действие",
+    "engtag": "action"
   },
   {
     "Korean": "씹다",
