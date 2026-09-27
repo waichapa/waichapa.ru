@@ -13157,5 +13157,145 @@
     "Russian": "не хватать, быть недостаточным",
     "rutag": "состояние",
     "engtag": "state"
+  },
+  {
+    "Korean": "셋째",
+    "English": "third, thirdborn",
+    "Russian": "третий, третий ребёнок",
+    "rutag": "число",
+    "engtag": "number"
+  },
+  {
+    "Korean": "끓다",
+    "English": "to boil, to come to a boil",
+    "Russian": "кипеть, закипать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "농담",
+    "English": "joke, jest",
+    "Russian": "шутка",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "신호",
+    "English": "signal, sign",
+    "Russian": "сигнал, знак",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "아버님",
+    "English": "father (honorific)",
+    "Russian": "отец (почтительно)",
+    "rutag": "семья",
+    "engtag": "family"
+  },
+  {
+    "Korean": "덕분",
+    "English": "thanks to, owing to, because of (positive)",
+    "Russian": "благодаря, из-за (в хорошем смысле)",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "어머님",
+    "English": "mother (honorific)",
+    "Russian": "мать (почтительно)",
+    "rutag": "семья",
+    "engtag": "family"
+  },
+  {
+    "Korean": "식탁",
+    "English": "dining table",
+    "Russian": "обеденный стол",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "칭찬",
+    "English": "praise, compliment",
+    "Russian": "похвала, комплимент",
+    "rutag": "мысль",
+    "engtag": "thought"
+  },
+  {
+    "Korean": "튼튼하다",
+    "English": "to be strong, sturdy, robust, healthy",
+    "Russian": "быть крепким, прочным, здоровым",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "씹다",
+    "English": "to chew, to bite",
+    "Russian": "жевать, разжёвывать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "안되다",
+    "English": "to not work out, to go badly, to fail, to not be allowed",
+    "Russian": "не ладиться, идти плохо, не получаться, быть нельзя",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "익다",
+    "English": "to ripen, to mature, to be cooked",
+    "Russian": "созревать, поспевать, вариться, быть готовым (о еде)",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "샌드위치",
+    "English": "sandwich",
+    "Russian": "сэндвич, бутерброд",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "진하다",
+    "English": "to be thick, dense, strong (color, fog, liquid)",
+    "Russian": "быть густым, плотным, насыщенным (о тумане, цвете, жидкости)",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "꾸다",
+    "English": "to dream",
+    "Russian": "видеть сон",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "디자인",
+    "English": "design",
+    "Russian": "дизайн",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "여보세요",
+    "English": "hello (on the phone)",
+    "Russian": "алло (по телефону)",
+    "rutag": "фраза",
+    "engtag": "phrase"
+  },
+  {
+    "Korean": "저렇다",
+    "English": "to be like that (over there), to be that way",
+    "Russian": "быть вон таким, быть таковым (вон там)",
+    "rutag": "описание",
+    "engtag": "description"
+  },
+  {
+    "Korean": "교환",
+    "English": "exchange, swap",
+    "Russian": "обмен, замена",
+    "rutag": "действие",
+    "engtag": "action"
   }
 ]
