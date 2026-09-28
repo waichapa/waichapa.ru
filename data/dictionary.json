@@ -13283,5 +13283,138 @@
     "Russian": "обмен, замена",
     "rutag": "действие",
     "engtag": "action"
+  },
+  {
+    "Korean": "노랗다",
+    "English": "to be yellow",
+    "Russian": "быть жёлтым",
+    "rutag": "цвет",
+    "engtag": "color"
+  },
+  {
+    "Korean": "악기",
+    "English": "musical instrument",
+    "Russian": "музыкальный инструмент",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "박수",
+    "English": "applause, clapping",
+    "Russian": "аплодисменты, хлопки",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "서쪽",
+    "English": "west, western direction",
+    "Russian": "запад, западное направление",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "불쌍하다",
+    "English": "to be pitiful, poor, pathetic",
+    "Russian": "быть жалким, несчастным, вызывать жалость",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "야채",
+    "English": "vegetables",
+    "Russian": "овощи",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "엉덩이",
+    "English": "buttocks, bottom, rear",
+    "Russian": "ягодицы, зад",
+    "rutag": "тело",
+    "engtag": "body"
+  },
+  {
+    "Korean": "울음",
+    "English": "crying, weeping",
+    "Russian": "плач, рыдание",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "전부",
+    "English": "all, everything, total, whole",
+    "Russian": "всё, всего, целиком",
+    "rutag": "количество",
+    "engtag": "quantity"
+  },
+  {
+    "Korean": "경찰서",
+    "English": "police station",
+    "Russian": "полицейский участок",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "서너",
+    "English": "three or four",
+    "Russian": "три-четыре",
+    "rutag": "количество",
+    "engtag": "quantity"
+  },
+  {
+    "Korean": "유리",
+    "English": "glass (material)",
+    "Russian": "стекло",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "팔리다",
+    "English": "to be sold, to sell (passive)",
+    "Russian": "продаваться, быть проданным",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "굳다",
+    "English": "to harden, to solidify, to become firm",
+    "Russian": "затвердевать, твердеть, застывать",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "기뻐하다",
+    "English": "to be glad, to rejoice, to be happy about",
+    "Russian": "радоваться, быть радостным",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "지난번",
+    "English": "last time, the previous time",
+    "Russian": "в прошлый раз",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
+    "Korean": "반찬",
+    "English": "side dish (with rice)",
+    "Russian": "закуска к рису, гарнир",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "안쪽",
+    "English": "inside, inner side",
+    "Russian": "внутренняя сторона, внутри",
+    "rutag": "место",
+    "engtag": "place"
+  },
+  {
+    "Korean": "갚다",
+    "English": "to repay, to pay back",
+    "Russian": "возвращать (долг), отплачивать",
+    "rutag": "деньги",
+    "engtag": "money"
   }
 ]
