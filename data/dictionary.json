@@ -13416,5 +13416,103 @@
     "Russian": "возвращать (долг), отплачивать",
     "rutag": "деньги",
     "engtag": "money"
+  },
+  {
+    "Korean": "실례하다",
+    "English": "to be rude, to be impolite, to excuse oneself",
+    "Russian": "быть невежливым, позволить себе (вмешаться), извиниться",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "정류장",
+    "English": "bus stop, station (for buses/taxis)",
+    "Russian": "остановка (автобусная)",
+    "rutag": "транспорт",
+    "engtag": "transport"
+  },
+  {
+    "Korean": "소음",
+    "English": "noise, din",
+    "Russian": "шум",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "미리",
+    "English": "in advance, beforehand, early",
+    "Russian": "заранее, предварительно, заблаговременно",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
+    "Korean": "운전",
+    "English": "driving",
+    "Russian": "вождение, езда",
+    "rutag": "транспорт",
+    "engtag": "transport"
+  },
+  {
+    "Korean": "메모하다",
+    "English": "to take a memo, to jot down, to note",
+    "Russian": "записывать, делать заметки",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "주문하다",
+    "English": "to order (goods, food)",
+    "Russian": "заказывать",
+    "rutag": "действие",
+    "engtag": "action"
+  },
+  {
+    "Korean": "거랑",
+    "English": "with (someone), and (colloquial, = 하고/와)",
+    "Russian": "с (кем-то), и (разговорное)",
+    "rutag": "служебное",
+    "engtag": "function"
+  },
+  {
+    "Korean": "실제로",
+    "English": "actually, in reality, in fact",
+    "Russian": "на самом деле, в действительности, фактически",
+    "rutag": "наречие",
+    "engtag": "adverb"
+  },
+  {
+    "Korean": "모래",
+    "English": "sand",
+    "Russian": "песок",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "홈페이지",
+    "English": "homepage, website",
+    "Russian": "домашняя страница, сайт",
+    "rutag": "техника",
+    "engtag": "electronics"
+  },
+  {
+    "Korean": "일정",
+    "English": "schedule, itinerary",
+    "Russian": "расписание, график, план",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
+    "Korean": "해변",
+    "English": "beach, seaside",
+    "Russian": "пляж, морское побережье",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "일등",
+    "English": "first place, first rank",
+    "Russian": "первое место, первый разряд",
+    "rutag": "число",
+    "engtag": "number"
   }
 ]
