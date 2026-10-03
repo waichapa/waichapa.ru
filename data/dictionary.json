@@ -13375,5 +13375,19 @@
     "Russian": "первое место, первый разряд",
     "rutag": "спорт",
     "engtag": "sport"
-  }
+  },
+  {
+  "Korean": "정보",
+  "English": "information",
+  "Russian": "информация, сведения",
+  "rutag": "понятия",
+  "engtag": "concepts"
+},
+{
+  "Korean": "주문",
+  "English": "order (purchase request)",
+  "Russian": "заказ",
+  "rutag": "деньги",
+  "engtag": "money"
+}
 ]
