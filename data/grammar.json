@@ -1318,5 +1318,16 @@
     "engtag": "ending",
     "rutag": "окончание",
     "level": 3
+  },
+  {
+    "ru_title": "Сравнение действий -느니 (차라리)",
+    "en_title": "Choosing the lesser evil -느니 (차라리)",
+    "ru_explanation": "Присоединяется к основе глагола и выражает, что оба варианта действия говорящему не нравятся, но второй — меньшее зло: «чем делать X, лучше уж Y». Обычно сопровождается словом 차라리 («уж лучше») и заканчивается на -는 게 낫다, -겠다, -(으)ㄹ래요 или -자. Используется только с глаголами: времена (-았/었-, -겠-) не присоединяются, с прилагательными и 이다 не сочетается. Подлежащее в обеих частях обычно одно и то же, стиль разговорный с сильной эмоциональной окраской. Близкие конструкции: -느니보다 (более спокойное сравнение) и -(으)ㄹ 바에는 (почти синоним, сочетается и с прилагательными); не путать с -느니 -느니 하다 («то говорят..., то говорят...»).",
+    "en_explanation": "Attaches to a verb stem to say that neither option is appealing, but the second is the lesser evil: 'rather than do X, I'd rather do Y.' Usually paired with 차라리 ('might as well, rather') and closed off with -는 게 낫다, -겠다, -(으)ㄹ래요 or -자. Used only with verbs — it never takes tense markers (-았/었-, -겠-) and cannot attach to adjectives or 이다. The subject of both clauses is normally the same, and the tone is colloquial and emotionally charged. Related: -느니보다 (a calmer, more neutral comparison) and -(으)ㄹ 바에는 (near-synonym that also works with adjectives); not to be confused with -느니 -느니 하다 ('people keep saying this and that').",
+    "ru_example": "그 사람이랑 결혼하느니 차라리 혼자 살겠어요. — Чем выходить за него замуж, лучше уж буду жить одна. / 거기서 기다리느니 차라리 걸어가자. — Чем ждать там, лучше уж пойдём пешком.",
+    "en_example": "그 사람이랑 결혼하느니 차라리 혼자 살겠어요. — Rather than marry him, I'd rather live alone. / 거기서 기다리느니 차라리 걸어가자. — Rather than wait there, let's just walk.",
+    "engtag": "comparison",
+    "rutag": "сравнение",
+    "level": 4
   }
 ]
