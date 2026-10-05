@@ -13389,5 +13389,19 @@
   "Russian": "заказ",
   "rutag": "деньги",
   "engtag": "money"
-}
+},
+  {
+    "Korean": "소셜 미디어",
+    "English": "social media",
+    "Russian": "социальные сети",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "대박",
+    "English": "jackpot / awesome (wow!)",
+    "Russian": "отпад / вот это да",
+    "rutag": "фраза",
+    "engtag": "phrase"
+  }
 ]
