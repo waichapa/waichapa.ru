@@ -693,6 +693,13 @@
     "engtag": "furniture"
   },
   {
+  "Korean": "파랗다",
+  "English": "blue",
+  "Russian": "синий, голубой",
+  "rutag": "цвет",
+  "engtag": "color"
+},
+  {
     "Korean": "텔레비전",
     "English": "television",
     "Russian": "телевизор",
@@ -13403,5 +13410,131 @@
     "Russian": "отпад / вот это да",
     "rutag": "фраза",
     "engtag": "phrase"
-  }
+  },
+  {
+  "Korean": "소개",
+  "English": "introduction",
+  "Russian": "знакомство, представление",
+  "rutag": "речь",
+  "engtag": "speech"
+},
+{
+  "Korean": "애인",
+  "English": "boyfriend / girlfriend, lover",
+  "Russian": "возлюбленный, возлюбленная",
+  "rutag": "человек",
+  "engtag": "person"
+},
+{
+  "Korean": "얇다",
+  "English": "thin",
+  "Russian": "тонкий",
+  "rutag": "размер",
+  "engtag": "size"
+},
+{
+  "Korean": "일기",
+  "English": "diary",
+  "Russian": "дневник",
+  "rutag": "повседневное",
+  "engtag": "daily"
+},
+{
+  "Korean": "트럭",
+  "English": "truck",
+  "Russian": "грузовик",
+  "rutag": "транспорт",
+  "engtag": "transport"
+},
+{
+  "Korean": "교통사고",
+  "English": "traffic accident",
+  "Russian": "дорожно-транспортное происшествие, авария",
+  "rutag": "транспорт",
+  "engtag": "transport"
+},
+{
+  "Korean": "메시지",
+  "English": "message",
+  "Russian": "сообщение",
+  "rutag": "речь",
+  "engtag": "speech"
+},
+{
+  "Korean": "연예인",
+  "English": "entertainer, celebrity",
+  "Russian": "артист, звезда шоу-бизнеса",
+  "rutag": "профессия",
+  "engtag": "profession"
+},
+{
+  "Korean": "부탁",
+  "English": "request, favor",
+  "Russian": "просьба",
+  "rutag": "речь",
+  "engtag": "speech"
+},
+{
+  "Korean": "새해",
+  "English": "New Year",
+  "Russian": "Новый год",
+  "rutag": "праздники",
+  "engtag": "holidays"
+},
+{
+  "Korean": "점수",
+  "English": "score, grade",
+  "Russian": "балл, оценка",
+  "rutag": "учёба",
+  "engtag": "study"
+},
+{
+  "Korean": "통장",
+  "English": "bank account, bankbook",
+  "Russian": "банковский счёт, сберкнижка",
+  "rutag": "деньги",
+  "engtag": "money"
+},
+{
+  "Korean": "접다",
+  "English": "to fold",
+  "Russian": "складывать",
+  "rutag": "обращение",
+  "engtag": "handling"
+},
+{
+  "Korean": "짜증",
+  "English": "irritation, annoyance",
+  "Russian": "раздражение",
+  "rutag": "эмоции",
+  "engtag": "emotion"
+},
+{
+  "Korean": "첫날",
+  "English": "first day",
+  "Russian": "первый день",
+  "rutag": "календарь",
+  "engtag": "calendar"
+},
+{
+  "Korean": "귀찮다",
+  "English": "to be bothersome, to be a hassle",
+  "Russian": "быть в тягость, лень, докучать",
+  "rutag": "эмоции",
+  "engtag": "emotion"
+},
+{
+  "Korean": "무",
+  "English": "Korean radish, daikon",
+  "Russian": "редька, дайкон",
+  "rutag": "продукты",
+  "engtag": "ingredients"
+},
+{
+  "Korean": "무료",
+  "English": "free of charge",
+  "Russian": "бесплатный, бесплатно",
+  "rutag": "деньги",
+  "engtag": "money"
+}
 ]
