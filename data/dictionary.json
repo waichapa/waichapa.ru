@@ -13536,5 +13536,47 @@
   "Russian": "бесплатный, бесплатно",
   "rutag": "деньги",
   "engtag": "money"
+},
+{
+  "Korean": "다양하다",
+  "English": "diverse, various",
+  "Russian": "разнообразный",
+  "rutag": "качество",
+  "engtag": "quality"
+},
+{
+  "Korean": "피부",
+  "English": "skin",
+  "Russian": "кожа",
+  "rutag": "тело",
+  "engtag": "body"
+},
+{
+  "Korean": "익숙하다",
+  "English": "to be familiar, to be accustomed",
+  "Russian": "быть знакомым, привычным",
+  "rutag": "качество",
+  "engtag": "quality"
+},
+{
+  "Korean": "오래되다",
+  "English": "to be old, to be long-standing",
+  "Russian": "быть старым, давним",
+  "rutag": "время",
+  "engtag": "time"
+},
+{
+  "Korean": "전시하다",
+  "English": "to exhibit, to display",
+  "Russian": "выставлять, экспонировать",
+  "rutag": "культура",
+  "engtag": "culture"
+},
+{
+  "Korean": "연기",
+  "English": "acting, performance",
+  "Russian": "игра (актёра), актёрская игра",
+  "rutag": "культура",
+  "engtag": "culture"
 }
 ]
