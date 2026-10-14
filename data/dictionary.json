@@ -749,6 +749,13 @@
     "engtag": "clothing"
   },
   {
+  "Korean": "스무",
+  "English": "twenty (before a counter)",
+  "Russian": "двадцать (перед счётным словом)",
+  "rutag": "число",
+  "engtag": "number"
+  },
+  {
     "Korean": "교실",
     "English": "classroom",
     "Russian": "класс (комната)",
@@ -13578,5 +13585,131 @@
   "Russian": "игра (актёра), актёрская игра",
   "rutag": "культура",
   "engtag": "culture"
-}
+},
+{
+  "Korean": "관광객",
+  "English": "tourist",
+  "Russian": "турист",
+  "rutag": "человек",
+  "engtag": "person"
+},
+{
+  "Korean": "안개",
+  "English": "fog, mist",
+  "Russian": "туман",
+  "rutag": "погода",
+  "engtag": "weather"
+},
+{
+  "Korean": "저런",
+  "English": "such, that kind of (over there)",
+  "Russian": "такой (вон тот), подобный",
+  "rutag": "местоимения",
+  "engtag": "pronoun"
+},
+{
+  "Korean": "목욕",
+  "English": "bath, bathing",
+  "Russian": "купание, мытьё, ванна",
+  "rutag": "повседневное",
+  "engtag": "daily"
+},
+{
+  "Korean": "시어머니",
+  "English": "mother-in-law (husband's mother)",
+  "Russian": "свекровь",
+  "rutag": "семья",
+  "engtag": "family"
+},
+{
+  "Korean": "전화번호",
+  "English": "phone number",
+  "Russian": "номер телефона",
+  "rutag": "электроника",
+  "engtag": "electronics"
+},
+{
+  "Korean": "그립다",
+  "English": "to miss, to long for",
+  "Russian": "скучать, тосковать",
+  "rutag": "эмоции",
+  "engtag": "emotion"
+},
+{
+  "Korean": "상",
+  "English": "prize, award",
+  "Russian": "награда, приз",
+  "rutag": "учёба",
+  "engtag": "study"
+},
+{
+  "Korean": "식다",
+  "English": "to cool down, to get cold",
+  "Russian": "остывать",
+  "rutag": "ощущения",
+  "engtag": "sensation"
+},
+{
+  "Korean": "바이올린",
+  "English": "violin",
+  "Russian": "скрипка",
+  "rutag": "досуг",
+  "engtag": "leisure"
+},
+{
+  "Korean": "출입",
+  "English": "entry and exit, access",
+  "Russian": "вход и выход, доступ",
+  "rutag": "движение",
+  "engtag": "motion"
+},
+{
+  "Korean": "글씨",
+  "English": "handwriting, writing",
+  "Russian": "почерк, письмо",
+  "rutag": "язык",
+  "engtag": "language"
+},
+{
+  "Korean": "매다",
+  "English": "to tie, to fasten",
+  "Russian": "завязывать",
+  "rutag": "обращение",
+  "engtag": "handling"
+},
+{
+  "Korean": "머리카락",
+  "English": "hair (on the head)",
+  "Russian": "волосы",
+  "rutag": "тело",
+  "engtag": "body"
+},
+{
+  "Korean": "저거",
+  "English": "that (over there)",
+  "Russian": "вон то, то",
+  "rutag": "местоимения",
+  "engtag": "pronoun"
+},
+{
+  "Korean": "갈아입다",
+  "English": "to change clothes",
+  "Russian": "переодеваться",
+  "rutag": "одежда",
+  "engtag": "clothing"
+},
+{
+  "Korean": "달리기",
+  "English": "running",
+  "Russian": "бег",
+  "rutag": "спорт",
+  "engtag": "sport"
+},
+{
+  "Korean": "불편",
+  "English": "inconvenience, discomfort",
+  "Russian": "неудобство",
+  "rutag": "качество",
+  "engtag": "quality"
+},
 ]
