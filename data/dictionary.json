@@ -13711,5 +13711,26 @@
   "Russian": "неудобство",
   "rutag": "качество",
   "engtag": "quality"
+},
+{
+  "Korean": "열쇠",
+  "English": "key",
+  "Russian": "ключ",
+  "rutag": "дом",
+  "engtag": "home"
+},
+{
+  "Korean": "녹다",
+  "English": "to melt, to thaw, to dissolve",
+  "Russian": "таять, плавиться, растворяться",
+  "rutag": "изменение",
+  "engtag": "change"
+},
+{
+  "Korean": "심심하다",
+  "English": "to be bored",
+  "Russian": "скучать, быть скучным",
+  "rutag": "эмоции",
+  "engtag": "emotion"
 }
 ]
