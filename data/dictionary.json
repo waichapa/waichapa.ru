@@ -693,12 +693,12 @@
     "engtag": "furniture"
   },
   {
-  "Korean": "파랗다",
-  "English": "blue",
-  "Russian": "синий, голубой",
-  "rutag": "цвет",
-  "engtag": "color"
-},
+    "Korean": "파랗다",
+    "English": "blue",
+    "Russian": "синий, голубой",
+    "rutag": "цвет",
+    "engtag": "color"
+  },
   {
     "Korean": "텔레비전",
     "English": "television",
@@ -749,11 +749,11 @@
     "engtag": "clothing"
   },
   {
-  "Korean": "스무",
-  "English": "twenty (before a counter)",
-  "Russian": "двадцать (перед счётным словом)",
-  "rutag": "число",
-  "engtag": "number"
+    "Korean": "스무",
+    "English": "twenty (before a counter)",
+    "Russian": "двадцать (перед счётным словом)",
+    "rutag": "число",
+    "engtag": "number"
   },
   {
     "Korean": "교실",
@@ -13314,13 +13314,6 @@
     "engtag": "senses"
   },
   {
-    "Korean": "미리",
-    "English": "in advance, beforehand, early",
-    "Russian": "заранее, предварительно, заблаговременно",
-    "rutag": "время",
-    "engtag": "time"
-  },
-  {
     "Korean": "운전",
     "English": "driving",
     "Russian": "вождение, езда",
@@ -13391,19 +13384,19 @@
     "engtag": "sport"
   },
   {
-  "Korean": "정보",
-  "English": "information",
-  "Russian": "информация, сведения",
-  "rutag": "понятия",
-  "engtag": "concepts"
-},
-{
-  "Korean": "주문",
-  "English": "order (purchase request)",
-  "Russian": "заказ",
-  "rutag": "деньги",
-  "engtag": "money"
-},
+    "Korean": "정보",
+    "English": "information",
+    "Russian": "информация, сведения",
+    "rutag": "понятия",
+    "engtag": "concepts"
+  },
+  {
+    "Korean": "주문",
+    "English": "order (purchase request)",
+    "Russian": "заказ",
+    "rutag": "деньги",
+    "engtag": "money"
+  },
   {
     "Korean": "소셜 미디어",
     "English": "social media",
@@ -13419,318 +13412,458 @@
     "engtag": "phrase"
   },
   {
-  "Korean": "소개",
-  "English": "introduction",
-  "Russian": "знакомство, представление",
-  "rutag": "речь",
-  "engtag": "speech"
-},
-{
-  "Korean": "애인",
-  "English": "boyfriend / girlfriend, lover",
-  "Russian": "возлюбленный, возлюбленная",
-  "rutag": "человек",
-  "engtag": "person"
-},
-{
-  "Korean": "얇다",
-  "English": "thin",
-  "Russian": "тонкий",
-  "rutag": "размер",
-  "engtag": "size"
-},
-{
-  "Korean": "일기",
-  "English": "diary",
-  "Russian": "дневник",
-  "rutag": "повседневное",
-  "engtag": "daily"
-},
-{
-  "Korean": "트럭",
-  "English": "truck",
-  "Russian": "грузовик",
-  "rutag": "транспорт",
-  "engtag": "transport"
-},
-{
-  "Korean": "교통사고",
-  "English": "traffic accident",
-  "Russian": "дорожно-транспортное происшествие, авария",
-  "rutag": "транспорт",
-  "engtag": "transport"
-},
-{
-  "Korean": "메시지",
-  "English": "message",
-  "Russian": "сообщение",
-  "rutag": "речь",
-  "engtag": "speech"
-},
-{
-  "Korean": "연예인",
-  "English": "entertainer, celebrity",
-  "Russian": "артист, звезда шоу-бизнеса",
-  "rutag": "профессия",
-  "engtag": "profession"
-},
-{
-  "Korean": "부탁",
-  "English": "request, favor",
-  "Russian": "просьба",
-  "rutag": "речь",
-  "engtag": "speech"
-},
-{
-  "Korean": "새해",
-  "English": "New Year",
-  "Russian": "Новый год",
-  "rutag": "праздники",
-  "engtag": "holidays"
-},
-{
-  "Korean": "점수",
-  "English": "score, grade",
-  "Russian": "балл, оценка",
-  "rutag": "учёба",
-  "engtag": "study"
-},
-{
-  "Korean": "통장",
-  "English": "bank account, bankbook",
-  "Russian": "банковский счёт, сберкнижка",
-  "rutag": "деньги",
-  "engtag": "money"
-},
-{
-  "Korean": "접다",
-  "English": "to fold",
-  "Russian": "складывать",
-  "rutag": "обращение",
-  "engtag": "handling"
-},
-{
-  "Korean": "짜증",
-  "English": "irritation, annoyance",
-  "Russian": "раздражение",
-  "rutag": "эмоции",
-  "engtag": "emotion"
-},
-{
-  "Korean": "첫날",
-  "English": "first day",
-  "Russian": "первый день",
-  "rutag": "календарь",
-  "engtag": "calendar"
-},
-{
-  "Korean": "귀찮다",
-  "English": "to be bothersome, to be a hassle",
-  "Russian": "быть в тягость, лень, докучать",
-  "rutag": "эмоции",
-  "engtag": "emotion"
-},
-{
-  "Korean": "무",
-  "English": "Korean radish, daikon",
-  "Russian": "редька, дайкон",
-  "rutag": "продукты",
-  "engtag": "ingredients"
-},
-{
-  "Korean": "무료",
-  "English": "free of charge",
-  "Russian": "бесплатный, бесплатно",
-  "rutag": "деньги",
-  "engtag": "money"
-},
-{
-  "Korean": "다양하다",
-  "English": "diverse, various",
-  "Russian": "разнообразный",
-  "rutag": "качество",
-  "engtag": "quality"
-},
-{
-  "Korean": "피부",
-  "English": "skin",
-  "Russian": "кожа",
-  "rutag": "тело",
-  "engtag": "body"
-},
-{
-  "Korean": "익숙하다",
-  "English": "to be familiar, to be accustomed",
-  "Russian": "быть знакомым, привычным",
-  "rutag": "качество",
-  "engtag": "quality"
-},
-{
-  "Korean": "오래되다",
-  "English": "to be old, to be long-standing",
-  "Russian": "быть старым, давним",
-  "rutag": "время",
-  "engtag": "time"
-},
-{
-  "Korean": "전시하다",
-  "English": "to exhibit, to display",
-  "Russian": "выставлять, экспонировать",
-  "rutag": "культура",
-  "engtag": "culture"
-},
-{
-  "Korean": "연기",
-  "English": "acting, performance",
-  "Russian": "игра (актёра), актёрская игра",
-  "rutag": "культура",
-  "engtag": "culture"
-},
-{
-  "Korean": "관광객",
-  "English": "tourist",
-  "Russian": "турист",
-  "rutag": "человек",
-  "engtag": "person"
-},
-{
-  "Korean": "안개",
-  "English": "fog, mist",
-  "Russian": "туман",
-  "rutag": "погода",
-  "engtag": "weather"
-},
-{
-  "Korean": "저런",
-  "English": "such, that kind of (over there)",
-  "Russian": "такой (вон тот), подобный",
-  "rutag": "местоимения",
-  "engtag": "pronoun"
-},
-{
-  "Korean": "목욕",
-  "English": "bath, bathing",
-  "Russian": "купание, мытьё, ванна",
-  "rutag": "повседневное",
-  "engtag": "daily"
-},
-{
-  "Korean": "시어머니",
-  "English": "mother-in-law (husband's mother)",
-  "Russian": "свекровь",
-  "rutag": "семья",
-  "engtag": "family"
-},
-{
-  "Korean": "전화번호",
-  "English": "phone number",
-  "Russian": "номер телефона",
-  "rutag": "электроника",
-  "engtag": "electronics"
-},
-{
-  "Korean": "그립다",
-  "English": "to miss, to long for",
-  "Russian": "скучать, тосковать",
-  "rutag": "эмоции",
-  "engtag": "emotion"
-},
-{
-  "Korean": "상",
-  "English": "prize, award",
-  "Russian": "награда, приз",
-  "rutag": "учёба",
-  "engtag": "study"
-},
-{
-  "Korean": "식다",
-  "English": "to cool down, to get cold",
-  "Russian": "остывать",
-  "rutag": "ощущения",
-  "engtag": "sensation"
-},
-{
-  "Korean": "바이올린",
-  "English": "violin",
-  "Russian": "скрипка",
-  "rutag": "досуг",
-  "engtag": "leisure"
-},
-{
-  "Korean": "출입",
-  "English": "entry and exit, access",
-  "Russian": "вход и выход, доступ",
-  "rutag": "движение",
-  "engtag": "motion"
-},
-{
-  "Korean": "글씨",
-  "English": "handwriting, writing",
-  "Russian": "почерк, письмо",
-  "rutag": "язык",
-  "engtag": "language"
-},
-{
-  "Korean": "매다",
-  "English": "to tie, to fasten",
-  "Russian": "завязывать",
-  "rutag": "обращение",
-  "engtag": "handling"
-},
-{
-  "Korean": "머리카락",
-  "English": "hair (on the head)",
-  "Russian": "волосы",
-  "rutag": "тело",
-  "engtag": "body"
-},
-{
-  "Korean": "저거",
-  "English": "that (over there)",
-  "Russian": "вон то, то",
-  "rutag": "местоимения",
-  "engtag": "pronoun"
-},
-{
-  "Korean": "갈아입다",
-  "English": "to change clothes",
-  "Russian": "переодеваться",
-  "rutag": "одежда",
-  "engtag": "clothing"
-},
-{
-  "Korean": "달리기",
-  "English": "running",
-  "Russian": "бег",
-  "rutag": "спорт",
-  "engtag": "sport"
-},
-{
-  "Korean": "불편",
-  "English": "inconvenience, discomfort",
-  "Russian": "неудобство",
-  "rutag": "качество",
-  "engtag": "quality"
-},
-{
-  "Korean": "열쇠",
-  "English": "key",
-  "Russian": "ключ",
-  "rutag": "дом",
-  "engtag": "home"
-},
-{
-  "Korean": "녹다",
-  "English": "to melt, to thaw, to dissolve",
-  "Russian": "таять, плавиться, растворяться",
-  "rutag": "изменение",
-  "engtag": "change"
-},
-{
-  "Korean": "심심하다",
-  "English": "to be bored",
-  "Russian": "скучать, быть скучным",
-  "rutag": "эмоции",
-  "engtag": "emotion"
-}
+    "Korean": "소개",
+    "English": "introduction",
+    "Russian": "знакомство, представление",
+    "rutag": "речь",
+    "engtag": "speech"
+  },
+  {
+    "Korean": "애인",
+    "English": "boyfriend / girlfriend, lover",
+    "Russian": "возлюбленный, возлюбленная",
+    "rutag": "человек",
+    "engtag": "person"
+  },
+  {
+    "Korean": "얇다",
+    "English": "thin",
+    "Russian": "тонкий",
+    "rutag": "размер",
+    "engtag": "size"
+  },
+  {
+    "Korean": "일기",
+    "English": "diary",
+    "Russian": "дневник",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "트럭",
+    "English": "truck",
+    "Russian": "грузовик",
+    "rutag": "транспорт",
+    "engtag": "transport"
+  },
+  {
+    "Korean": "교통사고",
+    "English": "traffic accident",
+    "Russian": "дорожно-транспортное происшествие, авария",
+    "rutag": "транспорт",
+    "engtag": "transport"
+  },
+  {
+    "Korean": "메시지",
+    "English": "message",
+    "Russian": "сообщение",
+    "rutag": "речь",
+    "engtag": "speech"
+  },
+  {
+    "Korean": "연예인",
+    "English": "entertainer, celebrity",
+    "Russian": "артист, звезда шоу-бизнеса",
+    "rutag": "профессия",
+    "engtag": "profession"
+  },
+  {
+    "Korean": "부탁",
+    "English": "request, favor",
+    "Russian": "просьба",
+    "rutag": "речь",
+    "engtag": "speech"
+  },
+  {
+    "Korean": "새해",
+    "English": "New Year",
+    "Russian": "Новый год",
+    "rutag": "праздники",
+    "engtag": "holidays"
+  },
+  {
+    "Korean": "점수",
+    "English": "score, grade",
+    "Russian": "балл, оценка",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "통장",
+    "English": "bank account, bankbook",
+    "Russian": "банковский счёт, сберкнижка",
+    "rutag": "деньги",
+    "engtag": "money"
+  },
+  {
+    "Korean": "접다",
+    "English": "to fold",
+    "Russian": "складывать",
+    "rutag": "обращение",
+    "engtag": "handling"
+  },
+  {
+    "Korean": "짜증",
+    "English": "irritation, annoyance",
+    "Russian": "раздражение",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "첫날",
+    "English": "first day",
+    "Russian": "первый день",
+    "rutag": "календарь",
+    "engtag": "calendar"
+  },
+  {
+    "Korean": "귀찮다",
+    "English": "to be bothersome, to be a hassle",
+    "Russian": "быть в тягость, лень, докучать",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "무",
+    "English": "Korean radish, daikon",
+    "Russian": "редька, дайкон",
+    "rutag": "продукты",
+    "engtag": "ingredients"
+  },
+  {
+    "Korean": "무료",
+    "English": "free of charge",
+    "Russian": "бесплатный, бесплатно",
+    "rutag": "деньги",
+    "engtag": "money"
+  },
+  {
+    "Korean": "다양하다",
+    "English": "diverse, various",
+    "Russian": "разнообразный",
+    "rutag": "качество",
+    "engtag": "quality"
+  },
+  {
+    "Korean": "피부",
+    "English": "skin",
+    "Russian": "кожа",
+    "rutag": "тело",
+    "engtag": "body"
+  },
+  {
+    "Korean": "익숙하다",
+    "English": "to be familiar, to be accustomed",
+    "Russian": "быть знакомым, привычным",
+    "rutag": "качество",
+    "engtag": "quality"
+  },
+  {
+    "Korean": "오래되다",
+    "English": "to be old, to be long-standing",
+    "Russian": "быть старым, давним",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
+    "Korean": "전시하다",
+    "English": "to exhibit, to display",
+    "Russian": "выставлять, экспонировать",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "연기",
+    "English": "acting, performance",
+    "Russian": "игра (актёра), актёрская игра",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "관광객",
+    "English": "tourist",
+    "Russian": "турист",
+    "rutag": "человек",
+    "engtag": "person"
+  },
+  {
+    "Korean": "안개",
+    "English": "fog, mist",
+    "Russian": "туман",
+    "rutag": "погода",
+    "engtag": "weather"
+  },
+  {
+    "Korean": "저런",
+    "English": "such, that kind of (over there)",
+    "Russian": "такой (вон тот), подобный",
+    "rutag": "местоимения",
+    "engtag": "pronoun"
+  },
+  {
+    "Korean": "목욕",
+    "English": "bath, bathing",
+    "Russian": "купание, мытьё, ванна",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "시어머니",
+    "English": "mother-in-law (husband's mother)",
+    "Russian": "свекровь",
+    "rutag": "семья",
+    "engtag": "family"
+  },
+  {
+    "Korean": "전화번호",
+    "English": "phone number",
+    "Russian": "номер телефона",
+    "rutag": "электроника",
+    "engtag": "electronics"
+  },
+  {
+    "Korean": "그립다",
+    "English": "to miss, to long for",
+    "Russian": "скучать, тосковать",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "상",
+    "English": "prize, award",
+    "Russian": "награда, приз",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "식다",
+    "English": "to cool down, to get cold",
+    "Russian": "остывать",
+    "rutag": "ощущения",
+    "engtag": "sensation"
+  },
+  {
+    "Korean": "바이올린",
+    "English": "violin",
+    "Russian": "скрипка",
+    "rutag": "досуг",
+    "engtag": "leisure"
+  },
+  {
+    "Korean": "출입",
+    "English": "entry and exit, access",
+    "Russian": "вход и выход, доступ",
+    "rutag": "движение",
+    "engtag": "motion"
+  },
+  {
+    "Korean": "글씨",
+    "English": "handwriting, writing",
+    "Russian": "почерк, письмо",
+    "rutag": "язык",
+    "engtag": "language"
+  },
+  {
+    "Korean": "매다",
+    "English": "to tie, to fasten",
+    "Russian": "завязывать",
+    "rutag": "обращение",
+    "engtag": "handling"
+  },
+  {
+    "Korean": "머리카락",
+    "English": "hair (on the head)",
+    "Russian": "волосы",
+    "rutag": "тело",
+    "engtag": "body"
+  },
+  {
+    "Korean": "저거",
+    "English": "that (over there)",
+    "Russian": "вон то, то",
+    "rutag": "местоимения",
+    "engtag": "pronoun"
+  },
+  {
+    "Korean": "갈아입다",
+    "English": "to change clothes",
+    "Russian": "переодеваться",
+    "rutag": "одежда",
+    "engtag": "clothing"
+  },
+  {
+    "Korean": "달리기",
+    "English": "running",
+    "Russian": "бег",
+    "rutag": "спорт",
+    "engtag": "sport"
+  },
+  {
+    "Korean": "불편",
+    "English": "inconvenience, discomfort",
+    "Russian": "неудобство",
+    "rutag": "качество",
+    "engtag": "quality"
+  },
+  {
+    "Korean": "열쇠",
+    "English": "key",
+    "Russian": "ключ",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "녹다",
+    "English": "to melt, to thaw, to dissolve",
+    "Russian": "таять, плавиться, растворяться",
+    "rutag": "изменение",
+    "engtag": "change"
+  },
+  {
+    "Korean": "심심하다",
+    "English": "to be bored",
+    "Russian": "скучать, быть скучным",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "심심하다",
+    "English": "to be bland, to be mild (taste)",
+    "Russian": "быть пресным, недосоленным",
+    "rutag": "ощущения",
+    "engtag": "sensation"
+  },
+  {
+    "Korean": "어린아이",
+    "English": "young child",
+    "Russian": "маленький ребёнок",
+    "rutag": "человек",
+    "engtag": "person"
+  },
+  {
+    "Korean": "배추",
+    "English": "napa cabbage, Chinese cabbage",
+    "Russian": "пекинская капуста",
+    "rutag": "продукты",
+    "engtag": "ingredients"
+  },
+  {
+    "Korean": "센터",
+    "English": "center",
+    "Russian": "центр",
+    "rutag": "заведения",
+    "engtag": "venues"
+  },
+  {
+    "Korean": "여권",
+    "English": "passport",
+    "Russian": "паспорт (загранпаспорт)",
+    "rutag": "понятия",
+    "engtag": "concepts"
+  },
+  {
+    "Korean": "지루하다",
+    "English": "to be boring, to be tedious",
+    "Russian": "быть скучным, нудным",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "답",
+    "English": "answer, reply",
+    "Russian": "ответ",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "독서",
+    "English": "reading (books)",
+    "Russian": "чтение (книг)",
+    "rutag": "отдых",
+    "engtag": "leisure"
+  },
+  {
+    "Korean": "안내",
+    "English": "guidance, information, guide",
+    "Russian": "сопровождение, информация, экскурсия",
+    "rutag": "речь",
+    "engtag": "speech"
+  },
+  {
+    "Korean": "호수",
+    "English": "lake",
+    "Russian": "озеро",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "껌",
+    "English": "chewing gum",
+    "Russian": "жвачка",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "녹색",
+    "English": "green",
+    "Russian": "зелёный цвет",
+    "rutag": "цвет",
+    "engtag": "color"
+  },
+  {
+    "Korean": "번호",
+    "English": "number (ordinal, ID)",
+    "Russian": "номер",
+    "rutag": "число",
+    "engtag": "number"
+  },
+  {
+    "Korean": "인정받다",
+    "English": "to be recognized, to be acknowledged",
+    "Russian": "получать признание, быть признанным",
+    "rutag": "работа",
+    "engtag": "work"
+  },
+  {
+    "Korean": "자랑",
+    "English": "boasting, pride",
+    "Russian": "хвастовство, гордость",
+    "rutag": "речь",
+    "engtag": "speech"
+  },
+  {
+    "Korean": "저것",
+    "English": "that (over there)",
+    "Russian": "вон то",
+    "rutag": "местоимение",
+    "engtag": "pronoun"
+  },
+  {
+    "Korean": "정문",
+    "English": "main gate, front gate",
+    "Russian": "главные ворота, главный вход",
+    "rutag": "заведения",
+    "engtag": "venues"
+  },
+  {
+    "Korean": "넘어지다",
+    "English": "to fall down, to trip",
+    "Russian": "падать, упасть",
+    "rutag": "движение",
+    "engtag": "motion"
+  },
+  {
+    "Korean": "연결",
+    "English": "connection, link",
+    "Russian": "соединение, связь",
+    "rutag": "понятия",
+    "engtag": "concepts"
+  },
+  {
+    "Korean": "음식점",
+    "English": "restaurant, eatery",
+    "Russian": "ресторан, заведение общепита",
+    "rutag": "заведения",
+    "engtag": "venues"
+  }
 ]
