@@ -2646,13 +2646,6 @@
     "engtag": "leisure"
   },
   {
-    "Korean": "피아노를 치다",
-    "English": "to play the piano",
-    "Russian": "играть на пианино",
-    "rutag": "культура",
-    "engtag": "culture"
-  },
-  {
     "Korean": "가끔",
     "English": "sometimes",
     "Russian": "иногда",
@@ -13865,5 +13858,124 @@
     "Russian": "ресторан, заведение общепита",
     "rutag": "заведения",
     "engtag": "venues"
+  },
+  {
+    "Korean": "김",
+    "English": "dried seaweed, laver",
+    "Russian": "сушёные морские водоросли, нори",
+    "rutag": "продукты",
+    "engtag": "ingredients"
+  },
+  {
+    "Korean": "막걸리",
+    "English": "makgeolli (Korean rice wine)",
+    "Russian": "макколи (рисовое вино)",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "안녕히",
+    "English": "peacefully, in peace, well",
+    "Russian": "спокойно, благополучно (в прощании)",
+    "rutag": "наречие",
+    "engtag": "adverb"
+  },
+  {
+    "Korean": "집안일",
+    "English": "housework, household chores",
+    "Russian": "домашние дела, работа по дому",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "푹",
+    "English": "soundly, deeply, thoroughly",
+    "Russian": "крепко, глубоко, основательно",
+    "rutag": "наречие",
+    "engtag": "adverb"
+  },
+  {
+    "Korean": "수건",
+    "English": "towel",
+    "Russian": "полотенце",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "얼다",
+    "English": "to freeze",
+    "Russian": "замерзать",
+    "rutag": "изменение",
+    "engtag": "change"
+  },
+  {
+    "Korean": "잠자다",
+    "English": "to sleep",
+    "Russian": "спать",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "젓가락",
+    "English": "chopsticks",
+    "Russian": "палочки для еды",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "피아노",
+    "English": "piano",
+    "Russian": "пианино, фортепиано",
+    "rutag": "отдых",
+    "engtag": "leisure"
+  },
+  {
+    "Korean": "뛰어가다",
+    "English": "to run (to), to dash",
+    "Russian": "бежать, бежать к",
+    "rutag": "движение",
+    "engtag": "motion"
+  },
+  {
+    "Korean": "발가락",
+    "English": "toe",
+    "Russian": "палец ноги",
+    "rutag": "тело",
+    "engtag": "body"
+  },
+  {
+    "Korean": "뵙다",
+    "English": "to meet, to see (humble)",
+    "Russian": "встречаться, видеть (скромная форма)",
+    "rutag": "речь",
+    "engtag": "speech"
+  },
+  {
+    "Korean": "부치다",
+    "English": "to send, to mail",
+    "Russian": "отправлять, посылать (почтой)",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "섭섭하다",
+    "English": "to feel sorry, to feel hurt, to be disappointed",
+    "Russian": "чувствовать обиду, грусть, разочарование",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "인형",
+    "English": "doll",
+    "Russian": "кукла",
+    "rutag": "отдых",
+    "engtag": "leisure"
+  },
+  {
+    "Korean": "통화",
+    "English": "phone call",
+    "Russian": "телефонный разговор",
+    "rutag": "техника",
+    "engtag": "electronics"
   }
 ]
