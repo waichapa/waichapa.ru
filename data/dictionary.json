@@ -13977,5 +13977,138 @@
     "Russian": "телефонный разговор",
     "rutag": "техника",
     "engtag": "electronics"
-  }
+  },
+  {
+  "Korean": "식빵",
+  "English": "sandwich bread, loaf bread",
+  "Russian": "белый хлеб (формовой), тостовый хлеб",
+  "rutag": "еда",
+  "engtag": "food"
+},
+{
+  "Korean": "외우다",
+  "English": "to memorize",
+  "Russian": "заучивать, запоминать наизусть",
+  "rutag": "учёба",
+  "engtag": "study"
+},
+{
+  "Korean": "찬물",
+  "English": "cold water",
+  "Russian": "холодная вода",
+  "rutag": "еда",
+  "engtag": "food"
+},
+{
+  "Korean": "시끄럽다",
+  "English": "to be noisy, to be loud",
+  "Russian": "шумный, быть шумным",
+  "rutag": "ощущения",
+  "engtag": "sensation"
+},
+{
+  "Korean": "연휴",
+  "English": "consecutive holidays, long weekend",
+  "Russian": "длинные выходные, праздничные дни подряд",
+  "rutag": "праздники",
+  "engtag": "holidays"
+},
+{
+  "Korean": "파티",
+  "English": "party",
+  "Russian": "вечеринка, приём",
+  "rutag": "отдых",
+  "engtag": "leisure"
+},
+{
+  "Korean": "뱀",
+  "English": "snake",
+  "Russian": "змея",
+  "rutag": "животные",
+  "engtag": "animals"
+},
+{
+  "Korean": "유명",
+  "English": "fame, being famous",
+  "Russian": "известность, знаменитость",
+  "rutag": "качество",
+  "engtag": "quality"
+},
+{
+  "Korean": "된장",
+  "English": "doenjang (fermented soybean paste)",
+  "Russian": "тэнджан (ферментированная соевая паста)",
+  "rutag": "продукты",
+  "engtag": "ingredients"
+},
+{
+  "Korean": "등산",
+  "English": "hiking, mountain climbing",
+  "Russian": "восхождение, поход в горы",
+  "rutag": "спорт",
+  "engtag": "sport"
+},
+{
+  "Korean": "메뉴",
+  "English": "menu",
+  "Russian": "меню",
+  "rutag": "заведения",
+  "engtag": "venues"
+},
+{
+  "Korean": "자장면",
+  "English": "jajangmyeon (noodles in black bean sauce)",
+  "Russian": "чаджанмён (лапша в чёрном бобовом соусе)",
+  "rutag": "еда",
+  "engtag": "food"
+},
+{
+  "Korean": "중학생",
+  "English": "middle school student",
+  "Russian": "учащийся средней школы (7–9 классы)",
+  "rutag": "человек",
+  "engtag": "person"
+},
+{
+  "Korean": "한잔",
+  "English": "a drink, a cup (of alcohol)",
+  "Russian": "одна рюмка, чарка, по рюмочке",
+  "rutag": "еда",
+  "engtag": "food"
+},
+{
+  "Korean": "데려가다",
+  "English": "to take (someone) along",
+  "Russian": "брать с собой, отводить (кого-то)",
+  "rutag": "движение",
+  "engtag": "motion"
+},
+{
+  "Korean": "뒤쪽",
+  "English": "the back side, rear",
+  "Russian": "задняя часть, сторона сзади",
+  "rutag": "направление",
+  "engtag": "direction"
+},
+{
+  "Korean": "삼촌",
+  "English": "uncle (father's brother), unmarried uncle",
+  "Russian": "дядя (брат отца)",
+  "rutag": "семья",
+  "engtag": "family"
+},
+{
+  "Korean": "소풍",
+  "English": "picnic, outing",
+  "Russian": "пикник, выезд на природу",
+  "rutag": "отдых",
+  "engtag": "leisure"
+},
+{
+  "Korean": "속옷",
+  "English": "underwear",
+  "Russian": "нижнее бельё",
+  "rutag": "одежда",
+  "engtag": "clothing"
+}
 ]
