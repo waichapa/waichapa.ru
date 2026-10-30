@@ -14110,5 +14110,145 @@
   "Russian": "нижнее бельё",
   "rutag": "одежда",
   "engtag": "clothing"
+},
+{
+  "Korean": "양말",
+  "English": "socks",
+  "Russian": "носки",
+  "rutag": "одежда",
+  "engtag": "clothing"
+},
+{
+  "Korean": "와",
+  "English": "wow",
+  "Russian": "ого, вау",
+  "rutag": "речь",
+  "engtag": "speech"
+},
+{
+  "Korean": "외출",
+  "English": "going out, outing",
+  "Russian": "выход из дома, отлучка",
+  "rutag": "повседневное",
+  "engtag": "daily"
+},
+{
+  "Korean": "정원",
+  "English": "garden, yard",
+  "Russian": "сад, садик (при доме)",
+  "rutag": "дом",
+  "engtag": "home"
+},
+{
+  "Korean": "참외",
+  "English": "Korean melon (oriental melon)",
+  "Russian": "корейская дыня (чамве)",
+  "rutag": "фрукты",
+  "engtag": "fruit"
+},
+{
+  "Korean": "멋",
+  "English": "style, flair, charm",
+  "Russian": "стиль, шик, изящество",
+  "rutag": "качество",
+  "engtag": "quality"
+},
+{
+  "Korean": "어젯밤",
+  "English": "last night",
+  "Russian": "вчера вечером, прошлой ночью",
+  "rutag": "время",
+  "engtag": "time"
+},
+{
+  "Korean": "경치",
+  "English": "scenery, view",
+  "Russian": "пейзаж, вид",
+  "rutag": "природа",
+  "engtag": "nature"
+},
+{
+  "Korean": "단순",
+  "English": "simplicity, being simple",
+  "Russian": "простота, простой",
+  "rutag": "качество",
+  "engtag": "quality"
+},
+{
+  "Korean": "두세",
+  "English": "two or three",
+  "Russian": "два-три",
+  "rutag": "число",
+  "engtag": "number"
+},
+{
+  "Korean": "열흘",
+  "English": "ten days, the tenth day",
+  "Russian": "десять дней, десятое число",
+  "rutag": "время",
+  "engtag": "time"
+},
+{
+  "Korean": "콜라",
+  "English": "cola",
+  "Russian": "кола",
+  "rutag": "еда",
+  "engtag": "food"
+},
+{
+  "Korean": "데이트",
+  "English": "date",
+  "Russian": "свидание",
+  "rutag": "отдых",
+  "engtag": "leisure"
+},
+{
+  "Korean": "두부",
+  "English": "tofu",
+  "Russian": "тофу",
+  "rutag": "продукты",
+  "engtag": "ingredients"
+},
+{
+  "Korean": "시청",
+  "English": "city hall",
+  "Russian": "мэрия, городская администрация",
+  "rutag": "заведения",
+  "engtag": "venues"
+},
+{
+  "Korean": "오른손",
+  "English": "right hand",
+  "Russian": "правая рука",
+  "rutag": "тело",
+  "engtag": "body"
+},
+{
+  "Korean": "활발히",
+  "English": "actively, energetically",
+  "Russian": "активно, энергично",
+  "rutag": "наречие",
+  "engtag": "adverb"
+},
+{
+  "Korean": "목욕탕",
+  "English": "bathhouse, public bath",
+  "Russian": "баня, общественная баня",
+  "rutag": "заведения",
+  "engtag": "venues"
+},
+{
+  "Korean": "미끄러지다",
+  "English": "to slip, to slide",
+  "Russian": "скользить, поскользнуться",
+  "rutag": "движение",
+  "engtag": "motion"
+},
+{
+  "Korean": "빨다",
+  "English": "to wash (clothes), to launder",
+  "Russian": "стирать (одежду)",
+  "rutag": "повседневное",
+  "engtag": "daily"
 }
 ]
