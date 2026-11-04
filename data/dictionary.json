@@ -14250,5 +14250,138 @@
   "Russian": "стирать (одежду)",
   "rutag": "повседневное",
   "engtag": "daily"
-}
+},
+  {
+    "Korean": "주무시다",
+    "English": "to sleep (honorific)",
+    "Russian": "спать (вежливо)",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "흐리다",
+    "English": "to be cloudy, overcast, murky",
+    "Russian": "быть пасмурным, мутным",
+    "rutag": "погода",
+    "engtag": "weather"
+  },
+  {
+    "Korean": "대사관",
+    "English": "embassy",
+    "Russian": "посольство",
+    "rutag": "заведения",
+    "engtag": "venues"
+  },
+  {
+    "Korean": "레스토랑",
+    "English": "restaurant",
+    "Russian": "ресторан",
+    "rutag": "заведения",
+    "engtag": "venues"
+  },
+  {
+    "Korean": "매달",
+    "English": "every month",
+    "Russian": "каждый месяц",
+    "rutag": "календарь",
+    "engtag": "calendar"
+  },
+  {
+    "Korean": "바깥쪽",
+    "English": "outer side, outside",
+    "Russian": "внешняя сторона, наружная часть",
+    "rutag": "положение",
+    "engtag": "position"
+  },
+  {
+    "Korean": "정신없이",
+    "English": "frantically, in a daze, without a moment to spare",
+    "Russian": "без передышки, как угорелый, в запаре",
+    "rutag": "наречие",
+    "engtag": "adverb"
+  },
+  {
+    "Korean": "중요",
+    "English": "importance",
+    "Russian": "важность, значимость",
+    "rutag": "понятия",
+    "engtag": "concepts"
+  },
+  {
+    "Korean": "축하",
+    "English": "congratulation, celebration",
+    "Russian": "поздравление, празднование",
+    "rutag": "праздники",
+    "engtag": "holidays"
+  },
+  {
+    "Korean": "취소",
+    "English": "cancellation",
+    "Russian": "отмена",
+    "rutag": "понятия",
+    "engtag": "concepts"
+  },
+  {
+    "Korean": "메다",
+    "English": "to carry on the shoulder, to shoulder",
+    "Russian": "носить на плече, нести за спиной",
+    "rutag": "обращение",
+    "engtag": "handling"
+  },
+  {
+    "Korean": "반지",
+    "English": "ring",
+    "Russian": "кольцо",
+    "rutag": "одежда",
+    "engtag": "clothing"
+  },
+  {
+    "Korean": "식초",
+    "English": "vinegar",
+    "Russian": "уксус",
+    "rutag": "продукты",
+    "engtag": "ingredients"
+  },
+  {
+    "Korean": "옆집",
+    "English": "next-door house, neighbor's house",
+    "Russian": "соседний дом",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "오래간만",
+    "English": "after a long time",
+    "Russian": "спустя долгое время",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
+    "Korean": "점심시간",
+    "English": "lunchtime, lunch break",
+    "Russian": "обеденное время, обеденный перерыв",
+    "rutag": "сутки",
+    "engtag": "daytime"
+  },
+  {
+    "Korean": "항공",
+    "English": "aviation, air (transport)",
+    "Russian": "авиация, воздушное сообщение",
+    "rutag": "транспорт",
+    "engtag": "transport"
+  },
+  {
+    "Korean": "휴지",
+    "English": "tissue, toilet paper",
+    "Russian": "бумажная салфетка, туалетная бумага",
+    "rutag": "мебель",
+    "engtag": "furniture"
+  },
+  {
+    "Korean": "넷째",
+    "English": "fourth",
+    "Russian": "четвёртый",
+    "rutag": "число",
+    "engtag": "number"
+  }
 ]
