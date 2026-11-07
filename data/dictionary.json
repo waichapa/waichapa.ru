@@ -14383,5 +14383,138 @@
     "Russian": "четвёртый",
     "rutag": "число",
     "engtag": "number"
+  },
+    {
+    "Korean": "신혼여행",
+    "English": "honeymoon",
+    "Russian": "медовый месяц, свадебное путешествие",
+    "rutag": "путешествия",
+    "engtag": "travel"
+  },
+  {
+    "Korean": "입원",
+    "English": "hospitalization, admission to hospital",
+    "Russian": "госпитализация",
+    "rutag": "здоровье",
+    "engtag": "health"
+  },
+  {
+    "Korean": "햄버거",
+    "English": "hamburger",
+    "Russian": "гамбургер",
+    "rutag": "продукты",
+    "engtag": "ingredients"
+  },
+  {
+    "Korean": "기타",
+    "English": "guitar",
+    "Russian": "гитара",
+    "rutag": "музыка",
+    "engtag": "music"
+  },
+  {
+    "Korean": "두통",
+    "English": "headache",
+    "Russian": "головная боль",
+    "rutag": "здоровье",
+    "engtag": "health"
+  },
+  {
+    "Korean": "모기",
+    "English": "mosquito",
+    "Russian": "комар",
+    "rutag": "насекомые",
+    "engtag": "insects"
+  },
+  {
+    "Korean": "스웨터",
+    "English": "sweater",
+    "Russian": "свитер",
+    "rutag": "одежда",
+    "engtag": "clothing"
+  },
+  {
+    "Korean": "여행사",
+    "English": "travel agency",
+    "Russian": "туристическое агентство",
+    "rutag": "заведения",
+    "engtag": "venues"
+  },
+  {
+    "Korean": "왼손",
+    "English": "left hand",
+    "Russian": "левая рука",
+    "rutag": "тело",
+    "engtag": "body"
+  },
+  {
+    "Korean": "잘생기다",
+    "English": "to be good-looking, handsome",
+    "Russian": "быть красивым, симпатичным (о внешности)",
+    "rutag": "внешность",
+    "engtag": "appearance"
+  },
+  {
+    "Korean": "찌개",
+    "English": "jjigae, Korean stew",
+    "Russian": "ччигэ, корейский густой суп-рагу",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "한가하다",
+    "English": "to be free, idle, leisurely",
+    "Russian": "быть свободным, незанятым, спокойным",
+    "rutag": "состояние",
+    "engtag": "state"
+  },
+  {
+    "Korean": "넥타이",
+    "English": "necktie",
+    "Russian": "галстук",
+    "rutag": "одежда",
+    "engtag": "clothing"
+  },
+  {
+    "Korean": "돌려주다",
+    "English": "to give back, to return",
+    "Russian": "возвращать, отдавать обратно",
+    "rutag": "обращение",
+    "engtag": "handling"
+  },
+  {
+    "Korean": "잡수시다",
+    "English": "to eat (honorific)",
+    "Russian": "кушать (вежливо)",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "장난감",
+    "English": "toy",
+    "Russian": "игрушка",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "매주",
+    "English": "every week",
+    "Russian": "каждую неделю",
+    "rutag": "календарь",
+    "engtag": "calendar"
+  },
+  {
+    "Korean": "아래쪽",
+    "English": "lower side, downward",
+    "Russian": "нижняя сторона, низ",
+    "rutag": "положение",
+    "engtag": "position"
+  },
+  {
+    "Korean": "오이",
+    "English": "cucumber",
+    "Russian": "огурец",
+    "rutag": "овощи",
+    "engtag": "vegetables"
   }
 ]
