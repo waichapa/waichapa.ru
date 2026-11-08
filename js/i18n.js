@@ -114,7 +114,32 @@ const I18N = {
     capri_stack_title: "Tech Stack",
     capri_license: "License: MIT",
     minji_license: "License: MIT",
-    back_to_projects: "← Back to Projects"
+    back_to_projects: "← Back to Projects",
+
+    data_load_error: "Could not load study data. Please check the JSON files and refresh the page.",
+    no_results: "No matching entries found.",
+    results_count: "Found: {n}",
+    grammar_logic: "Construction logic",
+    grammar_search_hint: "Popular searches",
+    grammar_reset: "Reset filters",
+    grammar_query_time: "time", grammar_query_reason: "cause", grammar_query_condition: "condition", grammar_query_progressive: "-고 있다",
+    tense_present: "Present", tense_past: "Past", tense_future: "Future",
+    stat_activity_week: "Study days by weekday", stat_activity_desc: "Which days you most often return to Korean.",
+    stat_month_heatmap: "Monthly activity", stat_month_desc: "Study sessions in each month of this year.",
+    stat_donut_desc: "How your vocabulary is distributed across topics.",
+    stat_radar_title: "Grammar topic profile", stat_radar_desc: "Relative coverage of your grammar tags.",
+    stat_level_desc: "Number of saved grammar points at each TOPIK level.",
+    stat_progress_title: "Vocabulary milestone", chart_word_goal: "Progress toward a 1,000-entry reference goal.",
+    chart_other: "Other", chart_radar_empty: "Add at least three grammar tags to display the radar chart.",
+    weekday_mon: "Mon", weekday_tue: "Tue", weekday_wed: "Wed", weekday_thu: "Thu", weekday_fri: "Fri", weekday_sat: "Sat", weekday_sun: "Sun",
+    month_tooltip: "{month}: {n} study days",
+    mini_insights_title: "Quick insights", mini_insights_desc: "A few signals from your study history and vocabulary.",
+    a11y_switch_language: "Switch language", a11y_change_theme: "Change color theme",
+    a11y_search_dictionary: "Search dictionary", a11y_filter_tag: "Filter by tag", a11y_sort_entries: "Sort entries",
+    a11y_search_grammar: "Search grammar", a11y_filter_level: "Filter by TOPIK level", a11y_flip_card: "Flip card",
+    map_no_study: "No study logged",
+    mini_current_streak: "Current streak", mini_best_streak: "Best streak", mini_avg_entries: "Avg. translation words", mini_top_tag: "Most common tag"
+
   },
   ru: {
     nav_home: "Блог", nav_dict: "Словарь", nav_quiz: "Квиз", nav_stats: "Статистика", nav_map: "Карта", nav_projects: "Проекты",
@@ -231,7 +256,32 @@ const I18N = {
     capri_stack_title: "Технологический стек",
     capri_license: "Лицензия: MIT",
     minji_license: "Лицензия: MIT",
-    back_to_projects: "← Назад к проектам"
+    back_to_projects: "← Назад к проектам",
+
+    data_load_error: "Не удалось загрузить учебные данные. Проверь JSON-файлы и обнови страницу.",
+    no_results: "Совпадений не найдено.",
+    results_count: "Найдено: {n}",
+    grammar_logic: "Логика конструкции",
+    grammar_search_hint: "Популярные запросы",
+    grammar_reset: "Сбросить фильтры",
+    grammar_query_time: "время", grammar_query_reason: "причина", grammar_query_condition: "условие", grammar_query_progressive: "-고 있다",
+    tense_present: "Настоящее", tense_past: "Прошедшее", tense_future: "Будущее",
+    stat_activity_week: "Занятия по дням недели", stat_activity_desc: "В какие дни ты чаще всего возвращаешься к корейскому.",
+    stat_month_heatmap: "Активность по месяцам", stat_month_desc: "Количество занятий в каждом месяце текущего года.",
+    stat_donut_desc: "Распределение словаря по тематическим тегам.",
+    stat_radar_title: "Профиль грамматики", stat_radar_desc: "Относительное покрытие грамматических тегов.",
+    stat_level_desc: "Количество сохранённых грамматических конструкций каждого уровня TOPIK.",
+    stat_progress_title: "Цель по словарю", chart_word_goal: "Прогресс относительно ориентира в 1 000 записей.",
+    chart_other: "Другие", chart_radar_empty: "Для паутинной диаграммы добавь минимум три грамматических тега.",
+    weekday_mon: "Пн", weekday_tue: "Вт", weekday_wed: "Ср", weekday_thu: "Чт", weekday_fri: "Пт", weekday_sat: "Сб", weekday_sun: "Вс",
+    month_tooltip: "{month}: {n} дней занятий",
+    mini_insights_title: "Коротко о прогрессе", mini_insights_desc: "Несколько показателей по истории занятий и словарю.",
+    a11y_switch_language: "Переключить язык", a11y_change_theme: "Сменить тему оформления",
+    a11y_search_dictionary: "Поиск по словарю", a11y_filter_tag: "Фильтр по тегу", a11y_sort_entries: "Сортировка записей",
+    a11y_search_grammar: "Поиск грамматики", a11y_filter_level: "Фильтр по уровню TOPIK", a11y_flip_card: "Перевернуть карточку",
+    map_no_study: "В этот день занятий не было",
+    mini_current_streak: "Текущая серия", mini_best_streak: "Лучшая серия", mini_avg_entries: "Слов в переводах в среднем", mini_top_tag: "Частый тег"
+
   }
 };
 
@@ -242,7 +292,8 @@ function t(key) { const l = getLang(); return (I18N[l] && I18N[l][key]) || I18N.
 
 function applyI18n() {
   document.documentElement.lang = getLang();
-  document.querySelectorAll('[data-i18n]').forEach(el => {
-    el.textContent = t(el.getAttribute('data-i18n'));
-  });
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.getAttribute('data-i18n')); });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => { el.placeholder = t(el.getAttribute('data-i18n-placeholder')); });
+  document.querySelectorAll('[data-i18n-title]').forEach(el => { el.title = t(el.getAttribute('data-i18n-title')); });
+  document.querySelectorAll('[data-i18n-aria-label]').forEach(el => { el.setAttribute('aria-label', t(el.getAttribute('data-i18n-aria-label'))); });
 }

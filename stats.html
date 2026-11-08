@@ -1,46 +1,23 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>waichapa — Statistics</title>
-<link rel="icon" href="favicon-32x32.png" type="image/png">
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div id="app-header"></div>
-
-<div class="container">
-  <h1 data-i18n="stats_title">Detailed Statistics</h1>
-
-  <div class="stat-grid" id="statGrid"></div>
-
-  <div class="card">
-    <h2 data-i18n="stat_by_tag">Words by tag</h2>
-    <div id="tagBars"></div>
-  </div>
-
-  <div class="card">
-    <h2 data-i18n="stat_grammar_by_tag">Grammar by tag</h2>
-    <div id="grammarTagBars"></div>
-  </div>
-
-  <div class="card">
-    <h2 data-i18n="stat_grammar_by_level">Grammar by level</h2>
-    <div id="grammarLevelBars"></div>
-  </div>
-</div>
-
+<html lang="en" data-theme="light"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>waichapa — Statistics</title><link rel="icon" href="favicon-32x32.png" type="image/png"><link rel="stylesheet" href="css/style.css">
+</head><body><div id="app-header"></div>
+<main class="container">
+ <h1 data-i18n="stats_title">Detailed Statistics</h1>
+ <div class="stat-grid" id="statGrid"></div>
+ <div class="dashboard-grid">
+  <section class="card chart-card"><h2 class="chart-title"><span class="chart-icon">🍩</span><span data-i18n="stat_by_tag">Words by tag</span></h2><p class="chart-desc" data-i18n="stat_donut_desc"></p><div id="tagDonut"></div></section>
+  <section class="card chart-card"><h2 class="chart-title"><span class="chart-icon">🎯</span><span data-i18n="stat_progress_title">Vocabulary milestone</span></h2><div id="wordProgress"></div></section>
+  <section class="card chart-card"><h2 class="chart-title"><span class="chart-icon">📊</span><span data-i18n="stat_grammar_by_level">Grammar by level</span></h2><p class="chart-desc" data-i18n="stat_level_desc"></p><div id="grammarLevelBars"></div></section>
+  <section class="card chart-card"><h2 class="chart-title"><span class="chart-icon">🕸️</span><span data-i18n="stat_radar_title">Grammar topic profile</span></h2><p class="chart-desc" data-i18n="stat_radar_desc"></p><div id="grammarRadar"></div></section>
+  <section class="card chart-card"><h2 class="chart-title"><span class="chart-icon">📅</span><span data-i18n="stat_activity_week">Study days by weekday</span></h2><p class="chart-desc" data-i18n="stat_activity_desc"></p><div id="weekdayBars"></div></section>
+  <section class="card chart-card"><h2 class="chart-title"><span class="chart-icon">🗓️</span><span data-i18n="stat_month_heatmap">Monthly activity</span></h2><p class="chart-desc" data-i18n="stat_month_desc"></p><div class="heatmap-months" id="monthHeatmap"></div></section>
+  <section class="card chart-card wide"><h2 class="chart-title"><span class="chart-icon">✨</span><span data-i18n="mini_insights_title">Quick insights</span></h2><p class="chart-desc" data-i18n="mini_insights_desc"></p><div id="miniStats" class="stat-grid"></div></section>
+ </div>
+ <div hidden><div id="tagBars"></div><div id="grammarTagBars"></div></div>
+</main>
 <div id="app-footer"></div>
-
-<script src="js/i18n.js"></script>
-<script src="js/theme.js"></script>
-<script src="js/common.js"></script>
-<script src="js/stats-app.js"></script>
-<script>
-  renderHeader('stats');
-  renderFooter();
-  document.addEventListener('langChanged', () => { renderHeader('stats'); renderFooter(); renderStats(); });
-</script>
-</body>
-</html>
+<script src="js/i18n.js"></script><script src="js/theme.js"></script><script src="js/common.js"></script><script src="js/stats-app.js"></script>
+<script>renderHeader('stats');renderFooter();document.addEventListener('langChanged',()=>{renderHeader('stats');renderFooter();renderStats()});</script>
+</body></html>

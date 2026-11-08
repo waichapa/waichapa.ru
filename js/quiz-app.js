@@ -131,7 +131,7 @@ function buildQuizPool() {
 
 async function initQuiz() {
   if (!ALL_WORDS.length) {
-    ALL_WORDS = await fetch('data/dictionary.json').then(r => r.json());
+    try { const res = await fetch('data/dictionary.json'); if (!res.ok) throw new Error('dictionary'); ALL_WORDS = await res.json(); } catch (err) { const wrap = document.getElementById('flashcardWrap'); if (wrap) wrap.innerHTML = `<p>${escapeHtml(t('data_load_error'))}</p>`; console.error(err); return; }
     buildQuizFilters();
   }
   buildQuizModeTabs();
@@ -262,10 +262,10 @@ function renderChoiceCard() {
   wrap.innerHTML = `
     <div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:${(quizIndex / quizWords.length) * 100}%"></div></div>
     <div class="flashcard">
-      <div class="kr-big">${questionText}</div>
+      <div class="kr-big">${escapeHtml(questionText)}</div>
     </div>
     <div class="quiz-options">
-      ${options.map(opt => `<button class="quiz-opt" data-opt="${escapeHtml(opt)}">${opt}</button>`).join('')}
+      ${options.map(opt => `<button class="quiz-opt" data-opt="${escapeHtml(opt)}">${escapeHtml(opt)}</button>`).join('')}
     </div>
   `;
 
@@ -296,7 +296,7 @@ function renderSwipeCard() {
     <p class="swipe-hint">${t('quiz_flip_hint')}</p>
     <div class="swipe-buttons">
       <button class="swipe-btn dontknow" id="btnDontKnow">❌ ${t('quiz_dont_know')}</button>
-      <button class="swipe-btn flip" id="btnFlip">🔄</button>
+      <button class="swipe-btn flip" id="btnFlip" aria-label="${escapeHtml(t('a11y_flip_card'))}">🔄</button>
       <button class="swipe-btn know" id="btnKnow">✅ ${t('quiz_know')}</button>
     </div>
   `;

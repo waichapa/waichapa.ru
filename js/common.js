@@ -24,8 +24,8 @@ function renderHeader(activePage) {
         <a href="projects.html" data-page="projects" data-i18n="nav_projects">Projects</a>
       </nav>
       <div class="controls">
-        <button id="langBtn">${getLang() === 'ru' ? 'EN' : 'RU'}</button>
-        <button id="themeBtn">${themeIcon(getTheme())}</button>
+        <button id="langBtn" data-i18n-aria-label="a11y_switch_language">${getLang() === 'ru' ? 'EN' : 'RU'}</button>
+        <button id="themeBtn" data-i18n-aria-label="a11y_change_theme">${themeIcon(getTheme())}</button>
       </div>
     </div>
   </header>`;
@@ -38,6 +38,7 @@ function renderHeader(activePage) {
     document.getElementById('langBtn').textContent = newLang === 'ru' ? 'EN' : 'RU';
   };
   document.getElementById('themeBtn').onclick = cycleTheme;
+  applyI18n();
 }
 
 function renderFooter() {
@@ -53,6 +54,7 @@ function renderFooter() {
       <p style="text-align:center;color:var(--text-soft);margin-top:20px;font-size:.85rem" data-i18n="footer_rights">Made by waichapa</p>
     </div>
   </footer>`;
+  applyI18n();
 }
 
 document.addEventListener('DOMContentLoaded', () => {

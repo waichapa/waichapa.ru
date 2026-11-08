@@ -142,7 +142,8 @@ function buildCalendar() {
     const dt = new Date(start); dt.setDate(dt.getDate() + dayNum);
     const key = fmtDate(dt);
     cell.className = 'cal-day';
-    cell.title = dateFmt.format(dt);
+    cell.title = studyDates.has(key) ? dateFmt.format(dt) : `${dateFmt.format(dt)} — ${t('map_no_study')}`;
+    cell.setAttribute('aria-label', cell.title);
     grid.appendChild(cell);
     calCells.push({ el: cell, date: key });
   }
@@ -180,7 +181,10 @@ async function initMap() {
   } catch (e) {
     studyDates = new Set();
   }
+  calCells.forEach(({el,date}) => { const [y,m,d]=date.split('-').map(Number); const dt=new Date(y,m-1,d); const fmt=new Intl.DateTimeFormat(getLang()==='ru'?'ru-RU':'en-US',{day:'numeric',month:'long',year:'numeric'}); el.title=studyDates.has(date)?fmt.format(dt):`${fmt.format(dt)} — ${t('map_no_study')}`; el.setAttribute('aria-label',el.title); });
   renderMapStats();
 }
 
 document.addEventListener('DOMContentLoaded', initMap);
+
+document.addEventListener('langChanged', () => { buildCalendar(); renderMapStats(); });
