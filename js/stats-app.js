@@ -77,7 +77,7 @@ function renderMonths(dates){
 }
 function renderRing(){
  const wrap=document.getElementById('wordProgress');if(!wrap)return;
- const target=1000,pct=Math.min(100,statDict.length/target*100),circ=2*Math.PI*58;
+ const target=5000,pct=Math.min(100,statDict.length/target*100),circ=2*Math.PI*58;
  wrap.innerHTML=`<div class="ring-layout"><svg class="progress-ring" viewBox="0 0 140 140"><circle cx="70" cy="70" r="58" fill="none" stroke="var(--primary-soft)" stroke-width="11"/><circle cx="70" cy="70" r="58" fill="none" stroke="var(--primary)" stroke-width="11" stroke-linecap="round" stroke-dasharray="${circ}" stroke-dashoffset="${circ*(1-pct/100)}" transform="rotate(-90 70 70)"/><text x="70" y="68" text-anchor="middle" class="ring-value">${Math.round(pct)}%</text><text x="70" y="84" text-anchor="middle" class="ring-label">${escapeStat(t('stat_learned'))}</text></svg><div><strong>${statDict.length} / ${target}</strong><p class="chart-desc">${t('chart_word_goal')}</p></div></div>`;
 }
 function renderMiniTiles(dates){
