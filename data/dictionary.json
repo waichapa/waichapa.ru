@@ -14516,5 +14516,138 @@
     "Russian": "огурец",
     "rutag": "овощи",
     "engtag": "vegetables"
+  },
+    {
+    "Korean": "위쪽",
+    "English": "upper side, upward",
+    "Russian": "верхняя сторона, верх",
+    "rutag": "положение",
+    "engtag": "position"
+  },
+  {
+    "Korean": "관광지",
+    "English": "tourist attraction, tourist destination",
+    "Russian": "туристическая достопримечательность, место для туризма",
+    "rutag": "путешествия",
+    "engtag": "travel"
+  },
+  {
+    "Korean": "날아다니다",
+    "English": "to fly about, to flit around",
+    "Russian": "летать, порхать",
+    "rutag": "движение",
+    "engtag": "movement"
+  },
+  {
+    "Korean": "메모",
+    "English": "memo, note",
+    "Russian": "заметка, памятка",
+    "rutag": "канцелярия",
+    "engtag": "stationery"
+  },
+  {
+    "Korean": "배달",
+    "English": "delivery",
+    "Russian": "доставка",
+    "rutag": "услуги",
+    "engtag": "services"
+  },
+  {
+    "Korean": "서랍",
+    "English": "drawer",
+    "Russian": "ящик (стола, комода)",
+    "rutag": "мебель",
+    "engtag": "furniture"
+  },
+  {
+    "Korean": "실례",
+    "English": "rudeness, excuse me",
+    "Russian": "бестактность, неучтивость; извините",
+    "rutag": "общение",
+    "engtag": "communication"
+  },
+  {
+    "Korean": "안녕",
+    "English": "hello, goodbye (informal)",
+    "Russian": "привет, пока (неформально)",
+    "rutag": "приветствия",
+    "engtag": "greetings"
+  },
+  {
+    "Korean": "전화기",
+    "English": "telephone, phone",
+    "Russian": "телефонный аппарат, телефон",
+    "rutag": "техника",
+    "engtag": "devices"
+  },
+  {
+    "Korean": "지난주",
+    "English": "last week",
+    "Russian": "прошлая неделя",
+    "rutag": "календарь",
+    "engtag": "calendar"
+  },
+  {
+    "Korean": "찌다",
+    "English": "to steam",
+    "Russian": "готовить на пару",
+    "rutag": "готовка",
+    "engtag": "cooking"
+  },
+  {
+    "Korean": "고등학생",
+    "English": "high school student",
+    "Russian": "старшеклассник, учащийся старшей школы",
+    "rutag": "люди",
+    "engtag": "people"
+  },
+  {
+    "Korean": "숟가락",
+    "English": "spoon",
+    "Russian": "ложка",
+    "rutag": "посуда",
+    "engtag": "tableware"
+  },
+  {
+    "Korean": "엽서",
+    "English": "postcard",
+    "Russian": "открытка",
+    "rutag": "канцелярия",
+    "engtag": "stationery"
+  },
+  {
+    "Korean": "치약",
+    "English": "toothpaste",
+    "Russian": "зубная паста",
+    "rutag": "гигиена",
+    "engtag": "hygiene"
+  },
+  {
+    "Korean": "블라우스",
+    "English": "blouse",
+    "Russian": "блузка",
+    "rutag": "одежда",
+    "engtag": "clothing"
+  },
+  {
+    "Korean": "수고",
+    "English": "effort, trouble, hard work",
+    "Russian": "труд, старание, хлопоты",
+    "rutag": "понятия",
+    "engtag": "concepts"
+  },
+  {
+    "Korean": "쓰레기통",
+    "English": "trash can, garbage bin",
+    "Russian": "мусорное ведро, урна",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "앞쪽",
+    "English": "front side, forward",
+    "Russian": "передняя сторона, перёд",
+    "rutag": "положение",
+    "engtag": "position"
   }
 ]
