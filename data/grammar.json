@@ -1340,5 +1340,16 @@
     "engtag": "supposition",
     "rutag": "предположение",
     "level": 3
-  }
+  },
+  {
+  "ru_title": "Немедленная последовательность -자마자 (как только...)",
+  "en_title": "Immediate sequence -자마자 (as soon as...)",
+  "ru_explanation": "Выражает, что второе действие происходит сразу же, без паузы, после первого ('как только...', 'едва...'). Присоединяется к основе глагола без изменений, независимо от наличия патчима: 가다→가자마자, 먹다→먹자마자, 일어나다→일어나자마자. Используется только с глаголами (с прилагательными и 이다 не сочетается). Времена -았/었-, -겠- и почтительный суффикс -(으)시- внутри первой части не ставятся: время выражается только в конце предложения (먹자마자 잤어요, 도착하자마자 전화할게요). Подлежащее в обеих частях может быть как одним и тем же, так и разным (선생님이 오시자마자 수업이 시작됐어요). Во второй части возможны любые окончания, в том числе просьба (도착하자마자 연락 주세요). Отличия: -(으)ㄴ 후에 / -고 나서 — просто «после», без акцента на мгновенности; -는 대로 — «сразу, как только» с оттенком намерения, чаще о будущем и просьбах, при этом вторая часть не бывает в прошедшем времени; -자 — книжный вариант, обычно в письменной речи; -기가 무섭게 — «едва успел..., как сразу», подчёркивает стремительность и часто описывает неосознанную реакцию. Для существительных не используется (вместо этого, например, 졸업하자마자 с глаголом 졸업하다).",
+  "en_explanation": "Expresses that the second action happens immediately after the first, with no pause ('as soon as...', 'the moment...'). Attaches to the verb stem without any change, regardless of batchim: 가다→가자마자, 먹다→먹자마자, 일어나다→일어나자마자. Used only with verbs (does not combine with adjectives or 이다). Tense markers -았/었-, -겠- and the honorific -(으)시- are not placed in the first clause: tense is expressed only at the end of the sentence (먹자마자 잤어요, 도착하자마자 전화할게요). The subject of the two clauses can be the same or different (선생님이 오시자마자 수업이 시작됐어요). Any ending is possible in the second clause, including requests (도착하자마자 연락 주세요). Differences: -(으)ㄴ 후에 / -고 나서 — plain 'after', no emphasis on immediacy; -는 대로 — 'as soon as' with a nuance of intention, used mostly for the future and requests, and its second clause is not in the past tense; -자 — literary variant, mostly in writing; -기가 무섭게 — 'no sooner than... than', stresses speed and often describes an unconscious reaction. Not used with nouns (use a verb such as 졸업하다 instead: 졸업하자마자).",
+  "ru_example": "집에 도착하자마자 샤워했어요. — Как только пришёл домой, сразу принял душ. / 눈을 뜨자마자 핸드폰을 봐요. — Как только открываю глаза, сразу смотрю в телефон. / 수업이 끝나자마자 친구가 전화했어요. — Как только закончился урок, позвонил друг. / 도착하자마자 연락 주세요. — Как только приедете, сразу свяжитесь со мной. / 졸업하자마자 취직했어요. — Сразу после выпуска устроился на работу.",
+  "en_example": "집에 도착하자마자 샤워했어요. — As soon as I got home, I took a shower. / 눈을 뜨자마자 핸드폰을 봐요. — The moment I open my eyes, I check my phone. / 수업이 끝나자마자 친구가 전화했어요. — As soon as class ended, my friend called. / 도착하자마자 연락 주세요. — Please contact me as soon as you arrive. / 졸업하자마자 취직했어요. — I got a job right after graduating.",
+  "engtag": "connective",
+  "rutag": "связка",
+  "level": 3
+}
 ]
