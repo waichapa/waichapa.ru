@@ -990,15 +990,15 @@
     "Korean": "양파",
     "English": "onion",
     "Russian": "лук",
-    "rutag": "фрукты",
-    "engtag": "fruit"
+    "rutag": "овощи",
+    "engtag": "vegetables"
   },
   {
     "Korean": "토마토",
     "English": "tomato",
     "Russian": "помидор",
-    "rutag": "фрукты",
-    "engtag": "fruit"
+    "rutag": "овощи",
+    "engtag": "vegetables"
   },
   {
     "Korean": "계란",
@@ -1011,8 +1011,8 @@
     "Korean": "당근",
     "English": "carrot",
     "Russian": "морковь",
-    "rutag": "фрукты",
-    "engtag": "fruit"
+    "rutag": "овощи",
+    "engtag": "vegetables"
   },
   {
     "Korean": "친구",
@@ -3300,8 +3300,8 @@
     "Korean": "채소",
     "English": "vegetables",
     "Russian": "овощи",
-    "rutag": "фрукты",
-    "engtag": "fruit"
+    "rutag": "овощи",
+    "engtag": "vegetables"
   },
   {
     "Korean": "마트",
@@ -6877,8 +6877,8 @@
     "Korean": "감자",
     "English": "potato",
     "Russian": "картофель",
-    "rutag": "фрукты",
-    "engtag": "fruit"
+    "rutag": "овощи",
+    "engtag": "vegetables"
   },
   {
     "Korean": "감자탕",
@@ -7122,8 +7122,8 @@
     "Korean": "고추",
     "English": "chili pepper",
     "Russian": "перец чили",
-    "rutag": "фрукты",
-    "engtag": "fruit"
+    "rutag": "овощи",
+    "engtag": "vegetables"
   },
   {
     "Korean": "고추장",
@@ -12337,8 +12337,8 @@
     "Korean": "콩",
     "English": "bean, soybean",
     "Russian": "боб, соя",
-    "rutag": "фрукты",
-    "engtag": "fruit"
+    "rutag": "овощи",
+    "engtag": "vegetables"
   },
   {
     "Korean": "헤어지다",
@@ -13191,8 +13191,8 @@
     "Korean": "야채",
     "English": "vegetables",
     "Russian": "овощи",
-    "rutag": "фрукты",
-    "engtag": "fruit"
+    "rutag": "овощи",
+    "engtag": "vegetables"
   },
   {
     "Korean": "엉덩이",
@@ -13520,8 +13520,8 @@
     "Korean": "무",
     "English": "Korean radish, daikon",
     "Russian": "редька, дайкон",
-    "rutag": "продукты",
-    "engtag": "ingredients"
+    "rutag": "овощи",
+    "engtag": "vegetables"
   },
   {
     "Korean": "무료",
@@ -13590,7 +13590,7 @@
     "Korean": "저런",
     "English": "such, that kind of (over there)",
     "Russian": "такой (вон тот), подобный",
-    "rutag": "местоимения",
+    "rutag": "местоимение",
     "engtag": "pronoun"
   },
   {
@@ -13611,7 +13611,7 @@
     "Korean": "전화번호",
     "English": "phone number",
     "Russian": "номер телефона",
-    "rutag": "электроника",
+    "rutag": "техника",
     "engtag": "electronics"
   },
   {
@@ -13639,7 +13639,7 @@
     "Korean": "바이올린",
     "English": "violin",
     "Russian": "скрипка",
-    "rutag": "досуг",
+    "rutag": "отдых",
     "engtag": "leisure"
   },
   {
@@ -13674,7 +13674,7 @@
     "Korean": "저거",
     "English": "that (over there)",
     "Russian": "вон то, то",
-    "rutag": "местоимения",
+    "rutag": "местоимение",
     "engtag": "pronoun"
   },
   {
@@ -13737,8 +13737,8 @@
     "Korean": "배추",
     "English": "napa cabbage, Chinese cabbage",
     "Russian": "пекинская капуста",
-    "rutag": "продукты",
-    "engtag": "ingredients"
+    "rutag": "овощи",
+    "engtag": "vegetables"
   },
   {
     "Korean": "센터",
@@ -13979,278 +13979,278 @@
     "engtag": "electronics"
   },
   {
-  "Korean": "식빵",
-  "English": "sandwich bread, loaf bread",
-  "Russian": "белый хлеб (формовой), тостовый хлеб",
-  "rutag": "еда",
-  "engtag": "food"
-},
-{
-  "Korean": "외우다",
-  "English": "to memorize",
-  "Russian": "заучивать, запоминать наизусть",
-  "rutag": "учёба",
-  "engtag": "study"
-},
-{
-  "Korean": "찬물",
-  "English": "cold water",
-  "Russian": "холодная вода",
-  "rutag": "еда",
-  "engtag": "food"
-},
-{
-  "Korean": "시끄럽다",
-  "English": "to be noisy, to be loud",
-  "Russian": "шумный, быть шумным",
-  "rutag": "ощущения",
-  "engtag": "sensation"
-},
-{
-  "Korean": "연휴",
-  "English": "consecutive holidays, long weekend",
-  "Russian": "длинные выходные, праздничные дни подряд",
-  "rutag": "праздники",
-  "engtag": "holidays"
-},
-{
-  "Korean": "파티",
-  "English": "party",
-  "Russian": "вечеринка, приём",
-  "rutag": "отдых",
-  "engtag": "leisure"
-},
-{
-  "Korean": "뱀",
-  "English": "snake",
-  "Russian": "змея",
-  "rutag": "животные",
-  "engtag": "animals"
-},
-{
-  "Korean": "유명",
-  "English": "fame, being famous",
-  "Russian": "известность, знаменитость",
-  "rutag": "качество",
-  "engtag": "quality"
-},
-{
-  "Korean": "된장",
-  "English": "doenjang (fermented soybean paste)",
-  "Russian": "тэнджан (ферментированная соевая паста)",
-  "rutag": "продукты",
-  "engtag": "ingredients"
-},
-{
-  "Korean": "등산",
-  "English": "hiking, mountain climbing",
-  "Russian": "восхождение, поход в горы",
-  "rutag": "спорт",
-  "engtag": "sport"
-},
-{
-  "Korean": "메뉴",
-  "English": "menu",
-  "Russian": "меню",
-  "rutag": "заведения",
-  "engtag": "venues"
-},
-{
-  "Korean": "자장면",
-  "English": "jajangmyeon (noodles in black bean sauce)",
-  "Russian": "чаджанмён (лапша в чёрном бобовом соусе)",
-  "rutag": "еда",
-  "engtag": "food"
-},
-{
-  "Korean": "중학생",
-  "English": "middle school student",
-  "Russian": "учащийся средней школы (7–9 классы)",
-  "rutag": "человек",
-  "engtag": "person"
-},
-{
-  "Korean": "한잔",
-  "English": "a drink, a cup (of alcohol)",
-  "Russian": "одна рюмка, чарка, по рюмочке",
-  "rutag": "еда",
-  "engtag": "food"
-},
-{
-  "Korean": "데려가다",
-  "English": "to take (someone) along",
-  "Russian": "брать с собой, отводить (кого-то)",
-  "rutag": "движение",
-  "engtag": "motion"
-},
-{
-  "Korean": "뒤쪽",
-  "English": "the back side, rear",
-  "Russian": "задняя часть, сторона сзади",
-  "rutag": "направление",
-  "engtag": "direction"
-},
-{
-  "Korean": "삼촌",
-  "English": "uncle (father's brother), unmarried uncle",
-  "Russian": "дядя (брат отца)",
-  "rutag": "семья",
-  "engtag": "family"
-},
-{
-  "Korean": "소풍",
-  "English": "picnic, outing",
-  "Russian": "пикник, выезд на природу",
-  "rutag": "отдых",
-  "engtag": "leisure"
-},
-{
-  "Korean": "속옷",
-  "English": "underwear",
-  "Russian": "нижнее бельё",
-  "rutag": "одежда",
-  "engtag": "clothing"
-},
-{
-  "Korean": "양말",
-  "English": "socks",
-  "Russian": "носки",
-  "rutag": "одежда",
-  "engtag": "clothing"
-},
-{
-  "Korean": "와",
-  "English": "wow",
-  "Russian": "ого, вау",
-  "rutag": "речь",
-  "engtag": "speech"
-},
-{
-  "Korean": "외출",
-  "English": "going out, outing",
-  "Russian": "выход из дома, отлучка",
-  "rutag": "повседневное",
-  "engtag": "daily"
-},
-{
-  "Korean": "정원",
-  "English": "garden, yard",
-  "Russian": "сад, садик (при доме)",
-  "rutag": "дом",
-  "engtag": "home"
-},
-{
-  "Korean": "참외",
-  "English": "Korean melon (oriental melon)",
-  "Russian": "корейская дыня (чамве)",
-  "rutag": "фрукты",
-  "engtag": "fruit"
-},
-{
-  "Korean": "멋",
-  "English": "style, flair, charm",
-  "Russian": "стиль, шик, изящество",
-  "rutag": "качество",
-  "engtag": "quality"
-},
-{
-  "Korean": "어젯밤",
-  "English": "last night",
-  "Russian": "вчера вечером, прошлой ночью",
-  "rutag": "время",
-  "engtag": "time"
-},
-{
-  "Korean": "경치",
-  "English": "scenery, view",
-  "Russian": "пейзаж, вид",
-  "rutag": "природа",
-  "engtag": "nature"
-},
-{
-  "Korean": "단순",
-  "English": "simplicity, being simple",
-  "Russian": "простота, простой",
-  "rutag": "качество",
-  "engtag": "quality"
-},
-{
-  "Korean": "두세",
-  "English": "two or three",
-  "Russian": "два-три",
-  "rutag": "число",
-  "engtag": "number"
-},
-{
-  "Korean": "열흘",
-  "English": "ten days, the tenth day",
-  "Russian": "десять дней, десятое число",
-  "rutag": "время",
-  "engtag": "time"
-},
-{
-  "Korean": "콜라",
-  "English": "cola",
-  "Russian": "кола",
-  "rutag": "еда",
-  "engtag": "food"
-},
-{
-  "Korean": "데이트",
-  "English": "date",
-  "Russian": "свидание",
-  "rutag": "отдых",
-  "engtag": "leisure"
-},
-{
-  "Korean": "두부",
-  "English": "tofu",
-  "Russian": "тофу",
-  "rutag": "продукты",
-  "engtag": "ingredients"
-},
-{
-  "Korean": "시청",
-  "English": "city hall",
-  "Russian": "мэрия, городская администрация",
-  "rutag": "заведения",
-  "engtag": "venues"
-},
-{
-  "Korean": "오른손",
-  "English": "right hand",
-  "Russian": "правая рука",
-  "rutag": "тело",
-  "engtag": "body"
-},
-{
-  "Korean": "활발히",
-  "English": "actively, energetically",
-  "Russian": "активно, энергично",
-  "rutag": "наречие",
-  "engtag": "adverb"
-},
-{
-  "Korean": "목욕탕",
-  "English": "bathhouse, public bath",
-  "Russian": "баня, общественная баня",
-  "rutag": "заведения",
-  "engtag": "venues"
-},
-{
-  "Korean": "미끄러지다",
-  "English": "to slip, to slide",
-  "Russian": "скользить, поскользнуться",
-  "rutag": "движение",
-  "engtag": "motion"
-},
-{
-  "Korean": "빨다",
-  "English": "to wash (clothes), to launder",
-  "Russian": "стирать (одежду)",
-  "rutag": "повседневное",
-  "engtag": "daily"
-},
+    "Korean": "식빵",
+    "English": "sandwich bread, loaf bread",
+    "Russian": "белый хлеб (формовой), тостовый хлеб",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "외우다",
+    "English": "to memorize",
+    "Russian": "заучивать, запоминать наизусть",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "찬물",
+    "English": "cold water",
+    "Russian": "холодная вода",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "시끄럽다",
+    "English": "to be noisy, to be loud",
+    "Russian": "шумный, быть шумным",
+    "rutag": "ощущения",
+    "engtag": "sensation"
+  },
+  {
+    "Korean": "연휴",
+    "English": "consecutive holidays, long weekend",
+    "Russian": "длинные выходные, праздничные дни подряд",
+    "rutag": "праздники",
+    "engtag": "holidays"
+  },
+  {
+    "Korean": "파티",
+    "English": "party",
+    "Russian": "вечеринка, приём",
+    "rutag": "отдых",
+    "engtag": "leisure"
+  },
+  {
+    "Korean": "뱀",
+    "English": "snake",
+    "Russian": "змея",
+    "rutag": "животные",
+    "engtag": "animals"
+  },
+  {
+    "Korean": "유명",
+    "English": "fame, being famous",
+    "Russian": "известность, знаменитость",
+    "rutag": "качество",
+    "engtag": "quality"
+  },
+  {
+    "Korean": "된장",
+    "English": "doenjang (fermented soybean paste)",
+    "Russian": "тэнджан (ферментированная соевая паста)",
+    "rutag": "продукты",
+    "engtag": "ingredients"
+  },
+  {
+    "Korean": "등산",
+    "English": "hiking, mountain climbing",
+    "Russian": "восхождение, поход в горы",
+    "rutag": "спорт",
+    "engtag": "sport"
+  },
+  {
+    "Korean": "메뉴",
+    "English": "menu",
+    "Russian": "меню",
+    "rutag": "заведения",
+    "engtag": "venues"
+  },
+  {
+    "Korean": "자장면",
+    "English": "jajangmyeon (noodles in black bean sauce)",
+    "Russian": "чаджанмён (лапша в чёрном бобовом соусе)",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "중학생",
+    "English": "middle school student",
+    "Russian": "учащийся средней школы (7–9 классы)",
+    "rutag": "человек",
+    "engtag": "person"
+  },
+  {
+    "Korean": "한잔",
+    "English": "a drink, a cup (of alcohol)",
+    "Russian": "одна рюмка, чарка, по рюмочке",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "데려가다",
+    "English": "to take (someone) along",
+    "Russian": "брать с собой, отводить (кого-то)",
+    "rutag": "движение",
+    "engtag": "motion"
+  },
+  {
+    "Korean": "뒤쪽",
+    "English": "the back side, rear",
+    "Russian": "задняя часть, сторона сзади",
+    "rutag": "направление",
+    "engtag": "direction"
+  },
+  {
+    "Korean": "삼촌",
+    "English": "uncle (father's brother), unmarried uncle",
+    "Russian": "дядя (брат отца)",
+    "rutag": "семья",
+    "engtag": "family"
+  },
+  {
+    "Korean": "소풍",
+    "English": "picnic, outing",
+    "Russian": "пикник, выезд на природу",
+    "rutag": "отдых",
+    "engtag": "leisure"
+  },
+  {
+    "Korean": "속옷",
+    "English": "underwear",
+    "Russian": "нижнее бельё",
+    "rutag": "одежда",
+    "engtag": "clothing"
+  },
+  {
+    "Korean": "양말",
+    "English": "socks",
+    "Russian": "носки",
+    "rutag": "одежда",
+    "engtag": "clothing"
+  },
+  {
+    "Korean": "와",
+    "English": "wow",
+    "Russian": "ого, вау",
+    "rutag": "речь",
+    "engtag": "speech"
+  },
+  {
+    "Korean": "외출",
+    "English": "going out, outing",
+    "Russian": "выход из дома, отлучка",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "정원",
+    "English": "garden, yard",
+    "Russian": "сад, садик (при доме)",
+    "rutag": "дом",
+    "engtag": "home"
+  },
+  {
+    "Korean": "참외",
+    "English": "Korean melon (oriental melon)",
+    "Russian": "корейская дыня (чамве)",
+    "rutag": "фрукты",
+    "engtag": "fruit"
+  },
+  {
+    "Korean": "멋",
+    "English": "style, flair, charm",
+    "Russian": "стиль, шик, изящество",
+    "rutag": "качество",
+    "engtag": "quality"
+  },
+  {
+    "Korean": "어젯밤",
+    "English": "last night",
+    "Russian": "вчера вечером, прошлой ночью",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
+    "Korean": "경치",
+    "English": "scenery, view",
+    "Russian": "пейзаж, вид",
+    "rutag": "природа",
+    "engtag": "nature"
+  },
+  {
+    "Korean": "단순",
+    "English": "simplicity, being simple",
+    "Russian": "простота, простой",
+    "rutag": "качество",
+    "engtag": "quality"
+  },
+  {
+    "Korean": "두세",
+    "English": "two or three",
+    "Russian": "два-три",
+    "rutag": "число",
+    "engtag": "number"
+  },
+  {
+    "Korean": "열흘",
+    "English": "ten days, the tenth day",
+    "Russian": "десять дней, десятое число",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
+    "Korean": "콜라",
+    "English": "cola",
+    "Russian": "кола",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "데이트",
+    "English": "date",
+    "Russian": "свидание",
+    "rutag": "отдых",
+    "engtag": "leisure"
+  },
+  {
+    "Korean": "두부",
+    "English": "tofu",
+    "Russian": "тофу",
+    "rutag": "продукты",
+    "engtag": "ingredients"
+  },
+  {
+    "Korean": "시청",
+    "English": "city hall",
+    "Russian": "мэрия, городская администрация",
+    "rutag": "заведения",
+    "engtag": "venues"
+  },
+  {
+    "Korean": "오른손",
+    "English": "right hand",
+    "Russian": "правая рука",
+    "rutag": "тело",
+    "engtag": "body"
+  },
+  {
+    "Korean": "활발히",
+    "English": "actively, energetically",
+    "Russian": "активно, энергично",
+    "rutag": "наречие",
+    "engtag": "adverb"
+  },
+  {
+    "Korean": "목욕탕",
+    "English": "bathhouse, public bath",
+    "Russian": "баня, общественная баня",
+    "rutag": "заведения",
+    "engtag": "venues"
+  },
+  {
+    "Korean": "미끄러지다",
+    "English": "to slip, to slide",
+    "Russian": "скользить, поскользнуться",
+    "rutag": "движение",
+    "engtag": "motion"
+  },
+  {
+    "Korean": "빨다",
+    "English": "to wash (clothes), to launder",
+    "Russian": "стирать (одежду)",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
   {
     "Korean": "주무시다",
     "English": "to sleep (honorific)",
@@ -14384,7 +14384,7 @@
     "rutag": "число",
     "engtag": "number"
   },
-    {
+  {
     "Korean": "신혼여행",
     "English": "honeymoon",
     "Russian": "медовый месяц, свадебное путешествие",
@@ -14517,7 +14517,7 @@
     "rutag": "овощи",
     "engtag": "vegetables"
   },
-    {
+  {
     "Korean": "위쪽",
     "English": "upper side, upward",
     "Russian": "верхняя сторона, верх",
@@ -14536,7 +14536,7 @@
     "English": "to fly about, to flit around",
     "Russian": "летать, порхать",
     "rutag": "движение",
-    "engtag": "movement"
+    "engtag": "motion"
   },
   {
     "Korean": "메모",
@@ -14578,7 +14578,7 @@
     "English": "telephone, phone",
     "Russian": "телефонный аппарат, телефон",
     "rutag": "техника",
-    "engtag": "devices"
+    "engtag": "electronics"
   },
   {
     "Korean": "지난주",
@@ -14598,8 +14598,8 @@
     "Korean": "고등학생",
     "English": "high school student",
     "Russian": "старшеклассник, учащийся старшей школы",
-    "rutag": "люди",
-    "engtag": "people"
+    "rutag": "человек",
+    "engtag": "person"
   },
   {
     "Korean": "숟가락",
