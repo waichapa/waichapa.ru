@@ -13,7 +13,7 @@ function renderHeader(activePage) {
     <div class="header-inner">
       <a class="brand" href="index.html">
         <img src="assets/image.png" alt="waichapa avatar">
-        <span class="name">waichapa <span class="level">2 급</span></span>
+        <span class="name">waichapa <span class="level">3 급</span></span>
       </a>
       <nav class="main-nav">
         <a href="index.html" data-page="index" data-i18n="nav_home">Blog</a>
