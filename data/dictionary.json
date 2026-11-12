@@ -14649,5 +14649,145 @@
     "Russian": "передняя сторона, перёд",
     "rutag": "положение",
     "engtag": "position"
+  },
+  {
+    "Korean": "앨범",
+    "English": "album",
+    "Russian": "альбом",
+    "rutag": "культура",
+    "engtag": "culture"
+  },
+  {
+    "Korean": "저번",
+    "English": "last",
+    "Russian": "прошлый",
+    "rutag": "время",
+    "engtag": "time"
+  },
+  {
+    "Korean": "졸다",
+    "English": "to doze",
+    "Russian": "дремать",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "노트",
+    "English": "notebook",
+    "Russian": "блокнот",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "볶음밥",
+    "English": "fried rice",
+    "Russian": "жареный рис",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "세탁",
+    "English": "laundry",
+    "Russian": "стирка",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "손수건",
+    "English": "handkerchief",
+    "Russian": "носовой платок",
+    "rutag": "одежда",
+    "engtag": "clothing"
+  },
+  {
+    "Korean": "초콜릿",
+    "English": "chocolate",
+    "Russian": "шоколад",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "터미널",
+    "English": "terminal",
+    "Russian": "терминал, вокзал",
+    "rutag": "транспорт",
+    "engtag": "transport"
+  },
+  {
+    "Korean": "피자",
+    "English": "pizza",
+    "Russian": "пицца",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "환영",
+    "English": "welcome",
+    "Russian": "приём, приветствие",
+    "rutag": "речь",
+    "engtag": "speech"
+  },
+  {
+    "Korean": "사계절",
+    "English": "four seasons",
+    "Russian": "четыре сезона",
+    "rutag": "календарь",
+    "engtag": "calendar"
+  },
+  {
+    "Korean": "수저",
+    "English": "spoon and chopsticks",
+    "Russian": "ложка и палочки",
+    "rutag": "мебель",
+    "engtag": "furniture"
+  },
+  {
+    "Korean": "인삼",
+    "English": "ginseng",
+    "Russian": "женьшень",
+    "rutag": "продукты",
+    "engtag": "ingredients"
+  },
+  {
+    "Korean": "칫솔",
+    "English": "toothbrush",
+    "Russian": "зубная щётка",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "마중",
+    "English": "going to meet someone",
+    "Russian": "встреча (пойти встретить)",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "샤워",
+    "English": "shower",
+    "Russian": "душ",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "송편",
+    "English": "songpyeon",
+    "Russian": "сонпхён",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "싱겁다",
+    "English": "to be bland",
+    "Russian": "быть пресным",
+    "rutag": "ощущения",
+    "engtag": "sensation"
+  },
+  {
+    "Korean": "자판기",
+    "English": "vending machine",
+    "Russian": "торговый автомат",
+    "rutag": "техника",
+    "engtag": "electronics"
   }
 ]
