@@ -1351,5 +1351,16 @@
   "engtag": "connective",
   "rutag": "связка",
   "level": 3
+},
+{
+  "ru_title": "Выражение тенденции (으)ㄴ/는 편이다",
+  "en_title": "Expressing tendency (으)ㄴ/는 편이다",
+  "ru_explanation": "Выражает общую тенденцию или склонность говорящего, не как абсолютный факт, а как оценку 'по тому, как обычно бывает', 'склонен к тому, чтобы...', 'скорее...'. Переводится как: 'я обычно (скорее) ...', 'он довольно/относительно ...'. Присоединяется к прилагательным: (으)ㄴ 편이다 (ㄴ после гласной, 은 после согласной), к глаголам действия: 는 편이다. Часто сочетается с наречиями частоты и степени: 보통, 자주, 가끔, 좀, 조금 (저는 보통 일찍 자는 편이에요). Используется, когда говорящий описывает привычки, характер или свойства 'в среднем', смягчая утверждение, а также при ответах на вопросы о предпочтениях и привычках. В прошедшем времени: 았/었/였던 편이다 (были склонны...). Вежливая форма: 편이에요 (разговорно), 편입니다 (формально). Не используется с существительными (для них: (이)라고 할 수 있다 или 그런 편이다).",
+  "en_explanation": "Expresses a general tendency or inclination of the speaker, not as an absolute fact, but as an assessment 'based on how it usually is', 'tends to...', 'rather...'. Translated as: 'I usually (rather)...', '(s)he is fairly/relatively...'. Attaches to adjectives: (으)ㄴ 편이다 (ㄴ after vowels, 은 after consonants), to action verbs: 는 편이다. Often combines with adverbs of frequency and degree: 보통, 자주, 가끔, 좀, 조금 (저는 보통 일찍 자는 편이에요). Used when the speaker describes habits, character, or properties 'on average', softening the statement, as well as in answers to questions about preferences and habits. Past tense: 았/었/였던 편이다. Polite form: 편이에요 (colloquial), 편입니다 (formal). Not used with nouns (for nouns use (이)라고 할 수 있다 or 그런 편이다).",
+  "ru_example": "저는 보통 아침을 먹는 편이에요. — Я обычно (скорее) завтракаю. / 이 식당은 값이 싼 편이에요. — В этом ресторане цены довольно низкие. / 그는 성격이 좋은 편이에요. — У него довольно хороший характер. / 저는 운동을 자주 하는 편이에요. — Я склонен часто заниматься спортом. / 한국 음식은 좀 매운 편이에요. — Корейская еда довольно острая.",
+  "en_example": "저는 보통 아침을 먹는 편이에요. — I usually (rather) have breakfast. / 이 식당은 값이 싼 편이에요. — This restaurant is fairly cheap. / 그는 성격이 좋은 편이에요. — He has a rather good personality. / 저는 운동을 자주 하는 편이에요. — I tend to exercise often. / 한국 음식은 좀 매운 편이에요. — Korean food is somewhat spicy.",
+  "engtag": "comparison",
+  "rutag": "сравнение",
+  "level": 3
 }
 ]
