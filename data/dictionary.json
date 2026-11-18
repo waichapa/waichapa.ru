@@ -14789,5 +14789,103 @@
     "Russian": "торговый автомат",
     "rutag": "техника",
     "engtag": "electronics"
+  },
+  {
+    "Korean": "복학",
+    "English": "returning to school (after a leave of absence)",
+    "Russian": "возвращение в учебное заведение (после академического отпуска)",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "휴학",
+    "English": "taking a leave of absence from school",
+    "Russian": "академический отпуск",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "학용품",
+    "English": "school supplies / stationery",
+    "Russian": "школьные принадлежности, канцтовары",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "장학금",
+    "English": "scholarship / grant",
+    "Russian": "стипендия, грант",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "의학",
+    "English": "medicine (field of study)",
+    "Russian": "медицина (наука, специальность)",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "문학",
+    "English": "literature",
+    "Russian": "литература",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "심리학",
+    "English": "psychology",
+    "Russian": "психология",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "경제학",
+    "English": "economics",
+    "Russian": "экономика (наука)",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "역사학",
+    "English": "history (field of study / historiography)",
+    "Russian": "история (наука, специальность)",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "과학",
+    "English": "science",
+    "Russian": "наука, естествознание",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "학번",
+    "English": "student ID number (admission year number)",
+    "Russian": "студенческий номер (год зачисления + номер)",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "학위",
+    "English": "academic degree",
+    "Russian": "учёная степень",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "학점",
+    "English": "credit (course credit) / grade (GPA)",
+    "Russian": "зачётный балл, кредит (учебная единица)",
+    "rutag": "учёба",
+    "engtag": "study"
+  },
+  {
+    "Korean": "학습",
+    "English": "learning / study",
+    "Russian": "обучение, изучение, усвоение знаний",
+    "rutag": "учёба",
+    "engtag": "study"
   }
 ]
