@@ -1373,5 +1373,16 @@
   "engtag": "modality",
   "rutag": "модальность",
   "level": 3
+},
+{
+  "ru_title": "Немедленная последовательность -는 대로 (сразу же после...)",
+  "en_title": "Immediate sequence -는 대로 (as soon as... / right after...)",
+  "ru_explanation": "Выражает, что второе действие совершается сразу же после завершения первого, без паузы, часто по заранее принятому решению или плану ('как только сделаешь А — сразу делай Б'). Присоединяется к основе глагола: -는 대로 (независимо от патчима). Используется только с глаголами действия; с прилагательными, 있다/없다 и 이다 не сочетается. Темпоральные формы (-았/었-, -겠-) и почтительный суффикс -(으)시- внутри первой части не ставятся — время выражается только в конце предложения (도착하는 대로 연락할게요). Подлежащее обеих частей обычно одно и тот же, но может и различаться. Во второй части часто стоят запланированные действия, намерения, просьбы или обещания, поэтому прошедшее время во второй части звучит неестественно: вместо *도착하는 대로 연락했어요* носители скажут 도착하자마자 연락했어요. Отличия: -자마자 — мгновенная непосредственная реакция, часто о незапланированных событиях и прошедшем времени (도착하자마자 샤워했어요); -고 나서 / -(으)ㄴ 후에 — просто «после», без акцента на срочности; -(으)ㄹ 때 — «когда», без оттенка немедленности. В разговорной речи часто сокращается до -는 대로 (без изменения значения). Формальный вариант: -는 대로입니다.",
+  "en_explanation": "Expresses that the second action is performed immediately after the first one is completed, without a pause, often according to a prior decision or plan ('as soon as you do A, do B right away'). Attaches to the verb stem: -는 대로 (regardless of batchim). Used only with action verbs; does not combine with adjectives, 있다/없다, or 이다. Tense markers (-았/었-, -겠-) and the honorific -(으)시- are not placed in the first clause — tense is expressed only at the end of the sentence (도착하는 대로 연락할게요). The subject of both clauses is usually the same, but may differ. The second clause often contains planned actions, intentions, requests, or promises, so past tense in the second clause sounds unnatural: instead of *도착하는 대로 연락했어요*, native speakers say 도착하자마자 연락했어요. Differences: -자마자 — instant spontaneous reaction, often about unplanned events and past tense (도착하자마자 샤워했어요); -고 나서 / -(으)ㄴ 후에 — plain 'after', without urgency; -(으)ㄹ 때 — 'when', without the nuance of immediacy. In colloquial speech often simply -는 대로. Formal variant: -는 대로입니다.",
+  "ru_example": "도착하는 대로 연락할게요. — Как только приеду, сразу свяжусь с вами. / 숙제를 끝내는 대로 놀러 가요. — Как только закончу домашку, сразу пойду гулять. / 이것만 끝나는 대로 갈 수 있어요. — Как только это закончится, смогу пойти. / 결정하는 대로 알려 드릴게요. — Как только решу, сразу вам сообщу. / 내가 돌아오는 대로 시작하자. — Начнём, как только я вернусь.",
+  "en_example": "도착하는 대로 연락할게요. — I'll contact you as soon as I arrive. / 숙제를 끝내는 대로 놀러 가요. — I'll go out as soon as I finish my homework. / 이것만 끝나는 대로 갈 수 있어요. — I can go as soon as this is done. / 결정하는 대로 알려 드릴게요. — I'll let you know as soon as I decide. / 내가 돌아오는 대로 시작하자. — Let's start as soon as I get back.",
+  "engtag": "connective",
+  "rutag": "связка",
+  "level": 3
 }
 ]
