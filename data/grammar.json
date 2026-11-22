@@ -1384,5 +1384,16 @@
   "engtag": "connective",
   "rutag": "связка",
   "level": 3
+},
+{
+  "ru_title": "Причинно-следственная связь -느라고/-느라 (занятость чем-то)",
+  "en_title": "Cause-effect connection -느라고/-느라 (being busy with something)",
+  "ru_explanation": "Выражает причину, указывая, что время и силы субъекта были полностью заняты первым действием, из-за чего произошло негативное или нежелательное второе действие ('из-за того, что был занят чем-то, ...'). Присоединяется только к основе глагола действия (без временных маркеров): -느라고/-느라 (разговорное сокращение) независимо от патчима (하다→하느라고, 만들다→만드느라고). Жесткие ограничения: 1) субъект в обеих частях один и тот же; 2) в первой части нельзя использовать -았/었- — время выражается только во второй части; 3) во второй части нельзя использовать повелительное (-세요) и побудительное (-읍시다/-자) наклонение; 4) глагол первой части должен обозначать длительный процесс (준비하다, 기다리다, 돌보다), а не мгновенное действие (떨어지다, 도착하다). Не используется с прилагательными, 있다/없다 и связкой 이다. В отличие от -아/어서 (нейтральная причина), -느라고 подчеркивает именно занятость и несет оттенок сожаления или оправдания.",
+  "en_explanation": "Expresses a cause, indicating that the subject's time and energy were fully occupied by the first action, which led to a negative or undesirable second action ('because I was busy doing something, ...'). Attaches only to the stem of an action verb (without tense markers): -느라고/-느라 (colloquial shortening) regardless of batchim (하다→하느라고, 만들다→만드느라고). Strict restrictions: 1) the subject of both clauses must be the same; 2) -았/었- cannot be used in the first clause — tense is expressed only in the second clause; 3) imperative (-세요) and suggestive (-읍시다/-자) endings cannot be used in the second clause; 4) the verb in the first clause must denote a durative process (준비하다, 기다리다, 돌보다), not an instantaneous action (떨어지다, 도착하다). Not used with adjectives, 있다/없다, or the copula 이다. Unlike -아/어서 (neutral cause), -느라고 specifically emphasizes being occupied and carries a nuance of regret or excuse.",
+  "ru_example": "어제 숙제하느라고 못 잤어요. — Вчера из-за того, что делал домашку, не выспался. / 시험 준비하느라 요즘 너무 바빠요. — Из-за подготовки к экзамену в последнее время очень занят. / 친구랑 이야기하느라고 버스를 놓쳤어요. — Заговорился с другом и пропустил автобус. / 아이들을 돌보느라 정신이 없어요. — Из-за присмотра за детьми голова кругом идёт.",
+  "en_example": "어제 숙제하느라고 못 잤어요. — Because I was busy doing homework yesterday, I couldn't sleep. / 시험 준비하느라 요즘 너무 바빠요. — I've been very busy lately preparing for the exam. / 친구랑 이야기하느라고 버스를 놓쳤어요. — I missed the bus because I was busy talking with a friend. / 아이들을 돌보느라 정신이 없어요. — I'm swamped taking care of the kids.",
+  "engtag": "cause",
+  "rutag": "причина",
+  "level": 4
 }
 ]
