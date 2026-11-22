@@ -14880,5 +14880,75 @@
     "Russian": "обучение, изучение, усвоение знаний",
     "rutag": "учёба",
     "engtag": "study"
+  },
+  {
+    "Korean": "설레다",
+    "English": "to be excited (in pleasant anticipation)",
+    "Russian": "волноваться в приятном ожидании",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "창피하다",
+    "English": "to be embarrassed / ashamed",
+    "Russian": "быть неловким, позориться",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "억울하다",
+    "English": "to feel wronged / aggrieved by injustice",
+    "Russian": "чувствовать себя обиженным несправедливостью",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "아쉽다",
+    "English": "to be a pity / regrettable / sad to miss",
+    "Russian": "жаль, досадно",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "짜증(이) 나다",
+    "English": "to be annoyed / irritated",
+    "Russian": "раздражаться",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "화(가) 나다",
+    "English": "to be angry / to get mad",
+    "Russian": "злиться",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "허전하다",
+    "English": "to feel empty / hollow",
+    "Russian": "ощущать пустоту",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "뿌듯하다",
+    "English": "to feel proud / satisfied (with an achievement)",
+    "Russian": "быть довольным (достигнутым)",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "자랑스럽다",
+    "English": "to be proud / worthy of pride",
+    "Russian": "гордиться, быть достойным гордости",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "편안하다",
+    "English": "to be comfortable / at ease / cozy",
+    "Russian": "уютно, спокойно",
+    "rutag": "эмоции",
+    "engtag": "emotion"
   }
 ]
