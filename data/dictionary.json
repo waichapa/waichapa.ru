@@ -14950,5 +14950,145 @@
     "Russian": "уютно, спокойно",
     "rutag": "эмоции",
     "engtag": "emotion"
+  },
+  {
+    "Korean": "베개",
+    "English": "pillow",
+    "Russian": "подушка",
+    "rutag": "мебель",
+    "engtag": "furniture"
+  },
+  {
+    "Korean": "괜찮다",
+    "English": "to be okay / fine / all right",
+    "Russian": "быть нормальным, в порядке",
+    "rutag": "качество",
+    "engtag": "quality"
+  },
+  {
+    "Korean": "입금",
+    "English": "deposit (money into an account)",
+    "Russian": "внесение денег на счёт, депозит",
+    "rutag": "деньги",
+    "engtag": "money"
+  },
+  {
+    "Korean": "출금",
+    "English": "withdrawal (money from an account)",
+    "Russian": "снятие денег со счёта",
+    "rutag": "деньги",
+    "engtag": "money"
+  },
+  {
+    "Korean": "모바일폰",
+    "English": "mobile phone, cell phone",
+    "Russian": "мобильный телефон",
+    "rutag": "техника",
+    "engtag": "electronics"
+  },
+  {
+    "Korean": "한식집",
+    "English": "Korean restaurant",
+    "Russian": "ресторан корейской кухни",
+    "rutag": "заведения",
+    "engtag": "venues"
+  },
+  {
+    "Korean": "일식집",
+    "English": "Japanese restaurant",
+    "Russian": "ресторан японской кухни",
+    "rutag": "заведения",
+    "engtag": "venues"
+  },
+  {
+    "Korean": "중식집",
+    "English": "Chinese restaurant",
+    "Russian": "ресторан китайской кухни",
+    "rutag": "заведения",
+    "engtag": "venues"
+  },
+  {
+    "Korean": "양식집",
+    "English": "Western-style restaurant",
+    "Russian": "ресторан европейской кухни",
+    "rutag": "заведения",
+    "engtag": "venues"
+  },
+  {
+    "Korean": "스키",
+    "English": "ski / skiing",
+    "Russian": "лыжи, катание на лыжах",
+    "rutag": "спорт",
+    "engtag": "sport"
+  },
+  {
+    "Korean": "양복",
+    "English": "suit (Western-style formal wear)",
+    "Russian": "костюм",
+    "rutag": "одежда",
+    "engtag": "clothing"
+  },
+  {
+    "Korean": "운동복",
+    "English": "sportswear, athletic wear",
+    "Russian": "спортивная одежда",
+    "rutag": "одежда",
+    "engtag": "clothing"
+  },
+  {
+    "Korean": "수영복",
+    "English": "swimsuit, bathing suit",
+    "Russian": "купальник, плавки",
+    "rutag": "одежда",
+    "engtag": "clothing"
+  },
+  {
+    "Korean": "등산화",
+    "English": "hiking boots, climbing shoes",
+    "Russian": "треккинговые ботинки, походная обувь",
+    "rutag": "одежда",
+    "engtag": "clothing"
+  },
+  {
+    "Korean": "토닉",
+    "English": "tonic (tonic water / tonic drink)",
+    "Russian": "тоник, тонизирующий напиток",
+    "rutag": "еда",
+    "engtag": "food"
+  },
+  {
+    "Korean": "발음",
+    "English": "pronunciation",
+    "Russian": "произношение",
+    "rutag": "язык",
+    "engtag": "language"
+  },
+  {
+    "Korean": "목욕하다",
+    "English": "to take a bath / shower",
+    "Russian": "принимать ванну, мыться",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "웃기다",
+    "English": "to be funny / to make someone laugh",
+    "Russian": "быть смешным, рассмешить",
+    "rutag": "эмоции",
+    "engtag": "emotion"
+  },
+  {
+    "Korean": "죽이다",
+    "English": "to kill",
+    "Russian": "убивать",
+    "rutag": "жизнь",
+    "engtag": "life"
+  },
+  {
+    "Korean": "이상하다",
+    "English": "to be strange / odd / weird",
+    "Russian": "быть странным, необычным",
+    "rutag": "качество",
+    "engtag": "quality"
   }
 ]
