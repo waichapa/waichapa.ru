@@ -1395,5 +1395,16 @@
   "engtag": "cause",
   "rutag": "причина",
   "level": 4
+},
+{
+  "ru_title": "Предположение (으)ㄹ지도 모르다",
+  "en_title": "Supposition (으)ㄹ지도 모르다 (maybe, might)",
+  "ru_explanation": "Выражает предположение, что действие может произойти или состояние может оказаться таким ('возможно, что...', 'может быть, что...', 'не исключено, что...'). ㄹ지도 모르다 после гласной, 을지도 모르다 после согласной. Происходит от вопросительно-вставной формы (으)ㄹ지 + 도 (даже) + 모르다 (не знать) — буквально: 'не знаю даже, будет ли...'. В разговорной речи чаще используется (으)ㄹ지도 모르겠다 (с 겠 — оттенок 'мне кажется, что, может быть'), которая звучит мягче и естественнее, чем простая форма с 모르다. В прошедшем времени используется редко, так как конструкция направлена в будущее или настоящее (предположение о нереализованном событии): 았/었을지도 모르다 (может быть, и произошло, но я не знаю). В формальной речи: (으)ㄹ지도 모릅니다. Отличия: (으)ㄹ 것 같다 — догадка по внешним признакам или впечатлению ('кажется, что'); (으)ㄹ지도 모르다 — нейтральное допущение возможности ('вдруг, может оказаться, что'); 겠 — более непосредственная реакция-интуиция; 아마 (아마도) — чистое наречие 'наверное'. Часто используется для выражения тревоги, надежды или предостережения.",
+  "en_explanation": "Expresses the supposition that an action may happen or a state may turn out to be the case ('it may be that...', 'possibly...', 'it's not impossible that...'). ㄹ지도 모르다 after vowels, 을지도 모르다 after consonants. Derived from the embedded question form (으)ㄹ지 + 도 (even) + 모르다 (not to know) — literally: 'I don't even know whether it will...'. In colloquial speech, (으)ㄹ지도 모르겠다 (with 겠, a nuance of 'I think maybe') is more common and sounds softer and more natural than the plain form with 모르다. Past tense is rare, as the construction is oriented toward the future or present (supposition about an unrealized event): 았/었을지도 모르다 (maybe it did happen, but I don't know). Formal: (으)ㄹ지도 모릅니다. Differences: (으)ㄹ 것 같다 — a guess based on external signs or impression ('it seems that'); (으)ㄹ지도 모르다 — a neutral admission of possibility ('who knows, it might turn out that'); 겠 — a more immediate intuitive reaction; 아마 (아마도) — the plain adverb 'probably'. Often used to express worry, hope, or a warning.",
+  "ru_example": "내일 비가 올지도 몰라요. — Возможно, завтра пойдёт дождь. / 늦을지도 모르니까 먼저 가세요. — Вдруг я опоздаю, так что идите без меня. / 그 사람이 이미 갔을지도 몰라요. — Может быть, он уже ушёл. / 이 약을 먹으면 나을지도 몰라요. — Возможно, если принять это лекарство, станет лучше. / 길이 막힐지도 모르니까 일찍 출발하자. — Не исключено, что будут пробки, так что выедем пораньше.",
+  "en_example": "내일 비가 올지도 몰라요. — It might rain tomorrow. / 늦을지도 모르니까 먼저 가세요. — I might be late, so go ahead without me. / 그 사람이 이미 갔을지도 몰라요. — Maybe (s)he has already left. / 이 약을 먹으면 나을지도 몰라요. — If you take this medicine, you might get better. / 길이 막힐지도 모르니까 일찍 출발하자. — There might be traffic, so let's leave early.",
+  "engtag": "supposition",
+  "rutag": "предположение",
+  "level": 3
 }
 ]
