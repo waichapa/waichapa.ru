@@ -15023,8 +15023,8 @@
   },
   {
     "Korean": "양복",
-    "English": "suit (Western-style formal wear)",
-    "Russian": "костюм",
+    "English": "European suit",
+    "Russian": "Европейский костюм",
     "rutag": "одежда",
     "engtag": "clothing"
   },
@@ -15090,5 +15090,96 @@
     "Russian": "быть странным, необычным",
     "rutag": "качество",
     "engtag": "quality"
+  },
+  {
+    "Korean": "일상",
+    "English": "daily life, everyday routine",
+    "Russian": "повседневность",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "분리수거",
+    "English": "separate waste collection, recycling sorting",
+    "Russian": "раздельный сбор мусора",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "베개",
+    "English": "pillow",
+    "Russian": "подушка",
+    "rutag": "мебель",
+    "engtag": "furniture"
+  },
+  {
+    "Korean": "화장지",
+    "English": "toilet paper, tissue",
+    "Russian": "туалетная бумага",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "월세",
+    "English": "monthly rent",
+    "Russian": "ежемесячная аренда",
+    "rutag": "деньги",
+    "engtag": "money"
+  },
+  {
+    "Korean": "잠그다",
+    "English": "to lock, to fasten, to tighten",
+    "Russian": "запирать, закручивать",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "깜빡하다",
+    "English": "to forget momentarily, to slip one's mind",
+    "Russian": "забыть, вылетело из головы",
+    "rutag": "мышление",
+    "engtag": "thinking"
+  },
+  {
+    "Korean": "미루다",
+    "English": "to postpone, to delay, to put off",
+    "Russian": "откладывать",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "챙기다",Western-style formal wear)
+    "English": "to take with, to not forget to bring, to gather",
+    "Russian": "собирать, не забыть взять",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "맡기다",
+    "English": "to entrust, to leave in someone's care, to deposit",
+    "Russian": "отдавать на хранение, поручать",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "고장 나다",
+    "English": "to break down, to malfunction",
+    "Russian": "ломаться",
+    "rutag": "техника",
+    "engtag": "electronics"
+  },
+  {
+    "Korean": "수리하다",
+    "English": "to repair, to fix",
+    "Russian": "ремонтировать",
+    "rutag": "повседневное",
+    "engtag": "daily"
+  },
+  {
+    "Korean": "충전하다",
+    "English": "to charge (battery/device)",
+    "Russian": "заряжать",
+    "rutag": "техника",
+    "engtag": "electronics"
   }
 ]
